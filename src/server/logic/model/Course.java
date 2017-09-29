@@ -46,6 +46,102 @@ public class Course implements CourseInt {
 		
 	}
 
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public int getMyCode() {
+		return myCode;
+	}
+
+	public void setMyCode(int myCode) {
+		this.myCode = myCode;
+	}
+
+	public int getCapsize() {
+		return capsize;
+	}
+
+	public void setCapsize(int capsize) {
+		this.capsize = capsize;
+	}
+
+	public boolean isEnforcePrereqs() {
+		return enforcePrereqs;
+	}
+
+	public void setEnforcePrereqs(boolean enforcePrereqs) {
+		this.enforcePrereqs = enforcePrereqs;
+	}
+
+	public List<Integer> getPreRequisites() {
+		return preRequisites;
+	}
+
+	public void setPreRequisites(List<Integer> preRequisites) {
+		this.preRequisites = preRequisites;
+	}
+
+	public int getNumberOfMidterms() {
+		return numberOfMidterms;
+	}
+
+	public void setNumberOfMidterms(int numberOfMidterms) {
+		this.numberOfMidterms = numberOfMidterms;
+	}
+
+	public List<Integer> getWeightOfMidterms() {
+		return weightOfMidterms;
+	}
+
+	public void setWeightOfMidterms(List<Integer> weightOfMidterms) {
+		this.weightOfMidterms = weightOfMidterms;
+	}
+
+	public int getNumberOfAssignments() {
+		return numberOfAssignments;
+	}
+
+	public void setNumberOfAssignments(int numberOfAssignments) {
+		this.numberOfAssignments = numberOfAssignments;
+	}
+
+	public List<Integer> getWeightOfAssignments() {
+		return weightOfAssignments;
+	}
+
+	public void setWeightOfAssignments(List<Integer> weightOfAssignments) {
+		this.weightOfAssignments = weightOfAssignments;
+	}
+
+	public boolean isHasAFinal() {
+		return hasAFinal;
+	}
+
+	public void setHasAFinal(boolean hasAFinal) {
+		this.hasAFinal = hasAFinal;
+	}
+
+	public int getWeightOfFinal() {
+		return weightOfFinal;
+	}
+
+	public void setWeightOfFinal(int weightOfFinal) {
+		this.weightOfFinal = weightOfFinal;
+	}
+
+	public Map<Student, Integer> getEnrollStudent() {
+		return enrollStudent;
+	}
+
+	public void setEnrollStudent(Map<Student, Integer> enrollStudent) {
+		this.enrollStudent = enrollStudent;
+	}
+
 	@Override
 	public String Title() {
 		// TODO Auto-generated method stub
@@ -117,7 +213,5 @@ public class Course implements CourseInt {
 		// TODO Auto-generated method stub
 		return false;
 	}
-	
-	
 
 }

@@ -24,6 +24,38 @@ public class Student implements StudentInt {
 		
 	}
 
+	public int getStudentNumber() {
+		return studentNumber;
+	}
+
+	public void setStudentNumber(int studentNumber) {
+		this.studentNumber = studentNumber;
+	}
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+
+	public Map<Course, Integer> getRegisterCourse() {
+		return registerCourse;
+	}
+
+	public void setRegisterCourse(Map<Course, Integer> registerCourse) {
+		this.registerCourse = registerCourse;
+	}
+
+	public void setFullTime(boolean isFullTime) {
+		this.isFullTime = isFullTime;
+	}
+
+	public void setCreated(boolean isCreated) {
+		this.isCreated = isCreated;
+	}
+
 	@Override
 	public int StudentNumber() {
 		// TODO Auto-generated method stub

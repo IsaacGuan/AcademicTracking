@@ -19,4 +19,13 @@
 @2017-09-28 21:10:23 INFO  ATServer:99 - Input from 127.0.0.1:2238 
 @2017-09-28 21:10:23 INFO  ATServer:108 - Output to 127.0.0.1:2238 
 
+@2017-09-28 22:34:41 INFO  ATServer:32 - Binding to port 5050
+@2017-09-28 22:34:41 INFO  ATServer:59 - Waiting for a client ...
+@2017-09-28 22:34:41 INFO  ATServer:46 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-09-28 22:34:50 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:10634] Client Socket: [10634 ]
+
+@2017-09-28 22:34:50 INFO  ATClient:31 - 10634 : Connected to server: /127.0.0.1
+@2017-09-28 22:34:50 INFO  ATClient:32 - 10634 : Connected to portid: 10634
+@2017-09-28 22:34:50 INFO  ATServer:59 - Waiting for a client ...
+@2017-09-28 22:34:50 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__10634
 @
