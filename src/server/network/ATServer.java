@@ -12,8 +12,7 @@ import org.apache.log4j.Logger;
 import server.logic.handler.InputHandler;
 import server.logic.handler.model.Client;
 import server.logic.handler.model.ServerOutput;
-import server.logic.tables.CourseTable;
-import server.logic.tables.StudentTable;
+import server.logic.model.University;
 import utilities.Config;
 import utilities.Trace;
 
@@ -45,8 +44,7 @@ public class ATServer implements Runnable {
 			thread.start();
 			logger.info(String.format("Server started: %s %d", server,thread.getId()));
 			
-			CourseTable.getInstance();
-			StudentTable.getInstance();
+			University.getInstance();
 			
 			System.out.println("Server started successfully!");			
 		}
