@@ -2333,4 +2333,43 @@ Available Course List:
 @2017-10-12 14:08:24 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
 @2017-10-12 14:08:24 INFO  String:155 - Operation: student 101075401 register course 105003; State: Success
 @2017-10-12 14:08:24 INFO  String:267 - Operation: Add Student 101075401 to Course 105003; State: Success
+@2017-10-12 17:00:34 INFO  String:72 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-12 17:00:34 INFO  String:84 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-12 17:00:34 INFO  String:47 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-12 17:00:34 INFO  String:48 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-12 17:00:34 INFO  String:240 - Operation: Create New Course; Course Info:[Principles of Distributed Computing,105003]; State: Fail; Reason: The course already existed.
+@2017-10-12 17:00:34 INFO  String:232 - Operation: Create New Course; Course Info:[Computer Security and Usability,105110]; State: Success
+@2017-10-12 17:00:34 INFO  String:262 - Operation: Create New Student; Student Info:[101075403,john]; State: Success
+@2017-10-12 17:00:34 INFO  String:265 - Operation: Create New Student; Student Info:[101075401,tom]; State: Fail; Reason: The student already existed.
+@2017-10-12 17:00:34 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:290 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:293 - Operation: student 101075401 register course 105008; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-12 17:00:34 INFO  String:134 - Operation: student 101075404 select course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:293 - Operation: student 101075404 register course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-12 17:00:34 INFO  String:134 - Operation: student 101075401 select course 115151; State: Success
+@2017-10-12 17:00:34 INFO  String:293 - Operation: student 101075401 register course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-12 17:00:34 INFO  String:134 - Operation: student 101075401 select course 115151; State: Success
+@2017-10-12 17:00:34 INFO  String:293 - Operation: student 101075401 register course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-12 17:00:34 INFO  String:307 - Operation: student 101075401 deregister course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.
+@2017-10-12 17:00:34 INFO  String:134 - Operation: student 101075404 select course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:293 - Operation: student 101075404 register course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-12 17:00:34 INFO  String:307 - Operation: student 101075404 deregister course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.
+@2017-10-12 17:00:34 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 17:00:34 INFO  String:307 - Operation: student 101075401 deregister course 105008; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.
+@2017-10-12 17:00:34 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:290 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:183 - Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:285 - Operation: Remove Student 101075401 from Course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:304 - Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:331 - Operation: cancel course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:358 - Operation: delete course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:385 - Operation: delete student 101075401; State: Success
+@2017-10-12 17:00:34 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 17:00:34 INFO  String:293 - Operation: student 101075401 register course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-12 17:00:34 INFO  String:293 - Operation: student 101075401 register course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
 @

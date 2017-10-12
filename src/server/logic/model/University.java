@@ -390,4 +390,16 @@ public class University implements UniversityInt {
 		return result;
 	}
 
+	@Override
+	public List<Student> DeansList() {
+		// TODO Auto-generated method stub
+		List<Student> deansList = new ArrayList<Student>();
+		for (int i=0; i<students.size(); i++) {
+			if (students.get(i).AverageMark()>=85) {
+				deansList.add(students.get(i));
+			}
+		}
+		return deansList;
+	}
+
 }
