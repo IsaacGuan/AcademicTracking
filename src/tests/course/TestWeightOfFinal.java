@@ -12,7 +12,7 @@ public class TestWeightOfFinal {
 	public void testWeightOfFinal() {
 		Course c = new Course("OO Software Dev", 105104, 30);
 		c.setWeightOfFinal(50);
-		assertEquals(100, c.WeightOfFinal());
+		assertEquals(50, c.WeightOfFinal());
 	}
 
 }

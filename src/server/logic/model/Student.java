@@ -84,6 +84,10 @@ public class Student implements StudentInt {
 	public void setCreated(boolean isCreated) {
 		this.isCreated = isCreated;
 	}
+	
+	public String toString(){
+		return this.studentNumber + ", " + this.studentName;
+	}
 
 	@Override
 	public int StudentNumber() {
@@ -131,7 +135,6 @@ public class Student implements StudentInt {
 		} else {
 			result = this.selectedCourses.add(course);
 			logger.info(String.format("Operation: student %d select course %d; State: Success", this.StudentNumber(), course.Code()));
-			
 		}
 		return result;
 	}
@@ -140,7 +143,7 @@ public class Student implements StudentInt {
 	public boolean RegisterCourse(Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
-		if(!selectedCourses.contains(course)||registeredCourses.contains(course)||completedCourses.contains(course)) {
+		if(!IsSelected(course)||IsRegistered(course)||IsCompleted(course)) {
 			result = false;
 			logger.info(String.format("Operation: student %d register course %d; State: Fail; Reason: student hasn't selected this course or student has completed this course", this.StudentNumber(), course.Code()));
 		} else if(isFullTime&&registeredCourses.size()>=University.maxCourseForFTStudent) {
@@ -161,7 +164,7 @@ public class Student implements StudentInt {
 	public boolean DropCourse(Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
-		if(!selectedCourses.contains(course)||registeredCourses.contains(course)||completedCourses.contains(course)) {
+		if(!IsSelected(course)||IsRegistered(course)||IsCompleted(course)) {
 			result = false;
 			logger.info(String.format("Operation: student %d drop course %d; State: Fail; Reason: student hasn't selected this course or student has completed this course", this.StudentNumber(), course.Code()));
 		} else {
@@ -175,7 +178,7 @@ public class Student implements StudentInt {
 	public boolean DeRegisterCourse(Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
-		if(selectedCourses.contains(course)||!registeredCourses.contains(course)||completedCourses.contains(course)) {
+		if(IsSelected(course)||!IsRegistered(course)||IsCompleted(course)) {
 			result = false;
 			logger.info(String.format("Operation: student %d deregister course %d; State: Fail; Reason: student hasn't registered this course or student has completed this course", this.StudentNumber(), course.Code()));
 		} else {
@@ -183,6 +186,30 @@ public class Student implements StudentInt {
 			logger.info(String.format("Operation: student %d deregister course %d; State: Success", this.StudentNumber(), course.Code()));
 		}
 		return result;
+	}
+	
+	public boolean IsSelected (Course course) {
+		if (selectedCourses.contains(course)) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	public boolean IsRegistered (Course course) {
+		if (registeredCourses.contains(course)) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	public boolean IsCompleted (Course course) {
+		if (completedCourses.contains(course)) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 }

@@ -770,4 +770,1378 @@
 @2017-10-08 18:19:51 INFO  String:46 - Operation:Initialize University;courses: [server.logic.model.ProjectCourse@4361bd48, server.logic.model.ProjectCourse@53bd815b, server.logic.model.Course@2401f4c3, server.logic.model.Course@7637f22, server.logic.model.Course@4926097b, server.logic.model.ProjectCourse@762efe5d, server.logic.model.ProjectCourse@5d22bbb7, server.logic.model.Course@41a4555e, server.logic.model.Course@3830f1c0, server.logic.model.Course@39ed3c8d, server.logic.model.ProjectCourse@6f75e721, server.logic.model.ProjectCourse@69222c14, server.logic.model.Course@606d8acf, server.logic.model.Course@782830e, server.logic.model.Course@470e2030, server.logic.model.ProjectCourse@3b22cdd0, server.logic.model.ProjectCourse@1e81f4dc, server.logic.model.Course@4d591d15, server.logic.model.Course@65ae6ba4, server.logic.model.Course@48cf768c, server.logic.model.ProjectCourse@368239c8, server.logic.model.ProjectCourse@9e89d68, server.logic.model.Course@3b192d32, server.logic.model.Course@16f65612, server.logic.model.Course@311d617d, server.logic.model.ProjectCourse@2aae9190, server.logic.model.ProjectCourse@2f333739, server.logic.model.Course@77468bd9, server.logic.model.Course@12bb4df8, server.logic.model.Course@4cc77c2e, server.logic.model.Course@61064425, server.logic.model.ProjectCourse@7b1d7fff, server.logic.model.ProjectCourse@299a06ac, server.logic.model.Course@383534aa, server.logic.model.Course@6bc168e5, server.logic.model.Course@7b3300e5, server.logic.model.ProjectCourse@5577140b, server.logic.model.ProjectCourse@1c6b6478, server.logic.model.Course@67f89fa3, server.logic.model.Course@4ac68d3e, server.logic.model.Course@277c0f21, server.logic.model.ProjectCourse@3abfe836, server.logic.model.ProjectCourse@2ff5659e, server.logic.model.Course@77afea7d, server.logic.model.Course@161cd475, server.logic.model.Course@532760d8, server.logic.model.ProjectCourse@38cccef, server.logic.model.ProjectCourse@5679c6c6, server.logic.model.Course@27ddd392, server.logic.model.Course@19e1023e, server.logic.model.Course@7cef4e59, server.logic.model.ProjectCourse@63e31ee, server.logic.model.ProjectCourse@68fb2c38, server.logic.model.Course@567d299b, server.logic.model.Course@2eafffde, server.logic.model.Course@59690aa4, server.logic.model.ProjectCourse@27abe2cd, server.logic.model.ProjectCourse@5f5a92bb, server.logic.model.Course@6fdb1f78, server.logic.model.Course@51016012, server.logic.model.Course@29444d75, server.logic.model.ProjectCourse@61baa894, server.logic.model.ProjectCourse@b065c63, server.logic.model.Course@768debd, server.logic.model.Course@490d6c15, server.logic.model.Course@7d4793a8, server.logic.model.ProjectCourse@5b1d2887, server.logic.model.ProjectCourse@46f5f779, server.logic.model.Course@1c2c22f3, server.logic.model.Course@18e8568, server.logic.model.Course@33e5ccce, server.logic.model.ProjectCourse@2d6d8735, server.logic.model.Course@ba4d54, server.logic.model.Course@12bc6874, server.logic.model.Course@de0a01f, server.logic.model.ProjectCourse@6979e8cb, server.logic.model.ProjectCourse@763d9750, server.logic.model.Course@5c0369c4, server.logic.model.Course@2be94b0f, server.logic.model.Course@d70c109]
 @2017-10-08 18:19:51 INFO  String:47 - Operation:Initialize University;courses: [server.logic.model.Student@5ccd43c2, server.logic.model.Student@4aa8f0b4, server.logic.model.Student@7960847b, server.logic.model.Student@6a6824be, server.logic.model.Student@ed17bee, server.logic.model.Student@2a33fae0, server.logic.model.Student@39a054a5, server.logic.model.Student@71bc1ae4, server.logic.model.Student@136432db, server.logic.model.Student@7382f612, server.logic.model.Student@43556938, server.logic.model.Student@3d04a311, server.logic.model.Student@5f8ed237, server.logic.model.Student@2f410acf, server.logic.model.Student@47089e5f, server.logic.model.Student@2db0f6b2, server.logic.model.Student@3cd1f1c8, server.logic.model.Student@574caa3f, server.logic.model.Student@64cee07, server.logic.model.Student@1517365b, server.logic.model.Student@4fccd51b, server.logic.model.Student@5479e3f, server.logic.model.Student@27082746, server.logic.model.Student@270421f5, server.logic.model.Student@52d455b8, server.logic.model.Student@1ef7fe8e, server.logic.model.Student@6f79caec, server.logic.model.Student@50675690, server.logic.model.Student@31b7dea0]
 @2017-10-08 18:19:51 INFO  String:327 - Operation: delete student 101075401; State: Success
+@2017-10-09 18:14:16 INFO  ATServer:31 - Binding to port 5050
+@2017-10-09 18:14:16 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-09 18:14:16 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-09 18:14:16 INFO  String:71 - Operation: Initialize CourseList; Students: [server.logic.model.ProjectCourse@4f3f5b24, server.logic.model.ProjectCourse@15aeb7ab, server.logic.model.Course@7b23ec81, server.logic.model.Course@6acbcfc0, server.logic.model.Course@5f184fc6]
+@2017-10-09 18:14:16 INFO  String:83 - Operation: Initialize StudentList; Students: [server.logic.model.Student@5b480cf9, server.logic.model.Student@6f496d9f]
+@2017-10-09 18:14:16 INFO  String:46 - Operation:Initialize University;courses: [server.logic.model.ProjectCourse@4f3f5b24, server.logic.model.ProjectCourse@15aeb7ab, server.logic.model.Course@7b23ec81, server.logic.model.Course@6acbcfc0, server.logic.model.Course@5f184fc6]
+@2017-10-09 18:14:16 INFO  String:47 - Operation:Initialize University;courses: [server.logic.model.Student@5b480cf9, server.logic.model.Student@6f496d9f]
+@2017-10-09 18:14:42 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:4823] Client Socket: [4823  ]
+
+@2017-10-09 18:14:42 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-09 18:14:42 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__4823
+@2017-10-09 18:14:42 INFO  ATClient:31 - 4823 : Connected to server: /127.0.0.1
+@2017-10-09 18:14:42 INFO  ATClient:32 - 4823 : Connected to portid: 4823
+@2017-10-09 18:14:44 INFO  ATServer:97 - Input from 127.0.0.1:4823 
+@2017-10-09 18:14:44 INFO  ATServer:114 - Output to 127.0.0.1:4823 Who Are you? Clerk or Student?
+
+@2017-10-09 18:14:48 INFO  ATServer:97 - Input from 127.0.0.1:4823 Clerk
+@2017-10-09 18:14:48 INFO  ATServer:106 - Output to 127.0.0.1:4823 Please Input The Password:
+
+@2017-10-09 18:14:53 INFO  ATServer:97 - Input from 127.0.0.1:4823 aa
+@2017-10-09 18:14:53 INFO  ATServer:106 - Output to 127.0.0.1:4823 Wrong Password! Please Input The Password:
+
+@2017-10-09 18:14:55 INFO  ATServer:97 - Input from 127.0.0.1:4823 admin
+@2017-10-09 18:14:55 INFO  ATServer:106 - Output to 127.0.0.1:4823 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-09 18:15:57 INFO  ServerThread:61 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-09 19:35:53 INFO  ATServer:31 - Binding to port 5050
+@2017-10-09 19:35:53 FATAL ATServer:37 - java.net.BindException: Address already in use: JVM_Bind
+@2017-10-09 19:36:06 INFO  ATClient:31 - 6959 : Connected to server: /127.0.0.1
+@2017-10-09 19:36:06 INFO  ATClient:32 - 6959 : Connected to portid: 6959
+@2017-10-09 19:36:06 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:6959] Client Socket: [6959  ]
+
+@2017-10-09 19:36:06 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-09 19:36:06 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__6959
+@2017-10-09 19:36:07 INFO  ATServer:97 - Input from 127.0.0.1:6959 
+@2017-10-09 19:36:07 INFO  ATServer:114 - Output to 127.0.0.1:6959 Who Are you? Clerk or Student?
+
+@2017-10-09 19:36:10 INFO  ATServer:97 - Input from 127.0.0.1:6959 student
+@2017-10-09 19:36:10 INFO  ATServer:106 - Output to 127.0.0.1:6959 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-09 19:36:14 INFO  ATServer:97 - Input from 127.0.0.1:6959 aa,a
+@2017-10-09 19:36:14 INFO  ATServer:106 - Output to 127.0.0.1:6959 
+
+@2017-10-09 19:36:23 INFO  ATServer:97 - Input from 127.0.0.1:6959 aa,a
+@2017-10-09 19:36:23 INFO  ATServer:106 - Output to 127.0.0.1:6959 Who Are you? Clerk or Student?
+
+@2017-10-09 19:36:37 INFO  ATServer:97 - Input from 127.0.0.1:6959 student
+@2017-10-09 19:36:37 INFO  ATServer:106 - Output to 127.0.0.1:6959 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-09 19:37:15 INFO  ATServer:97 - Input from 127.0.0.1:6959 101075401,tom
+@2017-10-09 19:37:15 INFO  ATServer:106 - Output to 127.0.0.1:6959 
+
+@2017-10-09 19:37:33 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:6964] Client Socket: [6964  ]
+
+@2017-10-09 19:37:33 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-09 19:37:33 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__6964
+@2017-10-09 19:37:33 INFO  ATClient:31 - 6964 : Connected to server: /127.0.0.1
+@2017-10-09 19:37:33 INFO  ATClient:32 - 6964 : Connected to portid: 6964
+@2017-10-09 19:37:35 INFO  ATServer:97 - Input from 127.0.0.1:6964 
+@2017-10-09 19:37:35 INFO  ATServer:114 - Output to 127.0.0.1:6964 Who Are you? Clerk or Student?
+
+@2017-10-09 19:37:37 INFO  ATServer:97 - Input from 127.0.0.1:6964 student
+@2017-10-09 19:37:37 INFO  ATServer:106 - Output to 127.0.0.1:6964 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-09 19:37:43 INFO  ATServer:97 - Input from 127.0.0.1:6964 101075401, tom
+@2017-10-09 19:37:43 INFO  ATServer:106 - Output to 127.0.0.1:6964 
+
+@2017-10-09 19:37:46 INFO  ATServer:97 - Input from 127.0.0.1:6964 
+@2017-10-09 19:37:46 INFO  ATServer:106 - Output to 127.0.0.1:6964 Who Are you? Clerk or Student?
+
+@2017-10-09 20:26:23 INFO  ATServer:31 - Binding to port 5050
+@2017-10-09 20:26:23 FATAL ATServer:37 - java.net.BindException: Address already in use: JVM_Bind
+@2017-10-09 20:26:35 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:7570] Client Socket: [7570  ]
+
+@2017-10-09 20:26:35 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-09 20:26:35 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__7570
+@2017-10-09 20:26:35 INFO  ATClient:31 - 7570 : Connected to server: /127.0.0.1
+@2017-10-09 20:26:35 INFO  ATClient:32 - 7570 : Connected to portid: 7570
+@2017-10-09 20:26:37 INFO  ATServer:97 - Input from 127.0.0.1:7570 
+@2017-10-09 20:26:37 INFO  ATServer:114 - Output to 127.0.0.1:7570 Who Are you? Clerk or Student?
+
+@2017-10-09 20:26:39 INFO  ATServer:97 - Input from 127.0.0.1:7570 student
+@2017-10-09 20:26:39 INFO  ATServer:106 - Output to 127.0.0.1:7570 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-09 20:26:43 INFO  ATServer:97 - Input from 127.0.0.1:7570 1,t
+@2017-10-09 20:26:43 INFO  ATServer:106 - Output to 127.0.0.1:7570 
+
+@2017-10-09 20:26:44 INFO  ATServer:97 - Input from 127.0.0.1:7570 
+@2017-10-09 20:26:44 INFO  ATServer:106 - Output to 127.0.0.1:7570 Who Are you? Clerk or Student?
+
+@2017-10-09 20:28:22 INFO  ATServer:31 - Binding to port 5050
+@2017-10-09 20:28:22 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-09 20:28:22 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-09 20:28:22 INFO  String:71 - Operation: Initialize CourseList; Students: [server.logic.model.ProjectCourse@4f3f5b24, server.logic.model.ProjectCourse@15aeb7ab, server.logic.model.Course@7b23ec81, server.logic.model.Course@6acbcfc0, server.logic.model.Course@5f184fc6]
+@2017-10-09 20:28:22 INFO  String:83 - Operation: Initialize StudentList; Students: [server.logic.model.Student@5b480cf9, server.logic.model.Student@6f496d9f]
+@2017-10-09 20:28:22 INFO  String:46 - Operation:Initialize University;courses: [server.logic.model.ProjectCourse@4f3f5b24, server.logic.model.ProjectCourse@15aeb7ab, server.logic.model.Course@7b23ec81, server.logic.model.Course@6acbcfc0, server.logic.model.Course@5f184fc6]
+@2017-10-09 20:28:22 INFO  String:47 - Operation:Initialize University;courses: [server.logic.model.Student@5b480cf9, server.logic.model.Student@6f496d9f]
+@2017-10-09 20:28:31 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:7618] Client Socket: [7618  ]
+
+@2017-10-09 20:28:31 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-09 20:28:31 INFO  ATClient:31 - 7618 : Connected to server: /127.0.0.1
+@2017-10-09 20:28:31 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__7618
+@2017-10-09 20:28:31 INFO  ATClient:32 - 7618 : Connected to portid: 7618
+@2017-10-09 20:28:34 INFO  ATServer:97 - Input from 127.0.0.1:7618 
+@2017-10-09 20:28:34 INFO  ATServer:114 - Output to 127.0.0.1:7618 Who Are you? Clerk or Student?
+
+@2017-10-09 20:28:40 INFO  ATServer:97 - Input from 127.0.0.1:7618 ssss'ts'ts'ts'tus'tus'tustudstudstudetn
+@2017-10-09 20:28:40 INFO  ATServer:106 - Output to 127.0.0.1:7618 Who Are you? Clerk or Student?
+
+@2017-10-09 20:28:52 INFO  ServerThread:61 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-09 20:29:16 INFO  ATServer:31 - Binding to port 5050
+@2017-10-09 20:29:16 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-09 20:29:16 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-09 20:29:16 INFO  String:71 - Operation: Initialize CourseList; Students: [server.logic.model.ProjectCourse@4f3f5b24, server.logic.model.ProjectCourse@15aeb7ab, server.logic.model.Course@7b23ec81, server.logic.model.Course@6acbcfc0, server.logic.model.Course@5f184fc6]
+@2017-10-09 20:29:16 INFO  String:83 - Operation: Initialize StudentList; Students: [server.logic.model.Student@5b480cf9, server.logic.model.Student@6f496d9f]
+@2017-10-09 20:29:16 INFO  String:46 - Operation:Initialize University;courses: [server.logic.model.ProjectCourse@4f3f5b24, server.logic.model.ProjectCourse@15aeb7ab, server.logic.model.Course@7b23ec81, server.logic.model.Course@6acbcfc0, server.logic.model.Course@5f184fc6]
+@2017-10-09 20:29:16 INFO  String:47 - Operation:Initialize University;courses: [server.logic.model.Student@5b480cf9, server.logic.model.Student@6f496d9f]
+@2017-10-09 20:29:22 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:7695] Client Socket: [7695  ]
+
+@2017-10-09 20:29:22 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-09 20:29:22 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__7695
+@2017-10-09 20:29:22 INFO  ATClient:31 - 7695 : Connected to server: /127.0.0.1
+@2017-10-09 20:29:22 INFO  ATClient:32 - 7695 : Connected to portid: 7695
+@2017-10-09 20:29:25 INFO  ATServer:97 - Input from 127.0.0.1:7695 
+@2017-10-09 20:29:25 INFO  ATServer:114 - Output to 127.0.0.1:7695 Who Are you? Clerk or Student?
+
+@2017-10-09 20:29:28 INFO  ATServer:97 - Input from 127.0.0.1:7695 student
+@2017-10-09 20:29:28 INFO  ATServer:106 - Output to 127.0.0.1:7695 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-09 20:29:31 INFO  ATServer:97 - Input from 127.0.0.1:7695 1,t
+@2017-10-09 20:29:31 INFO  ATServer:106 - Output to 127.0.0.1:7695 The length of student number must be 9.
+
+@2017-10-09 20:29:38 INFO  ATServer:97 - Input from 127.0.0.1:7695 
+@2017-10-09 20:29:38 INFO  ATServer:106 - Output to 127.0.0.1:7695 Your input should in correct format: 'student number, name'
+
+@2017-10-09 20:30:09 INFO  ATServer:97 - Input from 127.0.0.1:7695 101075401,tom
+@2017-10-09 20:30:09 INFO  ATServer:106 - Output to 127.0.0.1:7695 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-09 23:44:14 INFO  ATServer:31 - Binding to port 5050
+@2017-10-09 23:44:14 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-09 23:44:14 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-09 23:44:14 INFO  String:71 - Operation: Initialize CourseList; Students: [server.logic.model.ProjectCourse@4f3f5b24, server.logic.model.ProjectCourse@15aeb7ab, server.logic.model.Course@7b23ec81, server.logic.model.Course@6acbcfc0, server.logic.model.Course@5f184fc6]
+@2017-10-09 23:44:14 INFO  String:83 - Operation: Initialize StudentList; Students: [server.logic.model.Student@5b480cf9, server.logic.model.Student@6f496d9f]
+@2017-10-09 23:44:14 INFO  String:46 - Operation:Initialize University;courses: [server.logic.model.ProjectCourse@4f3f5b24, server.logic.model.ProjectCourse@15aeb7ab, server.logic.model.Course@7b23ec81, server.logic.model.Course@6acbcfc0, server.logic.model.Course@5f184fc6]
+@2017-10-09 23:44:14 INFO  String:47 - Operation:Initialize University;courses: [server.logic.model.Student@5b480cf9, server.logic.model.Student@6f496d9f]
+@2017-10-09 23:44:21 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:10857] Client Socket: [10857 ]
+
+@2017-10-09 23:44:21 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-09 23:44:21 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__10857
+@2017-10-09 23:44:21 INFO  ATClient:31 - 10857 : Connected to server: /127.0.0.1
+@2017-10-09 23:44:21 INFO  ATClient:32 - 10857 : Connected to portid: 10857
+@2017-10-09 23:44:24 INFO  ATServer:97 - Input from 127.0.0.1:10857 
+@2017-10-09 23:44:24 INFO  ATServer:114 - Output to 127.0.0.1:10857 Who Are you? Clerk or Student?
+
+@2017-10-10 12:19:03 INFO  ATServer:31 - Binding to port 5050
+@2017-10-10 12:19:03 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-10 12:19:03 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-10 12:19:03 INFO  String:71 - Operation: Initialize CourseList; Students: [OO Software Dev, 105104, Computational Geometry, 105008, Principles of Distributed Computing, 105003, Advanced Database Systems, 105305, Foundations of Programming Languages, 105001]
+@2017-10-10 12:19:03 INFO  String:83 - Operation: Initialize StudentList; Students: [server.logic.model.Student@15aeb7ab, server.logic.model.Student@7b23ec81]
+@2017-10-10 12:19:03 INFO  String:46 - Operation:Initialize University;courses: [OO Software Dev, 105104, Computational Geometry, 105008, Principles of Distributed Computing, 105003, Advanced Database Systems, 105305, Foundations of Programming Languages, 105001]
+@2017-10-10 12:19:03 INFO  String:47 - Operation:Initialize University;courses: [server.logic.model.Student@15aeb7ab, server.logic.model.Student@7b23ec81]
+@2017-10-10 12:19:09 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:12589] Client Socket: [12589 ]
+
+@2017-10-10 12:19:09 INFO  ATClient:31 - 12589 : Connected to server: /127.0.0.1
+@2017-10-10 12:19:09 INFO  ATClient:32 - 12589 : Connected to portid: 12589
+@2017-10-10 12:19:09 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-10 12:19:09 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__12589
+@2017-10-10 12:19:14 INFO  ATServer:97 - Input from 127.0.0.1:12589 
+@2017-10-10 12:19:14 INFO  ATServer:114 - Output to 127.0.0.1:12589 Who Are you? Clerk or Student?
+
+@2017-10-10 12:19:18 INFO  ATServer:97 - Input from 127.0.0.1:12589 clerk
+@2017-10-10 12:19:18 INFO  ATServer:106 - Output to 127.0.0.1:12589 Please Input The Password:
+
+@2017-10-10 12:19:21 INFO  ATServer:97 - Input from 127.0.0.1:12589 admin
+@2017-10-10 12:19:21 INFO  ATServer:106 - Output to 127.0.0.1:12589 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-10 12:19:25 INFO  ATServer:97 - Input from 127.0.0.1:12589 delete course
+@2017-10-10 12:19:25 INFO  ATServer:106 - Output to 127.0.0.1:12589 Please Input Course Info: 'course code'
+OO Software Dev, 105104
+Computational Geometry, 105008
+Principles of Distributed Computing, 105003
+Advanced Database Systems, 105305
+Foundations of Programming Languages, 105001
+
+@2017-10-10 12:21:42 INFO  ServerThread:61 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-10 12:21:52 INFO  ATServer:31 - Binding to port 5050
+@2017-10-10 12:21:52 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-10 12:21:52 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-10 12:21:52 INFO  String:71 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-10 12:21:52 INFO  String:83 - Operation: Initialize StudentList; Students: [server.logic.model.Student@15aeb7ab, server.logic.model.Student@7b23ec81]
+@2017-10-10 12:21:52 INFO  String:46 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-10 12:21:52 INFO  String:47 - Operation:Initialize University;courses: [server.logic.model.Student@15aeb7ab, server.logic.model.Student@7b23ec81]
+@2017-10-10 12:21:58 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:12595] Client Socket: [12595 ]
+
+@2017-10-10 12:21:58 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-10 12:21:58 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__12595
+@2017-10-10 12:21:58 INFO  ATClient:31 - 12595 : Connected to server: /127.0.0.1
+@2017-10-10 12:21:58 INFO  ATClient:32 - 12595 : Connected to portid: 12595
+@2017-10-10 12:22:02 INFO  ATServer:97 - Input from 127.0.0.1:12595 
+@2017-10-10 12:22:02 INFO  ATServer:114 - Output to 127.0.0.1:12595 Who Are you? Clerk or Student?
+
+@2017-10-10 12:22:04 INFO  ATServer:97 - Input from 127.0.0.1:12595 clerk
+@2017-10-10 12:22:04 INFO  ATServer:106 - Output to 127.0.0.1:12595 Please Input The Password:
+
+@2017-10-10 12:22:06 INFO  ATServer:97 - Input from 127.0.0.1:12595 admin
+@2017-10-10 12:22:06 INFO  ATServer:106 - Output to 127.0.0.1:12595 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-10 12:22:11 INFO  ATServer:97 - Input from 127.0.0.1:12595 delete course
+@2017-10-10 12:22:11 INFO  ATServer:106 - Output to 127.0.0.1:12595 Please Input Course Info: 'course code'
+Course list:
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-10 12:22:15 INFO  ATServer:97 - Input from 127.0.0.1:12595 
+@2017-10-10 12:22:15 INFO  ATServer:106 - Output to 127.0.0.1:12595 
+
+@2017-10-10 12:22:16 INFO  ATServer:97 - Input from 127.0.0.1:12595 
+@2017-10-10 12:22:16 INFO  ATServer:106 - Output to 127.0.0.1:12595 Who Are you? Clerk or Student?
+
+@2017-10-10 12:22:23 INFO  ATServer:97 - Input from 127.0.0.1:12595 
+@2017-10-10 12:22:23 INFO  ATServer:106 - Output to 127.0.0.1:12595 Who Are you? Clerk or Student?
+
+@2017-10-10 12:22:23 INFO  ATServer:97 - Input from 127.0.0.1:12595 
+@2017-10-10 12:22:23 INFO  ATServer:106 - Output to 127.0.0.1:12595 Who Are you? Clerk or Student?
+
+@2017-10-10 12:22:24 INFO  ATServer:97 - Input from 127.0.0.1:12595 
+@2017-10-10 12:22:24 INFO  ATServer:106 - Output to 127.0.0.1:12595 Who Are you? Clerk or Student?
+
+@2017-10-10 12:22:24 INFO  ATServer:97 - Input from 127.0.0.1:12595 
+@2017-10-10 12:22:24 INFO  ATServer:106 - Output to 127.0.0.1:12595 Who Are you? Clerk or Student?
+
+@2017-10-10 12:22:48 INFO  ServerThread:61 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-10 14:53:42 INFO  ATServer:31 - Binding to port 5050
+@2017-10-10 14:53:42 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-10 14:53:42 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-10 14:53:42 INFO  String:73 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-10 14:53:42 INFO  String:85 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-10 14:53:42 INFO  String:48 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-10 14:53:42 INFO  String:49 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-10 14:53:48 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:14343] Client Socket: [14343 ]
+
+@2017-10-10 14:53:48 INFO  ATClient:31 - 14343 : Connected to server: /127.0.0.1
+@2017-10-10 14:53:48 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-10 14:53:48 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__14343
+@2017-10-10 14:53:48 INFO  ATClient:32 - 14343 : Connected to portid: 14343
+@2017-10-10 14:53:52 INFO  ATServer:97 - Input from 127.0.0.1:14343 
+@2017-10-10 14:53:52 INFO  ATServer:114 - Output to 127.0.0.1:14343 Who Are you? Clerk or Student?
+
+@2017-10-10 14:53:54 INFO  ATServer:97 - Input from 127.0.0.1:14343 student
+@2017-10-10 14:53:54 INFO  ATServer:106 - Output to 127.0.0.1:14343 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-10 14:54:45 INFO  ATServer:97 - Input from 127.0.0.1:14343 101075401, tom
+@2017-10-10 14:54:45 INFO  ATServer:106 - Output to 127.0.0.1:14343 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-10 14:54:52 INFO  ATServer:97 - Input from 127.0.0.1:14343 select course
+@2017-10-10 14:54:52 INFO  ATServer:106 - Output to 127.0.0.1:14343 Please Input Course Info: 'course code'
+Available Course List:
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-10 14:55:18 INFO  ServerThread:61 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-10 15:05:54 INFO  ATServer:31 - Binding to port 5050
+@2017-10-10 15:05:54 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-10 15:05:54 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-10 15:05:54 INFO  String:73 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-10 15:05:54 INFO  String:85 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-10 15:05:54 INFO  String:48 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-10 15:05:54 INFO  String:49 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-10 15:05:59 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:14388] Client Socket: [14388 ]
+
+@2017-10-10 15:05:59 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-10 15:05:59 INFO  ATClient:31 - 14388 : Connected to server: /127.0.0.1
+@2017-10-10 15:05:59 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__14388
+@2017-10-10 15:05:59 INFO  ATClient:32 - 14388 : Connected to portid: 14388
+@2017-10-10 15:06:00 INFO  ATServer:97 - Input from 127.0.0.1:14388 
+@2017-10-10 15:06:00 INFO  ATServer:114 - Output to 127.0.0.1:14388 Who Are you? Clerk or Student?
+
+@2017-10-10 15:06:02 INFO  ATServer:97 - Input from 127.0.0.1:14388 student
+@2017-10-10 15:06:02 INFO  ATServer:106 - Output to 127.0.0.1:14388 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-10 15:06:29 INFO  ATServer:97 - Input from 127.0.0.1:14388 101075401, tom
+@2017-10-10 15:06:29 INFO  ATServer:106 - Output to 127.0.0.1:14388 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-10 15:06:37 INFO  ATServer:97 - Input from 127.0.0.1:14388 register for course
+@2017-10-10 15:06:37 INFO  ATServer:106 - Output to 127.0.0.1:14388 No Available Courses!
+
+@2017-10-10 15:06:40 INFO  ATServer:97 - Input from 127.0.0.1:14388 
+@2017-10-10 15:06:40 INFO  ATServer:106 - Output to 127.0.0.1:14388 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-10 15:06:50 INFO  ATServer:97 - Input from 127.0.0.1:14388 drop course
+@2017-10-10 15:06:50 INFO  ATServer:106 - Output to 127.0.0.1:14388 No Available Courses!
+
+@2017-10-10 15:06:51 INFO  ATServer:97 - Input from 127.0.0.1:14388 
+@2017-10-10 15:06:51 INFO  ATServer:106 - Output to 127.0.0.1:14388 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-10 15:06:57 INFO  ATServer:97 - Input from 127.0.0.1:14388 deregister course
+@2017-10-10 15:06:57 INFO  ATServer:106 - Output to 127.0.0.1:14388 No Available Courses!
+
+@2017-10-10 15:06:58 INFO  ATServer:97 - Input from 127.0.0.1:14388 
+@2017-10-10 15:06:58 INFO  ATServer:106 - Output to 127.0.0.1:14388 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-10 15:46:26 INFO  ServerThread:61 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-10 15:46:38 INFO  ATServer:31 - Binding to port 5050
+@2017-10-10 15:46:38 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-10 15:46:38 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-10 15:46:38 INFO  String:73 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-10 15:46:38 INFO  String:85 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-10 15:46:38 INFO  String:48 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-10 15:46:38 INFO  String:49 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-10 15:46:42 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:14621] Client Socket: [14621 ]
+
+@2017-10-10 15:46:42 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-10 15:46:42 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__14621
+@2017-10-10 15:46:42 INFO  ATClient:31 - 14621 : Connected to server: /127.0.0.1
+@2017-10-10 15:46:42 INFO  ATClient:32 - 14621 : Connected to portid: 14621
+@2017-10-10 15:46:47 INFO  ATServer:97 - Input from 127.0.0.1:14621 
+@2017-10-10 15:46:47 INFO  ATServer:114 - Output to 127.0.0.1:14621 Who Are you? Clerk or Student?
+
+@2017-10-10 15:46:51 INFO  ATServer:97 - Input from 127.0.0.1:14621 clerk
+@2017-10-10 15:46:51 INFO  ATServer:106 - Output to 127.0.0.1:14621 Please Input The Password:
+
+@2017-10-10 15:46:53 INFO  ATServer:97 - Input from 127.0.0.1:14621 admin
+@2017-10-10 15:46:53 INFO  ATServer:106 - Output to 127.0.0.1:14621 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-10 15:46:59 INFO  ATServer:97 - Input from 127.0.0.1:14621 cancel course
+@2017-10-10 15:46:59 INFO  ATServer:106 - Output to 127.0.0.1:14621 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-10 15:47:05 INFO  ATServer:97 - Input from 127.0.0.1:14621 100000
+@2017-10-10 15:47:05 INFO  ATServer:106 - Output to 127.0.0.1:14621 The Course Does Not Exist!
+
+@2017-10-10 15:47:12 INFO  ATServer:97 - Input from 127.0.0.1:14621 1234567
+@2017-10-10 15:47:12 INFO  ATServer:106 - Output to 127.0.0.1:14621 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-10 15:48:25 INFO  ATServer:97 - Input from 127.0.0.1:14621 cancel course
+@2017-10-10 15:48:25 INFO  ATServer:106 - Output to 127.0.0.1:14621 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-10 15:48:29 INFO  ATServer:97 - Input from 127.0.0.1:14621 1234354235
+@2017-10-10 15:48:29 INFO  ATServer:106 - Output to 127.0.0.1:14621 The length of course code must be 6.
+
+@2017-10-10 15:48:34 INFO  ATServer:97 - Input from 127.0.0.1:14621 asdfasdf
+@2017-10-10 15:48:34 INFO  ATServer:106 - Output to 127.0.0.1:14621 Your input should be in correct format.
+
+@2017-10-10 17:00:10 INFO  String:73 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-10 17:00:10 INFO  String:85 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-10 17:00:10 INFO  String:48 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-10 17:00:10 INFO  String:49 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-10 17:07:10 INFO  String:222 - Operation: Create New Course; Course Info:[Computer Security and Usability,105110]; State: Fail; Reason: Overdue.
+@2017-10-10 17:07:30 INFO  String:218 - Operation: Create New Course; Course Info:[Principles of Distributed Computing,105003]; State: Fail; Reason: The course already existed.
+@2017-10-10 17:07:50 INFO  String:210 - Operation: Create New Course; Course Info:[Computer Security and Usability,105110]; State: Success
+@2017-10-10 17:14:50 INFO  String:252 - Operation: Create New Student; Student Info:[101075403,john]; State: Fail; Reason: Overdue.
+@2017-10-10 17:15:10 INFO  String:245 - Operation: Create New Student; Student Info:[101075403,john]; State: Success
+@2017-10-10 17:15:30 INFO  String:248 - Operation: Create New Student; Student Info:[101075401,tom]; State: Fail; Reason: The student already existed.
+@2017-10-10 17:15:30 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-10 17:44:21 INFO  String:159 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-10 17:44:21 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-10 17:44:21 INFO  String:278 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-10 17:44:21 INFO  String:137 - Operation: student 101075403 select course 105104; State: Success
+@2017-10-10 17:49:21 INFO  String:159 - Operation: student 101075403 register course 105104; State: Success
+@2017-10-10 17:49:21 INFO  String:267 - Operation: Add Student 101075403 to Course 105104; State: Success
+@2017-10-10 17:49:21 INFO  String:278 - Operation: student 101075403 register course 105104; State: Success
+@2017-10-10 17:49:21 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-10 17:49:41 INFO  String:285 - Operation: student 101075401 register course 105104; State: Fail; Reason: Registration has not started.
+@2017-10-10 17:49:41 INFO  String:137 - Operation: student 101075401 select course 105110; State: Success
+@2017-10-10 17:54:41 INFO  String:159 - Operation: student 101075401 register course 105110; State: Success
+@2017-10-10 17:54:41 INFO  String:267 - Operation: Add Student 101075401 to Course 105110; State: Success
+@2017-10-10 17:54:41 INFO  String:278 - Operation: student 101075401 register course 105110; State: Success
+@2017-10-10 17:54:41 INFO  String:307 - Operation: cancel course 105104; State: Success
+@2017-10-10 17:54:41 INFO  String:332 - Operation: delete course 105104; State: Success
+@2017-10-10 17:54:41 INFO  String:357 - Operation: delete student 101075401; State: Success
+@2017-10-11 11:57:18 INFO  ATServer:31 - Binding to port 5050
+@2017-10-11 11:57:18 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 11:57:18 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-11 11:57:18 INFO  String:73 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 11:57:18 INFO  String:85 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 11:57:18 INFO  String:48 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 11:57:18 INFO  String:49 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 11:57:36 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:7021] Client Socket: [7021  ]
+
+@2017-10-11 11:57:36 INFO  ATClient:31 - 7021 : Connected to server: /127.0.0.1
+@2017-10-11 11:57:36 INFO  ATClient:32 - 7021 : Connected to portid: 7021
+@2017-10-11 11:57:36 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 11:57:36 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__7021
+@2017-10-11 11:58:28 INFO  ATServer:97 - Input from 127.0.0.1:7021 
+@2017-10-11 11:58:30 INFO  ATServer:114 - Output to 127.0.0.1:7021 Who Are you? Clerk or Student?
+
+@2017-10-11 11:58:30 INFO  ATServer:97 - Input from 127.0.0.1:7021 
+@2017-10-11 11:58:30 INFO  ATServer:106 - Output to 127.0.0.1:7021 Who Are you? Clerk or Student?
+
+@2017-10-11 11:58:31 INFO  ATServer:97 - Input from 127.0.0.1:7021 
+@2017-10-11 11:58:31 INFO  ATServer:106 - Output to 127.0.0.1:7021 Who Are you? Clerk or Student?
+
+@2017-10-11 11:58:43 INFO  ATServer:97 - Input from 127.0.0.1:7021 clerk
+@2017-10-11 11:58:43 INFO  ATServer:106 - Output to 127.0.0.1:7021 Please Input The Password:
+
+@2017-10-11 11:58:45 INFO  ATServer:97 - Input from 127.0.0.1:7021 sdmin
+@2017-10-11 11:58:45 INFO  ATServer:106 - Output to 127.0.0.1:7021 Wrong Password! Please Input The Password:
+
+@2017-10-11 11:58:48 INFO  ATServer:97 - Input from 127.0.0.1:7021 admin
+@2017-10-11 11:58:48 INFO  ATServer:106 - Output to 127.0.0.1:7021 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-11 11:59:02 INFO  ATServer:97 - Input from 127.0.0.1:7021 delete course
+@2017-10-11 11:59:02 INFO  ATServer:106 - Output to 127.0.0.1:7021 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-11 11:59:18 INFO  ATServer:97 - Input from 127.0.0.1:7021 afafdasdf
+@2017-10-11 11:59:18 INFO  ATServer:106 - Output to 127.0.0.1:7021 Your input should be in correct format.
+
+@2017-10-11 11:59:20 INFO  ATServer:97 - Input from 127.0.0.1:7021 
+@2017-10-11 11:59:58 INFO  ATServer:31 - Binding to port 5050
+@2017-10-11 11:59:58 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 11:59:58 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-11 11:59:58 INFO  String:73 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 11:59:58 INFO  String:85 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 11:59:58 INFO  String:48 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 11:59:58 INFO  String:49 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 12:00:13 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:7025] Client Socket: [7025  ]
+
+@2017-10-11 12:00:13 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 12:00:13 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__7025
+@2017-10-11 12:00:13 INFO  ATClient:31 - 7025 : Connected to server: /127.0.0.1
+@2017-10-11 12:00:13 INFO  ATClient:32 - 7025 : Connected to portid: 7025
+@2017-10-11 12:00:15 INFO  ATServer:97 - Input from 127.0.0.1:7025 
+@2017-10-11 12:00:15 INFO  ATServer:114 - Output to 127.0.0.1:7025 Who Are you? Clerk or Student?
+
+@2017-10-11 12:00:21 INFO  ATServer:97 - Input from 127.0.0.1:7025 student
+@2017-10-11 12:00:21 INFO  ATServer:106 - Output to 127.0.0.1:7025 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-11 12:00:52 INFO  ATServer:97 - Input from 127.0.0.1:7025 101075401, tom
+@2017-10-11 12:00:52 INFO  ATServer:106 - Output to 127.0.0.1:7025 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 12:01:01 INFO  ATServer:97 - Input from 127.0.0.1:7025 select course
+@2017-10-11 12:01:01 INFO  ATServer:106 - Output to 127.0.0.1:7025 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-11 12:01:10 INFO  ATServer:97 - Input from 127.0.0.1:7025 asdfadsf
+@2017-10-11 12:01:10 INFO  ATServer:106 - Output to 127.0.0.1:7025 Your input should be in correct format.
+
+@2017-10-11 12:01:14 INFO  ATServer:97 - Input from 127.0.0.1:7025 assdfdasf
+@2017-10-11 12:01:14 INFO  ATServer:106 - Output to 127.0.0.1:7025 Your input should be in correct format.
+
+@2017-10-11 12:01:15 INFO  ATServer:97 - Input from 127.0.0.1:7025 
+@2017-10-11 12:08:54 INFO  ATServer:31 - Binding to port 5050
+@2017-10-11 12:08:54 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-11 12:08:54 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 12:08:54 INFO  String:73 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 12:08:54 INFO  String:85 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 12:08:54 INFO  String:48 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 12:08:54 INFO  String:49 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 12:09:01 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:7057] Client Socket: [7057  ]
+
+@2017-10-11 12:09:01 INFO  ATClient:31 - 7057 : Connected to server: /127.0.0.1
+@2017-10-11 12:09:01 INFO  ATClient:32 - 7057 : Connected to portid: 7057
+@2017-10-11 12:09:01 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 12:09:01 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__7057
+@2017-10-11 12:09:03 INFO  ATServer:97 - Input from 127.0.0.1:7057 
+@2017-10-11 12:09:03 INFO  ATServer:114 - Output to 127.0.0.1:7057 Who Are you? Clerk or Student?
+
+@2017-10-11 12:09:06 INFO  ATServer:97 - Input from 127.0.0.1:7057 student
+@2017-10-11 12:09:06 INFO  ATServer:106 - Output to 127.0.0.1:7057 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-11 12:09:22 INFO  ATServer:97 - Input from 127.0.0.1:7057 101075401, tom
+@2017-10-11 12:09:22 INFO  ATServer:106 - Output to 127.0.0.1:7057 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 12:09:26 INFO  ATServer:97 - Input from 127.0.0.1:7057 select course
+@2017-10-11 12:09:26 INFO  ATServer:106 - Output to 127.0.0.1:7057 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-11 12:09:28 INFO  ATServer:97 - Input from 127.0.0.1:7057 aaaa
+@2017-10-11 12:09:28 INFO  ATServer:106 - Output to 127.0.0.1:7057 Your input should be in correct format.
+
+@2017-10-11 12:09:30 INFO  ATServer:97 - Input from 127.0.0.1:7057 aaaa
+@2017-10-11 12:09:30 INFO  ATServer:106 - Output to 127.0.0.1:7057 Your input should be in correct format.
+
+@2017-10-11 12:09:31 INFO  ATServer:97 - Input from 127.0.0.1:7057 aaaa
+@2017-10-11 12:09:31 INFO  ATServer:106 - Output to 127.0.0.1:7057 Your input should be in correct format.
+
+@2017-10-11 12:09:33 INFO  ATServer:97 - Input from 127.0.0.1:7057 aaaaaaa
+@2017-10-11 12:09:33 INFO  ATServer:106 - Output to 127.0.0.1:7057 Your input should be in correct format.
+
+@2017-10-11 12:09:35 INFO  ATServer:97 - Input from 127.0.0.1:7057 aaaa
+@2017-10-11 12:09:35 INFO  ATServer:106 - Output to 127.0.0.1:7057 Your input should be in correct format.
+
+@2017-10-11 12:09:36 INFO  ATServer:97 - Input from 127.0.0.1:7057 a
+@2017-10-11 12:09:36 INFO  ATServer:106 - Output to 127.0.0.1:7057 Your input should be in correct format.
+
+@2017-10-11 12:09:37 INFO  ATServer:97 - Input from 127.0.0.1:7057 aaa
+@2017-10-11 12:09:37 INFO  ATServer:106 - Output to 127.0.0.1:7057 Your input should be in correct format.
+
+@2017-10-11 12:09:37 INFO  ATServer:97 - Input from 127.0.0.1:7057 
+@2017-10-11 12:13:05 INFO  ATServer:31 - Binding to port 5050
+@2017-10-11 12:13:05 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 12:13:05 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 13
+@2017-10-11 12:13:06 INFO  String:73 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 12:13:06 INFO  String:85 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 12:13:06 INFO  String:48 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 12:13:06 INFO  String:49 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 12:13:12 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:7062] Client Socket: [7062  ]
+
+@2017-10-11 12:13:12 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 12:13:12 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__7062
+@2017-10-11 12:13:12 INFO  ATClient:31 - 7062 : Connected to server: /127.0.0.1
+@2017-10-11 12:13:12 INFO  ATClient:32 - 7062 : Connected to portid: 7062
+@2017-10-11 12:13:13 INFO  ATServer:97 - Input from 127.0.0.1:7062 
+@2017-10-11 12:13:13 INFO  ATServer:114 - Output to 127.0.0.1:7062 Who Are you? Clerk or Student?
+
+@2017-10-11 12:13:16 INFO  ATServer:97 - Input from 127.0.0.1:7062 student
+@2017-10-11 12:13:16 INFO  ATServer:106 - Output to 127.0.0.1:7062 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-11 12:13:25 INFO  ATServer:97 - Input from 127.0.0.1:7062 101075401, tom
+@2017-10-11 12:13:25 INFO  ATServer:106 - Output to 127.0.0.1:7062 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 12:13:30 INFO  ATServer:97 - Input from 127.0.0.1:7062 select course
+@2017-10-11 12:13:30 INFO  ATServer:106 - Output to 127.0.0.1:7062 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-11 12:13:32 INFO  ATServer:97 - Input from 127.0.0.1:7062 a
+@2017-10-11 12:13:32 INFO  ATServer:106 - Output to 127.0.0.1:7062 
+
+@2017-10-11 12:13:34 INFO  ATServer:97 - Input from 127.0.0.1:7062 aaa
+@2017-10-11 12:13:34 INFO  ATServer:106 - Output to 127.0.0.1:7062 Who Are you? Clerk or Student?
+
+@2017-10-11 12:13:36 INFO  ATServer:97 - Input from 127.0.0.1:7062 aaa
+@2017-10-11 12:13:36 INFO  ATServer:106 - Output to 127.0.0.1:7062 Who Are you? Clerk or Student?
+
+@2017-10-11 12:13:37 INFO  ATServer:97 - Input from 127.0.0.1:7062 aaa
+@2017-10-11 12:13:37 INFO  ATServer:106 - Output to 127.0.0.1:7062 Who Are you? Clerk or Student?
+
+@2017-10-11 12:13:43 INFO  ATServer:97 - Input from 127.0.0.1:7062 clerk
+@2017-10-11 12:13:43 INFO  ATServer:106 - Output to 127.0.0.1:7062 Please Input The Password:
+
+@2017-10-11 12:13:46 INFO  ATServer:97 - Input from 127.0.0.1:7062 admin
+@2017-10-11 12:13:46 INFO  ATServer:106 - Output to 127.0.0.1:7062 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-11 12:13:51 INFO  ATServer:97 - Input from 127.0.0.1:7062 cancel course
+@2017-10-11 12:13:51 INFO  ATServer:106 - Output to 127.0.0.1:7062 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-11 12:13:54 INFO  ATServer:97 - Input from 127.0.0.1:7062 aaaa
+@2017-10-11 12:13:54 INFO  ATServer:106 - Output to 127.0.0.1:7062 Your input should be in correct format.
+
+@2017-10-11 12:13:55 INFO  ATServer:97 - Input from 127.0.0.1:7062 aa
+@2017-10-11 12:13:55 INFO  ATServer:106 - Output to 127.0.0.1:7062 Your input should be in correct format.
+
+@2017-10-11 12:13:55 INFO  ATServer:97 - Input from 127.0.0.1:7062 
+@2017-10-11 12:14:26 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:7063] Client Socket: [7063  ]
+
+@2017-10-11 12:14:26 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 12:14:26 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__7063
+@2017-10-11 12:14:26 INFO  ATClient:31 - 7063 : Connected to server: /127.0.0.1
+@2017-10-11 12:14:26 INFO  ATClient:32 - 7063 : Connected to portid: 7063
+@2017-10-11 12:19:27 INFO  ATServer:31 - Binding to port 5050
+@2017-10-11 12:19:27 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 12:19:27 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-11 12:19:27 INFO  String:73 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 12:19:27 INFO  String:85 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 12:19:27 INFO  String:48 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 12:19:27 INFO  String:49 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 12:19:37 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:7160] Client Socket: [7160  ]
+
+@2017-10-11 12:19:37 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 12:19:37 INFO  ATClient:31 - 7160 : Connected to server: /127.0.0.1
+@2017-10-11 12:19:37 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__7160
+@2017-10-11 12:19:37 INFO  ATClient:32 - 7160 : Connected to portid: 7160
+@2017-10-11 12:19:40 INFO  ATServer:97 - Input from 127.0.0.1:7160 
+@2017-10-11 12:19:40 INFO  ATServer:114 - Output to 127.0.0.1:7160 Who Are you? Clerk or Student?
+
+@2017-10-11 12:19:44 INFO  ATServer:97 - Input from 127.0.0.1:7160 clerk
+@2017-10-11 12:19:44 INFO  ATServer:106 - Output to 127.0.0.1:7160 Please Input The Password:
+
+@2017-10-11 12:19:46 INFO  ATServer:97 - Input from 127.0.0.1:7160 adim
+@2017-10-11 12:19:46 INFO  ATServer:106 - Output to 127.0.0.1:7160 Wrong Password! Please Input The Password:
+
+@2017-10-11 12:19:48 INFO  ATServer:97 - Input from 127.0.0.1:7160 admin
+@2017-10-11 12:19:48 INFO  ATServer:106 - Output to 127.0.0.1:7160 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-11 12:19:58 INFO  ATServer:97 - Input from 127.0.0.1:7160 cancel course
+@2017-10-11 12:19:58 INFO  ATServer:106 - Output to 127.0.0.1:7160 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-11 12:20:00 INFO  ATServer:97 - Input from 127.0.0.1:7160 
+@2017-10-11 12:24:00 INFO  ATServer:31 - Binding to port 5050
+@2017-10-11 12:24:00 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 12:24:00 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-11 12:24:00 INFO  String:73 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 12:24:00 INFO  String:85 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 12:24:00 INFO  String:48 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 12:24:00 INFO  String:49 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 12:24:06 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:7166] Client Socket: [7166  ]
+
+@2017-10-11 12:24:06 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 12:24:06 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__7166
+@2017-10-11 12:24:06 INFO  ATClient:31 - 7166 : Connected to server: /127.0.0.1
+@2017-10-11 12:24:06 INFO  ATClient:32 - 7166 : Connected to portid: 7166
+@2017-10-11 12:24:07 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:07 INFO  ATServer:114 - Output to 127.0.0.1:7166 Who Are you? Clerk or Student?
+
+@2017-10-11 12:24:13 INFO  ATServer:97 - Input from 127.0.0.1:7166 student
+@2017-10-11 12:24:13 INFO  ATServer:106 - Output to 127.0.0.1:7166 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-11 12:24:16 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:16 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in this format: 'student number, name'
+
+@2017-10-11 12:24:16 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:16 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in this format: 'student number, name'
+
+@2017-10-11 12:24:25 INFO  ATServer:97 - Input from 127.0.0.1:7166 101075401, tom
+@2017-10-11 12:24:25 INFO  ATServer:106 - Output to 127.0.0.1:7166 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 12:24:28 INFO  ATServer:97 - Input from 127.0.0.1:7166 log out
+@2017-10-11 12:24:28 INFO  ATServer:106 - Output to 127.0.0.1:7166 Successfully Log Out!
+
+@2017-10-11 12:24:29 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:29 INFO  ATServer:106 - Output to 127.0.0.1:7166 Who Are you? Clerk or Student?
+
+@2017-10-11 12:24:31 INFO  ATServer:97 - Input from 127.0.0.1:7166 clerk
+@2017-10-11 12:24:31 INFO  ATServer:106 - Output to 127.0.0.1:7166 Please Input The Password:
+
+@2017-10-11 12:24:33 INFO  ATServer:97 - Input from 127.0.0.1:7166 admin
+@2017-10-11 12:24:33 INFO  ATServer:106 - Output to 127.0.0.1:7166 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-11 12:24:39 INFO  ATServer:97 - Input from 127.0.0.1:7166 cancel course
+@2017-10-11 12:24:39 INFO  ATServer:106 - Output to 127.0.0.1:7166 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-11 12:24:40 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:40 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:40 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:40 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:41 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:41 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:41 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:41 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:41 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:41 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:41 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:41 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:42 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:42 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:42 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:42 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:42 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:42 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:42 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:42 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:43 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:43 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:43 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:43 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:43 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:43 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:43 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:43 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:44 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:44 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:44 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:44 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:45 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:45 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:45 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:45 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:24:45 INFO  ATServer:97 - Input from 127.0.0.1:7166 
+@2017-10-11 12:24:45 INFO  ATServer:106 - Output to 127.0.0.1:7166 Your input should be in correct format.
+
+@2017-10-11 12:27:23 INFO  ATServer:97 - Input from 127.0.0.1:7166 105104
+@2017-10-11 12:50:46 INFO  ATServer:31 - Binding to port 5050
+@2017-10-11 12:50:46 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 12:50:46 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-11 12:50:46 INFO  String:73 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 12:50:46 INFO  String:85 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 12:50:46 INFO  String:48 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 12:50:46 INFO  String:49 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 12:50:51 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:7305] Client Socket: [7305  ]
+
+@2017-10-11 12:50:51 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 12:50:51 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__7305
+@2017-10-11 12:50:51 INFO  ATClient:31 - 7305 : Connected to server: /127.0.0.1
+@2017-10-11 12:50:51 INFO  ATClient:32 - 7305 : Connected to portid: 7305
+@2017-10-11 12:50:53 INFO  ATServer:97 - Input from 127.0.0.1:7305 
+@2017-10-11 12:50:53 INFO  ATServer:114 - Output to 127.0.0.1:7305 Who Are you? Clerk or Student?
+
+@2017-10-11 12:50:55 INFO  ATServer:97 - Input from 127.0.0.1:7305 clerk
+@2017-10-11 12:50:55 INFO  ATServer:106 - Output to 127.0.0.1:7305 Please Input The Password:
+
+@2017-10-11 12:50:57 INFO  ATServer:97 - Input from 127.0.0.1:7305 admin
+@2017-10-11 12:50:57 INFO  ATServer:106 - Output to 127.0.0.1:7305 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-11 12:51:02 INFO  ATServer:97 - Input from 127.0.0.1:7305 cancel course
+@2017-10-11 12:51:02 INFO  ATServer:106 - Output to 127.0.0.1:7305 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-11 12:51:11 INFO  ATServer:97 - Input from 127.0.0.1:7305 105104
+@2017-10-11 12:51:11 INFO  String:313 - Operation: cancel course 105104; State: Success
+@2017-10-11 12:51:11 INFO  ATServer:106 - Output to 127.0.0.1:7305 Success!
+
+@2017-10-11 12:51:13 INFO  ATServer:97 - Input from 127.0.0.1:7305 
+@2017-10-11 12:51:13 INFO  ATServer:106 - Output to 127.0.0.1:7305 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-11 12:51:24 INFO  ATServer:97 - Input from 127.0.0.1:7305 delete course
+@2017-10-11 12:51:24 INFO  ATServer:106 - Output to 127.0.0.1:7305 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-11 12:51:28 INFO  ATServer:97 - Input from 127.0.0.1:7305 105104
+@2017-10-11 12:51:28 INFO  String:338 - Operation: delete course 105104; State: Success
+@2017-10-11 12:51:28 INFO  ATServer:106 - Output to 127.0.0.1:7305 Success!
+
+@2017-10-11 12:51:29 INFO  ATServer:97 - Input from 127.0.0.1:7305 
+@2017-10-11 12:51:29 INFO  ATServer:106 - Output to 127.0.0.1:7305 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-11 12:51:33 INFO  ATServer:97 - Input from 127.0.0.1:7305 delete course
+@2017-10-11 12:51:33 INFO  ATServer:106 - Output to 127.0.0.1:7305 Please Input Course Info: 'course code'
+Available Course List: 
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-11 12:52:04 INFO  ATServer:97 - Input from 127.0.0.1:7305 
+@2017-10-11 12:54:15 INFO  ATServer:31 - Binding to port 5050
+@2017-10-11 12:54:15 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 12:54:15 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-11 12:54:15 INFO  String:73 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 12:54:15 INFO  String:85 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 12:54:15 INFO  String:48 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 12:54:15 INFO  String:49 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 12:54:21 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:7306] Client Socket: [7306  ]
+
+@2017-10-11 12:54:21 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 12:54:21 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__7306
+@2017-10-11 12:54:21 INFO  ATClient:31 - 7306 : Connected to server: /127.0.0.1
+@2017-10-11 12:54:21 INFO  ATClient:32 - 7306 : Connected to portid: 7306
+@2017-10-11 12:54:23 INFO  ATServer:97 - Input from 127.0.0.1:7306 
+@2017-10-11 12:54:23 INFO  ATServer:114 - Output to 127.0.0.1:7306 Who Are you? Clerk or Student?
+
+@2017-10-11 12:54:25 INFO  ATServer:97 - Input from 127.0.0.1:7306 clerk
+@2017-10-11 12:54:25 INFO  ATServer:106 - Output to 127.0.0.1:7306 Please Input The Password:
+
+@2017-10-11 12:54:27 INFO  ATServer:97 - Input from 127.0.0.1:7306 admin
+@2017-10-11 12:54:27 INFO  ATServer:106 - Output to 127.0.0.1:7306 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-11 12:54:35 INFO  ATServer:97 - Input from 127.0.0.1:7306 create course
+@2017-10-11 12:54:35 INFO  ATServer:106 - Output to 127.0.0.1:7306 Please Input Course Info: 'title, course code, capsize, enforce prereqs(y/n), number of midterms, number of assignments, has a final(y/n), is project course(y/n)'
+
+@2017-10-11 12:54:36 INFO  ATServer:97 - Input from 127.0.0.1:7306 
+@2017-10-11 12:54:36 INFO  ATServer:106 - Output to 127.0.0.1:7306 Your input should be in this format: 'title, course code, capsize, enforce prereqs(y/n), number of midterms, number of assignments, has a final(y/n), is project course(y/n)'
+
+@2017-10-11 12:54:37 INFO  ATServer:97 - Input from 127.0.0.1:7306 
+@2017-10-11 12:54:37 INFO  ATServer:106 - Output to 127.0.0.1:7306 Your input should be in this format: 'title, course code, capsize, enforce prereqs(y/n), number of midterms, number of assignments, has a final(y/n), is project course(y/n)'
+
+@2017-10-11 12:54:37 INFO  ATServer:97 - Input from 127.0.0.1:7306 
+@2017-10-11 12:54:37 INFO  ATServer:106 - Output to 127.0.0.1:7306 Your input should be in this format: 'title, course code, capsize, enforce prereqs(y/n), number of midterms, number of assignments, has a final(y/n), is project course(y/n)'
+
+@2017-10-11 12:54:38 INFO  ATServer:97 - Input from 127.0.0.1:7306 
+@2017-10-11 12:54:38 INFO  ATServer:106 - Output to 127.0.0.1:7306 Your input should be in this format: 'title, course code, capsize, enforce prereqs(y/n), number of midterms, number of assignments, has a final(y/n), is project course(y/n)'
+
+@2017-10-11 12:59:17 INFO  ATServer:97 - Input from 127.0.0.1:7306 main menu
+@2017-10-11 12:59:17 INFO  ATServer:106 - Output to 127.0.0.1:7306 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-11 13:03:54 INFO  ATServer:97 - Input from 127.0.0.1:7306 log out
+@2017-10-11 13:03:54 INFO  ATServer:106 - Output to 127.0.0.1:7306 Successfully Log Out!
+
+@2017-10-11 13:03:55 INFO  ATServer:97 - Input from 127.0.0.1:7306 
+@2017-10-11 13:03:55 INFO  ATServer:106 - Output to 127.0.0.1:7306 Who Are you? Clerk or Student?
+
+@2017-10-11 13:03:58 INFO  ATServer:97 - Input from 127.0.0.1:7306 clerk
+@2017-10-11 13:03:59 INFO  ATServer:106 - Output to 127.0.0.1:7306 Please Input The Password:
+
+@2017-10-11 13:04:01 INFO  ATServer:97 - Input from 127.0.0.1:7306 admin
+@2017-10-11 13:04:01 INFO  ATServer:106 - Output to 127.0.0.1:7306 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-11 13:07:19 INFO  ATServer:97 - Input from 127.0.0.1:7306 create course
+@2017-10-11 13:07:19 INFO  ATServer:106 - Output to 127.0.0.1:7306 Please Input Course Info: 'title, course code, capsize, enforce prereqs(y/n), number of midterms, number of assignments, has a final(y/n), is project course(y/n)'
+
+@2017-10-11 19:47:51 INFO  String:73 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 19:47:51 INFO  String:85 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 19:47:51 INFO  String:48 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 19:47:51 INFO  String:49 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 19:47:51 INFO  String:241 - Operation: Create New Course; Course Info:[Principles of Distributed Computing,105003]; State: Fail; Reason: The course already existed.
+@2017-10-11 19:47:51 INFO  String:233 - Operation: Create New Course; Course Info:[Computer Security and Usability,105110]; State: Success
+@2017-10-11 19:47:51 INFO  String:263 - Operation: Create New Student; Student Info:[101075403,john]; State: Success
+@2017-10-11 19:47:51 INFO  String:266 - Operation: Create New Student; Student Info:[101075401,tom]; State: Fail; Reason: The student already existed.
+@2017-10-11 19:47:51 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:47:51 INFO  String:159 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 19:47:51 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 19:47:51 INFO  String:291 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 19:47:51 INFO  String:137 - Operation: student 101075403 select course 105104; State: Success
+@2017-10-11 19:47:51 INFO  String:159 - Operation: student 101075403 register course 105104; State: Success
+@2017-10-11 19:47:51 INFO  String:267 - Operation: Add Student 101075403 to Course 105104; State: Success
+@2017-10-11 19:47:51 INFO  String:291 - Operation: student 101075403 register course 105104; State: Success
+@2017-10-11 19:47:51 INFO  String:137 - Operation: student 101075401 select course 105110; State: Success
+@2017-10-11 19:47:51 INFO  String:159 - Operation: student 101075401 register course 105110; State: Success
+@2017-10-11 19:47:51 INFO  String:267 - Operation: Add Student 101075401 to Course 105110; State: Success
+@2017-10-11 19:47:51 INFO  String:291 - Operation: student 101075401 register course 105110; State: Success
+@2017-10-11 19:47:51 INFO  String:318 - Operation: cancel course 105104; State: Success
+@2017-10-11 19:47:51 INFO  String:345 - Operation: delete course 105104; State: Success
+@2017-10-11 19:47:51 INFO  String:372 - Operation: delete student 101075401; State: Success
+@2017-10-11 19:50:50 INFO  String:73 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 19:50:50 INFO  String:85 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 19:50:50 INFO  String:48 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 19:50:50 INFO  String:49 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 19:50:50 INFO  String:241 - Operation: Create New Course; Course Info:[Principles of Distributed Computing,105003]; State: Fail; Reason: The course already existed.
+@2017-10-11 19:50:50 INFO  String:233 - Operation: Create New Course; Course Info:[Computer Security and Usability,105110]; State: Success
+@2017-10-11 19:50:50 INFO  String:263 - Operation: Create New Student; Student Info:[101075403,john]; State: Success
+@2017-10-11 19:50:50 INFO  String:266 - Operation: Create New Student; Student Info:[101075401,tom]; State: Fail; Reason: The student already existed.
+@2017-10-11 19:50:50 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:50:50 INFO  String:159 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 19:50:50 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 19:50:50 INFO  String:291 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 19:50:50 INFO  String:137 - Operation: student 101075404 select course 105104; State: Success
+@2017-10-11 19:50:50 INFO  String:294 - Operation: student 101075404 register course 105104; State: Fail; Reason: The student or course doesn't exist.
+@2017-10-11 19:50:50 INFO  String:137 - Operation: student 101075401 select course 115151; State: Success
+@2017-10-11 19:50:50 INFO  String:294 - Operation: student 101075401 register course 115151; State: Fail; Reason: The student or course doesn't exist.
+@2017-10-11 19:50:50 INFO  String:318 - Operation: cancel course 105104; State: Success
+@2017-10-11 19:50:50 INFO  String:345 - Operation: delete course 105104; State: Success
+@2017-10-11 19:50:50 INFO  String:372 - Operation: delete student 101075401; State: Success
+@2017-10-11 19:51:03 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:267 - Operation: Add Student 101075402 to Course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:267 - Operation: Add Student 101075402 to Course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:271 - Operation: Add Student 101075401 to Course 105104; State: Fail; Reason: The Student has registered.
+@2017-10-11 19:51:03 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-11 19:51:03 INFO  String:159 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:159 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-11 19:51:03 INFO  String:159 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:159 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-11 19:51:03 INFO  String:134 - Operation: student 101075401 select course 105008; State: Fail; Reason: student currently take this course or s has completed this course
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:159 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-11 19:51:03 INFO  String:159 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-11 19:51:03 INFO  String:159 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105305; State: Success
+@2017-10-11 19:51:03 INFO  String:159 - Operation: student 101075401 register course 105305; State: Success
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105001; State: Success
+@2017-10-11 19:51:03 INFO  String:152 - Operation: student 101075401 register course 105001; State: Fail; Reason: over registered
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-11 19:51:03 INFO  String:149 - Operation: student 101075401 register course 105003; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-11 19:51:03 INFO  String:159 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-11 19:51:03 INFO  String:170 - Operation: student 101075401 drop course 105104; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:173 - Operation: student 101075401 drop course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:184 - Operation: student 101075401 deregister course 105104; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:159 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:187 - Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:73 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 19:51:03 INFO  String:85 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 19:51:03 INFO  String:48 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 19:51:03 INFO  String:49 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 19:51:03 INFO  String:241 - Operation: Create New Course; Course Info:[Principles of Distributed Computing,105003]; State: Fail; Reason: The course already existed.
+@2017-10-11 19:51:03 INFO  String:233 - Operation: Create New Course; Course Info:[Computer Security and Usability,105110]; State: Success
+@2017-10-11 19:51:03 INFO  String:263 - Operation: Create New Student; Student Info:[101075403,john]; State: Success
+@2017-10-11 19:51:03 INFO  String:266 - Operation: Create New Student; Student Info:[101075401,tom]; State: Fail; Reason: The student already existed.
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:159 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:291 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075404 select course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:294 - Operation: student 101075404 register course 105104; State: Fail; Reason: The student or course doesn't exist.
+@2017-10-11 19:51:03 INFO  String:137 - Operation: student 101075401 select course 115151; State: Success
+@2017-10-11 19:51:03 INFO  String:294 - Operation: student 101075401 register course 115151; State: Fail; Reason: The student or course doesn't exist.
+@2017-10-11 19:51:03 INFO  String:318 - Operation: cancel course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:345 - Operation: delete course 105104; State: Success
+@2017-10-11 19:51:03 INFO  String:372 - Operation: delete student 101075401; State: Success
+@2017-10-11 19:51:33 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:267 - Operation: Add Student 101075402 to Course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:267 - Operation: Add Student 101075402 to Course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:271 - Operation: Add Student 101075401 to Course 105104; State: Fail; Reason: The Student has registered.
+@2017-10-11 19:51:33 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-11 19:51:33 INFO  String:159 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:159 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-11 19:51:33 INFO  String:159 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:159 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-11 19:51:33 INFO  String:134 - Operation: student 101075401 select course 105008; State: Fail; Reason: student currently take this course or s has completed this course
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:159 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-11 19:51:33 INFO  String:159 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-11 19:51:33 INFO  String:159 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105305; State: Success
+@2017-10-11 19:51:33 INFO  String:159 - Operation: student 101075401 register course 105305; State: Success
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105001; State: Success
+@2017-10-11 19:51:33 INFO  String:152 - Operation: student 101075401 register course 105001; State: Fail; Reason: over registered
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-11 19:51:33 INFO  String:149 - Operation: student 101075401 register course 105003; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-11 19:51:33 INFO  String:159 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-11 19:51:33 INFO  String:170 - Operation: student 101075401 drop course 105104; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:173 - Operation: student 101075401 drop course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:184 - Operation: student 101075401 deregister course 105104; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:159 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:187 - Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:73 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 19:51:33 INFO  String:85 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 19:51:33 INFO  String:48 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 19:51:33 INFO  String:49 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 19:51:33 INFO  String:241 - Operation: Create New Course; Course Info:[Principles of Distributed Computing,105003]; State: Fail; Reason: The course already existed.
+@2017-10-11 19:51:33 INFO  String:233 - Operation: Create New Course; Course Info:[Computer Security and Usability,105110]; State: Success
+@2017-10-11 19:51:33 INFO  String:263 - Operation: Create New Student; Student Info:[101075403,john]; State: Success
+@2017-10-11 19:51:33 INFO  String:266 - Operation: Create New Student; Student Info:[101075401,tom]; State: Fail; Reason: The student already existed.
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:159 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:291 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075404 select course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:294 - Operation: student 101075404 register course 105104; State: Fail; Reason: The student or course doesn't exist.
+@2017-10-11 19:51:33 INFO  String:137 - Operation: student 101075401 select course 115151; State: Success
+@2017-10-11 19:51:33 INFO  String:294 - Operation: student 101075401 register course 115151; State: Fail; Reason: The student or course doesn't exist.
+@2017-10-11 19:51:33 INFO  String:318 - Operation: cancel course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:345 - Operation: delete course 105104; State: Success
+@2017-10-11 19:51:33 INFO  String:372 - Operation: delete student 101075401; State: Success
+@2017-10-11 21:26:40 INFO  String:72 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 21:26:40 INFO  String:84 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 21:26:40 INFO  String:47 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 21:26:40 INFO  String:48 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 21:26:51 INFO  String:72 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 21:26:51 INFO  String:84 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 21:26:51 INFO  String:47 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 21:26:51 INFO  String:48 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 21:26:57 INFO  String:72 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 21:26:57 INFO  String:84 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 21:26:57 INFO  String:47 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 21:26:57 INFO  String:48 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 21:30:43 INFO  String:72 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 21:30:43 INFO  String:84 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 21:30:43 INFO  String:47 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 21:30:43 INFO  String:48 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 21:41:46 INFO  String:72 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 21:41:46 INFO  String:84 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 21:41:46 INFO  String:47 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 21:41:46 INFO  String:48 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 21:41:46 INFO  String:240 - Operation: Create New Course; Course Info:[Principles of Distributed Computing,105003]; State: Fail; Reason: The course already existed.
+@2017-10-11 21:41:46 INFO  String:232 - Operation: Create New Course; Course Info:[Computer Security and Usability,105110]; State: Success
+@2017-10-11 21:41:46 INFO  String:262 - Operation: Create New Student; Student Info:[101075403,john]; State: Success
+@2017-10-11 21:41:46 INFO  String:265 - Operation: Create New Student; Student Info:[101075401,tom]; State: Fail; Reason: The student already existed.
+@2017-10-11 21:41:46 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 21:41:46 INFO  String:158 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 21:41:46 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 21:41:46 INFO  String:290 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 21:41:46 INFO  String:137 - Operation: student 101075404 select course 105104; State: Success
+@2017-10-11 21:41:46 INFO  String:293 - Operation: student 101075404 register course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 21:41:46 INFO  String:137 - Operation: student 101075401 select course 115151; State: Success
+@2017-10-11 21:41:46 INFO  String:293 - Operation: student 101075401 register course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 21:41:46 INFO  String:331 - Operation: cancel course 105104; State: Success
+@2017-10-11 21:41:46 INFO  String:358 - Operation: delete course 105104; State: Success
+@2017-10-11 21:41:46 INFO  String:385 - Operation: delete student 101075401; State: Success
+@2017-10-11 21:42:00 INFO  String:72 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 21:42:00 INFO  String:84 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 21:42:00 INFO  String:47 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 21:42:00 INFO  String:48 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 21:42:00 INFO  String:240 - Operation: Create New Course; Course Info:[Principles of Distributed Computing,105003]; State: Fail; Reason: The course already existed.
+@2017-10-11 21:42:00 INFO  String:232 - Operation: Create New Course; Course Info:[Computer Security and Usability,105110]; State: Success
+@2017-10-11 21:42:00 INFO  String:262 - Operation: Create New Student; Student Info:[101075403,john]; State: Success
+@2017-10-11 21:42:00 INFO  String:265 - Operation: Create New Student; Student Info:[101075401,tom]; State: Fail; Reason: The student already existed.
+@2017-10-11 21:42:00 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 21:42:00 INFO  String:158 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 21:42:00 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 21:42:00 INFO  String:290 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 21:42:00 INFO  String:137 - Operation: student 101075404 select course 105104; State: Success
+@2017-10-11 21:42:00 INFO  String:293 - Operation: student 101075404 register course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 21:42:00 INFO  String:137 - Operation: student 101075401 select course 115151; State: Success
+@2017-10-11 21:42:00 INFO  String:293 - Operation: student 101075401 register course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 21:42:00 INFO  String:331 - Operation: cancel course 105104; State: Success
+@2017-10-11 21:42:00 INFO  String:358 - Operation: delete course 105104; State: Success
+@2017-10-11 21:42:00 INFO  String:385 - Operation: delete student 101075401; State: Success
+@2017-10-11 22:02:12 INFO  ATServer:31 - Binding to port 5050
+@2017-10-11 22:02:12 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 22:02:12 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-11 22:02:12 INFO  String:72 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 22:02:12 INFO  String:84 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 22:02:12 INFO  String:47 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 22:02:12 INFO  String:48 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 22:02:24 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:14505] Client Socket: [14505 ]
+
+@2017-10-11 22:02:24 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 22:02:24 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__14505
+@2017-10-11 22:02:24 INFO  ATClient:31 - 14505 : Connected to server: /127.0.0.1
+@2017-10-11 22:02:24 INFO  ATClient:32 - 14505 : Connected to portid: 14505
+@2017-10-11 22:02:25 INFO  ATServer:97 - Input from 127.0.0.1:14505 
+@2017-10-11 22:02:25 INFO  ATServer:114 - Output to 127.0.0.1:14505 Who Are you? Clerk or Student?
+
+@2017-10-11 22:02:28 INFO  ATServer:97 - Input from 127.0.0.1:14505 student
+@2017-10-11 22:02:28 INFO  ATServer:106 - Output to 127.0.0.1:14505 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-11 22:02:35 INFO  ATServer:97 - Input from 127.0.0.1:14505 101075401, tom
+@2017-10-11 22:02:35 INFO  ATServer:106 - Output to 127.0.0.1:14505 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 22:02:38 INFO  ATServer:97 - Input from 127.0.0.1:14505 a
+@2017-10-11 22:02:38 INFO  ATServer:106 - Output to 127.0.0.1:14505 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 22:02:47 INFO  ATServer:97 - Input from 127.0.0.1:14505 select course
+@2017-10-11 22:02:47 INFO  ATServer:106 - Output to 127.0.0.1:14505 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-11 22:02:54 INFO  ATServer:97 - Input from 127.0.0.1:14505 111111
+@2017-10-11 22:02:54 INFO  ATServer:106 - Output to 127.0.0.1:14505 The Course Does Not Exist!
+
+@2017-10-11 22:02:56 INFO  ATServer:97 - Input from 127.0.0.1:14505 
+@2017-10-11 22:02:56 INFO  ATServer:106 - Output to 127.0.0.1:14505 Your input should be in correct format.
+
+@2017-10-11 22:02:58 INFO  ATServer:97 - Input from 127.0.0.1:14505 
+@2017-10-11 22:02:58 INFO  ATServer:106 - Output to 127.0.0.1:14505 Your input should be in correct format.
+
+@2017-10-11 22:03:04 INFO  ATServer:97 - Input from 127.0.0.1:14505 105104
+@2017-10-11 22:03:04 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 22:03:04 INFO  ATServer:106 - Output to 127.0.0.1:14505 Success!
+
+@2017-10-11 22:03:05 INFO  ATServer:97 - Input from 127.0.0.1:14505 
+@2017-10-11 22:03:05 INFO  ATServer:106 - Output to 127.0.0.1:14505 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 22:03:12 INFO  ATServer:97 - Input from 127.0.0.1:14505 register for course
+@2017-10-11 22:03:12 INFO  ATServer:106 - Output to 127.0.0.1:14505 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+
+@2017-10-11 22:03:20 INFO  ATServer:97 - Input from 127.0.0.1:14505 105104
+@2017-10-11 22:03:20 INFO  ATServer:106 - Output to 127.0.0.1:14505 Registration Has not Started!
+
+@2017-10-11 22:03:22 INFO  ATServer:97 - Input from 127.0.0.1:14505 
+@2017-10-11 22:03:22 INFO  ATServer:106 - Output to 127.0.0.1:14505 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 22:03:30 INFO  ATServer:97 - Input from 127.0.0.1:14505 drop course
+@2017-10-11 22:03:30 INFO  ATServer:106 - Output to 127.0.0.1:14505 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+
+@2017-10-11 22:03:33 INFO  ATServer:97 - Input from 127.0.0.1:14505 105104
+@2017-10-11 22:03:33 INFO  String:172 - Operation: student 101075401 drop course 105104; State: Success
+@2017-10-11 22:03:33 INFO  ATServer:106 - Output to 127.0.0.1:14505 Success!
+
+@2017-10-11 22:03:34 INFO  ATServer:97 - Input from 127.0.0.1:14505 
+@2017-10-11 22:03:34 INFO  ATServer:106 - Output to 127.0.0.1:14505 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 22:03:42 INFO  ATServer:97 - Input from 127.0.0.1:14505 deregister course
+@2017-10-11 22:03:42 INFO  ATServer:106 - Output to 127.0.0.1:14505 No Available Courses!
+
+@2017-10-11 22:03:43 INFO  ATServer:97 - Input from 127.0.0.1:14505 
+@2017-10-11 22:03:43 INFO  ATServer:106 - Output to 127.0.0.1:14505 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 22:03:52 INFO  ATServer:97 - Input from 127.0.0.1:14505 log out
+@2017-10-11 22:03:52 INFO  ATServer:106 - Output to 127.0.0.1:14505 Successfully Log Out!
+
+@2017-10-11 22:32:15 INFO  ATServer:97 - Input from 127.0.0.1:14505 
+@2017-10-11 22:32:15 INFO  ATServer:106 - Output to 127.0.0.1:14505 Who Are you? Clerk or Student?
+
+@2017-10-11 22:32:18 INFO  ATServer:97 - Input from 127.0.0.1:14505 clerk
+@2017-10-11 22:32:18 INFO  ATServer:106 - Output to 127.0.0.1:14505 Please Input The Password:
+
+@2017-10-11 22:32:20 INFO  ATServer:97 - Input from 127.0.0.1:14505 admin
+@2017-10-11 22:32:20 INFO  ATServer:106 - Output to 127.0.0.1:14505 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-11 22:32:27 INFO  ATServer:97 - Input from 127.0.0.1:14505 create course
+@2017-10-11 22:32:27 INFO  ATServer:106 - Output to 127.0.0.1:14505 Please Input Course Info: 'title, course code, capsize, enforce prereqs(y/n), number of midterms, number of assignments, has a final(y/n), is project course(y/n)'
+
+@2017-10-11 22:32:57 INFO  ATServer:97 - Input from 127.0.0.1:14505 aaaa, 123456, 20, n, 4, 1, y, n
+@2017-10-11 22:32:57 INFO  ATServer:106 - Output to 127.0.0.1:14505 Overdue!
+
+@2017-10-11 22:33:03 INFO  ATServer:97 - Input from 127.0.0.1:14505 
+@2017-10-11 22:33:03 INFO  ATServer:106 - Output to 127.0.0.1:14505 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-11 22:33:06 INFO  ATServer:97 - Input from 127.0.0.1:14505 aaa
+@2017-10-11 22:33:06 INFO  ATServer:106 - Output to 127.0.0.1:14505 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-11 22:33:12 INFO  ATServer:97 - Input from 127.0.0.1:14505 create course
+@2017-10-11 22:33:13 INFO  ATServer:106 - Output to 127.0.0.1:14505 Please Input Course Info: 'title, course code, capsize, enforce prereqs(y/n), number of midterms, number of assignments, has a final(y/n), is project course(y/n)'
+
+@2017-10-11 22:33:16 INFO  ATServer:97 - Input from 127.0.0.1:14505 aa
+@2017-10-11 22:33:16 INFO  ATServer:106 - Output to 127.0.0.1:14505 Overdue!
+
+@2017-10-11 22:33:18 INFO  ATServer:97 - Input from 127.0.0.1:14505 
+@2017-10-11 22:33:18 INFO  ATServer:106 - Output to 127.0.0.1:14505 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-11 22:41:03 INFO  ServerThread:61 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-11 22:52:00 INFO  ATServer:31 - Binding to port 5050
+@2017-10-11 22:52:00 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 22:52:00 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-11 22:52:00 INFO  String:72 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 22:52:00 INFO  String:84 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 22:52:00 INFO  String:47 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 22:52:00 INFO  String:48 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 22:52:04 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:14652] Client Socket: [14652 ]
+
+@2017-10-11 22:52:04 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-11 22:52:04 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__14652
+@2017-10-11 22:52:04 INFO  ATClient:31 - 14652 : Connected to server: /127.0.0.1
+@2017-10-11 22:52:04 INFO  ATClient:32 - 14652 : Connected to portid: 14652
+@2017-10-11 22:52:06 INFO  ATServer:97 - Input from 127.0.0.1:14652 
+@2017-10-11 22:52:06 INFO  ATServer:114 - Output to 127.0.0.1:14652 Who Are you? Clerk or Student?
+
+@2017-10-11 22:52:08 INFO  ATServer:97 - Input from 127.0.0.1:14652 student
+@2017-10-11 22:52:08 INFO  ATServer:106 - Output to 127.0.0.1:14652 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-11 22:52:20 INFO  ATServer:97 - Input from 127.0.0.1:14652 101 075401, tom
+@2017-10-11 22:52:20 INFO  ATServer:106 - Output to 127.0.0.1:14652 Your input items should be in correct format.
+
+@2017-10-11 22:52:24 INFO  ATServer:97 - Input from 127.0.0.1:14652 
+@2017-10-11 22:52:24 INFO  ATServer:106 - Output to 127.0.0.1:14652 Your input should be in this format: 'student number, name'
+
+@2017-10-11 22:52:32 INFO  ATServer:97 - Input from 127.0.0.1:14652 101075401,tom
+@2017-10-11 22:52:32 INFO  ATServer:106 - Output to 127.0.0.1:14652 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 22:52:54 INFO  ATServer:97 - Input from 127.0.0.1:14652 select course
+@2017-10-11 22:52:54 INFO  ATServer:106 - Output to 127.0.0.1:14652 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-11 22:53:01 INFO  ATServer:97 - Input from 127.0.0.1:14652 10  13
+@2017-10-11 22:53:01 INFO  ATServer:106 - Output to 127.0.0.1:14652 Your input should be in correct format.
+
+@2017-10-11 22:53:08 INFO  ATServer:97 - Input from 127.0.0.1:14652 131331
+@2017-10-11 22:53:08 INFO  ATServer:106 - Output to 127.0.0.1:14652 The Course Does Not Exist!
+
+@2017-10-11 22:53:15 INFO  ATServer:97 - Input from 127.0.0.1:14652 105104
+@2017-10-11 22:53:15 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 22:53:15 INFO  ATServer:106 - Output to 127.0.0.1:14652 Success!
+
+@2017-10-11 22:53:16 INFO  ATServer:97 - Input from 127.0.0.1:14652 
+@2017-10-11 22:53:16 INFO  ATServer:106 - Output to 127.0.0.1:14652 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 22:53:25 INFO  ATServer:97 - Input from 127.0.0.1:14652 main menu
+@2017-10-11 22:53:25 INFO  ATServer:106 - Output to 127.0.0.1:14652 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 22:53:26 INFO  ATServer:97 - Input from 127.0.0.1:14652 
+@2017-10-11 22:53:26 INFO  ATServer:106 - Output to 127.0.0.1:14652 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 22:53:28 INFO  ATServer:97 - Input from 127.0.0.1:14652 
+@2017-10-11 22:53:28 INFO  ATServer:106 - Output to 127.0.0.1:14652 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 22:53:28 INFO  ATServer:97 - Input from 127.0.0.1:14652 
+@2017-10-11 22:53:28 INFO  ATServer:106 - Output to 127.0.0.1:14652 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 22:53:29 INFO  ATServer:97 - Input from 127.0.0.1:14652 
+@2017-10-11 22:53:29 INFO  ATServer:106 - Output to 127.0.0.1:14652 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-11 22:55:38 INFO  String:72 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 22:55:38 INFO  String:84 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 22:55:38 INFO  String:47 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 22:55:38 INFO  String:48 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 22:55:38 INFO  String:240 - Operation: Create New Course; Course Info:[Principles of Distributed Computing,105003]; State: Fail; Reason: The course already existed.
+@2017-10-11 22:55:38 INFO  String:232 - Operation: Create New Course; Course Info:[Computer Security and Usability,105110]; State: Success
+@2017-10-11 22:55:38 INFO  String:262 - Operation: Create New Student; Student Info:[101075403,john]; State: Success
+@2017-10-11 22:55:38 INFO  String:265 - Operation: Create New Student; Student Info:[101075401,tom]; State: Fail; Reason: The student already existed.
+@2017-10-11 22:55:38 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 22:55:38 INFO  String:158 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 22:55:38 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 22:55:38 INFO  String:290 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 22:55:38 INFO  String:137 - Operation: student 101075404 select course 105104; State: Success
+@2017-10-11 22:55:38 INFO  String:293 - Operation: student 101075404 register course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 22:55:38 INFO  String:137 - Operation: student 101075401 select course 115151; State: Success
+@2017-10-11 22:55:38 INFO  String:293 - Operation: student 101075401 register course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 22:55:38 INFO  String:331 - Operation: cancel course 105104; State: Success
+@2017-10-11 22:55:38 INFO  String:358 - Operation: delete course 105104; State: Success
+@2017-10-11 22:55:38 INFO  String:385 - Operation: delete student 101075401; State: Success
+@2017-10-11 22:59:05 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 22:59:05 INFO  String:72 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 22:59:05 INFO  String:84 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 22:59:05 INFO  String:47 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 22:59:05 INFO  String:48 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 22:59:05 INFO  String:158 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 22:59:05 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 22:59:05 INFO  String:290 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 22:59:05 INFO  String:293 - Operation: student 101075401 register course 105008; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 22:59:05 INFO  String:137 - Operation: student 101075404 select course 105104; State: Success
+@2017-10-11 22:59:05 INFO  String:293 - Operation: student 101075404 register course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 22:59:05 INFO  String:137 - Operation: student 101075401 select course 115151; State: Success
+@2017-10-11 22:59:05 INFO  String:293 - Operation: student 101075401 register course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 23:15:52 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 23:15:52 INFO  String:72 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 23:15:52 INFO  String:84 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 23:15:52 INFO  String:47 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 23:15:52 INFO  String:48 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 23:15:52 INFO  String:158 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 23:15:52 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 23:15:52 INFO  String:290 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 23:15:52 INFO  String:186 - Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-11 23:15:52 INFO  String:285 - Operation: Remove Student 101075401 from Course 105104; State: Success
+@2017-10-11 23:15:52 INFO  String:304 - Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-11 23:17:04 INFO  String:137 - Operation: student 101075401 select course 115151; State: Success
+@2017-10-11 23:17:04 INFO  String:72 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 23:17:04 INFO  String:84 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 23:17:04 INFO  String:47 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 23:17:04 INFO  String:48 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 23:17:04 INFO  String:293 - Operation: student 101075401 register course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 23:17:04 INFO  String:307 - Operation: student 101075401 deregister course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.
+@2017-10-11 23:17:04 INFO  String:137 - Operation: student 101075404 select course 105104; State: Success
+@2017-10-11 23:17:04 INFO  String:293 - Operation: student 101075404 register course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 23:17:04 INFO  String:307 - Operation: student 101075404 deregister course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.
+@2017-10-11 23:17:04 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 23:17:04 INFO  String:158 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 23:17:04 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 23:17:04 INFO  String:290 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 23:17:04 INFO  String:186 - Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-11 23:17:04 INFO  String:285 - Operation: Remove Student 101075401 from Course 105104; State: Success
+@2017-10-11 23:17:04 INFO  String:304 - Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-11 23:30:59 INFO  String:137 - Operation: student 101075401 select course 115151; State: Success
+@2017-10-11 23:30:59 INFO  String:72 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 23:30:59 INFO  String:84 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 23:30:59 INFO  String:47 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 23:30:59 INFO  String:48 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 23:30:59 INFO  String:293 - Operation: student 101075401 register course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 23:30:59 INFO  String:307 - Operation: student 101075401 deregister course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.
+@2017-10-11 23:30:59 INFO  String:137 - Operation: student 101075404 select course 105104; State: Success
+@2017-10-11 23:30:59 INFO  String:293 - Operation: student 101075404 register course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 23:30:59 INFO  String:307 - Operation: student 101075404 deregister course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.
+@2017-10-11 23:30:59 INFO  String:137 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-11 23:30:59 INFO  String:307 - Operation: student 101075401 deregister course 105008; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.
+@2017-10-11 23:30:59 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 23:30:59 INFO  String:158 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 23:30:59 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 23:30:59 INFO  String:290 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 23:30:59 INFO  String:186 - Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-11 23:30:59 INFO  String:285 - Operation: Remove Student 101075401 from Course 105104; State: Success
+@2017-10-11 23:30:59 INFO  String:304 - Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-11 23:35:41 INFO  String:72 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 23:35:41 INFO  String:84 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-11 23:35:41 INFO  String:47 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-11 23:35:41 INFO  String:48 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-11 23:35:41 INFO  String:240 - Operation: Create New Course; Course Info:[Principles of Distributed Computing,105003]; State: Fail; Reason: The course already existed.
+@2017-10-11 23:35:41 INFO  String:232 - Operation: Create New Course; Course Info:[Computer Security and Usability,105110]; State: Success
+@2017-10-11 23:35:41 INFO  String:262 - Operation: Create New Student; Student Info:[101075403,john]; State: Success
+@2017-10-11 23:35:41 INFO  String:265 - Operation: Create New Student; Student Info:[101075401,tom]; State: Fail; Reason: The student already existed.
+@2017-10-11 23:35:41 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 23:35:41 INFO  String:158 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 23:35:41 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 23:35:41 INFO  String:290 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 23:35:41 INFO  String:293 - Operation: student 101075401 register course 105008; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 23:35:41 INFO  String:137 - Operation: student 101075404 select course 105104; State: Success
+@2017-10-11 23:35:41 INFO  String:293 - Operation: student 101075404 register course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 23:35:41 INFO  String:137 - Operation: student 101075401 select course 115151; State: Success
+@2017-10-11 23:35:41 INFO  String:293 - Operation: student 101075401 register course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 23:35:41 INFO  String:137 - Operation: student 101075401 select course 115151; State: Success
+@2017-10-11 23:35:41 INFO  String:293 - Operation: student 101075401 register course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 23:35:41 INFO  String:307 - Operation: student 101075401 deregister course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.
+@2017-10-11 23:35:41 INFO  String:137 - Operation: student 101075404 select course 105104; State: Success
+@2017-10-11 23:35:41 INFO  String:293 - Operation: student 101075404 register course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-11 23:35:41 INFO  String:307 - Operation: student 101075404 deregister course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.
+@2017-10-11 23:35:41 INFO  String:137 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-11 23:35:41 INFO  String:307 - Operation: student 101075401 deregister course 105008; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.
+@2017-10-11 23:35:41 INFO  String:137 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-11 23:35:41 INFO  String:158 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 23:35:41 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-11 23:35:41 INFO  String:290 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-11 23:35:41 INFO  String:186 - Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-11 23:35:41 INFO  String:285 - Operation: Remove Student 101075401 from Course 105104; State: Success
+@2017-10-11 23:35:41 INFO  String:304 - Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-11 23:35:41 INFO  String:331 - Operation: cancel course 105104; State: Success
+@2017-10-11 23:35:41 INFO  String:358 - Operation: delete course 105104; State: Success
+@2017-10-11 23:35:41 INFO  String:385 - Operation: delete student 101075401; State: Success
 @

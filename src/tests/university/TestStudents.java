@@ -23,9 +23,8 @@ public class TestStudents {
 			students.add(s);
 		}
 		
-		University u = new University();
-		University.setStudents(students);
-		assertEquals(students, u.Students());
+		University.getInstance().setStudents(students);
+		assertEquals(students, University.getInstance().Students());
 	}
 
 }

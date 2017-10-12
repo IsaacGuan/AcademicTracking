@@ -7,8 +7,13 @@ public interface UniversityInt {
 	List<Course> Courses();
 	List<Student> Students();
 	
-	Object GetStudent(int number);
-	Object GetCourse(int mycode);
+	Student GetStudent(int number);
+	Course GetCourse(int mycode);
+	
+	boolean LookupStudent(int number, String name);
+	
+	boolean CheckCourse(int mycode);
+	boolean CheckStudent(int number);
 	
 	boolean CreateCourse(String title, int mycode, int cap, 
 			boolean enforcePrereqs, int numberofmidterms, 
@@ -17,6 +22,8 @@ public interface UniversityInt {
 	boolean CreateStudent(int number, String name, boolean isfulltime);
 	
 	boolean RegisterStudentForCourse(Student student, Course course);
+	boolean DeRegisterStudentFromCourse(Student student, Course course);
+	
 	boolean CancelCourse(Course course);
 	
 	boolean DestroyCourse(Course course);

@@ -11,9 +11,8 @@ public class TestCancelCourse {
 
 	@Test
 	public void testCancelCourse() {
-		University u = new University();
-		Course c = (Course) u.GetCourse(105104);
-		assertTrue(u.CancelCourse(c));
+		Course c = (Course) University.getInstance().GetCourse(105104);
+		assertTrue(University.getInstance().CancelCourse(c));
 	}
 
 }

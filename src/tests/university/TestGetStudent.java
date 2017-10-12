@@ -13,7 +13,7 @@ import server.logic.model.University;
 public class TestGetStudent {
 
 	@Test
-	public void testGetStudentSuccess() {
+	public void testGetStudent() {
 		List<Student> students = new ArrayList<Student>();
 		int[] studentNumberList = new int[]{101075401, 101075402};
 		String[] studentNameList = new String[]{"tom","jack"};
@@ -23,27 +23,8 @@ public class TestGetStudent {
 			students.add(s);
 		}
 		
-		University u = new University();
-		University.setStudents(students);
-		
-		assertEquals(students.get(0), u.GetStudent(101075401));
-	}
-	
-	@Test
-	public void testGetStudentFail() {
-		List<Student> students = new ArrayList<Student>();
-		int[] studentNumberList = new int[]{101075401, 101075402};
-		String[] studentNameList = new String[]{"tom","jack"};
-		boolean[] isFullTimeList = new boolean[]{true,false};
-		for(int i=0;i<studentNumberList.length;i++) {
-			Student s = new Student(studentNumberList[i], studentNameList[i], isFullTimeList[i]);
-			students.add(s);
-		}
-		
-		University u = new University();
-		University.setStudents(students);
-		
-		assertEquals(false, u.GetStudent(111075401));
+		University.getInstance().setStudents(students);
+		assertEquals(students.get(0), University.getInstance().GetStudent(101075401));
 	}
 
 }

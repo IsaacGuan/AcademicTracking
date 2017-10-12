@@ -7,7 +7,6 @@ import java.util.TimerTask;
 
 import org.apache.log4j.Logger;
 
-import server.network.StartServer;
 import utilities.Config;
 import utilities.Trace;
 
@@ -20,10 +19,12 @@ public class University implements UniversityInt {
 	static int maxCourseForPTStudent = 2;
 	static int passRate = 70;
 	
-	static List<Course> courses = new ArrayList<Course>();
-	static List<Student> students = new ArrayList<Student>();
+	List<Course> courses = new ArrayList<Course>();
+	List<Student> students = new ArrayList<Student>();
 	
 	final Timer timer = new Timer();
+	
+	static int currentstudent;
 	
 	private static class UniversityHolder {
 		private static final University INSTANCE = new University();
@@ -91,20 +92,28 @@ public class University implements UniversityInt {
 		University.universityCourses = universityCourses;
 	}
 
-	public static List<Course> getCourses() {
+	public List<Course> getCourses() {
 		return courses;
 	}
 
-	public static void setCourses(List<Course> courses) {
-		University.courses = courses;
+	public void setCourses(List<Course> courses) {
+		this.courses = courses;
 	}
 
-	public static List<Student> getStudents() {
+	public List<Student> getStudents() {
 		return students;
 	}
 
-	public static void setStudents(List<Student> students) {
-		University.students = students;
+	public void setStudents(List<Student> students) {
+		this.students = students;
+	}
+
+	public int getCurrentstudent() {
+		return currentstudent;
+	}
+
+	public void setCurrentstudent(int currentstudent) {
+		University.currentstudent = currentstudent;
 	}
 
 	@Override
@@ -120,39 +129,83 @@ public class University implements UniversityInt {
 	}
 	
 	@Override
-	public Object GetStudent(int number) {
+	public Student GetStudent(int number) {
 		// TODO Auto-generated method stub
-		int flag = 0;
 		Student student = null;
 		for (int i=0; i<students.size(); i++) {
 			if (students.get(i).StudentNumber() == number) {
-				flag = flag +1;
 				student = students.get(i);
 			}
 		}
-		if (flag!=0) {
-			return student;
-		} else {
-			return false;
-		}
+		return student;
 	}
 
 	@Override
-	public Object GetCourse(int mycode) {
+	public Course GetCourse(int mycode) {
 		// TODO Auto-generated method stub
-		int flag = 0;
 		Course course = null;
 		for (int i=0; i<courses.size(); i++) {
 			if (courses.get(i).Code() == mycode) {
-				flag = flag + 1;
 				course = courses.get(i);
 			}
 		}
-		if (flag!=0) {
-			return course;
-		} else {
-			return false;
+		return course;
+	}
+	
+	@Override
+	public boolean CheckCourse(int mycode) {
+		// TODO Auto-generated method stub
+		int flag = 0;
+		boolean result = true;
+		for (int i=0; i<courses.size(); i++) {
+			if (courses.get(i).Code() == mycode) {
+				flag = flag + 1;
+			}
 		}
+		if (flag!=0) {
+			result = true;
+		} else {
+			result = false;
+		}
+		return result;
+	}
+	
+	@Override
+	public boolean CheckStudent(int number) {
+		// TODO Auto-generated method stub
+		int flag = 0;
+		boolean result = true;
+		for (int i=0; i<students.size(); i++) {
+			if (students.get(i).StudentNumber() == number) {
+				flag = flag + 1;
+			}
+		}
+		if (flag!=0) {
+			result = true;
+		} else {
+			result = false;
+		}
+		return result;
+	}
+
+	@Override
+	public boolean LookupStudent(int number, String name) {
+		// TODO Auto-generated method stub
+		boolean result = true;
+		int flag = 0;
+		for (int i=0; i<students.size(); i++) {
+			int studentnumber = students.get(i).StudentNumber();
+			String studentname = students.get(i).Name();
+			if (studentnumber==number && studentname.equalsIgnoreCase(studentname)) {
+				flag = flag + 1;
+			}
+		}
+		if (flag!=0) {
+			result = true;
+		} else {
+			result = false;
+		}
+		return result;
 	}
 
 	@Override
@@ -162,6 +215,7 @@ public class University implements UniversityInt {
 			boolean isprojectcourse) {
 		// TODO Auto-generated method stub
 		boolean result = true;
+		/*
 		int flag = 0;
 		for (int i=0; i<courses.size(); i++) {
 			String coursetitle = courses.get(i).Title();
@@ -170,26 +224,20 @@ public class University implements UniversityInt {
 				flag = flag + 1;
 			}
 		}
-		long current = System.currentTimeMillis();
-		int a = (int) ((current - StartServer.start)/(Config.STIMULATED_DAY) - Config.OVERDUE);
-		if (a<=0) {
-			if (flag==0) {
-				if (!isprojectcourse) {
-					Course c = new Course(title, mycode, cap, enforcePrereqs, numberofmidterms, numberofassignments, hasafinal);
-					result=courses.add(c);
-					logger.info(String.format("Operation: Create New Course; Course Info:[%s,%d]; State: Success", title, mycode));
-				} else {
-					ProjectCourse c = new ProjectCourse(title, mycode, cap, enforcePrereqs, numberofmidterms, numberofassignments, hasafinal);
-					result = courses.add(c);
-					logger.info(String.format("Operation: Create New Project Course; Course Info:[%s,%d]; State: Success", title, mycode));
-				}
+		*/
+		if (!CheckCourse(mycode)) {
+			if (!isprojectcourse) {
+				Course c = new Course(title, mycode, cap, enforcePrereqs, numberofmidterms, numberofassignments, hasafinal);
+				result = courses.add(c);
+				logger.info(String.format("Operation: Create New Course; Course Info:[%s,%d]; State: Success", title, mycode));
 			} else {
-				result = false;
-				logger.info(String.format("Operation: Create New Course; Course Info:[%s,%d]; State: Fail; Reason: The course already existed.", title, mycode));
+				ProjectCourse c = new ProjectCourse(title, mycode, cap,enforcePrereqs, numberofmidterms, numberofassignments,hasafinal);
+				result = courses.add(c);
+				logger.info(String.format("Operation: Create New Project Course; Course Info:[%s,%d]; State: Success", title, mycode));
 			}
 		} else {
 			result = false;
-			logger.info(String.format("Operation: Create New Course; Course Info:[%s,%d]; State: Fail; Reason: Overdue.", title, mycode));
+			logger.info(String.format("Operation: Create New Course; Course Info:[%s,%d]; State: Fail; Reason: The course already existed.", title, mycode));
 		}
 		return result;
 	}
@@ -199,6 +247,7 @@ public class University implements UniversityInt {
 			boolean isfulltime) {
 		// TODO Auto-generated method stub
 		boolean result = true;
+		/*
 		int flag = 0;
 		for (int i=0; i<students.size(); i++) {
 			int studentnumber = students.get(i).StudentNumber();
@@ -206,20 +255,14 @@ public class University implements UniversityInt {
 				flag = flag + 1;
 			}
 		}
-		long current = System.currentTimeMillis();
-		int a = (int) ((current - StartServer.start)/(Config.STIMULATED_DAY) - Config.OVERDUE);
-		if (a<=0) {
-			if (flag==0) {
-				Student s = new Student(number, name, isfulltime);
-				result = students.add(s);
-				logger.info(String.format("Operation: Create New Student; Student Info:[%d,%s]; State: Success", number, name));
-			} else {
-				result = false;
-				logger.info(String.format("Operation: Create New Student; Student Info:[%d,%s]; State: Fail; Reason: The student already existed.", number, name));
-			}
+		*/
+		if (!CheckStudent(number)) {
+			Student s = new Student(number, name, isfulltime);
+			result = students.add(s);
+			logger.info(String.format("Operation: Create New Student; Student Info:[%d,%s]; State: Success", number, name));
 		} else {
 			result = false;
-			logger.info(String.format("Operation: Create New Student; Student Info:[%d,%s]; State: Fail; Reason: Overdue.", number, name));
+			logger.info(String.format("Operation: Create New Student; Student Info:[%d,%s]; State: Fail; Reason: The student already existed.", number, name));
 		}
 		return result;
 	}
@@ -228,6 +271,7 @@ public class University implements UniversityInt {
 	public boolean RegisterStudentForCourse(Student student, Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
+		/*
 		int flag1 = 0;
 		int flag2 = 0;
 		for (int i=0; i<courses.size(); i++) {
@@ -240,19 +284,27 @@ public class University implements UniversityInt {
 				flag2 = flag2 + 1;
 			}
 		}
-		long current = System.currentTimeMillis();
-		int a = (int) ((current - StartServer.start)/(Config.STIMULATED_DAY) - Config.REGISTRATION_START);
-		if (a>=0) {
-			if (flag1!=0 && flag2!=0) {
-				result = student.RegisterCourse(course) && course.AddStudent(student);
-				logger.info(String.format("Operation: student %d register course %d; State: Success", student.StudentNumber(), course.Code()));
-			} else {
-				result = false;
-				logger.info(String.format("Operation: student %d register course %d; State: Fail; Reason: The student or course doesn't exist.", student.StudentNumber(), course.Code()));
-			}
+		*/
+		if (CheckCourse(course.Code()) && CheckStudent(student.StudentNumber()) && student.IsSelected(course)) {
+			result = student.RegisterCourse(course) && course.AddStudent(student);
+			logger.info(String.format("Operation: student %d register course %d; State: Success", student.StudentNumber(), course.Code()));
 		} else {
 			result = false;
-			logger.info(String.format("Operation: student %d register course %d; State: Fail; Reason: Registration has not started.", student.StudentNumber(), course.Code()));
+			logger.info(String.format("Operation: student %d register course %d; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.", student.StudentNumber(), course.Code()));
+		}
+		return result;
+	}
+	
+	@Override
+	public boolean DeRegisterStudentFromCourse(Student student, Course course) {
+		// TODO Auto-generated method stub
+		boolean result = true;
+		if (CheckCourse(course.Code()) && CheckStudent(student.StudentNumber()) && student.IsRegistered(course)) {
+			result = student.DeRegisterCourse(course) && course.RemoveStudent(student);
+			logger.info(String.format("Operation: student %d deregister course %d; State: Success", student.StudentNumber(), course.Code()));
+		} else {
+			result = false;
+			logger.info(String.format("Operation: student %d deregister course %d; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.", student.StudentNumber(), course.Code()));
 		}
 		return result;
 	}
@@ -261,13 +313,15 @@ public class University implements UniversityInt {
 	public boolean CancelCourse(Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
+		/*
 		int flag = 0;
 		for (int i=0; i<courses.size(); i++) {
 			if (courses.get(i).Code()==course.Code()) {
 				flag = flag + 1;
 			}
 		}
-		if (flag != 0) {
+		*/
+		if (CheckCourse(course.Code())) {
 			List<Student> s = new ArrayList<Student>();
 			for (int i=0; i<s.size(); i++){
 				course.RemoveStudent(s.get(i));
@@ -286,13 +340,15 @@ public class University implements UniversityInt {
 	public boolean DestroyCourse(Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
+		/*
 		int flag = 0;
 		for (int i=0; i<courses.size(); i++) {
 			if (courses.get(i).Code()==course.Code()) {
 				flag = flag + 1;
 			}
 		}
-		if (flag != 0) {
+		*/
+		if (CheckCourse(course.Code())) {
 			List<Student> s = new ArrayList<Student>();
 			for (int i=0; i<s.size(); i++){
 				course.RemoveStudent(s.get(i));
@@ -311,13 +367,15 @@ public class University implements UniversityInt {
 	public boolean DestroyStudent(Student student) {
 		// TODO Auto-generated method stub
 		boolean result = true;
+		/*
 		int flag = 0;
 		for (int i=0; i<students.size(); i++) {
 			if (students.get(i).StudentNumber()==student.StudentNumber()) {
 				flag = flag + 1;
 			}
 		}
-		if (flag != 0) {
+		*/
+		if (CheckStudent(student.StudentNumber())) {
 			List<Course> c = new ArrayList<Course>();
 			for (int i=0; i<c.size(); i++){
 				student.DeRegisterCourse(c.get(i));

@@ -10,7 +10,6 @@ public class Client {
 	public Client(ServerThread client,int state){
 		this.client=client;
 		this.state=state;
-		
 	}
 	
 	public ServerThread getClient() {

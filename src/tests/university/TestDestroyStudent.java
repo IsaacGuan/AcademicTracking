@@ -11,9 +11,8 @@ public class TestDestroyStudent {
 
 	@Test
 	public void testDestroyStudent() {
-		University u = new University();
-		Student s = (Student) u.GetStudent(101075401);
-		assertTrue(u.DestroyStudent(s));
+		Student s = (Student) University.getInstance().GetStudent(101075401);
+		assertTrue(University.getInstance().DestroyStudent(s));
 	}
 
 }

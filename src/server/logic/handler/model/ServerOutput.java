@@ -8,7 +8,6 @@ public class ServerOutput {
 	public ServerOutput(String output,int state){
 		this.output=output;
 		this.state=state;
-		
 	}
 	
 	public String getOutput() {

@@ -8,7 +8,7 @@ public class Config {
 	//20 seconds for 1 day
 	public static final int STIMULATED_DAY = 1 * 20 * 1000;
 	public static final int OVERDUE = 20;
-	public static final int REGISTRATION_START = 14;
+	public static final int REGISTRATION_LASTS = 14;
 	public static final String CLERK_PASSWORD = "admin";
 	
 }

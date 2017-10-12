@@ -165,6 +165,10 @@ public class Course implements CourseInt {
 		this.enrollStudent = enrollStudent;
 	}
 
+	public String toString(){
+		return this.myCode + ", " + this.title;
+	}
+	
 	@Override
 	public String Title() {
 		// TODO Auto-generated method stub
@@ -278,9 +282,11 @@ public class Course implements CourseInt {
 			Student key = (Student)iterator.next();
 			if (student.equals(key)) {
 				enrollStudent.remove(student);
+				logger.info(String.format("Operation: Remove Student %d from Course %d; State: Success", student.StudentNumber(), this.myCode));
 				return true;
 			}
 		}
+		logger.info(String.format("Operation: Remove Student %d from Course %d; State: Fail; Reason: The Student has registered.", student.StudentNumber(), this.myCode));
 		return false;
 	}
 	

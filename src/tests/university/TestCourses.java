@@ -27,9 +27,8 @@ public class TestCourses {
 		courses.add(c4);
 		courses.add(c5);
 		
-		University u = new University();
-		University.setCourses(courses);
-		assertEquals(u.Courses(), courses);
+		University.getInstance().setCourses(courses);
+		assertEquals(courses, University.getInstance().Courses());
 	}
 
 }

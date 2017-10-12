@@ -8,7 +8,6 @@ public class Output {
 	public Output(String output,int state){
 		this.output=output;
 		this.state=state;
-		
 	}
 	
 	public String toString(){
