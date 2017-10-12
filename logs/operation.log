@@ -2144,4 +2144,193 @@ Available Course List:
 @2017-10-11 23:35:41 INFO  String:331 - Operation: cancel course 105104; State: Success
 @2017-10-11 23:35:41 INFO  String:358 - Operation: delete course 105104; State: Success
 @2017-10-11 23:35:41 INFO  String:385 - Operation: delete student 101075401; State: Success
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 13:58:07 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 13:58:07 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 13:58:07 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 13:58:07 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 13:58:07 INFO  String:131 - Operation: student 101075401 select course 105008; State: Fail; Reason: student currently take this course or s has completed this course
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 13:58:07 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 13:58:07 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 13:58:07 INFO  String:155 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105305; State: Success
+@2017-10-12 13:58:07 INFO  String:155 - Operation: student 101075401 register course 105305; State: Success
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105001; State: Success
+@2017-10-12 13:58:07 INFO  String:148 - Operation: student 101075401 register course 105001; State: Fail; Reason: over registered
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 13:58:07 INFO  String:145 - Operation: student 101075401 register course 105003; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 13:58:07 INFO  String:155 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-12 13:58:07 INFO  String:166 - Operation: student 101075401 drop course 105104; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 13:58:07 INFO  String:169 - Operation: student 101075401 drop course 105104; State: Success
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 13:58:07 INFO  String:180 - Operation: student 101075401 deregister course 105104; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-12 13:58:07 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 13:58:07 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 13:58:07 INFO  String:183 - Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:04:34 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:04:34 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:04:34 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:04:34 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 14:04:34 INFO  String:131 - Operation: student 101075401 select course 105008; State: Fail; Reason: student currently take this course or s has completed this course
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:04:34 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:04:34 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:04:34 INFO  String:155 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105305; State: Success
+@2017-10-12 14:04:34 INFO  String:155 - Operation: student 101075401 register course 105305; State: Success
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105001; State: Success
+@2017-10-12 14:04:34 INFO  String:148 - Operation: student 101075401 register course 105001; State: Fail; Reason: over registered
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:04:34 INFO  String:145 - Operation: student 101075401 register course 105003; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:04:34 INFO  String:155 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-12 14:04:34 INFO  String:166 - Operation: student 101075401 drop course 105104; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:04:34 INFO  String:169 - Operation: student 101075401 drop course 105104; State: Success
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:04:34 INFO  String:180 - Operation: student 101075401 deregister course 105104; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-12 14:04:34 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:04:34 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:04:34 INFO  String:183 - Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:05:00 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:05:00 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 14:05:00 INFO  String:131 - Operation: student 101075401 select course 105008; State: Fail; Reason: student currently take this course or s has completed this course
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:05:00 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:05:00 INFO  String:155 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105305; State: Success
+@2017-10-12 14:05:00 INFO  String:155 - Operation: student 101075401 register course 105305; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105001; State: Success
+@2017-10-12 14:05:00 INFO  String:148 - Operation: student 101075401 register course 105001; State: Fail; Reason: over registered
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:05:00 INFO  String:145 - Operation: student 101075401 register course 105003; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:05:00 INFO  String:155 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-12 14:05:00 INFO  String:166 - Operation: student 101075401 drop course 105104; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:169 - Operation: student 101075401 drop course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:180 - Operation: student 101075401 deregister course 105104; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:183 - Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:05:00 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 14:05:00 INFO  String:267 - Operation: Add Student 101075401 to Course 105008; State: Success
+@2017-10-12 14:05:00 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:05:00 INFO  String:155 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-12 14:05:00 INFO  String:267 - Operation: Add Student 101075401 to Course 105003; State: Success
+@2017-10-12 14:05:37 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:05:37 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:05:37 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-12 14:05:37 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:05:37 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 14:05:37 INFO  String:267 - Operation: Add Student 101075401 to Course 105008; State: Success
+@2017-10-12 14:05:37 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:05:37 INFO  String:155 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-12 14:05:37 INFO  String:267 - Operation: Add Student 101075401 to Course 105003; State: Success
+@2017-10-12 14:05:49 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:05:49 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:05:49 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-12 14:05:49 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:05:49 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 14:05:49 INFO  String:267 - Operation: Add Student 101075401 to Course 105008; State: Success
+@2017-10-12 14:05:49 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:05:49 INFO  String:155 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-12 14:05:49 INFO  String:267 - Operation: Add Student 101075401 to Course 105003; State: Success
+@2017-10-12 14:06:32 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:06:32 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:06:32 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-12 14:06:32 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:06:32 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 14:06:32 INFO  String:267 - Operation: Add Student 101075401 to Course 105008; State: Success
+@2017-10-12 14:06:32 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:06:32 INFO  String:155 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-12 14:06:32 INFO  String:267 - Operation: Add Student 101075401 to Course 105003; State: Success
+@2017-10-12 14:07:40 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:07:40 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:07:40 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-12 14:07:40 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:07:40 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 14:07:40 INFO  String:267 - Operation: Add Student 101075401 to Course 105008; State: Success
+@2017-10-12 14:07:40 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:07:40 INFO  String:155 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-12 14:07:40 INFO  String:267 - Operation: Add Student 101075401 to Course 105003; State: Success
+@2017-10-12 14:08:09 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:08:09 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:08:09 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-12 14:08:09 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:08:09 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 14:08:09 INFO  String:267 - Operation: Add Student 101075401 to Course 105008; State: Success
+@2017-10-12 14:08:09 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:08:09 INFO  String:155 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-12 14:08:09 INFO  String:267 - Operation: Add Student 101075401 to Course 105003; State: Success
+@2017-10-12 14:08:15 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:08:15 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:08:15 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-12 14:08:15 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:08:15 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 14:08:15 INFO  String:267 - Operation: Add Student 101075401 to Course 105008; State: Success
+@2017-10-12 14:08:15 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:08:15 INFO  String:155 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-12 14:08:15 INFO  String:267 - Operation: Add Student 101075401 to Course 105003; State: Success
+@2017-10-12 14:08:20 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:08:20 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:08:20 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-12 14:08:20 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:08:20 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 14:08:20 INFO  String:267 - Operation: Add Student 101075401 to Course 105008; State: Success
+@2017-10-12 14:08:20 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:08:20 INFO  String:155 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-12 14:08:20 INFO  String:267 - Operation: Add Student 101075401 to Course 105003; State: Success
+@2017-10-12 14:08:24 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
+@2017-10-12 14:08:24 INFO  String:155 - Operation: student 101075401 register course 105104; State: Success
+@2017-10-12 14:08:24 INFO  String:267 - Operation: Add Student 101075401 to Course 105104; State: Success
+@2017-10-12 14:08:24 INFO  String:134 - Operation: student 101075401 select course 105008; State: Success
+@2017-10-12 14:08:24 INFO  String:155 - Operation: student 101075401 register course 105008; State: Success
+@2017-10-12 14:08:24 INFO  String:267 - Operation: Add Student 101075401 to Course 105008; State: Success
+@2017-10-12 14:08:24 INFO  String:134 - Operation: student 101075401 select course 105003; State: Success
+@2017-10-12 14:08:24 INFO  String:155 - Operation: student 101075401 register course 105003; State: Success
+@2017-10-12 14:08:24 INFO  String:267 - Operation: Add Student 101075401 to Course 105003; State: Success
 @

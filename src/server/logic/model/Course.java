@@ -262,7 +262,7 @@ public class Course implements CourseInt {
 				}
 			}
 			if (flag==0) {
-				enrollStudent.put(student, 0);
+				enrollStudent.put(student, GenerateMark());
 				result = true;
 				logger.info(String.format("Operation: Add Student %d to Course %d; State: Success", student.StudentNumber(), this.myCode));
 			}
@@ -325,6 +325,11 @@ public class Course implements CourseInt {
 			int wf = 100 - s;
 			setWeightOfFinal(wf);
 		}
+	}
+	
+	public int GenerateMark() {
+		Random random = new Random();
+		return random.nextInt(25)+75;
 	}
 
 }

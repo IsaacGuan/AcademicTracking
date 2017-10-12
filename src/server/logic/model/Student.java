@@ -10,9 +10,6 @@ import utilities.Trace;
 public class Student implements StudentInt {
 	
 	private Logger logger = Trace.getInstance().getLogger("opreation_file");
-	
-	public static final int MAX_FT = 4;
-	public static final int MAX_PT = 2;
 
 	int studentNumber;
 	String studentName;
@@ -210,6 +207,20 @@ public class Student implements StudentInt {
 		} else {
 			return false;
 		}
+	}
+
+	@Override
+	public int AverageMark() {
+		// TODO Auto-generated method stub
+		int sum = 0;
+		int average = 0;
+		for (int i=0; i<registeredCourses.size(); i++) {
+			sum = sum + registeredCourses.get(i).MarkForStudent(this);
+		}
+		if (registeredCourses.size()!=0) {
+			average = sum / registeredCourses.size();
+		}
+		return average;
 	}
 
 }

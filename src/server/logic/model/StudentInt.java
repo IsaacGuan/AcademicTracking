@@ -16,5 +16,7 @@ public interface StudentInt {
 	boolean RegisterCourse(Course course);
 	boolean DropCourse(Course course);
 	boolean DeRegisterCourse(Course course);
+	
+	int AverageMark();
 
 }
