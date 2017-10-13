@@ -2,12 +2,9 @@ package server.logic.model;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
 
 import org.apache.log4j.Logger;
 
-import utilities.Config;
 import utilities.Trace;
 
 public class University implements UniversityInt {
@@ -22,8 +19,6 @@ public class University implements UniversityInt {
 	List<Course> courses = new ArrayList<Course>();
 	List<Student> students = new ArrayList<Student>();
 	
-	final Timer timer = new Timer();
-	
 	static int currentstudent;
 	
 	private static class UniversityHolder {
@@ -35,22 +30,8 @@ public class University implements UniversityInt {
 		InitializeCourses();
 		InitializeStudents();
 		universityCourses = courses.size();
-		timer.schedule(new TimerTask() {
-			
-			@Override
-			public void run() {
-				// TODO Auto-generated method stub
-				TermEnds();
-			}
-			
-		}, 84 * Config.STIMULATED_DAY);
 		logger.info(String.format("Operation:Initialize University;courses: %s", courses));
 		logger.info(String.format("Operation:Initialize University;courses: %s", students));
-	}
-	
-	private void TermEnds() {
-		// TODO Auto-generated method stub
-		
 	}
 
 	public static final University getInstance() {

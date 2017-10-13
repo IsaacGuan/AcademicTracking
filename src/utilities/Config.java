@@ -9,6 +9,7 @@ public class Config {
 	public static final int STIMULATED_DAY = 1 * 20 * 1000;
 	public static final int OVERDUE = 20;
 	public static final int REGISTRATION_LASTS = 14;
+	public static final int TERM_LASTS = 118;
 	public static final String CLERK_PASSWORD = "admin";
 	
 }

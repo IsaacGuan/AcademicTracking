@@ -2372,4 +2372,37 @@ Available Course List:
 @2017-10-12 17:00:34 INFO  String:134 - Operation: student 101075401 select course 105104; State: Success
 @2017-10-12 17:00:34 INFO  String:293 - Operation: student 101075401 register course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
 @2017-10-12 17:00:34 INFO  String:293 - Operation: student 101075401 register course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-13 13:12:20 INFO  ATServer:31 - Binding to port 5050
+@2017-10-13 13:12:20 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 10
+@2017-10-13 13:12:20 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-13 13:12:20 INFO  String:53 - Operation: Initialize CourseList; Students: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-13 13:12:20 INFO  String:65 - Operation: Initialize StudentList; Students: [101075401, tom, 101075402, jack]
+@2017-10-13 13:12:20 INFO  String:33 - Operation:Initialize University;courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-13 13:12:20 INFO  String:34 - Operation:Initialize University;courses: [101075401, tom, 101075402, jack]
+@2017-10-13 13:12:31 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:6073] Client Socket: [6073  ]
+
+@2017-10-13 13:12:31 INFO  ATClient:31 - 6073 : Connected to server: /127.0.0.1
+@2017-10-13 13:12:31 INFO  ATClient:32 - 6073 : Connected to portid: 6073
+@2017-10-13 13:12:31 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-13 13:12:31 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__6073
+@2017-10-13 13:12:32 INFO  ATServer:97 - Input from 127.0.0.1:6073 
+@2017-10-13 13:12:32 INFO  ATServer:114 - Output to 127.0.0.1:6073 Who Are you? Clerk or Student?
+
+@2017-10-13 13:12:35 INFO  ATServer:97 - Input from 127.0.0.1:6073 clerk
+@2017-10-13 13:12:35 INFO  ATServer:106 - Output to 127.0.0.1:6073 Please Input The Password:
+
+@2017-10-13 13:12:38 INFO  ATServer:97 - Input from 127.0.0.1:6073 admin
+@2017-10-13 13:12:38 INFO  ATServer:106 - Output to 127.0.0.1:6073 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.
+
+@2017-10-13 13:13:56 INFO  ATServer:97 - Input from 127.0.0.1:6073 dean's list
+@2017-10-13 13:13:56 INFO  ATServer:106 - Output to 127.0.0.1:6073 The Dean's List:
+
+@2017-10-13 13:13:58 INFO  ATServer:97 - Input from 127.0.0.1:6073 
+@2017-10-13 13:13:58 INFO  ATServer:106 - Output to 127.0.0.1:6073 
+
+@2017-10-13 13:13:59 INFO  ATServer:97 - Input from 127.0.0.1:6073 
+@2017-10-13 13:13:59 INFO  ATServer:106 - Output to 127.0.0.1:6073 Who Are you? Clerk or Student?
+
+@2017-10-13 13:14:10 INFO  ServerThread:61 - Class: ServerThread: Exception thrown : Connection reset 
+
 @

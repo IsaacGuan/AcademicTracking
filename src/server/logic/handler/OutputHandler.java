@@ -31,7 +31,7 @@ public class OutputHandler {
 	public Output clerkLogin(String input) {
 		Output output = new Output("", 0);
 		if (input.equalsIgnoreCase(Config.CLERK_PASSWORD)) {
-			output.setOutput("What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.");
+			output.setOutput("What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.");
 			output.setState(CLERK);
 		} else {
 			output.setOutput("Wrong Password! Please Input The Password:");
@@ -84,7 +84,11 @@ public class OutputHandler {
 		boolean result = true;
 		long current = System.currentTimeMillis();
 		int a = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.OVERDUE);
-		if (a <= 0) {
+		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
+		if (b > 0) {
+			output.setOutput("Term Ends!");
+			output.setState(CLERK);
+		} else if (a <= 0) {
 			if (strArray.length != 8) {
 				output.setOutput("Your input should be in this format: 'title, course code, capsize, enforce prereqs(y/n), number of midterms, number of assignments, has a final(y/n), is project course(y/n)'");
 				output.setState(CREATECOURSE);
@@ -168,7 +172,11 @@ public class OutputHandler {
 		boolean result = true;
 		long current = System.currentTimeMillis();
 		int a = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.OVERDUE);
-		if (a <= 0) {
+		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
+		if (b > 0) {
+			output.setOutput("Term Ends!");
+			output.setState(CLERK);
+		} else if (a <= 0) {
 			if (strArray.length != 3) {
 				output.setOutput("Your input should be in this format: 'student number, name, is fulltime(y/n)'");
 				output.setState(CREATESTUDENT);
@@ -217,7 +225,12 @@ public class OutputHandler {
 		Pattern pattern = Pattern.compile("[0-9]*");
 		Matcher isNum = pattern.matcher(code);
 		boolean result = true;
-		if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
+		long current = System.currentTimeMillis();
+		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
+		if (b > 0) {
+			output.setOutput("Term Ends!");
+			output.setState(CLERK);
+		} else if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
 			output.setOutput("Your input should be in correct format.");
 			output.setState(CANCELCOURSE);
 		} else if (Integer.parseInt(code) < 100000
@@ -249,7 +262,12 @@ public class OutputHandler {
 		Pattern pattern = Pattern.compile("[0-9]*");
 		Matcher isNum = pattern.matcher(code);
 		boolean result = true;
-		if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
+		long current = System.currentTimeMillis();
+		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
+		if (b > 0) {
+			output.setOutput("Term Ends!");
+			output.setState(CLERK);
+		} else if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
 			output.setOutput("Your input should be in correct format.");
 			output.setState(DELETECOURSE);
 		} else if (Integer.parseInt(code) < 100000
@@ -280,7 +298,12 @@ public class OutputHandler {
 		Pattern pattern = Pattern.compile("[0-9]*");
 		Matcher isNum = pattern.matcher(number);
 		boolean result = true;
-		if (!isNum.matches()) {
+		long current = System.currentTimeMillis();
+		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
+		if (b > 0) {
+			output.setOutput("Term Ends!");
+			output.setState(CLERK);
+		} else if (!isNum.matches()) {
 			output.setOutput("Your input should be in correct format.");
 			output.setState(DELETESTUDENT);
 		} else if (Integer.parseInt(number) < 100000000
@@ -311,7 +334,12 @@ public class OutputHandler {
 		Pattern pattern = Pattern.compile("[0-9]*");
 		Matcher isNum = pattern.matcher(code);
 		boolean result = true;
-		if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
+		long current = System.currentTimeMillis();
+		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
+		if (b > 0) {
+			output.setOutput("Term Ends!");
+			output.setState(STUDENT);
+		} else if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
 			output.setOutput("Your input should be in correct format.");
 			output.setState(SELECTCOURSE);
 		} else if (Integer.parseInt(code) < 100000
@@ -346,7 +374,11 @@ public class OutputHandler {
 		boolean result = true;
 		long current = System.currentTimeMillis();
 		int a = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.OVERDUE);
-		if (a < 0) {
+		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
+		if (b > 0) {
+			output.setOutput("Term Ends!");
+			output.setState(STUDENT);
+		} else if (a < 0) {
 			output.setOutput("Registration Has not Started!");
 			output.setState(STUDENT);
 		} else if (a > Config.REGISTRATION_LASTS) {
@@ -390,7 +422,12 @@ public class OutputHandler {
 		Pattern pattern = Pattern.compile("[0-9]*");
 		Matcher isNum = pattern.matcher(code);
 		boolean result = true;
-		if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
+		long current = System.currentTimeMillis();
+		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
+		if (b > 0) {
+			output.setOutput("Term Ends!");
+			output.setState(STUDENT);
+		} else if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
 			output.setOutput("Your input should be in correct format.");
 			output.setState(DROPCOURSE);
 		} else if (Integer.parseInt(code) < 100000
@@ -423,7 +460,12 @@ public class OutputHandler {
 		Pattern pattern = Pattern.compile("[0-9]*");
 		Matcher isNum = pattern.matcher(code);
 		boolean result = true;
-		if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
+		long current = System.currentTimeMillis();
+		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
+		if (b > 0) {
+			output.setOutput("Term Ends!");
+			output.setState(STUDENT);
+		} else if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
 			output.setOutput("Your input should be in correct format.");
 			output.setState(DEREGISTERCOURSE);
 		} else if (Integer.parseInt(code) < 100000
@@ -448,6 +490,24 @@ public class OutputHandler {
 				output.setOutput("Unable to Deregister from This Course!");
 			}
 			output.setState(STUDENT);
+		}
+		return output;
+	}
+	
+	public Output deansList() {
+		Output output = new Output("", 0);
+		long current = System.currentTimeMillis();
+		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
+		if (b < 0) {
+			output.setOutput("Dean's List not Generated!");
+			output.setState(CLERK);
+		} else {
+			String o = "";
+			for (int i=0; i<University.getInstance().DeansList().size(); i++) {
+				o = o + "\n" + University.getInstance().DeansList().get(i).toString();
+			}
+			output.setOutput(o);
+			output.setState(CLERK);
 		}
 		return output;
 	}

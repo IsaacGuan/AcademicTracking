@@ -111,18 +111,24 @@ public class InputHandler {
 				state = DELETESTUDENT;
 				oo.setOutput(output);
 				oo.setState(state);
+			} else if (input.equalsIgnoreCase("dean's list")) {
+				o = outputHandler.deansList();
+				output = o.getOutput();
+				state = o.getState();
+				oo.setOutput(output);
+				oo.setState(state);
 			} else if (input.equalsIgnoreCase("log out")) {
 				output = "Successfully Log Out!";
 				state = WAITING;
 				oo.setOutput(output);
 				oo.setState(state);
 			} else if (input.equalsIgnoreCase("main menu")) {
-				output = "What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.";
+				output = "What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.";
 				state = CLERK;
 				oo.setOutput(output);
 				oo.setState(state);
 			} else {
-				output = "Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course.";
+				output = "Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.";
 				state = CLERK;
 				oo.setOutput(output);
 				oo.setState(state);
@@ -223,7 +229,7 @@ public class InputHandler {
 				oo.setOutput(output);
 				oo.setState(state);
 			} else if (input.equalsIgnoreCase("main menu")) {
-				output = "What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.";
+				output = "What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.";
 				state = CLERK;
 				oo.setOutput(output);
 				oo.setState(state);
@@ -241,7 +247,7 @@ public class InputHandler {
 				oo.setOutput(output);
 				oo.setState(state);
 			} else if (input.equalsIgnoreCase("main menu")) {
-				output = "What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.";
+				output = "What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.";
 				state = CLERK;
 				oo.setOutput(output);
 				oo.setState(state);
@@ -259,7 +265,7 @@ public class InputHandler {
 				oo.setOutput(output);
 				oo.setState(state);
 			} else if (input.equalsIgnoreCase("main menu")) {
-				output = "What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.";
+				output = "What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.";
 				state = CLERK;
 				oo.setOutput(output);
 				oo.setState(state);
@@ -277,7 +283,7 @@ public class InputHandler {
 				oo.setOutput(output);
 				oo.setState(state);
 			} else if (input.equalsIgnoreCase("main menu")) {
-				output = "What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.";
+				output = "What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.";
 				state = CLERK;
 				oo.setOutput(output);
 				oo.setState(state);
@@ -295,7 +301,7 @@ public class InputHandler {
 				oo.setOutput(output);
 				oo.setState(state);
 			} else if (input.equalsIgnoreCase("main menu")) {
-				output = "What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course.";
+				output = "What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.";
 				state = CLERK;
 				oo.setOutput(output);
 				oo.setState(state);
