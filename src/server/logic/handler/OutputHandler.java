@@ -7,7 +7,6 @@ import server.logic.handler.model.Output;
 import server.logic.model.Course;
 import server.logic.model.Student;
 import server.logic.model.University;
-import server.network.StartServer;
 import utilities.Config;
 
 public class OutputHandler {
@@ -34,7 +33,7 @@ public class OutputHandler {
 			output.setOutput("What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.");
 			output.setState(CLERK);
 		} else {
-			output.setOutput("Wrong Password! Please Input The Password:");
+			output.setOutput("Wrong password! Please input the password:");
 			output.setState(CLERKLOGIN);
 		}
 		return output;
@@ -82,13 +81,15 @@ public class OutputHandler {
 		String[] strArray = null;
 		strArray = input.split(",");
 		boolean result = true;
+		/*
 		long current = System.currentTimeMillis();
 		int a = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.OVERDUE);
 		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
-		if (b > 0) {
-			output.setOutput("Term Ends!");
+		*/
+		if (Config.TERM_ENDS) {
+			output.setOutput("Term ends!");
 			output.setState(CLERK);
-		} else if (a <= 0) {
+		} else if (!Config.REGISTRATION_STARTS) {
 			if (strArray.length != 8) {
 				output.setOutput("Your input should be in this format: 'title, course code, capsize, enforce prereqs(y/n), number of midterms, number of assignments, has a final(y/n), is project course(y/n)'");
 				output.setState(CREATECOURSE);
@@ -170,13 +171,15 @@ public class OutputHandler {
 		String[] strArray = null;
 		strArray = input.split(",");
 		boolean result = true;
+		/*
 		long current = System.currentTimeMillis();
 		int a = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.OVERDUE);
 		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
-		if (b > 0) {
-			output.setOutput("Term Ends!");
+		*/
+		if (Config.TERM_ENDS) {
+			output.setOutput("Term ends!");
 			output.setState(CLERK);
-		} else if (a <= 0) {
+		} else if (!Config.REGISTRATION_STARTS) {
 			if (strArray.length != 3) {
 				output.setOutput("Your input should be in this format: 'student number, name, is fulltime(y/n)'");
 				output.setState(CREATESTUDENT);
@@ -207,7 +210,7 @@ public class OutputHandler {
 					if (result) {
 						output.setOutput("Success!");
 					} else {
-						output.setOutput("The Student Already Exists!");
+						output.setOutput("The student already exists!");
 					}
 					output.setState(CLERK);
 				}
@@ -225,33 +228,41 @@ public class OutputHandler {
 		Pattern pattern = Pattern.compile("[0-9]*");
 		Matcher isNum = pattern.matcher(code);
 		boolean result = true;
+		/*
 		long current = System.currentTimeMillis();
 		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
-		if (b > 0) {
-			output.setOutput("Term Ends!");
+		*/
+		if (Config.TERM_ENDS) {
+			output.setOutput("Term ends!");
 			output.setState(CLERK);
-		} else if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
-			output.setOutput("Your input should be in correct format.");
-			output.setState(CANCELCOURSE);
-		} else if (Integer.parseInt(code) < 100000
-				|| Integer.parseInt(code) > 999999) {
-			output.setOutput("The length of course code must be 6.");
-			output.setState(CANCELCOURSE);
-		} else {
-			if (University.getInstance().CheckCourse(Integer.parseInt(code)) == false) {
-				output.setOutput("The Course Does Not Exist!");
+		} else if (Config.REGISTRATION_ENDS) {
+			if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
+				output.setOutput("Your input should be in correct format.");
+				output.setState(CANCELCOURSE);
+			} else if (Integer.parseInt(code) < 100000
+					|| Integer.parseInt(code) > 999999) {
+				output.setOutput("The length of course code must be 6.");
 				output.setState(CANCELCOURSE);
 			} else {
-				Course c = (Course) University.getInstance().GetCourse(
-						Integer.parseInt(code));
-				result = University.getInstance().CancelCourse(c);
-				if (result) {
-					output.setOutput("Success!");
+				if (University.getInstance()
+						.CheckCourse(Integer.parseInt(code)) == false) {
+					output.setOutput("The Course Does Not Exist!");
+					output.setState(CANCELCOURSE);
 				} else {
-					output.setOutput("Fail to Cancel!");
+					Course c = (Course) University.getInstance().GetCourse(
+							Integer.parseInt(code));
+					result = University.getInstance().CancelCourse(c);
+					if (result) {
+						output.setOutput("Success!");
+					} else {
+						output.setOutput("Fail to cancel!");
+					}
+					output.setState(CLERK);
 				}
-				output.setState(CLERK);
 			}
+		} else {
+			output.setOutput("Course cannot be canceled before registration ends!");
+			output.setState(CLERK);
 		}
 		return output;
 	}
@@ -262,10 +273,12 @@ public class OutputHandler {
 		Pattern pattern = Pattern.compile("[0-9]*");
 		Matcher isNum = pattern.matcher(code);
 		boolean result = true;
+		/*
 		long current = System.currentTimeMillis();
 		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
-		if (b > 0) {
-			output.setOutput("Term Ends!");
+		*/
+		if (Config.TERM_ENDS) {
+			output.setOutput("Term ends!");
 			output.setState(CLERK);
 		} else if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
 			output.setOutput("Your input should be in correct format.");
@@ -284,7 +297,7 @@ public class OutputHandler {
 				if (result) {
 					output.setOutput("Success!");
 				} else {
-					output.setOutput("Fail to Delete!");
+					output.setOutput("Fail to delete!");
 				}
 			}
 			output.setState(CLERK);
@@ -298,10 +311,12 @@ public class OutputHandler {
 		Pattern pattern = Pattern.compile("[0-9]*");
 		Matcher isNum = pattern.matcher(number);
 		boolean result = true;
+		/*
 		long current = System.currentTimeMillis();
 		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
-		if (b > 0) {
-			output.setOutput("Term Ends!");
+		*/
+		if (Config.TERM_ENDS) {
+			output.setOutput("Term ends!");
 			output.setState(CLERK);
 		} else if (!isNum.matches()) {
 			output.setOutput("Your input should be in correct format.");
@@ -320,7 +335,7 @@ public class OutputHandler {
 				if (result) {
 					output.setOutput("Success!");
 				} else {
-					output.setOutput("Fail to Delete!");
+					output.setOutput("Fail to delete!");
 				}
 			}
 			output.setState(CLERK);
@@ -334,10 +349,12 @@ public class OutputHandler {
 		Pattern pattern = Pattern.compile("[0-9]*");
 		Matcher isNum = pattern.matcher(code);
 		boolean result = true;
+		/*
 		long current = System.currentTimeMillis();
 		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
-		if (b > 0) {
-			output.setOutput("Term Ends!");
+		*/
+		if (Config.TERM_ENDS) {
+			output.setOutput("Term ends!");
 			output.setState(STUDENT);
 		} else if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
 			output.setOutput("Your input should be in correct format.");
@@ -348,7 +365,7 @@ public class OutputHandler {
 			output.setState(SELECTCOURSE);
 		} else if (!University.getInstance()
 				.CheckCourse(Integer.parseInt(code))) {
-			output.setOutput("The Course Does Not Exist!");
+			output.setOutput("The course does not exist!");
 			output.setState(SELECTCOURSE);
 		} else {
 			int studentnumber = University.getInstance().getCurrentstudent();
@@ -359,7 +376,7 @@ public class OutputHandler {
 			if (result) {
 				output.setOutput("Success!");
 			} else {
-				output.setOutput("Unable to Select This Course!");
+				output.setOutput("Unable to select this course!");
 			}
 			output.setState(STUDENT);
 		}
@@ -372,17 +389,19 @@ public class OutputHandler {
 		Pattern pattern = Pattern.compile("[0-9]*");
 		Matcher isNum = pattern.matcher(code);
 		boolean result = true;
+		/*
 		long current = System.currentTimeMillis();
 		int a = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.OVERDUE);
 		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
-		if (b > 0) {
-			output.setOutput("Term Ends!");
+		*/
+		if (Config.TERM_ENDS) {
+			output.setOutput("Term ends!");
 			output.setState(STUDENT);
-		} else if (a < 0) {
-			output.setOutput("Registration Has not Started!");
+		} else if (!Config.REGISTRATION_STARTS) {
+			output.setOutput("Registration has not started!");
 			output.setState(STUDENT);
-		} else if (a > Config.REGISTRATION_LASTS) {
-			output.setOutput("Registration Has Finished!");
+		} else if (Config.REGISTRATION_ENDS) {
+			output.setOutput("Registration has finished!");
 			output.setState(STUDENT);
 		} else {
 			if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
@@ -394,7 +413,7 @@ public class OutputHandler {
 				output.setState(REGISTERFORCOURSE);
 			} else if (!University.getInstance().CheckCourse(
 					Integer.parseInt(code))) {
-				output.setOutput("The Course Does Not Exist!");
+				output.setOutput("The course does not exist!");
 				output.setState(REGISTERFORCOURSE);
 			} else {
 				int studentnumber = University.getInstance()
@@ -408,7 +427,7 @@ public class OutputHandler {
 				if (result) {
 					output.setOutput("Success!");
 				} else {
-					output.setOutput("Unable to Register for This Course!");
+					output.setOutput("Unable to register for this course!");
 				}
 				output.setState(STUDENT);
 			}
@@ -422,10 +441,15 @@ public class OutputHandler {
 		Pattern pattern = Pattern.compile("[0-9]*");
 		Matcher isNum = pattern.matcher(code);
 		boolean result = true;
+		/*
 		long current = System.currentTimeMillis();
 		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
-		if (b > 0) {
-			output.setOutput("Term Ends!");
+		*/
+		if (Config.TERM_ENDS) {
+			output.setOutput("Term ends!");
+			output.setState(STUDENT);
+		} else if (!Config.REGISTRATION_ENDS) {
+			output.setOutput("You can only drop a course after the registration ends!");
 			output.setState(STUDENT);
 		} else if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
 			output.setOutput("Your input should be in correct format.");
@@ -436,7 +460,7 @@ public class OutputHandler {
 			output.setState(DROPCOURSE);
 		} else if (!University.getInstance()
 				.CheckCourse(Integer.parseInt(code))) {
-			output.setOutput("The Course Does Not Exist!");
+			output.setOutput("The course does not exist!");
 			output.setState(DROPCOURSE);
 		} else {
 			int studentnumber = University.getInstance().getCurrentstudent();
@@ -447,7 +471,7 @@ public class OutputHandler {
 			if (result) {
 				output.setOutput("Success!");
 			} else {
-				output.setOutput("Unable to Drop This Course!");
+				output.setOutput("Unable to drop this course!");
 			}
 			output.setState(STUDENT);
 		}
@@ -460,51 +484,66 @@ public class OutputHandler {
 		Pattern pattern = Pattern.compile("[0-9]*");
 		Matcher isNum = pattern.matcher(code);
 		boolean result = true;
+		/*
 		long current = System.currentTimeMillis();
 		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
-		if (b > 0) {
-			output.setOutput("Term Ends!");
+		*/
+		if (Config.TERM_ENDS) {
+			output.setOutput("Term ends!");
 			output.setState(STUDENT);
-		} else if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
-			output.setOutput("Your input should be in correct format.");
-			output.setState(DEREGISTERCOURSE);
-		} else if (Integer.parseInt(code) < 100000
-				|| Integer.parseInt(code) > 999999) {
-			output.setOutput("The length of course code must be 6.");
-			output.setState(DEREGISTERCOURSE);
-		} else if (!University.getInstance()
-				.CheckCourse(Integer.parseInt(code))) {
-			output.setOutput("The Course Does Not Exist!");
-			output.setState(DEREGISTERCOURSE);
+		} else if (!Config.REGISTRATION_STARTS) {
+			output.setOutput("Registration has not started!");
+			output.setState(STUDENT);
+		} else if (Config.REGISTRATION_ENDS) {
+			output.setOutput("Registration has finished!");
+			output.setState(STUDENT);
 		} else {
-			int studentnumber = University.getInstance().getCurrentstudent();
-			Student student = University.getInstance()
-					.GetStudent(studentnumber);
-			Course course = University.getInstance().GetCourse(
-					Integer.parseInt(code));
-			result = University.getInstance().DeRegisterStudentFromCourse(
-					student, course);
-			if (result) {
-				output.setOutput("Success!");
+			if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
+				output.setOutput("Your input should be in correct format.");
+				output.setState(DEREGISTERCOURSE);
+			} else if (Integer.parseInt(code) < 100000
+					|| Integer.parseInt(code) > 999999) {
+				output.setOutput("The length of course code must be 6.");
+				output.setState(DEREGISTERCOURSE);
+			} else if (!University.getInstance().CheckCourse(
+					Integer.parseInt(code))) {
+				output.setOutput("The Course Does Not Exist!");
+				output.setState(DEREGISTERCOURSE);
 			} else {
-				output.setOutput("Unable to Deregister from This Course!");
+				int studentnumber = University.getInstance()
+						.getCurrentstudent();
+				Student student = University.getInstance().GetStudent(
+						studentnumber);
+				Course course = University.getInstance().GetCourse(
+						Integer.parseInt(code));
+				result = University.getInstance().DeRegisterStudentFromCourse(
+						student, course);
+				if (result) {
+					output.setOutput("Success!");
+				} else {
+					output.setOutput("Unable to deregister from this course!");
+				}
+				output.setState(STUDENT);
 			}
-			output.setState(STUDENT);
 		}
 		return output;
 	}
 	
 	public Output deansList() {
 		Output output = new Output("", 0);
+		/*
 		long current = System.currentTimeMillis();
 		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
-		if (b < 0) {
-			output.setOutput("Dean's List not Generated!");
+		*/
+		if (!Config.TERM_ENDS) {
+			output.setOutput("Dean's list not generated!");
 			output.setState(CLERK);
 		} else {
+			/*
 			for (int i=0; i<University.getInstance().getCourses().size(); i++) {
 				University.getInstance().MarkStudents(University.getInstance().getCourses().get(i));
 			}
+			*/
 			String o = "";
 			for (int i=0; i<University.getInstance().DeansList().size(); i++) {
 				o = o + "\n" + University.getInstance().DeansList().get(i).toString();

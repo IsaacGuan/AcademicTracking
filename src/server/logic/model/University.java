@@ -268,8 +268,13 @@ public class University implements UniversityInt {
 		}
 		*/
 		if (CheckCourse(course.Code()) && CheckStudent(student.StudentNumber()) && student.IsSelected(course)) {
-			result = student.RegisterCourse(course) && course.AddStudent(student);
-			logger.info(String.format("University Operation: student %d register course %d; State: Success", student.StudentNumber(), course.Code()));
+			result = student.RegisterCourse(course);
+			if (result) {
+				result = course.AddStudent(student);
+				logger.info(String.format("University Operation: student %d register course %d; State: Success", student.StudentNumber(), course.Code()));
+			} else {
+				logger.info(String.format("University Operation: student %d register course %d; State: Fail; Reason: The course registered has reached the maximum number.", student.StudentNumber(), course.Code()));
+			}
 		} else {
 			result = false;
 			logger.info(String.format("University Operation: student %d register course %d; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.", student.StudentNumber(), course.Code()));
@@ -282,8 +287,13 @@ public class University implements UniversityInt {
 		// TODO Auto-generated method stub
 		boolean result = true;
 		if (CheckCourse(course.Code()) && CheckStudent(student.StudentNumber()) && student.IsRegistered(course)) {
-			result = student.DeRegisterCourse(course) && course.RemoveStudent(student);
-			logger.info(String.format("University Operation: student %d deregister course %d; State: Success", student.StudentNumber(), course.Code()));
+			result = student.DeRegisterCourse(course);
+			if (result) {
+				result = course.RemoveStudent(student);
+				logger.info(String.format("University Operation: student %d deregister course %d; State: Success", student.StudentNumber(), course.Code()));
+			} else {
+				logger.info(String.format("University Operation: student %d deregister course %d; State: Fail", student.StudentNumber(), course.Code()));
+			}
 		} else {
 			result = false;
 			logger.info(String.format("University Operation: student %d deregister course %d; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.", student.StudentNumber(), course.Code()));
@@ -304,10 +314,10 @@ public class University implements UniversityInt {
 		}
 		*/
 		if (CheckCourse(course.Code())) {
-			List<Student> s = new ArrayList<Student>();
-			for (int i=0; i<s.size(); i++){
-				course.RemoveStudent(s.get(i));
-				s.get(i).DeRegisterCourse(course);
+			//List<Student> s = new ArrayList<Student>();
+			for (int i=0; i<students.size(); i++){
+				course.RemoveStudent(students.get(i));
+				students.get(i).DeRegisterCourse(course);
 			}
 			result = true;
 			logger.info(String.format("University Operation: cancel course %d; State: Success", course.Code()));
@@ -331,10 +341,11 @@ public class University implements UniversityInt {
 		}
 		*/
 		if (CheckCourse(course.Code())) {
-			List<Student> s = new ArrayList<Student>();
-			for (int i=0; i<s.size(); i++){
-				course.RemoveStudent(s.get(i));
-				s.get(i).DeRegisterCourse(course);
+			//List<Student> s = new ArrayList<Student>();
+			for (int i=0; i<students.size(); i++){
+				course.RemoveStudent(students.get(i));
+				students.get(i).DropCourse(course);
+				students.get(i).DeRegisterCourse(course);
 			}
 			result = courses.remove(course);
 			logger.info(String.format("University Operation: delete course %d; State: Success", course.Code()));
@@ -358,10 +369,10 @@ public class University implements UniversityInt {
 		}
 		*/
 		if (CheckStudent(student.StudentNumber())) {
-			List<Course> c = new ArrayList<Course>();
-			for (int i=0; i<c.size(); i++){
-				student.DeRegisterCourse(c.get(i));
-				c.get(i).RemoveStudent(student);
+			//List<Course> c = new ArrayList<Course>();
+			for (int i=0; i<courses.size(); i++){
+				student.DeRegisterCourse(courses.get(i));
+				courses.get(i).RemoveStudent(student);
 			}
 			result = students.remove(student);
 			logger.info(String.format("University Operation: delete student %d; State: Success", student.StudentNumber()));

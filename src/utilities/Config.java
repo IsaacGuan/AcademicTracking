@@ -12,4 +12,8 @@ public class Config {
 	public static final int TERM_LASTS = 118;
 	public static final String CLERK_PASSWORD = "admin";
 	
+	public static boolean REGISTRATION_STARTS = false;
+	public static boolean REGISTRATION_ENDS = false;
+	public static boolean TERM_ENDS = false;
+	
 }

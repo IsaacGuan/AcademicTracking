@@ -3599,4 +3599,872 @@ Available Course List:
 @2017-10-28 22:44:49 INFO  String:275 - University Operation: student 101075402 register course 105008; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
 @2017-10-28 22:44:49 INFO  String:275 - University Operation: student 101075403 register course 105008; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
 @2017-10-28 22:44:49 INFO  String:386 - University Operation: mark students for course 105008; State: Success
+@2017-10-29 13:05:01 INFO  ATServer:31 - Binding to port 5050
+@2017-10-29 13:05:01 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 13
+@2017-10-29 13:05:01 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-29 13:05:01 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 13:05:01 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 13:05:01 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 13:05:01 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 14:25:59 INFO  String:267 - Course Operation: Add student 101075401 to course 105104; State: Success
+@2017-10-29 14:25:59 INFO  String:267 - Course Operation: Add student 101075402 to course 105104; State: Success
+@2017-10-29 14:25:59 INFO  String:267 - Course Operation: Add student 101075401 to course 105104; State: Success
+@2017-10-29 14:25:59 INFO  String:267 - Course Operation: Add student 101075402 to course 105104; State: Success
+@2017-10-29 14:25:59 INFO  String:267 - Course Operation: Add student 101075401 to course 105104; State: Success
+@2017-10-29 14:25:59 INFO  String:271 - Course Operation: Add student 101075401 to course 105104; State: Fail; Reason: The student has registered.
+@2017-10-29 14:25:59 INFO  String:267 - Course Operation: Add student 101075401 to course 105104; State: Success
+@2017-10-29 14:25:59 INFO  String:267 - Course Operation: Add student 101075401 to course 105104; State: Success
+@2017-10-29 14:25:59 INFO  String:285 - Course Operation: Remove student 101075401 from course 105104; State: Success
+@2017-10-29 14:25:59 INFO  String:289 - Course Operation: Remove student 101075401 from course 105104; State: Fail; Reason: The student has not registered.
+@2017-10-29 14:26:13 INFO  ATServer:31 - Binding to port 5050
+@2017-10-29 14:26:13 FATAL ATServer:37 - java.net.BindException: Address already in use: JVM_Bind
+@2017-10-29 14:26:27 INFO  ATServer:31 - Binding to port 5050
+@2017-10-29 14:26:27 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-29 14:26:27 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 13
+@2017-10-29 14:26:27 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 14:26:27 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 14:26:27 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 14:26:27 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 14:26:43 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:8503] Client Socket: [8503  ]
+
+@2017-10-29 14:26:43 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-29 14:26:43 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__8503
+@2017-10-29 14:26:43 INFO  ATClient:31 - 8503 : Connected to server: /127.0.0.1
+@2017-10-29 14:26:43 INFO  ATClient:32 - 8503 : Connected to portid: 8503
+@2017-10-29 14:26:47 INFO  ATServer:97 - Input from 127.0.0.1:8503 
+@2017-10-29 14:26:47 INFO  ATServer:114 - Output to 127.0.0.1:8503 Who Are you? Clerk or Student?
+
+@2017-10-29 14:26:50 INFO  ATServer:97 - Input from 127.0.0.1:8503 clerk
+@2017-10-29 14:26:50 INFO  ATServer:106 - Output to 127.0.0.1:8503 Please Input The Password:
+
+@2017-10-29 14:26:54 INFO  ATServer:97 - Input from 127.0.0.1:8503 admin
+@2017-10-29 14:26:54 INFO  ATServer:106 - Output to 127.0.0.1:8503 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 14:26:59 INFO  ATServer:97 - Input from 127.0.0.1:8503 create student
+@2017-10-29 14:26:59 INFO  ATServer:106 - Output to 127.0.0.1:8503 Please Input Student Info: 'student number, name, is fulltime(y/n)'
+
+@2017-10-29 14:27:21 INFO  ATServer:97 - Input from 127.0.0.1:8503 101075401, john, y
+@2017-10-29 14:27:21 INFO  String:247 - University Operation: Create new student; Student info:[101075401,john]; State: Fail; Reason: The student already existed.
+@2017-10-29 14:27:21 INFO  ATServer:106 - Output to 127.0.0.1:8503 The Student Already Exists!
+
+@2017-10-29 14:27:22 INFO  ATServer:97 - Input from 127.0.0.1:8503 
+@2017-10-29 14:27:22 INFO  ATServer:106 - Output to 127.0.0.1:8503 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 14:27:30 INFO  ATServer:97 - Input from 127.0.0.1:8503 create student
+@2017-10-29 14:27:30 INFO  ATServer:106 - Output to 127.0.0.1:8503 Please Input Student Info: 'student number, name, is fulltime(y/n)'
+
+@2017-10-29 14:27:43 INFO  ATServer:97 - Input from 127.0.0.1:8503 101075403, mike, y
+@2017-10-29 14:27:43 INFO  String:244 - University Operation: Create new student; Student info:[101075403,mike]; State: Success
+@2017-10-29 14:27:43 INFO  ATServer:106 - Output to 127.0.0.1:8503 Success!
+
+@2017-10-29 14:27:43 INFO  ATServer:97 - Input from 127.0.0.1:8503 
+@2017-10-29 14:27:43 INFO  ATServer:106 - Output to 127.0.0.1:8503 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 14:27:52 INFO  ATServer:97 - Input from 127.0.0.1:8503 dean's list
+@2017-10-29 14:27:52 INFO  ATServer:106 - Output to 127.0.0.1:8503 Dean's List not Generated!
+
+@2017-10-29 14:27:53 INFO  ATServer:97 - Input from 127.0.0.1:8503 
+@2017-10-29 14:27:53 INFO  ATServer:106 - Output to 127.0.0.1:8503 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 14:28:00 INFO  ATServer:97 - Input from 127.0.0.1:8503 delete course
+@2017-10-29 14:28:00 INFO  ATServer:106 - Output to 127.0.0.1:8503 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-29 14:28:05 INFO  ATServer:97 - Input from 127.0.0.1:8503 main menu
+@2017-10-29 14:28:05 INFO  ATServer:106 - Output to 127.0.0.1:8503 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 14:28:12 INFO  ATServer:97 - Input from 127.0.0.1:8503 cancel course
+@2017-10-29 14:28:12 INFO  ATServer:106 - Output to 127.0.0.1:8503 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-29 14:28:17 INFO  ATServer:97 - Input from 127.0.0.1:8503 main menu
+@2017-10-29 14:28:17 INFO  ATServer:106 - Output to 127.0.0.1:8503 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 14:29:00 INFO  ATServer:97 - Input from 127.0.0.1:8503 log out
+@2017-10-29 14:29:00 INFO  ATServer:106 - Output to 127.0.0.1:8503 Successfully Log Out!
+
+@2017-10-29 14:29:01 INFO  ATServer:97 - Input from 127.0.0.1:8503 
+@2017-10-29 14:29:01 INFO  ATServer:106 - Output to 127.0.0.1:8503 Who Are you? Clerk or Student?
+
+@2017-10-29 14:29:03 INFO  ATServer:97 - Input from 127.0.0.1:8503 student
+@2017-10-29 14:29:03 INFO  ATServer:106 - Output to 127.0.0.1:8503 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-29 14:29:12 INFO  ATServer:97 - Input from 127.0.0.1:8503 101075403, mike
+@2017-10-29 14:29:12 INFO  ATServer:106 - Output to 127.0.0.1:8503 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 14:29:19 INFO  ATServer:97 - Input from 127.0.0.1:8503 select course
+@2017-10-29 14:29:19 INFO  ATServer:106 - Output to 127.0.0.1:8503 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-29 14:29:24 INFO  ATServer:97 - Input from 127.0.0.1:8503 105104
+@2017-10-29 14:29:24 INFO  String:134 - Student Operation: student 101075403 select course 105104; State: Success
+@2017-10-29 14:29:24 INFO  ATServer:106 - Output to 127.0.0.1:8503 Success!
+
+@2017-10-29 14:29:25 INFO  ATServer:97 - Input from 127.0.0.1:8503 
+@2017-10-29 14:29:25 INFO  ATServer:106 - Output to 127.0.0.1:8503 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 14:29:36 INFO  ATServer:97 - Input from 127.0.0.1:8503 register for course
+@2017-10-29 14:29:36 INFO  ATServer:106 - Output to 127.0.0.1:8503 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+
+@2017-10-29 14:29:40 INFO  ATServer:97 - Input from 127.0.0.1:8503 105104
+@2017-10-29 14:29:40 INFO  ATServer:106 - Output to 127.0.0.1:8503 Registration Has not Started!
+
+@2017-10-29 14:32:39 INFO  ServerThread:61 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-29 15:03:13 INFO  ATServer:31 - Binding to port 5050
+@2017-10-29 15:03:13 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-29 15:03:13 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 13
+@2017-10-29 15:03:13 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 15:03:13 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 15:03:13 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 15:03:13 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 15:03:21 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:8640] Client Socket: [8640  ]
+
+@2017-10-29 15:03:21 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-29 15:03:21 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__8640
+@2017-10-29 15:03:21 INFO  ATClient:31 - 8640 : Connected to server: /127.0.0.1
+@2017-10-29 15:03:21 INFO  ATClient:32 - 8640 : Connected to portid: 8640
+@2017-10-29 15:03:24 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:03:24 INFO  ATServer:114 - Output to 127.0.0.1:8640 Who Are you? Clerk or Student?
+
+@2017-10-29 15:03:27 INFO  ATServer:97 - Input from 127.0.0.1:8640 clerk
+@2017-10-29 15:03:27 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input The Password:
+
+@2017-10-29 15:03:29 INFO  ATServer:97 - Input from 127.0.0.1:8640 admin
+@2017-10-29 15:03:29 INFO  ATServer:106 - Output to 127.0.0.1:8640 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:03:34 INFO  ATServer:97 - Input from 127.0.0.1:8640 create course
+@2017-10-29 15:03:34 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'title, course code, capsize, enforce prereqs(y/n), number of midterms, number of assignments, has a final(y/n), is project course(y/n)'
+
+@2017-10-29 15:06:23 INFO  ATServer:97 - Input from 127.0.0.1:8640 Fault Tolerance, 115134, 20, n, 1, 2, y, n
+@2017-10-29 15:06:23 INFO  String:214 - University Operation: Create new course; Course info:[Fault Tolerance,115134]; State: Success
+@2017-10-29 15:06:23 INFO  ATServer:106 - Output to 127.0.0.1:8640 Success!
+
+@2017-10-29 15:06:28 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:06:28 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:06:57 INFO  ATServer:97 - Input from 127.0.0.1:8640 cancel course
+@2017-10-29 15:06:57 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+115134, Fault Tolerance
+
+@2017-10-29 15:07:01 INFO  ATServer:97 - Input from 127.0.0.1:8640 115134
+@2017-10-29 15:07:01 INFO  ATServer:106 - Output to 127.0.0.1:8640 Course cannot be canceled before registration ends!
+
+@2017-10-29 15:07:06 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:07:06 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:07:18 INFO  ATServer:97 - Input from 127.0.0.1:8640 main menu
+@2017-10-29 15:07:18 INFO  ATServer:106 - Output to 127.0.0.1:8640 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:07:25 INFO  ATServer:97 - Input from 127.0.0.1:8640 log out
+@2017-10-29 15:07:25 INFO  ATServer:106 - Output to 127.0.0.1:8640 Successfully Log Out!
+
+@2017-10-29 15:07:26 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:07:26 INFO  ATServer:106 - Output to 127.0.0.1:8640 Who Are you? Clerk or Student?
+
+@2017-10-29 15:07:29 INFO  ATServer:97 - Input from 127.0.0.1:8640 student
+@2017-10-29 15:07:29 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-29 15:07:35 INFO  ATServer:97 - Input from 127.0.0.1:8640 101075401
+@2017-10-29 15:07:35 INFO  ATServer:106 - Output to 127.0.0.1:8640 Your input should be in this format: 'student number, name'
+
+@2017-10-29 15:07:45 INFO  ATServer:97 - Input from 127.0.0.1:8640 101075401, tom
+@2017-10-29 15:07:45 INFO  ATServer:106 - Output to 127.0.0.1:8640 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:07:51 INFO  ATServer:97 - Input from 127.0.0.1:8640 select course
+@2017-10-29 15:07:51 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+115134, Fault Tolerance
+
+@2017-10-29 15:07:57 INFO  ATServer:97 - Input from 127.0.0.1:8640 105104
+@2017-10-29 15:07:57 INFO  String:134 - Student Operation: student 101075401 select course 105104; State: Success
+@2017-10-29 15:07:57 INFO  ATServer:106 - Output to 127.0.0.1:8640 Success!
+
+@2017-10-29 15:07:58 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:07:58 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:08:45 INFO  ATServer:97 - Input from 127.0.0.1:8640 register for course
+@2017-10-29 15:08:45 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+
+@2017-10-29 15:08:49 INFO  ATServer:97 - Input from 127.0.0.1:8640 105104
+@2017-10-29 15:08:49 INFO  ATServer:106 - Output to 127.0.0.1:8640 Registration has not started!
+
+@2017-10-29 15:08:50 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:08:50 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:08:54 INFO  ATServer:97 - Input from 127.0.0.1:8640 select course
+@2017-10-29 15:08:54 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+115134, Fault Tolerance
+
+@2017-10-29 15:08:59 INFO  ATServer:97 - Input from 127.0.0.1:8640 105003
+@2017-10-29 15:08:59 INFO  String:134 - Student Operation: student 101075401 select course 105003; State: Success
+@2017-10-29 15:08:59 INFO  ATServer:106 - Output to 127.0.0.1:8640 Success!
+
+@2017-10-29 15:09:01 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:09:01 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:09:05 INFO  ATServer:97 - Input from 127.0.0.1:8640 select course
+@2017-10-29 15:09:05 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105008, Computational Geometry
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+115134, Fault Tolerance
+
+@2017-10-29 15:10:32 INFO  ATServer:97 - Input from 127.0.0.1:8640 105305
+@2017-10-29 15:10:32 INFO  String:134 - Student Operation: student 101075401 select course 105305; State: Success
+@2017-10-29 15:10:32 INFO  ATServer:106 - Output to 127.0.0.1:8640 Success!
+
+@2017-10-29 15:10:38 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:10:38 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:10:42 INFO  ATServer:97 - Input from 127.0.0.1:8640 register for course
+@2017-10-29 15:10:42 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+
+@2017-10-29 15:10:48 INFO  ATServer:97 - Input from 127.0.0.1:8640 105104
+@2017-10-29 15:10:48 INFO  String:155 - Student Operation: student 101075401 register course 105104; State: Success
+@2017-10-29 15:10:48 INFO  String:267 - Course Operation: Add student 101075401 to course 105104; State: Success
+@2017-10-29 15:10:48 INFO  String:274 - University Operation: student 101075401 register course 105104; State: Success
+@2017-10-29 15:10:48 INFO  ATServer:106 - Output to 127.0.0.1:8640 Success!
+
+@2017-10-29 15:10:49 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:10:49 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:10:53 INFO  ATServer:97 - Input from 127.0.0.1:8640 select course
+@2017-10-29 15:10:53 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105008, Computational Geometry
+105001, Foundations of Programming Languages
+115134, Fault Tolerance
+
+@2017-10-29 15:10:58 INFO  ATServer:97 - Input from 127.0.0.1:8640 105008
+@2017-10-29 15:10:58 INFO  String:134 - Student Operation: student 101075401 select course 105008; State: Success
+@2017-10-29 15:10:58 INFO  ATServer:106 - Output to 127.0.0.1:8640 Success!
+
+@2017-10-29 15:11:01 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:11:01 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:11:05 INFO  ATServer:97 - Input from 127.0.0.1:8640 select course
+@2017-10-29 15:11:05 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105001, Foundations of Programming Languages
+115134, Fault Tolerance
+
+@2017-10-29 15:11:09 INFO  ATServer:97 - Input from 127.0.0.1:8640 105001
+@2017-10-29 15:11:09 INFO  String:134 - Student Operation: student 101075401 select course 105001; State: Success
+@2017-10-29 15:11:09 INFO  ATServer:106 - Output to 127.0.0.1:8640 Success!
+
+@2017-10-29 15:11:10 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:11:10 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:11:13 INFO  ATServer:97 - Input from 127.0.0.1:8640 drop course
+@2017-10-29 15:11:13 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105008, Computational Geometry
+105001, Foundations of Programming Languages
+
+@2017-10-29 15:11:17 INFO  ATServer:97 - Input from 127.0.0.1:8640 105003
+@2017-10-29 15:11:17 INFO  ATServer:106 - Output to 127.0.0.1:8640 You cannot drop a course during registration period!
+
+@2017-10-29 15:11:18 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:11:18 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:11:29 INFO  ATServer:97 - Input from 127.0.0.1:8640 register for course
+@2017-10-29 15:11:29 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105008, Computational Geometry
+105001, Foundations of Programming Languages
+
+@2017-10-29 15:11:38 INFO  ATServer:97 - Input from 127.0.0.1:8640 105003
+@2017-10-29 15:11:38 INFO  String:155 - Student Operation: student 101075401 register course 105003; State: Success
+@2017-10-29 15:11:38 INFO  String:267 - Course Operation: Add student 101075401 to course 105003; State: Success
+@2017-10-29 15:11:38 INFO  String:274 - University Operation: student 101075401 register course 105003; State: Success
+@2017-10-29 15:11:38 INFO  ATServer:106 - Output to 127.0.0.1:8640 Success!
+
+@2017-10-29 15:11:39 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:11:39 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:11:47 INFO  ATServer:97 - Input from 127.0.0.1:8640 register for course
+@2017-10-29 15:11:47 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105305, Advanced Database Systems
+105008, Computational Geometry
+105001, Foundations of Programming Languages
+
+@2017-10-29 15:11:53 INFO  ATServer:97 - Input from 127.0.0.1:8640 105305
+@2017-10-29 15:11:53 INFO  String:155 - Student Operation: student 101075401 register course 105305; State: Success
+@2017-10-29 15:11:53 INFO  String:267 - Course Operation: Add student 101075401 to course 105305; State: Success
+@2017-10-29 15:11:53 INFO  String:274 - University Operation: student 101075401 register course 105305; State: Success
+@2017-10-29 15:11:53 INFO  ATServer:106 - Output to 127.0.0.1:8640 Success!
+
+@2017-10-29 15:11:53 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:11:53 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:12:01 INFO  ATServer:97 - Input from 127.0.0.1:8640 register for course
+@2017-10-29 15:12:01 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105008, Computational Geometry
+105001, Foundations of Programming Languages
+
+@2017-10-29 15:12:04 INFO  ATServer:97 - Input from 127.0.0.1:8640 105008
+@2017-10-29 15:12:04 INFO  String:155 - Student Operation: student 101075401 register course 105008; State: Success
+@2017-10-29 15:12:04 INFO  String:267 - Course Operation: Add student 101075401 to course 105008; State: Success
+@2017-10-29 15:12:04 INFO  String:274 - University Operation: student 101075401 register course 105008; State: Success
+@2017-10-29 15:12:04 INFO  ATServer:106 - Output to 127.0.0.1:8640 Success!
+
+@2017-10-29 15:12:05 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:12:05 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:12:09 INFO  ATServer:97 - Input from 127.0.0.1:8640 register for course
+@2017-10-29 15:12:09 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105001, Foundations of Programming Languages
+
+@2017-10-29 15:12:12 INFO  ATServer:97 - Input from 127.0.0.1:8640 105001
+@2017-10-29 15:12:12 INFO  String:148 - Student Operation: student 101075401 register course 105001; State: Fail; Reason: over registered
+@2017-10-29 15:12:12 INFO  String:276 - University Operation: student 101075401 register course 105001; State: Fail; Reason: The course registered has reached the maximum number.
+@2017-10-29 15:12:12 INFO  ATServer:106 - Output to 127.0.0.1:8640 Unable to register for this course!
+
+@2017-10-29 15:12:16 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:12:16 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:13:05 INFO  ATServer:97 - Input from 127.0.0.1:8640 register course
+@2017-10-29 15:13:05 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:13:07 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:13:07 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:13:12 INFO  ATServer:97 - Input from 127.0.0.1:8640 register for course
+@2017-10-29 15:13:14 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105001, Foundations of Programming Languages
+
+@2017-10-29 15:13:19 INFO  ATServer:97 - Input from 127.0.0.1:8640 105001
+@2017-10-29 15:13:19 INFO  String:148 - Student Operation: student 101075401 register course 105001; State: Fail; Reason: over registered
+@2017-10-29 15:13:19 INFO  String:276 - University Operation: student 101075401 register course 105001; State: Fail; Reason: The course registered has reached the maximum number.
+@2017-10-29 15:13:19 INFO  ATServer:106 - Output to 127.0.0.1:8640 Unable to register for this course!
+
+@2017-10-29 15:13:21 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:13:21 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:16:37 INFO  ATServer:97 - Input from 127.0.0.1:8640 log out
+@2017-10-29 15:16:37 INFO  ATServer:106 - Output to 127.0.0.1:8640 Successfully Log Out!
+
+@2017-10-29 15:16:38 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:16:38 INFO  ATServer:106 - Output to 127.0.0.1:8640 Who Are you? Clerk or Student?
+
+@2017-10-29 15:16:41 INFO  ATServer:97 - Input from 127.0.0.1:8640 clerk
+@2017-10-29 15:16:41 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input The Password:
+
+@2017-10-29 15:16:43 INFO  ATServer:97 - Input from 127.0.0.1:8640 admin
+@2017-10-29 15:16:44 INFO  ATServer:106 - Output to 127.0.0.1:8640 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:16:49 INFO  ATServer:97 - Input from 127.0.0.1:8640 dean's list
+@2017-10-29 15:16:49 INFO  ATServer:106 - Output to 127.0.0.1:8640 Dean's list not generated!
+
+@2017-10-29 15:23:00 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:23:00 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:23:07 INFO  ATServer:97 - Input from 127.0.0.1:8640 dean's list
+@2017-10-29 15:23:07 INFO  ATServer:106 - Output to 127.0.0.1:8640 Dean's list not generated!
+
+@2017-10-29 15:23:08 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:23:08 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:23:14 INFO  ATServer:97 - Input from 127.0.0.1:8640 delete course
+@2017-10-29 15:23:14 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+115134, Fault Tolerance
+
+@2017-10-29 15:23:38 INFO  ATServer:97 - Input from 127.0.0.1:8640 main menu
+@2017-10-29 15:23:38 INFO  ATServer:106 - Output to 127.0.0.1:8640 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:23:46 INFO  ATServer:97 - Input from 127.0.0.1:8640 log out
+@2017-10-29 15:23:46 INFO  ATServer:106 - Output to 127.0.0.1:8640 Successfully Log Out!
+
+@2017-10-29 15:23:46 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:23:46 INFO  ATServer:106 - Output to 127.0.0.1:8640 Who Are you? Clerk or Student?
+
+@2017-10-29 15:23:51 INFO  ATServer:97 - Input from 127.0.0.1:8640 student
+@2017-10-29 15:23:51 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-29 15:23:56 INFO  ATServer:97 - Input from 127.0.0.1:8640 101075401
+@2017-10-29 15:23:56 INFO  ATServer:106 - Output to 127.0.0.1:8640 Your input should be in this format: 'student number, name'
+
+@2017-10-29 15:24:05 INFO  ATServer:97 - Input from 127.0.0.1:8640 101075401, tom
+@2017-10-29 15:24:05 INFO  ATServer:106 - Output to 127.0.0.1:8640 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:24:11 INFO  ATServer:97 - Input from 127.0.0.1:8640 register for course
+@2017-10-29 15:24:11 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105001, Foundations of Programming Languages
+
+@2017-10-29 15:24:18 INFO  ATServer:97 - Input from 127.0.0.1:8640 105001
+@2017-10-29 15:24:18 INFO  ATServer:106 - Output to 127.0.0.1:8640 Registration has finished!
+
+@2017-10-29 15:24:20 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:24:20 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:24:25 INFO  ATServer:97 - Input from 127.0.0.1:8640 log out
+@2017-10-29 15:24:25 INFO  ATServer:106 - Output to 127.0.0.1:8640 Successfully Log Out!
+
+@2017-10-29 15:24:26 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:24:26 INFO  ATServer:106 - Output to 127.0.0.1:8640 Who Are you? Clerk or Student?
+
+@2017-10-29 15:24:29 INFO  ATServer:97 - Input from 127.0.0.1:8640 clerk
+@2017-10-29 15:24:29 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input The Password:
+
+@2017-10-29 15:24:32 INFO  ATServer:97 - Input from 127.0.0.1:8640 admin
+@2017-10-29 15:24:32 INFO  ATServer:106 - Output to 127.0.0.1:8640 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:24:37 INFO  ATServer:97 - Input from 127.0.0.1:8640 delete course
+@2017-10-29 15:24:37 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+115134, Fault Tolerance
+
+@2017-10-29 15:24:42 INFO  ATServer:97 - Input from 127.0.0.1:8640 105001
+@2017-10-29 15:24:42 INFO  String:350 - University Operation: delete course 105001; State: Success
+@2017-10-29 15:24:42 INFO  ATServer:106 - Output to 127.0.0.1:8640 Success!
+
+@2017-10-29 15:24:42 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:24:42 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:24:47 INFO  ATServer:97 - Input from 127.0.0.1:8640 log out
+@2017-10-29 15:24:47 INFO  ATServer:106 - Output to 127.0.0.1:8640 Successfully Log Out!
+
+@2017-10-29 15:24:48 INFO  ATServer:97 - Input from 127.0.0.1:8640 
+@2017-10-29 15:24:48 INFO  ATServer:106 - Output to 127.0.0.1:8640 Who Are you? Clerk or Student?
+
+@2017-10-29 15:24:50 INFO  ATServer:97 - Input from 127.0.0.1:8640 student
+@2017-10-29 15:24:50 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-29 15:24:57 INFO  ATServer:97 - Input from 127.0.0.1:8640 101075401
+@2017-10-29 15:24:57 INFO  ATServer:106 - Output to 127.0.0.1:8640 Your input should be in this format: 'student number, name'
+
+@2017-10-29 15:25:03 INFO  ATServer:97 - Input from 127.0.0.1:8640 101075401, tom
+@2017-10-29 15:25:03 INFO  ATServer:106 - Output to 127.0.0.1:8640 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:25:15 INFO  ATServer:97 - Input from 127.0.0.1:8640 register for course
+@2017-10-29 15:25:15 INFO  ATServer:106 - Output to 127.0.0.1:8640 Please Input Course Info: 'course code'
+Available Course List: 
+105001, Foundations of Programming Languages
+
+@2017-10-29 15:37:28 INFO  ServerThread:61 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-29 15:37:36 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:12678] Client Socket: [12678 ]
+
+@2017-10-29 15:37:36 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-29 15:37:36 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__12678
+@2017-10-29 15:37:36 INFO  ATClient:31 - 12678 : Connected to server: /127.0.0.1
+@2017-10-29 15:37:36 INFO  ATClient:32 - 12678 : Connected to portid: 12678
+@2017-10-29 15:37:37 INFO  ATServer:97 - Input from 127.0.0.1:12678 
+@2017-10-29 15:37:37 INFO  ATServer:114 - Output to 127.0.0.1:12678 Who Are you? Clerk or Student?
+
+@2017-10-29 15:37:38 INFO  ATServer:97 - Input from 127.0.0.1:12678 
+@2017-10-29 15:37:38 INFO  ATServer:106 - Output to 127.0.0.1:12678 Who Are you? Clerk or Student?
+
+@2017-10-29 15:37:40 INFO  ATServer:97 - Input from 127.0.0.1:12678 clerk
+@2017-10-29 15:37:40 INFO  ATServer:106 - Output to 127.0.0.1:12678 Please Input The Password:
+
+@2017-10-29 15:37:42 INFO  ATServer:97 - Input from 127.0.0.1:12678 admin
+@2017-10-29 15:37:42 INFO  ATServer:106 - Output to 127.0.0.1:12678 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:37:46 INFO  ATServer:97 - Input from 127.0.0.1:12678 dean's list
+@2017-10-29 15:37:46 INFO  ATServer:106 - Output to 127.0.0.1:12678 Dean's list not generated!
+
+@2017-10-29 15:37:47 INFO  ATServer:97 - Input from 127.0.0.1:12678 
+@2017-10-29 15:37:47 INFO  ATServer:106 - Output to 127.0.0.1:12678 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:38:16 INFO  ATServer:31 - Binding to port 5050
+@2017-10-29 15:38:16 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-29 15:38:16 INFO  ATServer:45 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 13
+@2017-10-29 15:38:16 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 15:38:16 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 15:38:16 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 15:38:16 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 15:38:32 INFO  ATServer:67 - Client accepted : Client Address : [/127.0.0.1:12687] Client Socket: [12687 ]
+
+@2017-10-29 15:38:32 INFO  ATServer:57 - Waiting for a client ...
+@2017-10-29 15:38:32 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__12687
+@2017-10-29 15:38:32 INFO  ATClient:31 - 12687 : Connected to server: /127.0.0.1
+@2017-10-29 15:38:32 INFO  ATClient:32 - 12687 : Connected to portid: 12687
+@2017-10-29 15:38:34 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:38:34 INFO  ATServer:114 - Output to 127.0.0.1:12687 Who Are you? Clerk or Student?
+
+@2017-10-29 15:38:38 INFO  ATServer:97 - Input from 127.0.0.1:12687 clerk
+@2017-10-29 15:38:38 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input The Password:
+
+@2017-10-29 15:38:39 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:38:39 INFO  ATServer:106 - Output to 127.0.0.1:12687 Wrong password! Please input the password:
+
+@2017-10-29 15:38:41 INFO  ATServer:97 - Input from 127.0.0.1:12687 admin
+@2017-10-29 15:38:41 INFO  ATServer:106 - Output to 127.0.0.1:12687 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:38:46 INFO  ATServer:97 - Input from 127.0.0.1:12687 create course
+@2017-10-29 15:38:46 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'title, course code, capsize, enforce prereqs(y/n), number of midterms, number of assignments, has a final(y/n), is project course(y/n)'
+
+@2017-10-29 15:40:03 INFO  ATServer:97 - Input from 127.0.0.1:12687 Fault Tolerance, 115134, 20, y, 1, 2, y, n
+@2017-10-29 15:40:03 INFO  String:214 - University Operation: Create new course; Course info:[Fault Tolerance,115134]; State: Success
+@2017-10-29 15:40:03 INFO  ATServer:106 - Output to 127.0.0.1:12687 Success!
+
+@2017-10-29 15:40:04 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:40:04 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:40:13 INFO  ATServer:97 - Input from 127.0.0.1:12687 create student
+@2017-10-29 15:40:13 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Student Info: 'student number, name, is fulltime(y/n)'
+
+@2017-10-29 15:40:28 INFO  ATServer:97 - Input from 127.0.0.1:12687 101075403, mike, y
+@2017-10-29 15:40:28 INFO  String:244 - University Operation: Create new student; Student info:[101075403,mike]; State: Success
+@2017-10-29 15:40:28 INFO  ATServer:106 - Output to 127.0.0.1:12687 Success!
+
+@2017-10-29 15:40:29 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:40:29 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:40:38 INFO  ATServer:97 - Input from 127.0.0.1:12687 log out
+@2017-10-29 15:40:38 INFO  ATServer:106 - Output to 127.0.0.1:12687 Successfully Log Out!
+
+@2017-10-29 15:40:39 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:40:39 INFO  ATServer:106 - Output to 127.0.0.1:12687 Who Are you? Clerk or Student?
+
+@2017-10-29 15:40:41 INFO  ATServer:97 - Input from 127.0.0.1:12687 student
+@2017-10-29 15:40:41 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-29 15:40:48 INFO  ATServer:97 - Input from 127.0.0.1:12687 101075403, mike
+@2017-10-29 15:40:48 INFO  ATServer:106 - Output to 127.0.0.1:12687 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:40:57 INFO  ATServer:97 - Input from 127.0.0.1:12687 select course
+@2017-10-29 15:40:57 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+115134, Fault Tolerance
+
+@2017-10-29 15:41:04 INFO  ATServer:97 - Input from 127.0.0.1:12687 115134
+@2017-10-29 15:41:04 INFO  String:134 - Student Operation: student 101075403 select course 115134; State: Success
+@2017-10-29 15:41:04 INFO  ATServer:106 - Output to 127.0.0.1:12687 Success!
+
+@2017-10-29 15:41:06 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:41:06 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:41:12 INFO  ATServer:97 - Input from 127.0.0.1:12687 select course
+@2017-10-29 15:41:12 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-29 15:41:16 INFO  ATServer:97 - Input from 127.0.0.1:12687 105104
+@2017-10-29 15:41:16 INFO  String:134 - Student Operation: student 101075403 select course 105104; State: Success
+@2017-10-29 15:41:16 INFO  ATServer:106 - Output to 127.0.0.1:12687 Success!
+
+@2017-10-29 15:41:17 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:41:17 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:41:21 INFO  ATServer:97 - Input from 127.0.0.1:12687 select course
+@2017-10-29 15:41:21 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-29 15:41:24 INFO  ATServer:97 - Input from 127.0.0.1:12687 105008
+@2017-10-29 15:41:24 INFO  String:134 - Student Operation: student 101075403 select course 105008; State: Success
+@2017-10-29 15:41:24 INFO  ATServer:106 - Output to 127.0.0.1:12687 Success!
+
+@2017-10-29 15:41:26 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:41:26 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:41:29 INFO  ATServer:97 - Input from 127.0.0.1:12687 select course
+@2017-10-29 15:41:29 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-29 15:41:35 INFO  ATServer:97 - Input from 127.0.0.1:12687 105003
+@2017-10-29 15:41:35 INFO  String:134 - Student Operation: student 101075403 select course 105003; State: Success
+@2017-10-29 15:41:35 INFO  ATServer:106 - Output to 127.0.0.1:12687 Success!
+
+@2017-10-29 15:41:35 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:41:35 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:41:39 INFO  ATServer:97 - Input from 127.0.0.1:12687 select course
+@2017-10-29 15:41:39 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+
+@2017-10-29 15:41:42 INFO  ATServer:97 - Input from 127.0.0.1:12687 105001
+@2017-10-29 15:41:42 INFO  String:134 - Student Operation: student 101075403 select course 105001; State: Success
+@2017-10-29 15:41:42 INFO  ATServer:106 - Output to 127.0.0.1:12687 Success!
+
+@2017-10-29 15:41:42 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:41:42 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:41:47 INFO  ATServer:97 - Input from 127.0.0.1:12687 drop course
+@2017-10-29 15:41:47 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+115134, Fault Tolerance
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105001, Foundations of Programming Languages
+
+@2017-10-29 15:41:50 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:41:50 INFO  ATServer:106 - Output to 127.0.0.1:12687 You can only drop a course after the registration ends!
+
+@2017-10-29 15:41:56 INFO  ATServer:97 - Input from 127.0.0.1:12687 log out
+@2017-10-29 15:41:56 INFO  ATServer:106 - Output to 127.0.0.1:12687 Successfully Log Out!
+
+@2017-10-29 15:41:57 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:41:57 INFO  ATServer:106 - Output to 127.0.0.1:12687 Who Are you? Clerk or Student?
+
+@2017-10-29 15:41:59 INFO  ATServer:97 - Input from 127.0.0.1:12687 clerk
+@2017-10-29 15:41:59 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input The Password:
+
+@2017-10-29 15:42:01 INFO  ATServer:97 - Input from 127.0.0.1:12687 admin
+@2017-10-29 15:42:01 INFO  ATServer:106 - Output to 127.0.0.1:12687 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:42:05 INFO  ATServer:97 - Input from 127.0.0.1:12687 delete course
+@2017-10-29 15:42:05 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+115134, Fault Tolerance
+
+@2017-10-29 15:42:11 INFO  ATServer:97 - Input from 127.0.0.1:12687 115134
+@2017-10-29 15:42:11 INFO  String:289 - Course Operation: Remove student 101075401 from course 115134; State: Fail; Reason: The student has not registered.
+@2017-10-29 15:42:11 INFO  String:166 - Student Operation: student 101075401 drop course 115134; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-29 15:42:11 INFO  String:180 - Student Operation: student 101075401 deregister course 115134; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 15:42:11 INFO  String:289 - Course Operation: Remove student 101075402 from course 115134; State: Fail; Reason: The student has not registered.
+@2017-10-29 15:42:11 INFO  String:166 - Student Operation: student 101075402 drop course 115134; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-29 15:42:11 INFO  String:180 - Student Operation: student 101075402 deregister course 115134; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 15:42:11 INFO  String:289 - Course Operation: Remove student 101075403 from course 115134; State: Fail; Reason: The student has not registered.
+@2017-10-29 15:42:11 INFO  String:169 - Student Operation: student 101075403 drop course 115134; State: Success
+@2017-10-29 15:42:11 INFO  String:180 - Student Operation: student 101075403 deregister course 115134; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 15:42:11 INFO  String:352 - University Operation: delete course 115134; State: Success
+@2017-10-29 15:42:11 INFO  ATServer:106 - Output to 127.0.0.1:12687 Success!
+
+@2017-10-29 15:42:12 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:42:12 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 15:42:22 INFO  ATServer:97 - Input from 127.0.0.1:12687 log out
+@2017-10-29 15:42:22 INFO  ATServer:106 - Output to 127.0.0.1:12687 Successfully Log Out!
+
+@2017-10-29 15:42:24 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:42:24 INFO  ATServer:106 - Output to 127.0.0.1:12687 Who Are you? Clerk or Student?
+
+@2017-10-29 15:42:27 INFO  ATServer:97 - Input from 127.0.0.1:12687 student
+@2017-10-29 15:42:27 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-29 15:42:34 INFO  ATServer:97 - Input from 127.0.0.1:12687 101075403
+@2017-10-29 15:42:34 INFO  ATServer:106 - Output to 127.0.0.1:12687 Your input should be in this format: 'student number, name'
+
+@2017-10-29 15:42:37 INFO  ATServer:97 - Input from 127.0.0.1:12687 101075403
+@2017-10-29 15:42:37 INFO  ATServer:106 - Output to 127.0.0.1:12687 Your input should be in this format: 'student number, name'
+
+@2017-10-29 15:42:45 INFO  ATServer:97 - Input from 127.0.0.1:12687 101075403, mike
+@2017-10-29 15:42:45 INFO  ATServer:106 - Output to 127.0.0.1:12687 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:42:49 INFO  ATServer:97 - Input from 127.0.0.1:12687 drop course
+@2017-10-29 15:42:49 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105001, Foundations of Programming Languages
+
+@2017-10-29 15:44:03 INFO  ATServer:97 - Input from 127.0.0.1:12687 main menu
+@2017-10-29 15:44:03 INFO  ATServer:106 - Output to 127.0.0.1:12687 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:44:10 INFO  ATServer:97 - Input from 127.0.0.1:12687 select course
+@2017-10-29 15:44:10 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+105305, Advanced Database Systems
+
+@2017-10-29 15:44:16 INFO  ATServer:97 - Input from 127.0.0.1:12687 105305
+@2017-10-29 15:44:16 INFO  String:134 - Student Operation: student 101075403 select course 105305; State: Success
+@2017-10-29 15:44:16 INFO  ATServer:106 - Output to 127.0.0.1:12687 Success!
+
+@2017-10-29 15:44:17 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:44:17 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:44:22 INFO  ATServer:97 - Input from 127.0.0.1:12687 register for course
+@2017-10-29 15:44:22 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105001, Foundations of Programming Languages
+105305, Advanced Database Systems
+
+@2017-10-29 15:44:27 INFO  ATServer:97 - Input from 127.0.0.1:12687 105104
+@2017-10-29 15:44:27 INFO  ATServer:106 - Output to 127.0.0.1:12687 Registration has not started!
+
+@2017-10-29 15:44:32 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:44:32 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:47:06 INFO  ATServer:97 - Input from 127.0.0.1:12687 register for course
+@2017-10-29 15:47:06 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105001, Foundations of Programming Languages
+105305, Advanced Database Systems
+
+@2017-10-29 15:47:13 INFO  ATServer:97 - Input from 127.0.0.1:12687 105104
+@2017-10-29 15:47:13 INFO  String:155 - Student Operation: student 101075403 register course 105104; State: Success
+@2017-10-29 15:47:13 INFO  String:267 - Course Operation: Add student 101075403 to course 105104; State: Success
+@2017-10-29 15:47:13 INFO  String:274 - University Operation: student 101075403 register course 105104; State: Success
+@2017-10-29 15:47:13 INFO  ATServer:106 - Output to 127.0.0.1:12687 Success!
+
+@2017-10-29 15:47:14 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:47:15 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:47:29 INFO  ATServer:97 - Input from 127.0.0.1:12687 register for course
+@2017-10-29 15:47:29 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105001, Foundations of Programming Languages
+105305, Advanced Database Systems
+
+@2017-10-29 15:47:34 INFO  ATServer:97 - Input from 127.0.0.1:12687 105008
+@2017-10-29 15:47:34 INFO  String:155 - Student Operation: student 101075403 register course 105008; State: Success
+@2017-10-29 15:47:34 INFO  String:267 - Course Operation: Add student 101075403 to course 105008; State: Success
+@2017-10-29 15:47:34 INFO  String:274 - University Operation: student 101075403 register course 105008; State: Success
+@2017-10-29 15:47:34 INFO  ATServer:106 - Output to 127.0.0.1:12687 Success!
+
+@2017-10-29 15:47:35 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:47:35 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:47:41 INFO  ATServer:97 - Input from 127.0.0.1:12687 register for course
+@2017-10-29 15:47:41 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+105003, Principles of Distributed Computing
+105001, Foundations of Programming Languages
+105305, Advanced Database Systems
+
+@2017-10-29 15:47:45 INFO  ATServer:97 - Input from 127.0.0.1:12687 105003
+@2017-10-29 15:47:45 INFO  String:155 - Student Operation: student 101075403 register course 105003; State: Success
+@2017-10-29 15:47:45 INFO  String:267 - Course Operation: Add student 101075403 to course 105003; State: Success
+@2017-10-29 15:47:45 INFO  String:274 - University Operation: student 101075403 register course 105003; State: Success
+@2017-10-29 15:47:45 INFO  ATServer:106 - Output to 127.0.0.1:12687 Success!
+
+@2017-10-29 15:47:47 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:47:47 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:47:56 INFO  ATServer:97 - Input from 127.0.0.1:12687 register for course
+@2017-10-29 15:47:56 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+105001, Foundations of Programming Languages
+105305, Advanced Database Systems
+
+@2017-10-29 15:48:00 INFO  ATServer:97 - Input from 127.0.0.1:12687 105001
+@2017-10-29 15:48:00 INFO  String:155 - Student Operation: student 101075403 register course 105001; State: Success
+@2017-10-29 15:48:00 INFO  String:267 - Course Operation: Add student 101075403 to course 105001; State: Success
+@2017-10-29 15:48:00 INFO  String:274 - University Operation: student 101075403 register course 105001; State: Success
+@2017-10-29 15:48:00 INFO  ATServer:106 - Output to 127.0.0.1:12687 Success!
+
+@2017-10-29 15:48:02 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:48:02 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:48:06 INFO  ATServer:97 - Input from 127.0.0.1:12687 register for course
+@2017-10-29 15:48:06 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+105305, Advanced Database Systems
+
+@2017-10-29 15:48:11 INFO  ATServer:97 - Input from 127.0.0.1:12687 105305
+@2017-10-29 15:48:11 INFO  String:148 - Student Operation: student 101075403 register course 105305; State: Fail; Reason: over registered
+@2017-10-29 15:48:11 INFO  String:276 - University Operation: student 101075403 register course 105305; State: Fail; Reason: The course registered has reached the maximum number.
+@2017-10-29 15:48:11 INFO  ATServer:106 - Output to 127.0.0.1:12687 Unable to register for this course!
+
+@2017-10-29 15:49:32 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:49:32 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:49:40 INFO  ATServer:97 - Input from 127.0.0.1:12687 register for course
+@2017-10-29 15:49:40 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+105305, Advanced Database Systems
+
+@2017-10-29 15:49:46 INFO  ATServer:97 - Input from 127.0.0.1:12687 105305
+@2017-10-29 15:49:46 INFO  ATServer:106 - Output to 127.0.0.1:12687 Registration has finished!
+
+@2017-10-29 15:49:48 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:49:48 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 15:49:55 INFO  ATServer:97 - Input from 127.0.0.1:12687 drop course
+@2017-10-29 15:49:55 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Course Info: 'course code'
+Available Course List: 
+105305, Advanced Database Systems
+
+@2017-10-29 15:49:57 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 15:49:57 INFO  ATServer:106 - Output to 127.0.0.1:12687 Your input should be in correct format.
+
+@2017-10-29 15:50:03 INFO  ATServer:97 - Input from 127.0.0.1:12687 main menu
+@2017-10-29 15:50:03 INFO  ATServer:106 - Output to 127.0.0.1:12687 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
 @

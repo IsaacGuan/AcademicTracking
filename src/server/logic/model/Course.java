@@ -286,7 +286,7 @@ public class Course implements CourseInt {
 				return true;
 			}
 		}
-		logger.info(String.format("Course Operation: Remove student %d from course %d; State: Fail; Reason: The student has registered.", student.StudentNumber(), this.myCode));
+		logger.info(String.format("Course Operation: Remove student %d from course %d; State: Fail; Reason: The student has not registered.", student.StudentNumber(), this.myCode));
 		return false;
 	}
 	
