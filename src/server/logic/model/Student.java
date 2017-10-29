@@ -128,10 +128,10 @@ public class Student implements StudentInt {
 		boolean result = true;
 		if(selectedCourses.contains(course)||registeredCourses.contains(course)||completedCourses.contains(course)) {
 			result = false;
-			logger.info(String.format("Operation: student %d select course %d; State: Fail; Reason: student currently take this course or s has completed this course", this.StudentNumber(), course.Code()));
+			logger.info(String.format("Student Operation: student %d select course %d; State: Fail; Reason: student currently take this course or student has completed this course", this.StudentNumber(), course.Code()));
 		} else {
 			result = this.selectedCourses.add(course);
-			logger.info(String.format("Operation: student %d select course %d; State: Success", this.StudentNumber(), course.Code()));
+			logger.info(String.format("Student Operation: student %d select course %d; State: Success", this.StudentNumber(), course.Code()));
 		}
 		return result;
 	}
@@ -142,17 +142,17 @@ public class Student implements StudentInt {
 		boolean result = true;
 		if(!IsSelected(course)||IsRegistered(course)||IsCompleted(course)) {
 			result = false;
-			logger.info(String.format("Operation: student %d register course %d; State: Fail; Reason: student hasn't selected this course or student has completed this course", this.StudentNumber(), course.Code()));
+			logger.info(String.format("Student Operation: student %d register course %d; State: Fail; Reason: student hasn't selected this course or student has completed this course", this.StudentNumber(), course.Code()));
 		} else if(isFullTime&&registeredCourses.size()>=University.maxCourseForFTStudent) {
 			result = false;
-			logger.info(String.format("Operation: student %d register course %d; State: Fail; Reason: over registered", this.StudentNumber(), course.Code()));
+			logger.info(String.format("Student Operation: student %d register course %d; State: Fail; Reason: over registered", this.StudentNumber(), course.Code()));
 		} else if(!isFullTime&&registeredCourses.size()>=University.maxCourseForPTStudent) {
 			result = false;
-			logger.info(String.format("Operation: student %d register course %d; State: Fail; Reason: over registered", this.StudentNumber(), course.Code()));
+			logger.info(String.format("Student Operation: student %d register course %d; State: Fail; Reason: over registered", this.StudentNumber(), course.Code()));
 		} else {
 			result = this.selectedCourses.remove(course);
 			result = this.registeredCourses.add(course);
-			logger.info(String.format("Operation: student %d register course %d; State: Success", this.StudentNumber(), course.Code()));
+			logger.info(String.format("Student Operation: student %d register course %d; State: Success", this.StudentNumber(), course.Code()));
 		}
 		return result;
 	}
@@ -163,10 +163,10 @@ public class Student implements StudentInt {
 		boolean result = true;
 		if(!IsSelected(course)||IsRegistered(course)||IsCompleted(course)) {
 			result = false;
-			logger.info(String.format("Operation: student %d drop course %d; State: Fail; Reason: student hasn't selected this course or student has completed this course", this.StudentNumber(), course.Code()));
+			logger.info(String.format("Student Operation: student %d drop course %d; State: Fail; Reason: student hasn't selected this course or student has completed this course", this.StudentNumber(), course.Code()));
 		} else {
 			result = this.selectedCourses.remove(course);
-			logger.info(String.format("Operation: student %d drop course %d; State: Success", this.StudentNumber(), course.Code()));
+			logger.info(String.format("Student Operation: student %d drop course %d; State: Success", this.StudentNumber(), course.Code()));
 		}
 		return result;
 	}
@@ -177,10 +177,10 @@ public class Student implements StudentInt {
 		boolean result = true;
 		if(IsSelected(course)||!IsRegistered(course)||IsCompleted(course)) {
 			result = false;
-			logger.info(String.format("Operation: student %d deregister course %d; State: Fail; Reason: student hasn't registered this course or student has completed this course", this.StudentNumber(), course.Code()));
+			logger.info(String.format("Student Operation: student %d deregister course %d; State: Fail; Reason: student hasn't registered this course or student has completed this course", this.StudentNumber(), course.Code()));
 		} else {
 			result = this.registeredCourses.remove(course);
-			logger.info(String.format("Operation: student %d deregister course %d; State: Success", this.StudentNumber(), course.Code()));
+			logger.info(String.format("Student Operation: student %d deregister course %d; State: Success", this.StudentNumber(), course.Code()));
 		}
 		return result;
 	}
@@ -219,6 +219,7 @@ public class Student implements StudentInt {
 		}
 		if (registeredCourses.size()!=0) {
 			average = sum / registeredCourses.size();
+			System.out.println(average);
 		}
 		return average;
 	}

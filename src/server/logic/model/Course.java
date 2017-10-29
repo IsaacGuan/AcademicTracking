@@ -254,7 +254,7 @@ public class Course implements CourseInt {
 		int flag = 0;
 		if (Students().size()>=this.capsize) {
 			result = false;
-			logger.info(String.format("Operation: Add Student %d to Course %d; State: Fail; Reason: The Course is full.", student.StudentNumber(), this.myCode));
+			logger.info(String.format("Course Operation: Add student %d to course %d; State: Fail; Reason: The course is full.", student.StudentNumber(), this.myCode));
 		} else {
 			for (int i = 0; i<Students().size(); i++) {
 				if (student.equals(Students().get(i))) {
@@ -262,13 +262,13 @@ public class Course implements CourseInt {
 				}
 			}
 			if (flag==0) {
-				enrollStudent.put(student, GenerateMark());
+				enrollStudent.put(student, 0);
 				result = true;
-				logger.info(String.format("Operation: Add Student %d to Course %d; State: Success", student.StudentNumber(), this.myCode));
+				logger.info(String.format("Course Operation: Add student %d to course %d; State: Success", student.StudentNumber(), this.myCode));
 			}
 			else {
 				result = false;
-				logger.info(String.format("Operation: Add Student %d to Course %d; State: Fail; Reason: The Student has registered.", student.StudentNumber(), this.myCode));
+				logger.info(String.format("Course Operation: Add student %d to course %d; State: Fail; Reason: The student has registered.", student.StudentNumber(), this.myCode));
 			}
 		}
 		return result;
@@ -282,11 +282,11 @@ public class Course implements CourseInt {
 			Student key = (Student)iterator.next();
 			if (student.equals(key)) {
 				enrollStudent.remove(student);
-				logger.info(String.format("Operation: Remove Student %d from Course %d; State: Success", student.StudentNumber(), this.myCode));
+				logger.info(String.format("Course Operation: Remove student %d from course %d; State: Success", student.StudentNumber(), this.myCode));
 				return true;
 			}
 		}
-		logger.info(String.format("Operation: Remove Student %d from Course %d; State: Fail; Reason: The Student has registered.", student.StudentNumber(), this.myCode));
+		logger.info(String.format("Course Operation: Remove student %d from course %d; State: Fail; Reason: The student has registered.", student.StudentNumber(), this.myCode));
 		return false;
 	}
 	
@@ -325,11 +325,6 @@ public class Course implements CourseInt {
 			int wf = 100 - s;
 			setWeightOfFinal(wf);
 		}
-	}
-	
-	public int GenerateMark() {
-		Random random = new Random();
-		return random.nextInt(25)+75;
 	}
 
 }

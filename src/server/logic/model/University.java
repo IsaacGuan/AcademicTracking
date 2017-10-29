@@ -2,6 +2,7 @@ package server.logic.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import org.apache.log4j.Logger;
 
@@ -30,8 +31,8 @@ public class University implements UniversityInt {
 		InitializeCourses();
 		InitializeStudents();
 		universityCourses = courses.size();
-		logger.info(String.format("Operation:Initialize University;courses: %s", courses));
-		logger.info(String.format("Operation:Initialize University;courses: %s", students));
+		logger.info(String.format("University Operation: Initialize university; courses: %s", courses));
+		logger.info(String.format("University Operation: Initialize university; students: %s", students));
 	}
 
 	public static final University getInstance() {
@@ -50,7 +51,7 @@ public class University implements UniversityInt {
 		courses.add(c3);
 		courses.add(c4);
 		courses.add(c5);
-		logger.info(String.format("Operation: Initialize CourseList; Students: %s", courses));
+		logger.info(String.format("University Operation: Initialize course list; courses: %s", courses));
 	}
 
 	private void InitializeStudents() {
@@ -62,7 +63,7 @@ public class University implements UniversityInt {
 			Student s = new Student(studentNumberList[i], studentNameList[i], isFullTimeList[i]);
 			students.add(s);
 		}
-		logger.info(String.format("Operation: Initialize StudentList; Students: %s", students));
+		logger.info(String.format("University Operation: Initialize student list; students: %s", students));
 	}
 
 	public int getUniversityCourses() {
@@ -210,15 +211,15 @@ public class University implements UniversityInt {
 			if (!isprojectcourse) {
 				Course c = new Course(title, mycode, cap, enforcePrereqs, numberofmidterms, numberofassignments, hasafinal);
 				result = courses.add(c);
-				logger.info(String.format("Operation: Create New Course; Course Info:[%s,%d]; State: Success", title, mycode));
+				logger.info(String.format("University Operation: Create new course; Course info:[%s,%d]; State: Success", title, mycode));
 			} else {
 				ProjectCourse c = new ProjectCourse(title, mycode, cap,enforcePrereqs, numberofmidterms, numberofassignments,hasafinal);
 				result = courses.add(c);
-				logger.info(String.format("Operation: Create New Project Course; Course Info:[%s,%d]; State: Success", title, mycode));
+				logger.info(String.format("University Operation: Create new project course; Course info:[%s,%d]; State: Success", title, mycode));
 			}
 		} else {
 			result = false;
-			logger.info(String.format("Operation: Create New Course; Course Info:[%s,%d]; State: Fail; Reason: The course already existed.", title, mycode));
+			logger.info(String.format("University Operation: Create new course; Course info:[%s,%d]; State: Fail; Reason: The course already existed.", title, mycode));
 		}
 		return result;
 	}
@@ -240,10 +241,10 @@ public class University implements UniversityInt {
 		if (!CheckStudent(number)) {
 			Student s = new Student(number, name, isfulltime);
 			result = students.add(s);
-			logger.info(String.format("Operation: Create New Student; Student Info:[%d,%s]; State: Success", number, name));
+			logger.info(String.format("University Operation: Create new student; Student info:[%d,%s]; State: Success", number, name));
 		} else {
 			result = false;
-			logger.info(String.format("Operation: Create New Student; Student Info:[%d,%s]; State: Fail; Reason: The student already existed.", number, name));
+			logger.info(String.format("University Operation: Create new student; Student info:[%d,%s]; State: Fail; Reason: The student already existed.", number, name));
 		}
 		return result;
 	}
@@ -268,10 +269,10 @@ public class University implements UniversityInt {
 		*/
 		if (CheckCourse(course.Code()) && CheckStudent(student.StudentNumber()) && student.IsSelected(course)) {
 			result = student.RegisterCourse(course) && course.AddStudent(student);
-			logger.info(String.format("Operation: student %d register course %d; State: Success", student.StudentNumber(), course.Code()));
+			logger.info(String.format("University Operation: student %d register course %d; State: Success", student.StudentNumber(), course.Code()));
 		} else {
 			result = false;
-			logger.info(String.format("Operation: student %d register course %d; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.", student.StudentNumber(), course.Code()));
+			logger.info(String.format("University Operation: student %d register course %d; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.", student.StudentNumber(), course.Code()));
 		}
 		return result;
 	}
@@ -282,10 +283,10 @@ public class University implements UniversityInt {
 		boolean result = true;
 		if (CheckCourse(course.Code()) && CheckStudent(student.StudentNumber()) && student.IsRegistered(course)) {
 			result = student.DeRegisterCourse(course) && course.RemoveStudent(student);
-			logger.info(String.format("Operation: student %d deregister course %d; State: Success", student.StudentNumber(), course.Code()));
+			logger.info(String.format("University Operation: student %d deregister course %d; State: Success", student.StudentNumber(), course.Code()));
 		} else {
 			result = false;
-			logger.info(String.format("Operation: student %d deregister course %d; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.", student.StudentNumber(), course.Code()));
+			logger.info(String.format("University Operation: student %d deregister course %d; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.", student.StudentNumber(), course.Code()));
 		}
 		return result;
 	}
@@ -309,10 +310,10 @@ public class University implements UniversityInt {
 				s.get(i).DeRegisterCourse(course);
 			}
 			result = true;
-			logger.info(String.format("Operation: cancel course %d; State: Success", course.Code()));
+			logger.info(String.format("University Operation: cancel course %d; State: Success", course.Code()));
 		} else {
 			result = false;
-			logger.info(String.format("Operation: cancel course %d; State: Fail; Reason: The course doesn't exist.", course.Code()));
+			logger.info(String.format("University Operation: cancel course %d; State: Fail; Reason: The course doesn't exist.", course.Code()));
 		}
 		return result;
 	}
@@ -336,10 +337,10 @@ public class University implements UniversityInt {
 				s.get(i).DeRegisterCourse(course);
 			}
 			result = courses.remove(course);
-			logger.info(String.format("Operation: delete course %d; State: Success", course.Code()));
+			logger.info(String.format("University Operation: delete course %d; State: Success", course.Code()));
 		} else {
 			result = false;
-			logger.info(String.format("Operation: delete course %d; State: Fail; Reason: The course doesn't exist.", course.Code()));
+			logger.info(String.format("University Operation: delete course %d; State: Fail; Reason: The course doesn't exist.", course.Code()));
 		}
 		return result;
 	}
@@ -363,10 +364,33 @@ public class University implements UniversityInt {
 				c.get(i).RemoveStudent(student);
 			}
 			result = students.remove(student);
-			logger.info(String.format("Operation: delete student %d; State: Success", student.StudentNumber()));
+			logger.info(String.format("University Operation: delete student %d; State: Success", student.StudentNumber()));
 		} else {
 			result = false;
-			logger.info(String.format("Operation: delete student %d; State: Fail; Reason: The student doesn't exist.", student.StudentNumber()));
+			logger.info(String.format("University Operation: delete student %d; State: Fail; Reason: The student doesn't exist.", student.StudentNumber()));
+		}
+		return result;
+	}
+	
+	@Override
+	public boolean MarkStudents(Course course) {
+		// TODO Auto-generated method stub
+		boolean result = true;
+		if (CheckCourse(course.Code())) {
+			if (!course.getEnrollStudent().isEmpty()) {
+				for (Student key : course.getEnrollStudent().keySet()) {
+					Random random = new Random();
+					course.getEnrollStudent().put(key, random.nextInt(25) + 75);
+				}
+				result = true;
+				logger.info(String.format("University Operation: mark students for course %d; State: Success", course.Code()));
+			} else {
+				result = false;
+				logger.info(String.format("University Operation: mark students for course %d; State: Fail Reason: No students enrolled in this course.", course.Code()));
+			}
+		} else {
+			result = false;
+			logger.info(String.format("University Operation: mark students for course %d; State: Fail; Reason: The course doesn't exist.", course.Code()));
 		}
 		return result;
 	}

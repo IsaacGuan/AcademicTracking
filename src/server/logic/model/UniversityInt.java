@@ -29,6 +29,8 @@ public interface UniversityInt {
 	boolean DestroyCourse(Course course);
 	boolean DestroyStudent(Student student);
 	
+	boolean MarkStudents(Course course);
+	
 	List<Student> DeansList();
 
 }

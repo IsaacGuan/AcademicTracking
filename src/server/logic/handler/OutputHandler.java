@@ -502,6 +502,9 @@ public class OutputHandler {
 			output.setOutput("Dean's List not Generated!");
 			output.setState(CLERK);
 		} else {
+			for (int i=0; i<University.getInstance().getCourses().size(); i++) {
+				University.getInstance().MarkStudents(University.getInstance().getCourses().get(i));
+			}
 			String o = "";
 			for (int i=0; i<University.getInstance().DeansList().size(); i++) {
 				o = o + "\n" + University.getInstance().DeansList().get(i).toString();
