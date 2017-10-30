@@ -48,7 +48,7 @@ public class StartServer {
 				}
 				//System.out.println("term ends");
 			}
-		}, Config.STIMULATED_DAY * (20 + 14 + 84));
+		}, Config.STIMULATED_DAY * (20 + 14 + 4));
 		
 		new ATServer(Config.DEFAULT_PORT);
 
