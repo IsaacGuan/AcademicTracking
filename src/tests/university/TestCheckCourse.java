@@ -2,19 +2,21 @@ package tests.university;
 
 import static org.junit.Assert.*;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import org.junit.Before;
 import org.junit.Test;
 
-import server.logic.model.Course;
-import server.logic.model.ProjectCourse;
 import server.logic.model.University;
 
 public class TestCheckCourse {
+	
+	@Before
+	public void preparation() {
+		University.getInstance();
+	}
 
 	@Test
 	public void testCheckCourseSuccess() {
+		/*
 		List<Course> courses = new ArrayList<Course>();
 		ProjectCourse c1 = new ProjectCourse("OO Software Dev", 105104, 30, false, 0, 3, false);
 		ProjectCourse c2 = new ProjectCourse("Computational Geometry", 105008, 20, false, 0, 3, false);
@@ -28,11 +30,13 @@ public class TestCheckCourse {
 		courses.add(c5);
 		
 		University.getInstance().setCourses(courses);
+		*/
 		assertTrue(University.getInstance().CheckCourse(105104));
 	}
 	
 	@Test
 	public void testCheckCourseFail() {
+		/*
 		List<Course> courses = new ArrayList<Course>();
 		ProjectCourse c1 = new ProjectCourse("OO Software Dev", 105104, 30, false, 0, 3, false);
 		ProjectCourse c2 = new ProjectCourse("Computational Geometry", 105008, 20, false, 0, 3, false);
@@ -46,6 +50,7 @@ public class TestCheckCourse {
 		courses.add(c5);
 		
 		University.getInstance().setCourses(courses);
+		*/
 		assertFalse(University.getInstance().CheckCourse(105100));
 	}
 

@@ -5,12 +5,18 @@ import static org.junit.Assert.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import server.logic.model.Student;
 import server.logic.model.University;
 
 public class TestLookupStudent {
+	
+	@Before
+	public void preparation() {
+		University.getInstance();
+	}
 
 	@Test
 	public void testLookupStudentSuccess() {

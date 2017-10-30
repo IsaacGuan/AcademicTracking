@@ -32,6 +32,7 @@ public class Student implements StudentInt {
 		this.registeredCourses = new ArrayList<Course>();
 		this.completedCourses = new ArrayList<Course>();
 		
+		logger.info(String.format("Student Operation: Initialize student; student number: %d, student name: %s", this.studentNumber, this.studentName));
 	}
 
 	public int getStudentNumber() {
@@ -126,7 +127,7 @@ public class Student implements StudentInt {
 	public boolean SelectCourse(Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
-		if(selectedCourses.contains(course)||registeredCourses.contains(course)||completedCourses.contains(course)) {
+		if(IsSelected(course)||IsRegistered(course)||IsCompleted(course)) {
 			result = false;
 			logger.info(String.format("Student Operation: student %d select course %d; State: Fail; Reason: student currently take this course or student has completed this course", this.StudentNumber(), course.Code()));
 		} else {
@@ -187,24 +188,30 @@ public class Student implements StudentInt {
 	
 	public boolean IsSelected (Course course) {
 		if (selectedCourses.contains(course)) {
+			logger.info(String.format("Student Operation: student %d has selected course %d;", this.StudentNumber(), course.Code()));
 			return true;
 		} else {
+			logger.info(String.format("Student Operation: student %d has not selected course %d;", this.StudentNumber(), course.Code()));
 			return false;
 		}
 	}
 	
 	public boolean IsRegistered (Course course) {
 		if (registeredCourses.contains(course)) {
+			logger.info(String.format("Student Operation: student %d has registered for course %d;", this.StudentNumber(), course.Code()));
 			return true;
 		} else {
+			logger.info(String.format("Student Operation: student %d has not registered for course %d;", this.StudentNumber(), course.Code()));
 			return false;
 		}
 	}
 	
 	public boolean IsCompleted (Course course) {
 		if (completedCourses.contains(course)) {
+			logger.info(String.format("Student Operation: student %d has completed course %d;", this.StudentNumber(), course.Code()));
 			return true;
 		} else {
+			logger.info(String.format("Student Operation: student %d has not completed course %d;", this.StudentNumber(), course.Code()));
 			return false;
 		}
 	}

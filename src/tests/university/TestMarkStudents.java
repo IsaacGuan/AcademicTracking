@@ -2,6 +2,7 @@ package tests.university;
 
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import server.logic.model.Course;
@@ -9,6 +10,11 @@ import server.logic.model.Student;
 import server.logic.model.University;
 
 public class TestMarkStudents {
+	
+	@Before
+	public void preparation() {
+		University.getInstance();
+	}
 
 	@Test
 	public void testMarkStudentsSuccess() {

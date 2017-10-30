@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import server.logic.model.Course;
@@ -12,6 +13,11 @@ import server.logic.model.ProjectCourse;
 import server.logic.model.University;
 
 public class TestGetCourse {
+	
+	@Before
+	public void preparation() {
+		University.getInstance();
+	}
 
 	@Test
 	public void testGetCourse() {

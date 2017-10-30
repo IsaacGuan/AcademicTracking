@@ -4467,4 +4467,661 @@ Available Course List:
 @2017-10-29 15:50:03 INFO  ATServer:97 - Input from 127.0.0.1:12687 main menu
 @2017-10-29 15:50:03 INFO  ATServer:106 - Output to 127.0.0.1:12687 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
 
+@2017-10-29 16:05:08 INFO  String:267 - Course Operation: Add student 101075401 to course 105104; State: Success
+@2017-10-29 16:05:08 INFO  String:271 - Course Operation: Add student 101075401 to course 105104; State: Fail; Reason: The student has registered.
+@2017-10-29 16:05:08 INFO  String:267 - Course Operation: Add student 101075401 to course 105104; State: Success
+@2017-10-29 16:06:59 INFO  ATServer:97 - Input from 127.0.0.1:12687 log out
+@2017-10-29 16:06:59 INFO  ATServer:106 - Output to 127.0.0.1:12687 Successfully Log Out!
+
+@2017-10-29 16:07:00 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 16:07:00 INFO  ATServer:106 - Output to 127.0.0.1:12687 Who Are you? Clerk or Student?
+
+@2017-10-29 16:07:03 INFO  ATServer:97 - Input from 127.0.0.1:12687 student
+@2017-10-29 16:07:03 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input Studentnumber and Name: 'student number, name'
+
+@2017-10-29 16:07:10 INFO  ATServer:97 - Input from 127.0.0.1:12687 log out
+@2017-10-29 16:07:10 INFO  ATServer:106 - Output to 127.0.0.1:12687 Your input should be in this format: 'student number, name'
+
+@2017-10-29 16:07:27 INFO  ATServer:97 - Input from 127.0.0.1:12687 101075401
+@2017-10-29 16:07:27 INFO  ATServer:106 - Output to 127.0.0.1:12687 Your input should be in this format: 'student number, name'
+
+@2017-10-29 16:07:34 INFO  ATServer:97 - Input from 127.0.0.1:12687 101075401, tom
+@2017-10-29 16:07:34 INFO  ATServer:106 - Output to 127.0.0.1:12687 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2017-10-29 16:07:37 INFO  ATServer:97 - Input from 127.0.0.1:12687 log out
+@2017-10-29 16:07:37 INFO  ATServer:106 - Output to 127.0.0.1:12687 Successfully Log Out!
+
+@2017-10-29 16:07:42 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 16:07:42 INFO  ATServer:106 - Output to 127.0.0.1:12687 Who Are you? Clerk or Student?
+
+@2017-10-29 16:07:44 INFO  ATServer:97 - Input from 127.0.0.1:12687 clerk
+@2017-10-29 16:07:44 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please Input The Password:
+
+@2017-10-29 16:07:46 INFO  ATServer:97 - Input from 127.0.0.1:12687 admin
+@2017-10-29 16:07:46 INFO  ATServer:106 - Output to 127.0.0.1:12687 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 16:07:51 INFO  ATServer:97 - Input from 127.0.0.1:12687 dean's list
+@2017-10-29 16:07:51 INFO  ATServer:106 - Output to 127.0.0.1:12687 Dean's list not generated!
+
+@2017-10-29 16:07:52 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 16:07:52 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 16:07:53 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 16:07:53 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 16:07:54 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 16:07:54 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 16:07:54 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 16:07:54 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 16:07:54 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 16:07:54 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 16:07:55 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 16:07:55 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 16:07:59 INFO  ATServer:97 - Input from 127.0.0.1:12687 dean's list
+@2017-10-29 16:07:59 INFO  ATServer:106 - Output to 127.0.0.1:12687 Dean's list not generated!
+
+@2017-10-29 16:17:36 INFO  String:398 - University Operation: mark students for course 105104; State: Success
+@2017-10-29 16:17:36 INFO  String:398 - University Operation: mark students for course 105008; State: Success
+@2017-10-29 16:17:36 INFO  String:398 - University Operation: mark students for course 105003; State: Success
+@2017-10-29 16:17:36 INFO  String:401 - University Operation: mark students for course 105305; State: Fail Reason: No students enrolled in this course.
+@2017-10-29 16:17:36 INFO  String:398 - University Operation: mark students for course 105001; State: Success
+@2017-10-29 16:22:56 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 16:22:56 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 16:23:00 INFO  ATServer:97 - Input from 127.0.0.1:12687 dean's list
+@2017-10-29 16:23:00 INFO  ATServer:106 - Output to 127.0.0.1:12687 
+101075403, mike
+
+@2017-10-29 16:23:03 INFO  ATServer:97 - Input from 127.0.0.1:12687 
+@2017-10-29 16:23:03 INFO  ATServer:106 - Output to 127.0.0.1:12687 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2017-10-29 16:38:45 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 16:38:45 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 16:38:45 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 16:38:45 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 16:38:45 INFO  String:134 - Student Operation: student 101075401 select course 105104; State: Success
+@2017-10-29 16:38:45 INFO  String:134 - Student Operation: student 101075402 select course 105104; State: Success
+@2017-10-29 16:38:45 INFO  String:155 - Student Operation: student 101075401 register course 105104; State: Success
+@2017-10-29 16:38:45 INFO  String:267 - Course Operation: Add student 101075401 to course 105104; State: Success
+@2017-10-29 16:38:45 INFO  String:274 - University Operation: student 101075401 register course 105104; State: Success
+@2017-10-29 16:38:45 INFO  String:155 - Student Operation: student 101075402 register course 105104; State: Success
+@2017-10-29 16:38:45 INFO  String:267 - Course Operation: Add student 101075402 to course 105104; State: Success
+@2017-10-29 16:38:45 INFO  String:274 - University Operation: student 101075402 register course 105104; State: Success
+@2017-10-29 16:38:45 INFO  String:397 - University Operation: mark students for course 105104; State: Success
+@2017-10-29 16:38:45 INFO  String:400 - University Operation: mark students for course 105008; State: Fail Reason: No students enrolled in this course.
+@2017-10-29 16:50:36 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 16:50:36 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 16:50:36 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 16:50:36 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 16:50:36 INFO  String:222 - University Operation: Create new course; Course info:[Principles of Distributed Computing,105003]; State: Fail; Reason: The course already existed.
+@2017-10-29 16:50:36 INFO  String:214 - University Operation: Create new course; Course info:[Computer Security and Usability,105110]; State: Success
+@2017-10-29 17:01:02 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104, 
+@2017-10-29 17:01:02 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008, 
+@2017-10-29 17:01:02 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003, 
+@2017-10-29 17:01:02 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305, 
+@2017-10-29 17:01:02 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001, 
+@2017-10-29 17:01:02 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 17:01:02 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 17:01:02 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 17:01:02 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 17:01:13 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104, 
+@2017-10-29 17:01:13 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008, 
+@2017-10-29 17:01:13 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003, 
+@2017-10-29 17:01:13 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305, 
+@2017-10-29 17:01:13 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001, 
+@2017-10-29 17:01:13 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 17:01:13 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 17:01:13 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 17:01:13 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 18:20:15 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104, 
+@2017-10-29 18:20:15 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008, 
+@2017-10-29 18:20:15 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003, 
+@2017-10-29 18:20:15 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305, 
+@2017-10-29 18:20:15 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001, 
+@2017-10-29 18:20:15 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 18:20:15 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 18:20:15 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 18:20:15 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 18:20:15 INFO  String:151 - University Operation: Check course; Course info: 105003; State: Success
+@2017-10-29 18:20:15 INFO  String:230 - University Operation: Create new course; Course info: [Principles of Distributed Computing,105003]; State: Fail; Reason: The course already existed.
+@2017-10-29 18:20:15 INFO  String:154 - University Operation: Check course; Course info: 105110; State: Fail
+@2017-10-29 18:20:15 INFO  String:71 - Course Operation: Initialize course; title: Computer Security and Usability, myCode: 105110, 
+@2017-10-29 18:20:15 INFO  String:222 - University Operation: Create new course; Course info: [Computer Security and Usability,105110]; State: Success
+@2017-10-29 18:59:31 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 18:59:31 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 18:59:31 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 18:59:31 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 18:59:31 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 18:59:31 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 18:59:31 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 18:59:31 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 18:59:31 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 18:59:31 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 18:59:31 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 18:59:31 INFO  String:151 - University Operation: Check course; Course info: 105003; State: Success
+@2017-10-29 18:59:31 INFO  String:230 - University Operation: Create new course; Course info: [Principles of Distributed Computing,105003]; State: Fail; Reason: The course already existed.
+@2017-10-29 18:59:31 INFO  String:154 - University Operation: Check course; Course info: 105110; State: Fail
+@2017-10-29 18:59:31 INFO  String:71 - Course Operation: Initialize course; title: Computer Security and Usability, myCode: 105110
+@2017-10-29 18:59:31 INFO  String:222 - University Operation: Create new course; Course info: [Computer Security and Usability,105110]; State: Success
+@2017-10-29 19:01:48 INFO  String:24 - Create course starts
+@2017-10-29 19:01:48 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 19:01:48 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 19:01:48 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 19:01:48 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 19:01:48 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 19:01:48 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:01:48 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 19:01:48 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 19:01:48 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:01:48 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:01:48 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:01:48 INFO  String:151 - University Operation: Check course; Course info: 105003; State: Success
+@2017-10-29 19:01:48 INFO  String:230 - University Operation: Create new course; Course info: [Principles of Distributed Computing,105003]; State: Fail; Reason: The course already existed.
+@2017-10-29 19:01:48 INFO  String:26 - Create course ends
+@2017-10-29 19:01:48 INFO  String:17 - Create course starts
+@2017-10-29 19:01:48 INFO  String:154 - University Operation: Check course; Course info: 105110; State: Fail
+@2017-10-29 19:01:48 INFO  String:71 - Course Operation: Initialize course; title: Computer Security and Usability, myCode: 105110
+@2017-10-29 19:01:48 INFO  String:222 - University Operation: Create new course; Course info: [Computer Security and Usability,105110]; State: Success
+@2017-10-29 19:01:48 INFO  String:19 - Create course ends
+@2017-10-29 19:05:35 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 19:05:35 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 19:05:35 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 19:05:35 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 19:05:35 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 19:05:35 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:05:35 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 19:05:35 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 19:05:35 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:05:35 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:05:35 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:05:35 INFO  String:30 - Create course starts
+@2017-10-29 19:05:35 INFO  String:151 - University Operation: Check course; Course info: 105003; State: Success
+@2017-10-29 19:05:35 INFO  String:230 - University Operation: Create new course; Course info: [Principles of Distributed Computing,105003]; State: Fail; Reason: The course already existed.
+@2017-10-29 19:05:35 INFO  String:32 - Create course ends
+@2017-10-29 19:05:35 INFO  String:23 - Create course starts
+@2017-10-29 19:05:35 INFO  String:154 - University Operation: Check course; Course info: 105110; State: Fail
+@2017-10-29 19:05:35 INFO  String:71 - Course Operation: Initialize course; title: Computer Security and Usability, myCode: 105110
+@2017-10-29 19:05:35 INFO  String:222 - University Operation: Create new course; Course info: [Computer Security and Usability,105110]; State: Success
+@2017-10-29 19:05:35 INFO  String:25 - Create course ends
+@2017-10-29 19:06:45 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 19:06:45 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 19:06:45 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 19:06:45 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 19:06:45 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 19:06:45 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:06:45 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 19:06:45 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 19:06:45 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:06:46 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:06:46 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:06:46 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 19:06:46 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 19:06:46 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 19:06:46 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 19:06:46 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 19:06:56 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 19:06:56 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 19:06:56 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 19:06:56 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 19:06:56 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 19:06:56 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:06:56 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 19:06:56 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 19:06:56 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:06:56 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:06:56 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:06:56 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 19:06:56 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 19:06:56 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 19:06:56 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 19:06:56 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 19:19:17 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 19:19:17 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 19:19:17 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 19:19:18 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 19:19:18 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 19:19:18 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:19:18 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 19:19:18 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 19:19:18 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:19:18 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:19:18 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:19:18 INFO  String:30 - Create course starts
+@2017-10-29 19:19:18 INFO  String:151 - University Operation: Check course; Course info: 105003; State: Success
+@2017-10-29 19:19:18 INFO  String:230 - University Operation: Create new course; Course info: [Principles of Distributed Computing,105003]; State: Fail; Reason: The course already existed.
+@2017-10-29 19:19:18 INFO  String:32 - Create course ends
+@2017-10-29 19:19:18 INFO  String:23 - Create course starts
+@2017-10-29 19:19:18 INFO  String:154 - University Operation: Check course; Course info: 105110; State: Fail
+@2017-10-29 19:19:18 INFO  String:71 - Course Operation: Initialize course; title: Computer Security and Usability, myCode: 105110
+@2017-10-29 19:19:18 INFO  String:222 - University Operation: Create new course; Course info: [Computer Security and Usability,105110]; State: Success
+@2017-10-29 19:19:18 INFO  String:25 - Create course ends
+@2017-10-29 19:32:24 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 19:32:24 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 19:32:24 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 19:32:24 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 19:32:24 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 19:32:24 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:32:24 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 19:32:24 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 19:32:24 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:32:24 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:32:24 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:32:24 INFO  String:23 - Create student ends
+@2017-10-29 19:32:24 INFO  String:174 - University Operation: Check student; Student info: 101075403; State: Fail
+@2017-10-29 19:32:24 INFO  String:35 - Student Operation: Initialize student; student number: 101075403, student name: john
+@2017-10-29 19:32:24 INFO  String:252 - University Operation: Create new student; Student info: [101075403,john]; State: Success
+@2017-10-29 19:32:24 INFO  String:25 - Create student starts
+@2017-10-29 19:32:24 INFO  String:30 - Create student starts
+@2017-10-29 19:32:24 INFO  String:171 - University Operation: Check student; Student info: 101075401; State: Success
+@2017-10-29 19:32:24 INFO  String:255 - University Operation: Create new student; Student info: [101075401,tom]; State: Fail; Reason: The student already existed.
+@2017-10-29 19:32:24 INFO  String:32 - Create student ends
+@2017-10-29 19:33:12 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 19:33:12 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 19:33:12 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 19:33:12 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 19:33:12 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 19:33:12 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:33:12 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 19:33:12 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 19:33:12 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:33:12 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:33:12 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:33:12 INFO  String:23 - Create student starts
+@2017-10-29 19:33:12 INFO  String:174 - University Operation: Check student; Student info: 101075403; State: Fail
+@2017-10-29 19:33:12 INFO  String:35 - Student Operation: Initialize student; student number: 101075403, student name: john
+@2017-10-29 19:33:12 INFO  String:252 - University Operation: Create new student; Student info: [101075403,john]; State: Success
+@2017-10-29 19:33:12 INFO  String:25 - Create student ends
+@2017-10-29 19:33:12 INFO  String:30 - Create student starts
+@2017-10-29 19:33:12 INFO  String:171 - University Operation: Check student; Student info: 101075401; State: Success
+@2017-10-29 19:33:12 INFO  String:255 - University Operation: Create new student; Student info: [101075401,tom]; State: Fail; Reason: The student already existed.
+@2017-10-29 19:33:12 INFO  String:32 - Create student ends
+@2017-10-29 19:35:51 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 19:35:51 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 19:35:51 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 19:35:51 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 19:35:51 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 19:35:51 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:35:51 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 19:35:51 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 19:35:51 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:35:51 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:35:51 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:35:51 INFO  String:133 - University Operation: Get course; Course info: 105104; State: Success
+@2017-10-29 19:35:51 INFO  String:151 - University Operation: Check course; Course info: 105104; State: Success
+@2017-10-29 19:35:51 INFO  String:291 - Course Operation: Remove student 101075401 from course 105104; State: Fail; Reason: The student has not registered.
+@2017-10-29 19:35:51 INFO  String:181 - Student Operation: student 101075401 deregister course 105104; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 19:35:51 INFO  String:291 - Course Operation: Remove student 101075402 from course 105104; State: Fail; Reason: The student has not registered.
+@2017-10-29 19:35:51 INFO  String:181 - Student Operation: student 101075402 deregister course 105104; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 19:35:51 INFO  String:331 - University Operation: cancel course 105104; State: Success
+@2017-10-29 19:36:44 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 19:36:44 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 19:36:44 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 19:36:44 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 19:36:44 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 19:36:44 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:36:44 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 19:36:44 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 19:36:44 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:36:44 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:36:44 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:36:44 INFO  String:24 - Cancel course starts
+@2017-10-29 19:36:44 INFO  String:133 - University Operation: Get course; Course info: 105104; State: Success
+@2017-10-29 19:36:44 INFO  String:151 - University Operation: Check course; Course info: 105104; State: Success
+@2017-10-29 19:36:44 INFO  String:291 - Course Operation: Remove student 101075401 from course 105104; State: Fail; Reason: The student has not registered.
+@2017-10-29 19:36:44 INFO  String:181 - Student Operation: student 101075401 deregister course 105104; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 19:36:44 INFO  String:291 - Course Operation: Remove student 101075402 from course 105104; State: Fail; Reason: The student has not registered.
+@2017-10-29 19:36:44 INFO  String:181 - Student Operation: student 101075402 deregister course 105104; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 19:36:44 INFO  String:331 - University Operation: cancel course 105104; State: Success
+@2017-10-29 19:36:44 INFO  String:27 - Cancel course starts
+@2017-10-29 19:44:23 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 19:44:23 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 19:44:23 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 19:44:23 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 19:44:23 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 19:44:23 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:44:23 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 19:44:23 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 19:44:23 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:44:23 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:44:23 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:44:23 INFO  String:24 - Destroy course starts
+@2017-10-29 19:44:23 INFO  String:133 - University Operation: Get course; Course info: 105104; State: Success
+@2017-10-29 19:44:23 INFO  String:151 - University Operation: Check course; Course info: 105104; State: Success
+@2017-10-29 19:44:23 INFO  String:291 - Course Operation: Remove student 101075401 from course 105104; State: Fail; Reason: The student has not registered.
+@2017-10-29 19:44:23 INFO  String:167 - Student Operation: student 101075401 drop course 105104; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-29 19:44:23 INFO  String:181 - Student Operation: student 101075401 deregister course 105104; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 19:44:23 INFO  String:291 - Course Operation: Remove student 101075402 from course 105104; State: Fail; Reason: The student has not registered.
+@2017-10-29 19:44:23 INFO  String:167 - Student Operation: student 101075402 drop course 105104; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-29 19:44:23 INFO  String:181 - Student Operation: student 101075402 deregister course 105104; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 19:44:23 INFO  String:359 - University Operation: delete course 105104; State: Success
+@2017-10-29 19:44:23 INFO  String:27 - Destroy course ends
+@2017-10-29 19:45:12 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 19:45:12 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 19:45:12 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 19:45:12 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 19:45:12 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 19:45:12 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:45:12 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 19:45:12 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 19:45:12 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:45:12 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:45:12 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:45:12 INFO  String:24 - Cancel course starts
+@2017-10-29 19:45:12 INFO  String:133 - University Operation: Get course; Course info: 105104; State: Success
+@2017-10-29 19:45:12 INFO  String:151 - University Operation: Check course; Course info: 105104; State: Success
+@2017-10-29 19:45:12 INFO  String:291 - Course Operation: Remove student 101075401 from course 105104; State: Fail; Reason: The student has not registered.
+@2017-10-29 19:45:12 INFO  String:181 - Student Operation: student 101075401 deregister course 105104; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 19:45:12 INFO  String:291 - Course Operation: Remove student 101075402 from course 105104; State: Fail; Reason: The student has not registered.
+@2017-10-29 19:45:12 INFO  String:181 - Student Operation: student 101075402 deregister course 105104; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 19:45:12 INFO  String:331 - University Operation: cancel course 105104; State: Success
+@2017-10-29 19:45:12 INFO  String:27 - Cancel course ends
+@2017-10-29 19:47:54 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 19:47:54 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 19:47:54 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 19:47:54 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 19:47:54 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 19:47:54 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:47:54 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 19:47:54 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 19:47:54 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:47:54 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:47:54 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:47:54 INFO  String:24 - Destroy course starts
+@2017-10-29 19:47:54 INFO  String:133 - University Operation: Get course; Course info: 105104; State: Success
+@2017-10-29 19:47:54 INFO  String:151 - University Operation: Check course; Course info: 105104; State: Success
+@2017-10-29 19:47:54 INFO  String:291 - Course Operation: Remove student 101075401 from course 105104; State: Fail; Reason: The student has not registered.
+@2017-10-29 19:47:54 INFO  String:167 - Student Operation: student 101075401 drop course 105104; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-29 19:47:54 INFO  String:181 - Student Operation: student 101075401 deregister course 105104; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 19:47:54 INFO  String:291 - Course Operation: Remove student 101075402 from course 105104; State: Fail; Reason: The student has not registered.
+@2017-10-29 19:47:54 INFO  String:167 - Student Operation: student 101075402 drop course 105104; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-29 19:47:54 INFO  String:181 - Student Operation: student 101075402 deregister course 105104; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 19:47:54 INFO  String:359 - University Operation: delete course 105104; State: Success
+@2017-10-29 19:47:54 INFO  String:27 - Destroy course ends
+@2017-10-29 19:54:32 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 19:54:32 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 19:54:32 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 19:54:32 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 19:54:32 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 19:54:32 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:54:32 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 19:54:32 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 19:54:32 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:54:32 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 19:54:32 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 19:54:32 INFO  String:24 - Destroy student starts
+@2017-10-29 19:54:32 INFO  String:120 - University Operation: Get student; Student info: 101075401; State: Success
+@2017-10-29 19:54:32 INFO  String:171 - University Operation: Check student; Student info: 101075401; State: Success
+@2017-10-29 19:54:32 INFO  String:181 - Student Operation: student 101075401 deregister course 105104; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 19:54:32 INFO  String:291 - Course Operation: Remove student 101075401 from course 105104; State: Fail; Reason: The student has not registered.
+@2017-10-29 19:54:32 INFO  String:181 - Student Operation: student 101075401 deregister course 105008; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 19:54:32 INFO  String:291 - Course Operation: Remove student 101075401 from course 105008; State: Fail; Reason: The student has not registered.
+@2017-10-29 19:54:32 INFO  String:181 - Student Operation: student 101075401 deregister course 105003; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 19:54:32 INFO  String:291 - Course Operation: Remove student 101075401 from course 105003; State: Fail; Reason: The student has not registered.
+@2017-10-29 19:54:32 INFO  String:181 - Student Operation: student 101075401 deregister course 105305; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 19:54:32 INFO  String:291 - Course Operation: Remove student 101075401 from course 105305; State: Fail; Reason: The student has not registered.
+@2017-10-29 19:54:32 INFO  String:181 - Student Operation: student 101075401 deregister course 105001; State: Fail; Reason: student hasn't registered this course or student has completed this course
+@2017-10-29 19:54:32 INFO  String:291 - Course Operation: Remove student 101075401 from course 105001; State: Fail; Reason: The student has not registered.
+@2017-10-29 19:54:32 INFO  String:386 - University Operation: delete student 101075401; State: Success
+@2017-10-29 19:54:32 INFO  String:27 - Destroy student ends
+@2017-10-29 20:05:15 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:05:15 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 20:05:15 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 20:05:15 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 20:05:15 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 20:05:15 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 20:05:15 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 20:05:15 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 20:05:15 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 20:05:15 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 20:05:15 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 20:05:15 INFO  String:25 - Select course starts
+@2017-10-29 20:05:15 INFO  String:120 - University Operation: Get student; Student info: 101075401; State: Success
+@2017-10-29 20:05:15 INFO  String:133 - University Operation: Get course; Course info: 105104; State: Success
+@2017-10-29 20:05:15 INFO  String:135 - Student Operation: student 101075401 select course 105104; State: Success
+@2017-10-29 20:05:15 INFO  String:29 - Select course ends
+@2017-10-29 20:05:15 INFO  String:34 - Select course starts
+@2017-10-29 20:05:15 INFO  String:120 - University Operation: Get student; Student info: 101075401; State: Success
+@2017-10-29 20:05:15 INFO  String:133 - University Operation: Get course; Course info: 105008; State: Success
+@2017-10-29 20:05:15 INFO  String:135 - Student Operation: student 101075401 select course 105008; State: Success
+@2017-10-29 20:05:15 INFO  String:191 - Student Operation: student 101075401 has selected course 105008;
+@2017-10-29 20:05:15 INFO  String:204 - Student Operation: student 101075401 has not registered for course 105008;
+@2017-10-29 20:05:15 INFO  String:214 - Student Operation: student 101075401 has not completed course 105008;
+@2017-10-29 20:05:15 INFO  String:156 - Student Operation: student 101075401 register course 105008; State: Success
+@2017-10-29 20:05:15 INFO  String:132 - Student Operation: student 101075401 select course 105008; State: Fail; Reason: student currently take this course or student has completed this course
+@2017-10-29 20:05:15 INFO  String:40 - Select course ends
+@2017-10-29 20:06:58 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:06:58 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 20:06:58 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 20:06:58 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 20:06:58 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 20:06:58 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 20:06:58 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 20:06:58 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 20:06:58 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 20:06:58 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 20:06:58 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 20:06:58 INFO  String:25 - Select course starts
+@2017-10-29 20:06:58 INFO  String:120 - University Operation: Get student; Student info: 101075401; State: Success
+@2017-10-29 20:06:58 INFO  String:133 - University Operation: Get course; Course info: 105104; State: Success
+@2017-10-29 20:06:58 INFO  String:194 - Student Operation: student 101075401 has not selected course 105104;
+@2017-10-29 20:06:58 INFO  String:204 - Student Operation: student 101075401 has not registered for course 105104;
+@2017-10-29 20:06:58 INFO  String:214 - Student Operation: student 101075401 has not completed course 105104;
+@2017-10-29 20:06:58 INFO  String:135 - Student Operation: student 101075401 select course 105104; State: Success
+@2017-10-29 20:06:58 INFO  String:29 - Select course ends
+@2017-10-29 20:06:58 INFO  String:34 - Select course starts
+@2017-10-29 20:06:58 INFO  String:120 - University Operation: Get student; Student info: 101075401; State: Success
+@2017-10-29 20:06:58 INFO  String:133 - University Operation: Get course; Course info: 105008; State: Success
+@2017-10-29 20:06:58 INFO  String:194 - Student Operation: student 101075401 has not selected course 105008;
+@2017-10-29 20:06:58 INFO  String:204 - Student Operation: student 101075401 has not registered for course 105008;
+@2017-10-29 20:06:58 INFO  String:214 - Student Operation: student 101075401 has not completed course 105008;
+@2017-10-29 20:06:58 INFO  String:135 - Student Operation: student 101075401 select course 105008; State: Success
+@2017-10-29 20:06:58 INFO  String:191 - Student Operation: student 101075401 has selected course 105008;
+@2017-10-29 20:06:58 INFO  String:204 - Student Operation: student 101075401 has not registered for course 105008;
+@2017-10-29 20:06:58 INFO  String:214 - Student Operation: student 101075401 has not completed course 105008;
+@2017-10-29 20:06:58 INFO  String:156 - Student Operation: student 101075401 register course 105008; State: Success
+@2017-10-29 20:06:58 INFO  String:194 - Student Operation: student 101075401 has not selected course 105008;
+@2017-10-29 20:06:58 INFO  String:201 - Student Operation: student 101075401 has registered for course 105008;
+@2017-10-29 20:06:58 INFO  String:132 - Student Operation: student 101075401 select course 105008; State: Fail; Reason: student currently take this course or student has completed this course
+@2017-10-29 20:06:58 INFO  String:40 - Select course ends
+@2017-10-29 20:15:20 INFO  String:51 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:15:20 INFO  String:51 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:15:20 INFO  String:51 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:15:20 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 20:15:20 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 20:15:20 INFO  String:51 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:15:20 INFO  String:51 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:15:20 INFO  String:51 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:15:20 INFO  String:51 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:15:20 INFO  String:51 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:15:20 INFO  String:51 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:15:20 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 20:15:20 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 20:15:20 INFO  String:269 - Course Operation: Add student 101075401 to course 105104; State: Success
+@2017-10-29 20:15:20 INFO  String:269 - Course Operation: Add student 101075402 to course 105104; State: Success
+@2017-10-29 20:15:20 INFO  String:51 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:15:20 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 20:15:20 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 20:15:20 INFO  String:269 - Course Operation: Add student 101075401 to course 105104; State: Success
+@2017-10-29 20:15:20 INFO  String:269 - Course Operation: Add student 101075402 to course 105104; State: Success
+@2017-10-29 20:15:20 INFO  String:51 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:15:20 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 20:15:20 INFO  String:51 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:15:20 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 20:15:20 INFO  String:269 - Course Operation: Add student 101075401 to course 105104; State: Success
+@2017-10-29 20:15:20 INFO  String:273 - Course Operation: Add student 101075401 to course 105104; State: Fail; Reason: The student has registered.
+@2017-10-29 20:15:20 INFO  String:51 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:15:20 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 20:15:20 INFO  String:269 - Course Operation: Add student 101075401 to course 105104; State: Success
+@2017-10-29 20:15:20 INFO  String:51 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:15:20 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 20:15:20 INFO  String:269 - Course Operation: Add student 101075401 to course 105104; State: Success
+@2017-10-29 20:15:20 INFO  String:287 - Course Operation: Remove student 101075401 from course 105104; State: Success
+@2017-10-29 20:15:20 INFO  String:51 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:15:20 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 20:15:20 INFO  String:291 - Course Operation: Remove student 101075401 from course 105104; State: Fail; Reason: The student has not registered.
+@2017-10-29 20:15:32 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:15:32 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 20:15:32 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 20:15:32 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 20:15:32 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 20:15:32 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 20:15:32 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 20:15:32 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 20:15:32 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 20:15:32 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 20:15:32 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 20:15:32 INFO  String:35 - Drop course starts
+@2017-10-29 20:15:32 INFO  String:120 - University Operation: Get student; Student info: 101075401; State: Success
+@2017-10-29 20:15:32 INFO  String:133 - University Operation: Get course; Course info: 105008; State: Success
+@2017-10-29 20:15:32 INFO  String:194 - Student Operation: student 101075401 has not selected course 105008;
+@2017-10-29 20:15:32 INFO  String:167 - Student Operation: student 101075401 drop course 105008; State: Fail; Reason: student hasn't selected this course or student has completed this course
+@2017-10-29 20:15:32 INFO  String:39 - Drop course ends
+@2017-10-29 20:15:32 INFO  String:25 - Drop course starts
+@2017-10-29 20:15:32 INFO  String:120 - University Operation: Get student; Student info: 101075401; State: Success
+@2017-10-29 20:15:32 INFO  String:133 - University Operation: Get course; Course info: 105104; State: Success
+@2017-10-29 20:15:32 INFO  String:194 - Student Operation: student 101075401 has not selected course 105104;
+@2017-10-29 20:15:32 INFO  String:204 - Student Operation: student 101075401 has not registered for course 105104;
+@2017-10-29 20:15:32 INFO  String:214 - Student Operation: student 101075401 has not completed course 105104;
+@2017-10-29 20:15:32 INFO  String:135 - Student Operation: student 101075401 select course 105104; State: Success
+@2017-10-29 20:15:32 INFO  String:191 - Student Operation: student 101075401 has selected course 105104;
+@2017-10-29 20:15:32 INFO  String:204 - Student Operation: student 101075401 has not registered for course 105104;
+@2017-10-29 20:15:32 INFO  String:214 - Student Operation: student 101075401 has not completed course 105104;
+@2017-10-29 20:15:32 INFO  String:170 - Student Operation: student 101075401 drop course 105104; State: Success
+@2017-10-29 20:15:32 INFO  String:30 - Drop course ends
+@2017-10-29 20:23:49 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:23:49 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 20:23:49 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 20:23:49 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 20:23:49 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 20:23:49 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 20:23:49 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 20:23:49 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 20:23:49 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 20:23:49 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 20:23:49 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 20:23:49 INFO  String:25 - Register student for course starts
+@2017-10-29 20:23:49 INFO  String:133 - University Operation: Get course; Course info: 105104; State: Success
+@2017-10-29 20:23:49 INFO  String:120 - University Operation: Get student; Student info: 101075401; State: Success
+@2017-10-29 20:23:49 INFO  String:194 - Student Operation: student 101075401 has not selected course 105104;
+@2017-10-29 20:23:49 INFO  String:204 - Student Operation: student 101075401 has not registered for course 105104;
+@2017-10-29 20:23:49 INFO  String:214 - Student Operation: student 101075401 has not completed course 105104;
+@2017-10-29 20:23:49 INFO  String:135 - Student Operation: student 101075401 select course 105104; State: Success
+@2017-10-29 20:23:49 INFO  String:151 - University Operation: Check course; Course info: 105104; State: Success
+@2017-10-29 20:23:49 INFO  String:171 - University Operation: Check student; Student info: 101075401; State: Success
+@2017-10-29 20:23:49 INFO  String:191 - Student Operation: student 101075401 has selected course 105104;
+@2017-10-29 20:23:49 INFO  String:191 - Student Operation: student 101075401 has selected course 105104;
+@2017-10-29 20:23:49 INFO  String:204 - Student Operation: student 101075401 has not registered for course 105104;
+@2017-10-29 20:23:49 INFO  String:214 - Student Operation: student 101075401 has not completed course 105104;
+@2017-10-29 20:23:49 INFO  String:156 - Student Operation: student 101075401 register course 105104; State: Success
+@2017-10-29 20:23:49 INFO  String:269 - Course Operation: Add student 101075401 to course 105104; State: Success
+@2017-10-29 20:23:49 INFO  String:282 - University Operation: student 101075401 register course 105104; State: Success
+@2017-10-29 20:23:49 INFO  String:30 - Register student for course ends
+@2017-10-29 20:23:49 INFO  String:55 - Register student for course starts
+@2017-10-29 20:23:49 INFO  String:133 - University Operation: Get course; Course info: 105008; State: Success
+@2017-10-29 20:23:49 INFO  String:120 - University Operation: Get student; Student info: 101075401; State: Success
+@2017-10-29 20:23:49 INFO  String:151 - University Operation: Check course; Course info: 105008; State: Success
+@2017-10-29 20:23:49 INFO  String:171 - University Operation: Check student; Student info: 101075401; State: Success
+@2017-10-29 20:23:49 INFO  String:194 - Student Operation: student 101075401 has not selected course 105008;
+@2017-10-29 20:23:49 INFO  String:288 - University Operation: student 101075401 register course 105008; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-29 20:23:49 INFO  String:59 - Register student for course ends
+@2017-10-29 20:23:49 INFO  String:35 - Register student for course starts
+@2017-10-29 20:23:49 INFO  String:133 - University Operation: Get course; Course info: 105104; State: Success
+@2017-10-29 20:23:49 INFO  String:35 - Student Operation: Initialize student; student number: 101075404, student name: mike
+@2017-10-29 20:23:49 INFO  String:194 - Student Operation: student 101075404 has not selected course 105104;
+@2017-10-29 20:23:49 INFO  String:204 - Student Operation: student 101075404 has not registered for course 105104;
+@2017-10-29 20:23:49 INFO  String:214 - Student Operation: student 101075404 has not completed course 105104;
+@2017-10-29 20:23:49 INFO  String:135 - Student Operation: student 101075404 select course 105104; State: Success
+@2017-10-29 20:23:49 INFO  String:151 - University Operation: Check course; Course info: 105104; State: Success
+@2017-10-29 20:23:49 INFO  String:174 - University Operation: Check student; Student info: 101075404; State: Fail
+@2017-10-29 20:23:49 INFO  String:288 - University Operation: student 101075404 register course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-29 20:23:49 INFO  String:40 - Register student for course ends
+@2017-10-29 20:23:49 INFO  String:45 - Register student for course starts
+@2017-10-29 20:23:49 INFO  String:51 - Course Operation: Initialize course; title: Virtual Environments, myCode: 115151
+@2017-10-29 20:23:49 INFO  String:120 - University Operation: Get student; Student info: 101075401; State: Success
+@2017-10-29 20:23:49 INFO  String:194 - Student Operation: student 101075401 has not selected course 115151;
+@2017-10-29 20:23:49 INFO  String:204 - Student Operation: student 101075401 has not registered for course 115151;
+@2017-10-29 20:23:49 INFO  String:214 - Student Operation: student 101075401 has not completed course 115151;
+@2017-10-29 20:23:49 INFO  String:135 - Student Operation: student 101075401 select course 115151; State: Success
+@2017-10-29 20:23:49 INFO  String:154 - University Operation: Check course; Course info: 115151; State: Fail
+@2017-10-29 20:23:49 INFO  String:288 - University Operation: student 101075401 register course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-29 20:23:49 INFO  String:50 - Register student for course ends
+@2017-10-29 20:33:26 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2017-10-29 20:33:26 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2017-10-29 20:33:26 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2017-10-29 20:33:26 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2017-10-29 20:33:26 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2017-10-29 20:33:26 INFO  String:54 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 20:33:26 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2017-10-29 20:33:26 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2017-10-29 20:33:26 INFO  String:66 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2017-10-29 20:33:26 INFO  String:34 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2017-10-29 20:33:26 INFO  String:35 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2017-10-29 20:33:26 INFO  String:47 - Deregister student from course starts
+@2017-10-29 20:33:26 INFO  String:51 - Course Operation: Initialize course; title: Virtual Environments, myCode: 115151
+@2017-10-29 20:33:26 INFO  String:120 - University Operation: Get student; Student info: 101075401; State: Success
+@2017-10-29 20:33:26 INFO  String:194 - Student Operation: student 101075401 has not selected course 115151;
+@2017-10-29 20:33:26 INFO  String:204 - Student Operation: student 101075401 has not registered for course 115151;
+@2017-10-29 20:33:26 INFO  String:214 - Student Operation: student 101075401 has not completed course 115151;
+@2017-10-29 20:33:26 INFO  String:135 - Student Operation: student 101075401 select course 115151; State: Success
+@2017-10-29 20:33:26 INFO  String:154 - University Operation: Check course; Course info: 115151; State: Fail
+@2017-10-29 20:33:26 INFO  String:288 - University Operation: student 101075401 register course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-29 20:33:26 INFO  String:154 - University Operation: Check course; Course info: 115151; State: Fail
+@2017-10-29 20:33:26 INFO  String:307 - University Operation: student 101075401 deregister course 115151; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.
+@2017-10-29 20:33:26 INFO  String:53 - Deregister student from course ends
+@2017-10-29 20:33:26 INFO  String:36 - Deregister student from course starts
+@2017-10-29 20:33:26 INFO  String:133 - University Operation: Get course; Course info: 105104; State: Success
+@2017-10-29 20:33:26 INFO  String:35 - Student Operation: Initialize student; student number: 101075404, student name: mike
+@2017-10-29 20:33:26 INFO  String:194 - Student Operation: student 101075404 has not selected course 105104;
+@2017-10-29 20:33:26 INFO  String:204 - Student Operation: student 101075404 has not registered for course 105104;
+@2017-10-29 20:33:26 INFO  String:214 - Student Operation: student 101075404 has not completed course 105104;
+@2017-10-29 20:33:26 INFO  String:135 - Student Operation: student 101075404 select course 105104; State: Success
+@2017-10-29 20:33:26 INFO  String:151 - University Operation: Check course; Course info: 105104; State: Success
+@2017-10-29 20:33:26 INFO  String:174 - University Operation: Check student; Student info: 101075404; State: Fail
+@2017-10-29 20:33:26 INFO  String:288 - University Operation: student 101075404 register course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2017-10-29 20:33:26 INFO  String:151 - University Operation: Check course; Course info: 105104; State: Success
+@2017-10-29 20:33:26 INFO  String:174 - University Operation: Check student; Student info: 101075404; State: Fail
+@2017-10-29 20:33:26 INFO  String:307 - University Operation: student 101075404 deregister course 105104; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.
+@2017-10-29 20:33:26 INFO  String:42 - Deregister student from course ends
+@2017-10-29 20:33:26 INFO  String:58 - Deregister student from course starts
+@2017-10-29 20:33:26 INFO  String:133 - University Operation: Get course; Course info: 105008; State: Success
+@2017-10-29 20:33:26 INFO  String:120 - University Operation: Get student; Student info: 101075401; State: Success
+@2017-10-29 20:33:26 INFO  String:194 - Student Operation: student 101075401 has not selected course 105008;
+@2017-10-29 20:33:26 INFO  String:204 - Student Operation: student 101075401 has not registered for course 105008;
+@2017-10-29 20:33:26 INFO  String:214 - Student Operation: student 101075401 has not completed course 105008;
+@2017-10-29 20:33:26 INFO  String:135 - Student Operation: student 101075401 select course 105008; State: Success
+@2017-10-29 20:33:26 INFO  String:151 - University Operation: Check course; Course info: 105008; State: Success
+@2017-10-29 20:33:26 INFO  String:171 - University Operation: Check student; Student info: 101075401; State: Success
+@2017-10-29 20:33:26 INFO  String:204 - Student Operation: student 101075401 has not registered for course 105008;
+@2017-10-29 20:33:26 INFO  String:307 - University Operation: student 101075401 deregister course 105008; State: Fail; Reason: The student or course doesn't exist or the student hasn't registered the course.
+@2017-10-29 20:33:26 INFO  String:63 - Deregister student from course ends
+@2017-10-29 20:33:26 INFO  String:25 - Deregister student from course starts
+@2017-10-29 20:33:26 INFO  String:133 - University Operation: Get course; Course info: 105104; State: Success
+@2017-10-29 20:33:26 INFO  String:120 - University Operation: Get student; Student info: 101075401; State: Success
+@2017-10-29 20:33:26 INFO  String:194 - Student Operation: student 101075401 has not selected course 105104;
+@2017-10-29 20:33:26 INFO  String:204 - Student Operation: student 101075401 has not registered for course 105104;
+@2017-10-29 20:33:26 INFO  String:214 - Student Operation: student 101075401 has not completed course 105104;
+@2017-10-29 20:33:26 INFO  String:135 - Student Operation: student 101075401 select course 105104; State: Success
+@2017-10-29 20:33:26 INFO  String:151 - University Operation: Check course; Course info: 105104; State: Success
+@2017-10-29 20:33:26 INFO  String:171 - University Operation: Check student; Student info: 101075401; State: Success
+@2017-10-29 20:33:26 INFO  String:191 - Student Operation: student 101075401 has selected course 105104;
+@2017-10-29 20:33:26 INFO  String:191 - Student Operation: student 101075401 has selected course 105104;
+@2017-10-29 20:33:26 INFO  String:204 - Student Operation: student 101075401 has not registered for course 105104;
+@2017-10-29 20:33:26 INFO  String:214 - Student Operation: student 101075401 has not completed course 105104;
+@2017-10-29 20:33:26 INFO  String:156 - Student Operation: student 101075401 register course 105104; State: Success
+@2017-10-29 20:33:26 INFO  String:269 - Course Operation: Add student 101075401 to course 105104; State: Success
+@2017-10-29 20:33:26 INFO  String:282 - University Operation: student 101075401 register course 105104; State: Success
+@2017-10-29 20:33:26 INFO  String:151 - University Operation: Check course; Course info: 105104; State: Success
+@2017-10-29 20:33:26 INFO  String:171 - University Operation: Check student; Student info: 101075401; State: Success
+@2017-10-29 20:33:26 INFO  String:201 - Student Operation: student 101075401 has registered for course 105104;
+@2017-10-29 20:33:26 INFO  String:194 - Student Operation: student 101075401 has not selected course 105104;
+@2017-10-29 20:33:26 INFO  String:201 - Student Operation: student 101075401 has registered for course 105104;
+@2017-10-29 20:33:26 INFO  String:214 - Student Operation: student 101075401 has not completed course 105104;
+@2017-10-29 20:33:26 INFO  String:184 - Student Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-29 20:33:26 INFO  String:287 - Course Operation: Remove student 101075401 from course 105104; State: Success
+@2017-10-29 20:33:26 INFO  String:301 - University Operation: student 101075401 deregister course 105104; State: Success
+@2017-10-29 20:33:26 INFO  String:31 - Deregister student from course ends
 @

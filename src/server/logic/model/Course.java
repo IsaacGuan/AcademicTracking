@@ -48,6 +48,7 @@ public class Course implements CourseInt {
 		this.weightOfFinal = 100;
 		this.enrollStudent = new HashMap<Student, Integer>();
 		GenerateWeights();
+		logger.info(String.format("Course Operation: Initialize course; title: %s, myCode: %d", this.title, this.myCode));
 	}
 	
 	public Course(String title, int myCode, int capsize,
@@ -67,6 +68,7 @@ public class Course implements CourseInt {
 		this.weightOfFinal = 0;
 		this.enrollStudent = new HashMap<Student, Integer>();
 		GenerateWeights();
+		logger.info(String.format("Course Operation: Initialize course; title: %s, myCode: %d", this.title, this.myCode));
 	}
 
 	public String getTitle() {

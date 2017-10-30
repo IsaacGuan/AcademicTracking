@@ -2,40 +2,42 @@ package tests.student;
 
 import static org.junit.Assert.*;
 
+import org.apache.log4j.Logger;
+import org.junit.Before;
 import org.junit.Test;
 
 import server.logic.model.Course;
 import server.logic.model.Student;
+import server.logic.model.University;
+import utilities.Trace;
 
 public class TestSelectCourse {
+	
+	private Logger logger = Trace.getInstance().getLogger("opreation_file");
+	
+	@Before
+	public void preparation() {
+		University.getInstance();
+	}
 
 	@Test
 	public void testSelectCourseSuccess() {
-		Student s = new Student(101075401, "tom", true);
-		Course c1 = new Course("OO Software Dev", 105104, 30);
-		Course c2 = new Course("Computational Geometry", 105008, 20);
-		Course c3 = new Course("Principles of Distributed Computing", 105003, 30);
-		
-		s.SelectCourse(c1);
-		s.SelectCourse(c2);
-		s.RegisterCourse(c1);
-		s.RegisterCourse(c2);
-		assertTrue(s.SelectCourse(c3));
+		logger.info(String.format("Select course starts"));
+		Student s = University.getInstance().GetStudent(101075401);
+		Course c = University.getInstance().GetCourse(105104);
+		assertTrue(s.SelectCourse(c));
+		logger.info(String.format("Select course ends"));
 	}
 	
 	@Test
 	public void testSelectCourseFail() {
-		Student s = new Student(101075401, "tom", true);
-		Course c1 = new Course("OO Software Dev", 105104, 30);
-		Course c2 = new Course("Computational Geometry", 105008, 20);
-		Course c3 = new Course("Principles of Distributed Computing", 105003, 30);
-		
-		s.SelectCourse(c1);
-		s.SelectCourse(c2);
-		s.SelectCourse(c3);
-		s.RegisterCourse(c1);
-		s.RegisterCourse(c2);
-		assertFalse(s.SelectCourse(c2));
+		logger.info(String.format("Select course starts"));
+		Student s = University.getInstance().GetStudent(101075401);
+		Course c = University.getInstance().GetCourse(105008);
+		s.SelectCourse(c);
+		s.RegisterCourse(c);
+		assertFalse(s.SelectCourse(c));
+		logger.info(String.format("Select course ends"));
 	}
 
 }

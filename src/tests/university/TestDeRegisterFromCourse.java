@@ -2,47 +2,65 @@ package tests.university;
 
 import static org.junit.Assert.*;
 
+import org.apache.log4j.Logger;
+import org.junit.Before;
 import org.junit.Test;
 
 import server.logic.model.Course;
 import server.logic.model.Student;
 import server.logic.model.University;
+import utilities.Trace;
 
 public class TestDeRegisterFromCourse {
+	
+	private Logger logger = Trace.getInstance().getLogger("opreation_file");
+	
+	@Before
+	public void preparation() {
+		University.getInstance();
+	}
 
 	@Test
 	public void testDeRegisterFromCourseSuccess() {
-		Course c = new Course("OO Software Dev", 105104, 30);
-		Student s = new Student(101075401, "tom", true);
+		logger.info(String.format("Deregister student from course starts"));
+		Course c = University.getInstance().GetCourse(105104);
+		Student s = University.getInstance().GetStudent(101075401);
 		s.SelectCourse(c);
 		University.getInstance().RegisterStudentForCourse(s, c);
 		assertTrue(University.getInstance().DeRegisterStudentFromCourse(s, c));
+		logger.info(String.format("Deregister student from course ends"));
 	}
 	
 	@Test
 	public void testDeRegisterFromCourseFail_StudentNotExist() {
-		Course c = new Course("OO Software Dev", 105104, 30);
+		logger.info(String.format("Deregister student from course starts"));
+		Course c = University.getInstance().GetCourse(105104);
 		Student s = new Student(101075404, "mike", true);
 		s.SelectCourse(c);
 		University.getInstance().RegisterStudentForCourse(s, c);
 		assertFalse(University.getInstance().DeRegisterStudentFromCourse(s, c));
+		logger.info(String.format("Deregister student from course ends"));
 	}
 	
 	@Test
 	public void testDeRegisterFromCourseFail_CourseNotExist() {
+		logger.info(String.format("Deregister student from course starts"));
 		Course c = new Course("Virtual Environments", 115151, 30);
-		Student s = new Student(101075401, "tom", true);
+		Student s = University.getInstance().GetStudent(101075401);
 		s.SelectCourse(c);
 		University.getInstance().RegisterStudentForCourse(s, c);
 		assertFalse(University.getInstance().DeRegisterStudentFromCourse(s, c));
+		logger.info(String.format("Deregister student from course ends"));
 	}
 	
 	@Test
 	public void testDeRegisterFromCourseFail_CourseNotRegistered() {
-		Course c = new Course("Computational Geometry", 105008, 20);
-		Student s = new Student(101075401, "tom", true);
+		logger.info(String.format("Deregister student from course starts"));
+		Course c = University.getInstance().GetCourse(105008);
+		Student s = University.getInstance().GetStudent(101075401);
 		s.SelectCourse(c);
 		assertFalse(University.getInstance().DeRegisterStudentFromCourse(s, c));
+		logger.info(String.format("Deregister student from course ends"));
 	}
 
 }

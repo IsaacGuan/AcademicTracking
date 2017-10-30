@@ -117,6 +117,7 @@ public class University implements UniversityInt {
 		for (int i=0; i<students.size(); i++) {
 			if (students.get(i).StudentNumber() == number) {
 				student = students.get(i);
+				logger.info(String.format("University Operation: Get student; Student info: %d; State: Success", number));
 			}
 		}
 		return student;
@@ -129,6 +130,7 @@ public class University implements UniversityInt {
 		for (int i=0; i<courses.size(); i++) {
 			if (courses.get(i).Code() == mycode) {
 				course = courses.get(i);
+				logger.info(String.format("University Operation: Get course; Course info: %d; State: Success", mycode));
 			}
 		}
 		return course;
@@ -146,8 +148,10 @@ public class University implements UniversityInt {
 		}
 		if (flag!=0) {
 			result = true;
+			logger.info(String.format("University Operation: Check course; Course info: %d; State: Success", mycode));
 		} else {
 			result = false;
+			logger.info(String.format("University Operation: Check course; Course info: %d; State: Fail", mycode));
 		}
 		return result;
 	}
@@ -164,8 +168,10 @@ public class University implements UniversityInt {
 		}
 		if (flag!=0) {
 			result = true;
+			logger.info(String.format("University Operation: Check student; Student info: %d; State: Success", number));
 		} else {
 			result = false;
+			logger.info(String.format("University Operation: Check student; Student info: %d; State: Fail", number));
 		}
 		return result;
 	}
@@ -184,8 +190,10 @@ public class University implements UniversityInt {
 		}
 		if (flag!=0) {
 			result = true;
+			logger.info(String.format("University Operation: Lookup student; Student info: [%d,%s]; State: Success", number, name));
 		} else {
 			result = false;
+			logger.info(String.format("University Operation: Lookup student; Student info: [%d,%s]; State: Fail", number, name));
 		}
 		return result;
 	}
@@ -211,15 +219,15 @@ public class University implements UniversityInt {
 			if (!isprojectcourse) {
 				Course c = new Course(title, mycode, cap, enforcePrereqs, numberofmidterms, numberofassignments, hasafinal);
 				result = courses.add(c);
-				logger.info(String.format("University Operation: Create new course; Course info:[%s,%d]; State: Success", title, mycode));
+				logger.info(String.format("University Operation: Create new course; Course info: [%s,%d]; State: Success", title, mycode));
 			} else {
 				ProjectCourse c = new ProjectCourse(title, mycode, cap,enforcePrereqs, numberofmidterms, numberofassignments,hasafinal);
 				result = courses.add(c);
-				logger.info(String.format("University Operation: Create new project course; Course info:[%s,%d]; State: Success", title, mycode));
+				logger.info(String.format("University Operation: Create new project course; Course info: [%s,%d]; State: Success", title, mycode));
 			}
 		} else {
 			result = false;
-			logger.info(String.format("University Operation: Create new course; Course info:[%s,%d]; State: Fail; Reason: The course already existed.", title, mycode));
+			logger.info(String.format("University Operation: Create new course; Course info: [%s,%d]; State: Fail; Reason: The course already existed.", title, mycode));
 		}
 		return result;
 	}
@@ -241,10 +249,10 @@ public class University implements UniversityInt {
 		if (!CheckStudent(number)) {
 			Student s = new Student(number, name, isfulltime);
 			result = students.add(s);
-			logger.info(String.format("University Operation: Create new student; Student info:[%d,%s]; State: Success", number, name));
+			logger.info(String.format("University Operation: Create new student; Student info: [%d,%s]; State: Success", number, name));
 		} else {
 			result = false;
-			logger.info(String.format("University Operation: Create new student; Student info:[%d,%s]; State: Fail; Reason: The student already existed.", number, name));
+			logger.info(String.format("University Operation: Create new student; Student info: [%d,%s]; State: Fail; Reason: The student already existed.", number, name));
 		}
 		return result;
 	}
