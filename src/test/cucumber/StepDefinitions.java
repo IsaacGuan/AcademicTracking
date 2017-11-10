@@ -92,6 +92,20 @@ public class StepDefinitions {
 		state = serverOutput.getState();
 		output = serverOutput.getOutput();
 	}
+	
+	@When("^the clerk deletes course by (\\d+)$")
+	public void the_clerk_deletes_course_by(int coursecode) throws Throwable {
+		serverOutput = inputHandler.processInput(String.valueOf(coursecode), state);
+		state = serverOutput.getState();
+		output = serverOutput.getOutput();
+	}
+	
+	@When("^the clerk deletes student by (\\d+)$")
+	public void the_clerk_deletes_student_by(int studentnumber) throws Throwable {
+		serverOutput = inputHandler.processInput(String.valueOf(studentnumber), state);
+		state = serverOutput.getState();
+		output = serverOutput.getOutput();
+	}
 
 	@Then("^the clerk is logged in$")
 	public void the_clerk_is_logged_in() throws Throwable {
@@ -113,23 +127,8 @@ public class StepDefinitions {
 	public void the_student_is_not_logged_in() throws Throwable {
 		assertThat(state, equalTo(OutputHandler.STUDENTLOGIN));
 	}
-
-	@Then("^the student can be created$")
-	public void the_student_can_be_created() throws Throwable {
-		assertThat(output, equalTo("Success!"));
-	}
-
-	@Then("^the redundant student cannot be created$")
-	public void the_redundant_student_cannot_be_created() throws Throwable {
-		assertThat(output, equalTo("The student already exists!"));
-	}
-
-	@Then("^it is overdue$")
-	public void it_is_overdue() throws Throwable {
-		assertThat(output, equalTo("Overdue!"));
-	}
 	
-	@Then("^the course can be created$")
+	@Then("^the course is created$")
 	public void the_course_can_be_created() throws Throwable {
 		assertThat(output, equalTo("Success!"));
 	}
@@ -137,6 +136,46 @@ public class StepDefinitions {
 	@Then("^the course cannot be created$")
 	public void the_course_cannot_be_created() throws Throwable {
 		assertThat(output, equalTo("The course already exists!"));
+	}
+	
+	@Then("^it is overdue$")
+	public void it_is_overdue() throws Throwable {
+		assertThat(output, equalTo("Overdue!"));
+	}
+	
+	@Then("^the student is created$")
+	public void the_student_can_be_created() throws Throwable {
+		assertThat(output, equalTo("Success!"));
+	}
+
+	@Then("^the student cannot be created$")
+	public void the_student_cannot_be_created() throws Throwable {
+		assertThat(output, equalTo("The student already exists!"));
+	}
+	
+	@Then("^the course is deleted$")
+	public void the_course_is_deleted() throws Throwable {
+		assertThat(output, equalTo("Success!"));
+	}
+	
+	@Then("^the course cannot be deleted$")
+	public void the_course_cannot_be_deleted() throws Throwable {
+		assertThat(output, equalTo("The course does not exist!"));
+	}
+	
+	@Then("^the term ends$")
+	public void the_term_ends() throws Throwable {
+		assertThat(output, equalTo("Term ends!"));
+	}
+	
+	@Then("^the student is deleted$")
+	public void the_student_is_deleted() throws Throwable {
+		assertThat(output, equalTo("Success!"));
+	}
+	
+	@Then("^the student cannot be deleted$")
+	public void the_student_cannot_be_deleted() throws Throwable {
+		assertThat(output, equalTo("The student does not exist!"));
 	}
 
 }

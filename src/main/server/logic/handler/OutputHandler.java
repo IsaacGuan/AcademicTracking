@@ -289,7 +289,7 @@ public class OutputHandler {
 			output.setState(DELETECOURSE);
 		} else {
 			if (University.getInstance().CheckCourse(Integer.parseInt(code)) == false) {
-				output.setOutput("The Course Does Not Exist!");
+				output.setOutput("The course does not exist!");
 			} else {
 				Course c = University.getInstance().GetCourse(
 						Integer.parseInt(code));
@@ -327,7 +327,7 @@ public class OutputHandler {
 			output.setState(DELETESTUDENT);
 		} else {
 			if (University.getInstance().CheckStudent(Integer.parseInt(number)) == false) {
-				output.setOutput("The Student Does Not Exist!");
+				output.setOutput("The student does not exist!");
 			} else {
 				Student s = University.getInstance().GetStudent(
 						Integer.parseInt(number));

@@ -1,43 +1,46 @@
-Feature: Clerk Create Student
-
-  Scenario Outline: Clerk creates new student before registration starts
-    Given the university is initialized
-    And wait for 2 days
-    And the user inputs clerk
-    And the clerk logs in with password admin
-    And the clerk inputs create student
-    When the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
-    Then the student is created
-    
-    Examples:
-    | student number | name       | is fulltime(y/n) |
-    | 101075403      | mike       | n                |
-    | 101075433      | isaac      | y                |
-    
-  Scenario Outline: Clerk creates redundant student before registration starts
+Feature: Clerk Delete Student
+  
+  Scenario Outline: Clerk deletes existing student before term ends
     Given the university is initialized
     And wait for 2 days
     And the user inputs clerk
     And the clerk logs in with password admin
     And the clerk inputs create student
     And the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
-    And the clerk inputs create student
-    When the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
-    Then the student cannot be created
+    And the clerk inputs delete student
+    When the clerk deletes student by <student number>
+    Then the student is deleted
     
     Examples:
     | student number | name       | is fulltime(y/n) |
     | 101075403      | mike       | n                |
     | 101075433      | isaac      | y                |
-  
-  Scenario Outline: Clerk creates new student after registration starts
+    
+  Scenario Outline: Clerk deletes non-existing student before term ends
     Given the university is initialized
-    And wait for 21 days
+    And wait for 2 days
+    And the user inputs clerk
+    And the clerk logs in with password admin
+    And the clerk inputs delete student
+    When the clerk deletes student by <student number>
+    Then the student cannot be deleted
+    
+    Examples:
+    | student number | name       | is fulltime(y/n) |
+    | 101075403      | mike       | n                |
+    | 101075433      | isaac      | y                |
+    
+  Scenario Outline: Clerk deletes existing student after term ends
+    Given the university is initialized
+    And wait for 2 days
     And the user inputs clerk
     And the clerk logs in with password admin
     And the clerk inputs create student
-    When the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
-    Then it is overdue
+    And the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
+    And wait for 120 days
+    And the clerk inputs delete student
+    When the clerk deletes student by <student number>
+    Then the term ends
     
     Examples:
     | student number | name       | is fulltime(y/n) |

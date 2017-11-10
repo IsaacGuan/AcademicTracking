@@ -2,12 +2,12 @@ Feature: Clerk Create Student
 
   Scenario Outline: Clerk creates new student before registration starts
     Given the university is initialized
+    And wait for 2 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And wait for 2 days
     And the clerk inputs create student
     When the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
-    Then the student can be created
+    Then the student is created
     
     Examples:
     | student number | name       | is fulltime(y/n) |
@@ -16,14 +16,14 @@ Feature: Clerk Create Student
     
   Scenario Outline: Clerk creates redundant student before registration starts
     Given the university is initialized
+    And wait for 2 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And wait for 2 days
     And the clerk inputs create student
     And the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
     And the clerk inputs create student
     When the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
-    Then the redundant student cannot be created
+    Then the student cannot be created
     
     Examples:
     | student number | name       | is fulltime(y/n) |
@@ -32,9 +32,9 @@ Feature: Clerk Create Student
   
   Scenario Outline: Clerk creates new student after registration starts
     Given the university is initialized
+    And wait for 21 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And wait for 21 days
     And the clerk inputs create student
     When the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
     Then it is overdue

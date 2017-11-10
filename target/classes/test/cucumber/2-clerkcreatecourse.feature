@@ -2,12 +2,12 @@ Feature: Clerk Create Course
 
   Scenario Outline: Clerk creates new course before registration starts
     Given the university is initialized
+    And wait for 2 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And wait for 2 days
     And the clerk inputs create course
     When the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
-    Then the course can be created
+    Then the course is created
     
     Examples:
     | title                | course code | capsize    | enforce prereqs(y/n) | number of midterms | number of assignments | has a final(y/n) | is project course(y/n) |
@@ -16,9 +16,9 @@ Feature: Clerk Create Course
     
   Scenario Outline: Clerk creates redundant course before registration starts
     Given the university is initialized
+    And wait for 2 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And wait for 2 days
     And the clerk inputs create course
     And the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
     And the clerk inputs create course
@@ -32,9 +32,9 @@ Feature: Clerk Create Course
     
   Scenario Outline: Clerk creates new course after registration starts
     Given the university is initialized
+    And wait for 21 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And wait for 21 days
     And the clerk inputs create course
     When the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
     Then it is overdue
