@@ -25,9 +25,9 @@ public class University implements UniversityInt {
 	
 	static int currentstudent;
 	
-	static Timer timer_registrationstarts = new Timer();
-	static Timer timer_registrationends = new Timer();
-	static Timer timer_termends = new Timer();
+	static Timer timer_registrationstarts;
+	static Timer timer_registrationends;
+	static Timer timer_termends;
 	
 	private static class UniversityHolder {
 		private static final University INSTANCE = new University();
@@ -47,14 +47,23 @@ public class University implements UniversityInt {
 		return UniversityHolder.INSTANCE;
 	}
 	
-	public static void TimeReset() {
+	public void Reset() {
 		Config.REGISTRATION_STARTS = false;
 		Config.REGISTRATION_ENDS = false;
 		Config.TERM_ENDS = false;
+		timer_registrationstarts.cancel();
+		timer_registrationends.cancel();
+		timer_termends.cancel();
 		TimeSimulate();
+		InitializeCourses();
+		InitializeStudents();
 	}
 	
-	private static void TimeSimulate() {
+	private void TimeSimulate() {
+		timer_registrationstarts = new Timer();
+		timer_registrationends = new Timer();
+		timer_termends = new Timer();
+		
 		timer_registrationstarts.schedule(new TimerTask() {
 			
 			@Override
@@ -89,7 +98,7 @@ public class University implements UniversityInt {
 	}
 	
 	private void InitializeCourses() {
-		// TODO Auto-generated method stub
+		courses.clear();
 		ProjectCourse c1 = new ProjectCourse("OO Software Dev", 105104, 30, false, 0, 3, false);
 		ProjectCourse c2 = new ProjectCourse("Computational Geometry", 105008, 20, false, 0, 3, false);
 		Course c3 = new Course("Principles of Distributed Computing", 105003, 20, false, 1, 2, true);
@@ -104,7 +113,7 @@ public class University implements UniversityInt {
 	}
 
 	private void InitializeStudents() {
-		// TODO Auto-generated method stub
+		students.clear();
 		int[] studentNumberList = new int[]{101075401, 101075402};
 		String[] studentNameList = new String[]{"tom","jack"};
 		boolean[] isFullTimeList = new boolean[]{true,false};

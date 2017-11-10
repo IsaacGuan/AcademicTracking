@@ -7,7 +7,7 @@ Feature: Clerk Create Student
     And the clerk logs in with password admin
     And the clerk inputs create student
     When the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
-    Then the student is created
+    Then create student successfully
     
     Examples:
     | student number | name       | is fulltime(y/n) |
@@ -23,7 +23,7 @@ Feature: Clerk Create Student
     And the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
     And the clerk inputs create student
     When the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
-    Then the student cannot be created
+    Then the student already exists
     
     Examples:
     | student number | name       | is fulltime(y/n) |

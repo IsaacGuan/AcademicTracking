@@ -9,7 +9,7 @@ Feature: Clerk Delete Course
     And the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
     And the clerk inputs delete course
     When the clerk deletes course by <course code>
-    Then the course is deleted
+    Then delete course successfully
 
     Examples: 
     | title                | course code | capsize    | enforce prereqs(y/n) | number of midterms | number of assignments | has a final(y/n) | is project course(y/n) |
@@ -23,7 +23,7 @@ Feature: Clerk Delete Course
     And the clerk logs in with password admin
     And the clerk inputs delete course
     When the clerk deletes course by <course code>
-    Then the course cannot be deleted
+    Then the course does not exist
     
     Examples: 
     | title                | course code | capsize    | enforce prereqs(y/n) | number of midterms | number of assignments | has a final(y/n) | is project course(y/n) |

@@ -246,7 +246,7 @@ public class OutputHandler {
 			} else {
 				if (University.getInstance()
 						.CheckCourse(Integer.parseInt(code)) == false) {
-					output.setOutput("The Course Does Not Exist!");
+					output.setOutput("The course does not exist!");
 					output.setState(CANCELCOURSE);
 				} else {
 					Course c = (Course) University.getInstance().GetCourse(

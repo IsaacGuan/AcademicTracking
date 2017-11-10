@@ -7,7 +7,7 @@ Feature: Clerk Create Course
     And the clerk logs in with password admin
     And the clerk inputs create course
     When the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
-    Then the course is created
+    Then create course successfully
     
     Examples:
     | title                | course code | capsize    | enforce prereqs(y/n) | number of midterms | number of assignments | has a final(y/n) | is project course(y/n) |
@@ -23,7 +23,7 @@ Feature: Clerk Create Course
     And the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
     And the clerk inputs create course
     When the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
-    Then the course cannot be created
+    Then the course already exists
     
     Examples:
     | title                | course code | capsize    | enforce prereqs(y/n) | number of midterms | number of assignments | has a final(y/n) | is project course(y/n) |

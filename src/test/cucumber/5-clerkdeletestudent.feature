@@ -9,7 +9,7 @@ Feature: Clerk Delete Student
     And the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
     And the clerk inputs delete student
     When the clerk deletes student by <student number>
-    Then the student is deleted
+    Then delete student successfully
     
     Examples:
     | student number | name       | is fulltime(y/n) |
@@ -23,7 +23,7 @@ Feature: Clerk Delete Student
     And the clerk logs in with password admin
     And the clerk inputs delete student
     When the clerk deletes student by <student number>
-    Then the student cannot be deleted
+    Then the student does not exist
     
     Examples:
     | student number | name       | is fulltime(y/n) |

@@ -21,8 +21,7 @@ public class StepDefinitions {
 
 	@Given("^the university is initialized$")
 	public void the_university_is_initialized() throws Throwable {
-		University.getInstance();
-		University.TimeReset();
+		University.getInstance().Reset();
 		serverOutput = inputHandler.processInput("", InputHandler.WAITING);
 		state = serverOutput.getState();
 		output = serverOutput.getOutput();
@@ -106,6 +105,13 @@ public class StepDefinitions {
 		state = serverOutput.getState();
 		output = serverOutput.getOutput();
 	}
+	
+	@When("^the clerk cancels course by (\\d+)$")
+	public void the_clerk_cancels_course_by(int coursecode) throws Throwable {
+		serverOutput = inputHandler.processInput(String.valueOf(coursecode), state);
+		state = serverOutput.getState();
+		output = serverOutput.getOutput();
+	}
 
 	@Then("^the clerk is logged in$")
 	public void the_clerk_is_logged_in() throws Throwable {
@@ -128,14 +134,14 @@ public class StepDefinitions {
 		assertThat(state, equalTo(OutputHandler.STUDENTLOGIN));
 	}
 	
-	@Then("^the course is created$")
-	public void the_course_can_be_created() throws Throwable {
+	@Then("^(.*) successfully$")
+	public void success(String action) throws Throwable {
 		assertThat(output, equalTo("Success!"));
 	}
 	
-	@Then("^the course cannot be created$")
-	public void the_course_cannot_be_created() throws Throwable {
-		assertThat(output, equalTo("The course already exists!"));
+	@Then("^the (.*) already exists$")
+	public void the_already_exists(String object) throws Throwable {
+		assertThat(output, equalTo("The " + object + " already exists!"));
 	}
 	
 	@Then("^it is overdue$")
@@ -143,24 +149,9 @@ public class StepDefinitions {
 		assertThat(output, equalTo("Overdue!"));
 	}
 	
-	@Then("^the student is created$")
-	public void the_student_can_be_created() throws Throwable {
-		assertThat(output, equalTo("Success!"));
-	}
-
-	@Then("^the student cannot be created$")
-	public void the_student_cannot_be_created() throws Throwable {
-		assertThat(output, equalTo("The student already exists!"));
-	}
-	
-	@Then("^the course is deleted$")
-	public void the_course_is_deleted() throws Throwable {
-		assertThat(output, equalTo("Success!"));
-	}
-	
-	@Then("^the course cannot be deleted$")
-	public void the_course_cannot_be_deleted() throws Throwable {
-		assertThat(output, equalTo("The course does not exist!"));
+	@Then("^the (.*) does not exist$")
+	public void the_does_not_be_exist(String object) throws Throwable {
+		assertThat(output, equalTo("The " + object + " does not exist!"));
 	}
 	
 	@Then("^the term ends$")
@@ -168,14 +159,9 @@ public class StepDefinitions {
 		assertThat(output, equalTo("Term ends!"));
 	}
 	
-	@Then("^the student is deleted$")
-	public void the_student_is_deleted() throws Throwable {
-		assertThat(output, equalTo("Success!"));
-	}
-	
-	@Then("^the student cannot be deleted$")
-	public void the_student_cannot_be_deleted() throws Throwable {
-		assertThat(output, equalTo("The student does not exist!"));
+	@Then("^the course cannot be canceled before registration ends$")
+	public void the_course_cannot_be_canceled_before_registration_ends() throws Throwable {
+		assertThat(output, equalTo("Course cannot be canceled before registration ends!"));
 	}
 
 }
