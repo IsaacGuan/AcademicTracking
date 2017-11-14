@@ -32,22 +32,8 @@ public class StepDefinitions {
 		Thread.sleep(Config.SIMULATED_DAY * days);
 	}
 
-	@Given("^the user inputs clerk$")
-	public void the_user_inputs_clerk() throws Throwable {
-		serverOutput = inputHandler.processInput("clerk", state);
-		state = serverOutput.getState();
-		output = serverOutput.getOutput();
-	}
-
-	@Given("^the user inputs student$")
-	public void the_user_inputs_student() throws Throwable {
-		serverOutput = inputHandler.processInput("student", state);
-		state = serverOutput.getState();
-		output = serverOutput.getOutput();
-	}
-
-	@Given("^the clerk inputs (.*)$")
-	public void the_clerk_inputs(String action) throws Throwable {
+	@Given("^the user inputs (.*)$")
+	public void the_user_inputs(String action) throws Throwable {
 		serverOutput = inputHandler.processInput(action, state);
 		state = serverOutput.getState();
 		output = serverOutput.getOutput();
@@ -57,6 +43,13 @@ public class StepDefinitions {
 	public void the_clerk_logs_in_with_password(String password)
 			throws Throwable {
 		serverOutput = inputHandler.processInput(password, state);
+		state = serverOutput.getState();
+		output = serverOutput.getOutput();
+	}
+	
+	@Given("^log out$")
+	public void log_out() throws Throwable {
+		serverOutput = inputHandler.processInput("", InputHandler.WAITING);
 		state = serverOutput.getState();
 		output = serverOutput.getOutput();
 	}
@@ -108,6 +101,13 @@ public class StepDefinitions {
 	
 	@When("^the clerk cancels course by (\\d+)$")
 	public void the_clerk_cancels_course_by(int coursecode) throws Throwable {
+		serverOutput = inputHandler.processInput(String.valueOf(coursecode), state);
+		state = serverOutput.getState();
+		output = serverOutput.getOutput();
+	}
+	
+	@When("^the student selects course by (\\d+)$")
+	public void the_student_selects_course_by(int coursecode) throws Throwable {
 		serverOutput = inputHandler.processInput(String.valueOf(coursecode), state);
 		state = serverOutput.getState();
 		output = serverOutput.getOutput();

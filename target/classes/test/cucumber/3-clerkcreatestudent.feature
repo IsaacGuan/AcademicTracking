@@ -5,7 +5,7 @@ Feature: Clerk Create Student
     And wait for 2 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And the clerk inputs create student
+    And the user inputs create student
     When the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
     Then create student successfully
     
@@ -19,9 +19,9 @@ Feature: Clerk Create Student
     And wait for 2 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And the clerk inputs create student
+    And the user inputs create student
     And the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
-    And the clerk inputs create student
+    And the user inputs create student
     When the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
     Then the student already exists
     
@@ -35,7 +35,7 @@ Feature: Clerk Create Student
     And wait for 21 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And the clerk inputs create student
+    And the user inputs create student
     When the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
     Then it is overdue
     

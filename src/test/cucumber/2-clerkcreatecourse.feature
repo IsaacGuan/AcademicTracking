@@ -5,7 +5,7 @@ Feature: Clerk Create Course
     And wait for 2 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And the clerk inputs create course
+    And the user inputs create course
     When the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
     Then create course successfully
     
@@ -19,9 +19,9 @@ Feature: Clerk Create Course
     And wait for 2 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And the clerk inputs create course
+    And the user inputs create course
     And the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
-    And the clerk inputs create course
+    And the user inputs create course
     When the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
     Then the course already exists
     
@@ -35,7 +35,7 @@ Feature: Clerk Create Course
     And wait for 21 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And the clerk inputs create course
+    And the user inputs create course
     When the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
     Then it is overdue
     

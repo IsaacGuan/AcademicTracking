@@ -5,10 +5,10 @@ Feature: Clerk Cancel Course
     And wait for 2 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And the clerk inputs create course
+    And the user inputs create course
     And the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
     And wait for 40 days
-    And the clerk inputs cancel course
+    And the user inputs cancel course
     When the clerk cancels course by <course code>
     Then cancel course successfully
     
@@ -23,7 +23,7 @@ Feature: Clerk Cancel Course
     And the user inputs clerk
     And the clerk logs in with password admin
     And wait for 40 days
-    And the clerk inputs cancel course
+    And the user inputs cancel course
     When the clerk cancels course by <course code>
     Then the course does not exist
     
@@ -37,10 +37,10 @@ Feature: Clerk Cancel Course
     And wait for 2 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And the clerk inputs create course
+    And the user inputs create course
     And the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
     And wait for 2 days
-    And the clerk inputs cancel course
+    And the user inputs cancel course
     When the clerk cancels course by <course code>
     Then the course cannot be canceled before registration ends
     
@@ -54,10 +54,10 @@ Feature: Clerk Cancel Course
     And wait for 2 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And the clerk inputs create course
+    And the user inputs create course
     And the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
     And wait for 120 days
-    And the clerk inputs cancel course
+    And the user inputs cancel course
     When the clerk cancels course by <course code>
     Then the term ends
     

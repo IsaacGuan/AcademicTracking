@@ -5,9 +5,9 @@ Feature: Clerk Delete Student
     And wait for 2 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And the clerk inputs create student
+    And the user inputs create student
     And the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
-    And the clerk inputs delete student
+    And the user inputs delete student
     When the clerk deletes student by <student number>
     Then delete student successfully
     
@@ -21,7 +21,7 @@ Feature: Clerk Delete Student
     And wait for 2 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And the clerk inputs delete student
+    And the user inputs delete student
     When the clerk deletes student by <student number>
     Then the student does not exist
     
@@ -35,10 +35,10 @@ Feature: Clerk Delete Student
     And wait for 2 days
     And the user inputs clerk
     And the clerk logs in with password admin
-    And the clerk inputs create student
+    And the user inputs create student
     And the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
     And wait for 120 days
-    And the clerk inputs delete student
+    And the user inputs delete student
     When the clerk deletes student by <student number>
     Then the term ends
     
