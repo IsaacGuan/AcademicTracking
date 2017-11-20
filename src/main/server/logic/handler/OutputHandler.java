@@ -448,8 +448,8 @@ public class OutputHandler {
 		if (Config.TERM_ENDS) {
 			output.setOutput("Term ends!");
 			output.setState(STUDENT);
-		} else if (!Config.REGISTRATION_ENDS) {
-			output.setOutput("You can only drop a course after the registration ends!");
+		} else if (!Config.REGISTRATION_STARTS) {
+			output.setOutput("Registration has not started!");
 			output.setState(STUDENT);
 		} else if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
 			output.setOutput("Your input should be in correct format.");
@@ -507,7 +507,7 @@ public class OutputHandler {
 				output.setState(DEREGISTERCOURSE);
 			} else if (!University.getInstance().CheckCourse(
 					Integer.parseInt(code))) {
-				output.setOutput("The Course Does Not Exist!");
+				output.setOutput("The course does not exist!");
 				output.setState(DEREGISTERCOURSE);
 			} else {
 				int studentnumber = University.getInstance()

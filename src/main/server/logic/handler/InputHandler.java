@@ -154,7 +154,7 @@ public class InputHandler {
 					state = SELECTCOURSE;
 				} else {
 					output = "No Available Courses!";
-					state = STUDENT;
+					state = SELECTCOURSE;
 				}
 				oo.setOutput(output);
 				oo.setState(state);
@@ -170,7 +170,7 @@ public class InputHandler {
 					state = REGISTERFORCOURSE;
 				} else {
 					output = "No Available Courses!";
-					state = STUDENT;
+					state = REGISTERFORCOURSE;
 				}
 				oo.setOutput(output);
 				oo.setState(state);
@@ -186,7 +186,7 @@ public class InputHandler {
 					state = DROPCOURSE;
 				} else {
 					output = "No Available Courses!";
-					state = STUDENT;
+					state = DROPCOURSE;
 				}
 				oo.setOutput(output);
 				oo.setState(state);
@@ -202,7 +202,7 @@ public class InputHandler {
 					state = DEREGISTERCOURSE;
 				} else {
 					output = "No Available Courses!";
-					state = STUDENT;
+					state = DEREGISTERCOURSE;
 				}
 				oo.setOutput(output);
 				oo.setState(state);

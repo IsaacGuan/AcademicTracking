@@ -112,6 +112,27 @@ public class StepDefinitions {
 		state = serverOutput.getState();
 		output = serverOutput.getOutput();
 	}
+	
+	@When("^the student registers for course by (\\d+)$")
+	public void the_student_registers_for_course_by(int coursecode) throws Throwable {
+		serverOutput = inputHandler.processInput(String.valueOf(coursecode), state);
+		state = serverOutput.getState();
+		output = serverOutput.getOutput();
+	}
+	
+	@When("^the student drops course by (\\d+)$")
+	public void the_student_drops_course_by(int coursecode) throws Throwable {
+		serverOutput = inputHandler.processInput(String.valueOf(coursecode), state);
+		state = serverOutput.getState();
+		output = serverOutput.getOutput();
+	}
+	
+	@When("^the student deregisters course by (\\d+)$")
+	public void the_student_deregisters_course_by(int coursecode) throws Throwable {
+		serverOutput = inputHandler.processInput(String.valueOf(coursecode), state);
+		state = serverOutput.getState();
+		output = serverOutput.getOutput();
+	}
 
 	@Then("^the clerk is logged in$")
 	public void the_clerk_is_logged_in() throws Throwable {
@@ -121,7 +142,11 @@ public class StepDefinitions {
 	@Then("^the clerk is not logged in$")
 	public void the_clerk_is_not_logged_in() throws Throwable {
 		assertThat(state, equalTo(OutputHandler.CLERKLOGIN));
-		
+	}
+	
+	@Then("^the user is logged out$")
+	public void the_clerk_is_logged_out() throws Throwable {
+		assertThat(state, equalTo(OutputHandler.WAITING));
 	}
 
 	@Then("^the student is logged in$")
@@ -162,6 +187,31 @@ public class StepDefinitions {
 	@Then("^the course cannot be canceled before registration ends$")
 	public void the_course_cannot_be_canceled_before_registration_ends() throws Throwable {
 		assertThat(output, equalTo("Course cannot be canceled before registration ends!"));
+	}
+	
+	@Then("^registration has not started$")
+	public void registration_has_not_started() throws Throwable {
+		assertThat(output, equalTo("Registration has not started!"));
+	}
+	
+	@Then("^registration has finished$")
+	public void registration_has_finished() throws Throwable {
+		assertThat(output, equalTo("Registration has finished!"));
+	}
+
+	@Then("^unable to register for this course$")
+	public void unable_to_register_for_this_course() throws Throwable {
+		assertThat(output, equalTo("Unable to register for this course!"));
+	}
+	
+	@Then("^unable to drop this course$")
+	public void unable_to_drop_this_course() throws Throwable {
+		assertThat(output, equalTo("Unable to drop this course!"));
+	}
+	
+	@Then("^unable to deregister from this course$")
+	public void unable_to_deregister_from_this_course() throws Throwable {
+		assertThat(output, equalTo("Unable to deregister from this course!"));
 	}
 
 }
