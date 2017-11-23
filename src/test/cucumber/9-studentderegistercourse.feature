@@ -9,8 +9,7 @@ Feature: Student Register For Course
     And the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
     And the user inputs create course
     And the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
-    And the user inputs log out
-    And the user inputs start
+    And log out
     And the user inputs student
     And the student logs in with <student number> and <name>
     And the user inputs select course
@@ -35,8 +34,7 @@ Feature: Student Register For Course
     And the clerk logs in with password admin
     And the user inputs create student
     And the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
-    And the user inputs log out
-    And the user inputs start
+    And log out
     And the user inputs student
     And the student logs in with <student number> and <name>
     And the user inputs select course
@@ -63,8 +61,7 @@ Feature: Student Register For Course
     And the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
     And the user inputs create course
     And the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
-    And the user inputs log out
-    And the user inputs start
+    And log out
     And the user inputs student
     And the student logs in with <student number> and <name>
     And the user inputs select course
@@ -88,8 +85,7 @@ Feature: Student Register For Course
     And the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
     And the user inputs create course
     And the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
-    And the user inputs log out
-    And the user inputs start
+    And log out
     And the user inputs student
     And the student logs in with <student number> and <name>
     And wait for 20 days
@@ -111,8 +107,7 @@ Feature: Student Register For Course
     And the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
     And the user inputs create course
     And the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
-    And the user inputs log out
-    And the user inputs start
+    And log out
     And the user inputs student
     And the student logs in with <student number> and <name>
     And the user inputs select course
@@ -139,8 +134,7 @@ Feature: Student Register For Course
     And the clerk creates student by <student number>, <name> and <is fulltime(y/n)>
     And the user inputs create course
     And the clerk creates course by <title>, <course code>, <capsize>, <enforce prereqs(y/n)>, <number of midterms>, <number of assignments>, <has a final(y/n)> and <is project course(y/n)>
-    And the user inputs log out
-    And the user inputs start
+    And log out
     And the user inputs student
     And the student logs in with <student number> and <name>
     And the user inputs select course
