@@ -453,15 +453,24 @@ public class University implements UniversityInt {
 		return result;
 	}
 	
+	private boolean candofinal;
+	
 	@Override
 	public boolean MarkStudents(Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
 		if (CheckCourse(course.Code())) {
 			if (!course.getEnrollStudent().isEmpty()) {
-				for (Student key : course.getEnrollStudent().keySet()) {
-					Random random = new Random();
-					course.getEnrollStudent().put(key, random.nextInt(25) + 75);
+				for (Student key: course.getEnrollStudent().keySet()) {
+					//Random random = new Random();
+					//course.getEnrollStudent().put(key, random.nextInt(25) + 75);
+					CannotDoFinal();
+					DoAssignments(key, course);
+					DoMidterms(key, course);
+					if (course instanceof ProjectCourse) {
+						DoProject(key, (ProjectCourse) course);
+					}
+					DoFinal(key, course);
 				}
 				result = true;
 				logger.info(String.format("University Operation: mark students for course %d; State: Success", course.Code()));
@@ -474,6 +483,91 @@ public class University implements UniversityInt {
 			logger.info(String.format("University Operation: mark students for course %d; State: Fail; Reason: The course doesn't exist.", course.Code()));
 		}
 		return result;
+	}
+	
+	public void CannotDoFinal() {
+		candofinal = false;
+	}
+	
+	public void CanDoFinal() {
+		candofinal = true;
+	}
+	
+	public boolean DoAssignments(Student student, Course course) {
+		double mark;
+		double weight;
+		Random random = new Random();
+		weight = 0;
+		for (int i = 0; i < course.getWeightOfAssignments().size(); i++) {
+			weight = weight + course.getWeightOfAssignments().get(i);
+		}
+		if (weight > 0) {
+			weight = weight / 100;
+			mark = course.getEnrollStudent().get(student) + weight
+					* (random.nextInt(25) + 75);
+			course.getEnrollStudent().put(student, (int) mark);
+			CanDoFinal();
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public boolean DoMidterms(Student student, Course course) {
+		double mark;
+		double weight;
+		Random random = new Random();
+		weight = 0;
+		for (int i = 0; i < course.getWeightOfMidterms().size(); i++) {
+			weight = weight + course.getWeightOfMidterms().get(i);
+		}
+		if (weight > 0) {
+			weight = weight / 100;
+			mark = course.getEnrollStudent().get(student) + weight
+					* (random.nextInt(25) + 75);
+			course.getEnrollStudent().put(student, (int) mark);
+			CanDoFinal();
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public boolean DoProject(Student student, ProjectCourse course) {
+		double mark;
+		double weight;
+		Random random = new Random();
+		weight = course.getWeightOfProject();
+		if (weight > 0) {
+			weight = weight / 100;
+			mark = course.getEnrollStudent().get(student) + weight
+					* (random.nextInt(25) + 75);
+			course.getEnrollStudent().put(student, (int) mark);
+			CanDoFinal();
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public boolean DoFinal(Student student, Course course) {
+		double mark;
+		double weight;
+		if (candofinal) {
+			Random random = new Random();
+			weight = course.getWeightOfFinal();
+			if (weight > 0) {
+				weight = weight / 100;
+				mark = course.getEnrollStudent().get(student) + weight
+						* (random.nextInt(25) + 75);
+				course.getEnrollStudent().put(student, (int) mark);
+				return true;
+			} else {
+				return false;
+			}
+		} else {
+			return false;
+		}
 	}
 
 	@Override

@@ -226,7 +226,7 @@ public class Student implements StudentInt {
 		}
 		if (registeredCourses.size()!=0) {
 			average = sum / registeredCourses.size();
-			System.out.println(average);
+			System.out.println(this.StudentNumber() + " " + this.Name() + " " + average);
 		}
 		return average;
 	}
