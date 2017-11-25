@@ -83,7 +83,7 @@ Feature: Student Drop Course
     And wait for 2 days
     And the user inputs drop course
     When the student drops course by <course code>
-    Then registration has not started
+    Then the course cannot be dropped before registration starts
     
     Examples: 
       | student number | name  | is fulltime(y/n) | title                | course code | capsize | enforce prereqs(y/n) | number of midterms | number of assignments | has a final(y/n) | is project course(y/n) |

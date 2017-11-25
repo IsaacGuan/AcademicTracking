@@ -189,6 +189,11 @@ public class StepDefinitions {
 		assertThat(output, equalTo("Course cannot be canceled before registration ends!"));
 	}
 	
+	@Then("^the course cannot be selected after registration ends$")
+	public void course_cannot_be_selected_after_registration_ends() throws Throwable {
+		assertThat(output, equalTo("Course cannot be selected after registration ends!"));
+	}
+	
 	@Then("^registration has not started$")
 	public void registration_has_not_started() throws Throwable {
 		assertThat(output, equalTo("Registration has not started!"));
@@ -209,9 +214,19 @@ public class StepDefinitions {
 		assertThat(output, equalTo("Unable to drop this course!"));
 	}
 	
+	@Then("^the course cannot be dropped before registration starts$")
+	public void the_course_cannot_be_dropped_before_registration_starts() throws Throwable {
+		assertThat(output, equalTo("Course cannot be dropped before registration starts!"));
+	}
+	
 	@Then("^unable to deregister from this course$")
 	public void unable_to_deregister_from_this_course() throws Throwable {
 		assertThat(output, equalTo("Unable to deregister from this course!"));
+	}
+	
+	@Then("^the dean's list is generated$")
+	public void the_dean_s_list_is_generated() throws Throwable {
+	    assertThat(output, !equals("Dean's list not generated!"));
 	}
 
 }

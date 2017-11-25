@@ -280,26 +280,31 @@ public class OutputHandler {
 		if (Config.TERM_ENDS) {
 			output.setOutput("Term ends!");
 			output.setState(CLERK);
-		} else if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
-			output.setOutput("Your input should be in correct format.");
-			output.setState(DELETECOURSE);
-		} else if (Integer.parseInt(code) < 100000
-				|| Integer.parseInt(code) > 999999) {
-			output.setOutput("The length of course code must be 6.");
-			output.setState(DELETECOURSE);
-		} else {
-			if (University.getInstance().CheckCourse(Integer.parseInt(code)) == false) {
-				output.setOutput("The course does not exist!");
+		} else if (!Config.REGISTRATION_STARTS) {
+			if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
+				output.setOutput("Your input should be in correct format.");
+				output.setState(DELETECOURSE);
+			} else if (Integer.parseInt(code) < 100000
+					|| Integer.parseInt(code) > 999999) {
+				output.setOutput("The length of course code must be 6.");
+				output.setState(DELETECOURSE);
 			} else {
-				Course c = University.getInstance().GetCourse(
-						Integer.parseInt(code));
-				result = University.getInstance().DestroyCourse(c);
-				if (result) {
-					output.setOutput("Success!");
+				if (University.getInstance().CheckCourse(Integer.parseInt(code)) == false) {
+					output.setOutput("The course does not exist!");
 				} else {
-					output.setOutput("Fail to delete!");
+					Course c = University.getInstance().GetCourse(
+							Integer.parseInt(code));
+					result = University.getInstance().DestroyCourse(c);
+					if (result) {
+						output.setOutput("Success!");
+					} else {
+						output.setOutput("Fail to delete!");
+					}
 				}
+				output.setState(CLERK);
 			}
+		} else {
+			output.setOutput("Overdue!");
 			output.setState(CLERK);
 		}
 		return output;
@@ -318,26 +323,31 @@ public class OutputHandler {
 		if (Config.TERM_ENDS) {
 			output.setOutput("Term ends!");
 			output.setState(CLERK);
-		} else if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
-			output.setOutput("Your input should be in correct format.");
-			output.setState(DELETESTUDENT);
-		} else if (Integer.parseInt(number) < 100000000
-				|| Integer.parseInt(number) > 999999999) {
-			output.setOutput("The length of student number must be 9.");
-			output.setState(DELETESTUDENT);
-		} else {
-			if (University.getInstance().CheckStudent(Integer.parseInt(number)) == false) {
-				output.setOutput("The student does not exist!");
+		} else if (!Config.REGISTRATION_STARTS) {
+			if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
+				output.setOutput("Your input should be in correct format.");
+				output.setState(DELETESTUDENT);
+			} else if (Integer.parseInt(number) < 100000000
+					|| Integer.parseInt(number) > 999999999) {
+				output.setOutput("The length of student number must be 9.");
+				output.setState(DELETESTUDENT);
 			} else {
-				Student s = University.getInstance().GetStudent(
-						Integer.parseInt(number));
-				result = University.getInstance().DestroyStudent(s);
-				if (result) {
-					output.setOutput("Success!");
+				if (University.getInstance().CheckStudent(Integer.parseInt(number)) == false) {
+					output.setOutput("The student does not exist!");
 				} else {
-					output.setOutput("Fail to delete!");
+					Student s = University.getInstance().GetStudent(
+							Integer.parseInt(number));
+					result = University.getInstance().DestroyStudent(s);
+					if (result) {
+						output.setOutput("Success!");
+					} else {
+						output.setOutput("Fail to delete!");
+					}
 				}
+				output.setState(CLERK);
 			}
+		} else {
+			output.setOutput("Overdue!");
 			output.setState(CLERK);
 		}
 		return output;
@@ -355,6 +365,9 @@ public class OutputHandler {
 		*/
 		if (Config.TERM_ENDS) {
 			output.setOutput("Term ends!");
+			output.setState(STUDENT);
+		} else if (Config.REGISTRATION_ENDS){
+			output.setOutput("Course cannot be selected after registration ends!");
 			output.setState(STUDENT);
 		} else if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
 			output.setOutput("Your input should be in correct format.");
@@ -449,7 +462,7 @@ public class OutputHandler {
 			output.setOutput("Term ends!");
 			output.setState(STUDENT);
 		} else if (!Config.REGISTRATION_STARTS) {
-			output.setOutput("Registration has not started!");
+			output.setOutput("Course cannot be dropped before registration starts!");
 			output.setState(STUDENT);
 		} else if (input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
 			output.setOutput("Your input should be in correct format.");
