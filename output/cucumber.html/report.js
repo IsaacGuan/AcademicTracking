@@ -38,7 +38,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 173967972,
+  "duration": 583697967,
   "status": "passed"
 });
 formatter.match({
@@ -51,7 +51,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 2634507,
+  "duration": 7345549,
   "status": "passed"
 });
 formatter.match({
@@ -64,14 +64,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 97972,
+  "duration": 137627,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_clerk_is_logged_in()"
 });
 formatter.result({
-  "duration": 3900209,
+  "duration": 5777068,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -167,7 +167,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 606958,
+  "duration": 772577,
   "status": "passed"
 });
 formatter.match({
@@ -180,7 +180,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 109635,
+  "duration": 130163,
   "status": "passed"
 });
 formatter.match({
@@ -193,14 +193,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 91907,
+  "duration": 95639,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_clerk_is_not_logged_in()"
 });
 formatter.result({
-  "duration": 36856,
+  "duration": 55051,
   "status": "passed"
 });
 formatter.scenario({
@@ -238,7 +238,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 440407,
+  "duration": 1257304,
   "status": "passed"
 });
 formatter.match({
@@ -251,7 +251,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 78377,
+  "duration": 96573,
   "status": "passed"
 });
 formatter.match({
@@ -264,14 +264,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 71846,
+  "duration": 78844,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_clerk_is_not_logged_in()"
 });
 formatter.result({
-  "duration": 30325,
+  "duration": 36390,
   "status": "passed"
 });
 formatter.scenario({
@@ -311,7 +311,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 409615,
+  "duration": 465599,
   "status": "passed"
 });
 formatter.match({
@@ -324,7 +324,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 80710,
+  "duration": 117100,
   "status": "passed"
 });
 formatter.match({
@@ -337,7 +337,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 85375,
+  "duration": 92374,
   "status": "passed"
 });
 formatter.match({
@@ -350,14 +350,14 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 95173,
+  "duration": 100304,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_clerk_is_logged_out()"
 });
 formatter.result({
-  "duration": 34057,
+  "duration": 44321,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -525,7 +525,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1525560,
+  "duration": 424544,
   "status": "passed"
 });
 formatter.match({
@@ -551,7 +551,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 81643,
+  "duration": 65781,
   "status": "passed"
 });
 formatter.match({
@@ -564,7 +564,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 103570,
+  "duration": 69047,
   "status": "passed"
 });
 formatter.match({
@@ -585,7 +585,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 5958082,
+  "duration": 5713152,
   "status": "passed"
 });
 formatter.match({
@@ -598,7 +598,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 113834,
+  "duration": 84909,
   "status": "passed"
 });
 formatter.match({
@@ -611,7 +611,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 486127,
+  "duration": 75112,
   "status": "passed"
 });
 formatter.match({
@@ -624,7 +624,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 88175,
+  "duration": 89574,
   "status": "passed"
 });
 formatter.match({
@@ -641,14 +641,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 1257304,
+  "duration": 1303024,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_student_is_logged_in()"
 });
 formatter.result({
-  "duration": 41055,
+  "duration": 42454,
   "status": "passed"
 });
 formatter.scenario({
@@ -722,7 +722,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 499189,
+  "duration": 436208,
   "status": "passed"
 });
 formatter.match({
@@ -735,7 +735,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 94706,
+  "duration": 303713,
   "status": "passed"
 });
 formatter.match({
@@ -748,7 +748,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 95173,
+  "duration": 103570,
   "status": "passed"
 });
 formatter.match({
@@ -761,7 +761,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 82576,
+  "duration": 90507,
   "status": "passed"
 });
 formatter.match({
@@ -782,7 +782,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 2632174,
+  "duration": 4432988,
   "status": "passed"
 });
 formatter.match({
@@ -795,7 +795,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 126430,
+  "duration": 84442,
   "status": "passed"
 });
 formatter.match({
@@ -808,7 +808,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 174016,
+  "duration": 76978,
   "status": "passed"
 });
 formatter.match({
@@ -821,7 +821,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 84909,
+  "duration": 81176,
   "status": "passed"
 });
 formatter.match({
@@ -838,14 +838,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 1021705,
+  "duration": 1036168,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_student_is_logged_in()"
 });
 formatter.result({
-  "duration": 81176,
+  "duration": 34057,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -948,7 +948,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1358075,
+  "duration": 384422,
   "status": "passed"
 });
 formatter.match({
@@ -961,7 +961,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 602293,
+  "duration": 453003,
   "status": "passed"
 });
 formatter.match({
@@ -978,14 +978,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 1098217,
+  "duration": 1064160,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_student_is_not_logged_in()"
 });
 formatter.result({
-  "duration": 47586,
+  "duration": 40122,
   "status": "passed"
 });
 formatter.scenario({
@@ -1024,7 +1024,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 372759,
+  "duration": 381157,
   "status": "passed"
 });
 formatter.match({
@@ -1037,7 +1037,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 87708,
+  "duration": 89574,
   "status": "passed"
 });
 formatter.match({
@@ -1054,14 +1054,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 1077223,
+  "duration": 971787,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_student_is_not_logged_in()"
 });
 formatter.result({
-  "duration": 32190,
+  "duration": 34990,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1239,7 +1239,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 416147,
+  "duration": 733388,
   "status": "passed"
 });
 formatter.match({
@@ -1252,7 +1252,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 86775,
+  "duration": 72313,
   "status": "passed"
 });
 formatter.match({
@@ -1265,7 +1265,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 73246,
+  "duration": 84909,
   "status": "passed"
 });
 formatter.match({
@@ -1278,7 +1278,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 86775,
+  "duration": 65782,
   "status": "passed"
 });
 formatter.match({
@@ -1299,7 +1299,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 2883635,
+  "duration": 5366986,
   "status": "passed"
 });
 formatter.match({
@@ -1312,7 +1312,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 87241,
+  "duration": 72779,
   "status": "passed"
 });
 formatter.match({
@@ -1325,7 +1325,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 72779,
+  "duration": 85376,
   "status": "passed"
 });
 formatter.match({
@@ -1338,7 +1338,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 200609,
+  "duration": 95172,
   "status": "passed"
 });
 formatter.match({
@@ -1355,7 +1355,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 1053430,
+  "duration": 1335215,
   "status": "passed"
 });
 formatter.match({
@@ -1368,14 +1368,14 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 1042699,
+  "duration": 985316,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_clerk_is_logged_out()"
 });
 formatter.result({
-  "duration": 48986,
+  "duration": 34056,
   "status": "passed"
 });
 formatter.scenario({
@@ -1454,7 +1454,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1221847,
+  "duration": 2394710,
   "status": "passed"
 });
 formatter.match({
@@ -1467,7 +1467,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 73712,
+  "duration": 78844,
   "status": "passed"
 });
 formatter.match({
@@ -1480,7 +1480,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 85842,
+  "duration": 117566,
   "status": "passed"
 });
 formatter.match({
@@ -1493,7 +1493,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 76978,
+  "duration": 68113,
   "status": "passed"
 });
 formatter.match({
@@ -1514,7 +1514,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 3167286,
+  "duration": 16280572,
   "status": "passed"
 });
 formatter.match({
@@ -1527,7 +1527,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 76978,
+  "duration": 93306,
   "status": "passed"
 });
 formatter.match({
@@ -1540,7 +1540,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 75111,
+  "duration": 104969,
   "status": "passed"
 });
 formatter.match({
@@ -1553,7 +1553,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 68580,
+  "duration": 84908,
   "status": "passed"
 });
 formatter.match({
@@ -1570,7 +1570,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 873348,
+  "duration": 1863796,
   "status": "passed"
 });
 formatter.match({
@@ -1583,14 +1583,14 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 766512,
+  "duration": 16380410,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_clerk_is_logged_out()"
 });
 formatter.result({
-  "duration": 27992,
+  "duration": 31724,
   "status": "passed"
 });
 formatter.uri("test/cucumber/1-clerkcreatecourse.feature");
@@ -1752,7 +1752,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 660143,
+  "duration": 463732,
   "status": "passed"
 });
 formatter.match({
@@ -1765,7 +1765,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 40561238,
+  "duration": 44263637,
   "status": "passed"
 });
 formatter.match({
@@ -1778,7 +1778,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 48520,
+  "duration": 72779,
   "status": "passed"
 });
 formatter.match({
@@ -1791,7 +1791,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 92840,
+  "duration": 326106,
   "status": "passed"
 });
 formatter.match({
@@ -1804,7 +1804,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 77911,
+  "duration": 88641,
   "status": "passed"
 });
 formatter.match({
@@ -1845,7 +1845,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 5534004,
+  "duration": 7172465,
   "status": "passed"
 });
 formatter.match({
@@ -1858,7 +1858,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 188945,
+  "duration": 130163,
   "status": "passed"
 });
 formatter.scenario({
@@ -1918,7 +1918,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1242375,
+  "duration": 635417,
   "status": "passed"
 });
 formatter.match({
@@ -1931,7 +1931,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 51824724,
+  "duration": 56330025,
   "status": "passed"
 });
 formatter.match({
@@ -1944,7 +1944,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 91907,
+  "duration": 72313,
   "status": "passed"
 });
 formatter.match({
@@ -1957,7 +1957,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 56917,
+  "duration": 71379,
   "status": "passed"
 });
 formatter.match({
@@ -1970,7 +1970,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 41988,
+  "duration": 56917,
   "status": "passed"
 });
 formatter.match({
@@ -2011,7 +2011,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 4798283,
+  "duration": 7752831,
   "status": "passed"
 });
 formatter.match({
@@ -2024,7 +2024,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 92374,
+  "duration": 522050,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2208,7 +2208,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 684403,
+  "duration": 495458,
   "status": "passed"
 });
 formatter.match({
@@ -2221,7 +2221,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 44099418,
+  "duration": 65670465,
   "status": "passed"
 });
 formatter.match({
@@ -2234,7 +2234,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 50386,
+  "duration": 76511,
   "status": "passed"
 });
 formatter.match({
@@ -2247,7 +2247,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 516918,
+  "duration": 90974,
   "status": "passed"
 });
 formatter.match({
@@ -2260,7 +2260,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 75578,
+  "duration": 79777,
   "status": "passed"
 });
 formatter.match({
@@ -2301,7 +2301,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 3734590,
+  "duration": 2451160,
   "status": "passed"
 });
 formatter.match({
@@ -2314,7 +2314,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 106836,
+  "duration": 90507,
   "status": "passed"
 });
 formatter.match({
@@ -2355,7 +2355,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 5683295,
+  "duration": 2216961,
   "status": "passed"
 });
 formatter.match({
@@ -2368,7 +2368,7 @@ formatter.match({
   "location": "StepDefinitions.the_already_exists(String)"
 });
 formatter.result({
-  "duration": 110101,
+  "duration": 99838,
   "status": "passed"
 });
 formatter.scenario({
@@ -2448,7 +2448,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 519717,
+  "duration": 463267,
   "status": "passed"
 });
 formatter.match({
@@ -2461,7 +2461,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 47118814,
+  "duration": 47150072,
   "status": "passed"
 });
 formatter.match({
@@ -2474,7 +2474,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 61116,
+  "duration": 70913,
   "status": "passed"
 });
 formatter.match({
@@ -2487,7 +2487,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 55050,
+  "duration": 76978,
   "status": "passed"
 });
 formatter.match({
@@ -2500,7 +2500,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 54118,
+  "duration": 201541,
   "status": "passed"
 });
 formatter.match({
@@ -2541,7 +2541,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1704709,
+  "duration": 3576902,
   "status": "passed"
 });
 formatter.match({
@@ -2554,7 +2554,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 50852,
+  "duration": 68580,
   "status": "passed"
 });
 formatter.match({
@@ -2595,7 +2595,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1210185,
+  "duration": 4367207,
   "status": "passed"
 });
 formatter.match({
@@ -2608,7 +2608,7 @@ formatter.match({
   "location": "StepDefinitions.the_already_exists(String)"
 });
 formatter.result({
-  "duration": 78377,
+  "duration": 83043,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2762,7 +2762,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 597161,
+  "duration": 731056,
   "status": "passed"
 });
 formatter.match({
@@ -2775,7 +2775,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 406830964,
+  "duration": 429043959,
   "status": "passed"
 });
 formatter.match({
@@ -2788,7 +2788,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 55051,
+  "duration": 62515,
   "status": "passed"
 });
 formatter.match({
@@ -2801,7 +2801,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 69979,
+  "duration": 73246,
   "status": "passed"
 });
 formatter.match({
@@ -2814,7 +2814,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 39188,
+  "duration": 61116,
   "status": "passed"
 });
 formatter.match({
@@ -2855,14 +2855,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 187546,
+  "duration": 189412,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.it_is_overdue()"
 });
 formatter.result({
-  "duration": 28925,
+  "duration": 27059,
   "status": "passed"
 });
 formatter.scenario({
@@ -2922,7 +2922,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1305357,
+  "duration": 2453959,
   "status": "passed"
 });
 formatter.match({
@@ -2935,7 +2935,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 434980580,
+  "duration": 423621922,
   "status": "passed"
 });
 formatter.match({
@@ -2948,7 +2948,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 47120,
+  "duration": 133429,
   "status": "passed"
 });
 formatter.match({
@@ -2961,7 +2961,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 39189,
+  "duration": 45253,
   "status": "passed"
 });
 formatter.match({
@@ -2974,7 +2974,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 35456,
+  "duration": 36390,
   "status": "passed"
 });
 formatter.match({
@@ -3015,14 +3015,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 160954,
+  "duration": 173084,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.it_is_overdue()"
 });
 formatter.result({
-  "duration": 31257,
+  "duration": 25193,
   "status": "passed"
 });
 formatter.uri("test/cucumber/2-clerkcreatestudent.feature");
@@ -3164,7 +3164,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1530225,
+  "duration": 836492,
   "status": "passed"
 });
 formatter.match({
@@ -3177,7 +3177,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 43579702,
+  "duration": 37187744,
   "status": "passed"
 });
 formatter.match({
@@ -3190,7 +3190,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 67647,
+  "duration": 52718,
   "status": "passed"
 });
 formatter.match({
@@ -3203,7 +3203,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 52718,
+  "duration": 99837,
   "status": "passed"
 });
 formatter.match({
@@ -3216,7 +3216,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 67647,
+  "duration": 104503,
   "status": "passed"
 });
 formatter.match({
@@ -3237,7 +3237,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1163531,
+  "duration": 3626821,
   "status": "passed"
 });
 formatter.match({
@@ -3250,7 +3250,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 57849,
+  "duration": 91907,
   "status": "passed"
 });
 formatter.scenario({
@@ -3305,7 +3305,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 592029,
+  "duration": 1712173,
   "status": "passed"
 });
 formatter.match({
@@ -3318,7 +3318,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39139248,
+  "duration": 45535404,
   "status": "passed"
 });
 formatter.match({
@@ -3331,7 +3331,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 53651,
+  "duration": 67647,
   "status": "passed"
 });
 formatter.match({
@@ -3344,7 +3344,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 825762,
+  "duration": 569636,
   "status": "passed"
 });
 formatter.match({
@@ -3357,7 +3357,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 52718,
+  "duration": 94240,
   "status": "passed"
 });
 formatter.match({
@@ -3378,7 +3378,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1200387,
+  "duration": 1695845,
   "status": "passed"
 });
 formatter.match({
@@ -3391,7 +3391,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 60182,
+  "duration": 75111,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -3550,7 +3550,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 647547,
+  "duration": 559372,
   "status": "passed"
 });
 formatter.match({
@@ -3563,7 +3563,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 28184141,
+  "duration": 51474824,
   "status": "passed"
 });
 formatter.match({
@@ -3576,7 +3576,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 81176,
+  "duration": 72779,
   "status": "passed"
 });
 formatter.match({
@@ -3589,7 +3589,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 99838,
+  "duration": 88174,
   "status": "passed"
 });
 formatter.match({
@@ -3602,7 +3602,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 61116,
+  "duration": 65314,
   "status": "passed"
 });
 formatter.match({
@@ -3623,7 +3623,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 2214628,
+  "duration": 2836516,
   "status": "passed"
 });
 formatter.match({
@@ -3636,7 +3636,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 72312,
+  "duration": 65315,
   "status": "passed"
 });
 formatter.match({
@@ -3657,7 +3657,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1969699,
+  "duration": 4245909,
   "status": "passed"
 });
 formatter.match({
@@ -3670,7 +3670,7 @@ formatter.match({
   "location": "StepDefinitions.the_already_exists(String)"
 });
 formatter.result({
-  "duration": 101704,
+  "duration": 94706,
   "status": "passed"
 });
 formatter.scenario({
@@ -3740,7 +3740,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 502922,
+  "duration": 640082,
   "status": "passed"
 });
 formatter.match({
@@ -3753,7 +3753,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 43885746,
+  "duration": 47808349,
   "status": "passed"
 });
 formatter.match({
@@ -3766,7 +3766,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 175883,
+  "duration": 76978,
   "status": "passed"
 });
 formatter.match({
@@ -3779,7 +3779,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 56917,
+  "duration": 61582,
   "status": "passed"
 });
 formatter.match({
@@ -3792,7 +3792,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 50385,
+  "duration": 59716,
   "status": "passed"
 });
 formatter.match({
@@ -3813,7 +3813,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1491970,
+  "duration": 2073269,
   "status": "passed"
 });
 formatter.match({
@@ -3826,7 +3826,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 110101,
+  "duration": 45720,
   "status": "passed"
 });
 formatter.match({
@@ -3847,7 +3847,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1377669,
+  "duration": 1438785,
   "status": "passed"
 });
 formatter.match({
@@ -3860,7 +3860,7 @@ formatter.match({
   "location": "StepDefinitions.the_already_exists(String)"
 });
 formatter.result({
-  "duration": 77444,
+  "duration": 81643,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -3994,7 +3994,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1026838,
+  "duration": 1046431,
   "status": "passed"
 });
 formatter.match({
@@ -4007,7 +4007,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 419621409,
+  "duration": 430105320,
   "status": "passed"
 });
 formatter.match({
@@ -4020,7 +4020,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 69513,
+  "duration": 75111,
   "status": "passed"
 });
 formatter.match({
@@ -4033,7 +4033,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 68114,
+  "duration": 58316,
   "status": "passed"
 });
 formatter.match({
@@ -4046,7 +4046,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 142292,
+  "duration": 58316,
   "status": "passed"
 });
 formatter.match({
@@ -4067,14 +4067,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 158621,
+  "duration": 204808,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.it_is_overdue()"
 });
 formatter.result({
-  "duration": 30324,
+  "duration": 26593,
   "status": "passed"
 });
 formatter.scenario({
@@ -4129,7 +4129,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 977385,
+  "duration": 1095884,
   "status": "passed"
 });
 formatter.match({
@@ -4142,7 +4142,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 425769370,
+  "duration": 424749064,
   "status": "passed"
 });
 formatter.match({
@@ -4155,7 +4155,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 73712,
+  "duration": 67180,
   "status": "passed"
 });
 formatter.match({
@@ -4168,7 +4168,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 63448,
+  "duration": 41988,
   "status": "passed"
 });
 formatter.match({
@@ -4181,7 +4181,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 76512,
+  "duration": 38256,
   "status": "passed"
 });
 formatter.match({
@@ -4202,14 +4202,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 179614,
+  "duration": 94240,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.it_is_overdue()"
 });
 formatter.result({
-  "duration": 392820,
+  "duration": 13530,
   "status": "passed"
 });
 formatter.uri("test/cucumber/3-clerkdeletecourse.feature");
@@ -4394,7 +4394,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 660610,
+  "duration": 799636,
   "status": "passed"
 });
 formatter.match({
@@ -4407,7 +4407,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 41664120,
+  "duration": 45358122,
   "status": "passed"
 });
 formatter.match({
@@ -4420,7 +4420,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 68580,
+  "duration": 48053,
   "status": "passed"
 });
 formatter.match({
@@ -4433,7 +4433,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 403550,
+  "duration": 80243,
   "status": "passed"
 });
 formatter.match({
@@ -4446,7 +4446,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 55517,
+  "duration": 46653,
   "status": "passed"
 });
 formatter.match({
@@ -4487,7 +4487,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2295338,
+  "duration": 1226979,
   "status": "passed"
 });
 formatter.match({
@@ -4500,7 +4500,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 165152,
+  "duration": 100771,
   "status": "passed"
 });
 formatter.match({
@@ -4513,7 +4513,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
 });
 formatter.result({
-  "duration": 2883169,
+  "duration": 2125054,
   "status": "passed"
 });
 formatter.match({
@@ -4526,7 +4526,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 120832,
+  "duration": 73246,
   "status": "passed"
 });
 formatter.scenario({
@@ -4599,7 +4599,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 424544,
+  "duration": 1104281,
   "status": "passed"
 });
 formatter.match({
@@ -4612,7 +4612,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 40781441,
+  "duration": 33755467,
   "status": "passed"
 });
 formatter.match({
@@ -4625,7 +4625,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 363895,
+  "duration": 102637,
   "status": "passed"
 });
 formatter.match({
@@ -4638,7 +4638,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 67181,
+  "duration": 39189,
   "status": "passed"
 });
 formatter.match({
@@ -4651,7 +4651,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 67180,
+  "duration": 34056,
   "status": "passed"
 });
 formatter.match({
@@ -4692,7 +4692,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 8488552,
+  "duration": 1830673,
   "status": "passed"
 });
 formatter.match({
@@ -4705,7 +4705,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 76978,
+  "duration": 63915,
   "status": "passed"
 });
 formatter.match({
@@ -4718,7 +4718,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
 });
 formatter.result({
-  "duration": 3835361,
+  "duration": 1481707,
   "status": "passed"
 });
 formatter.match({
@@ -4731,7 +4731,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 72779,
+  "duration": 44321,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -4878,7 +4878,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 779108,
+  "duration": 882679,
   "status": "passed"
 });
 formatter.match({
@@ -4891,7 +4891,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 33751269,
+  "duration": 41509698,
   "status": "passed"
 });
 formatter.match({
@@ -4904,7 +4904,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 48986,
+  "duration": 47587,
   "status": "passed"
 });
 formatter.match({
@@ -4917,7 +4917,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 41521,
+  "duration": 35457,
   "status": "passed"
 });
 formatter.match({
@@ -4930,7 +4930,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 51318,
+  "duration": 52718,
   "status": "passed"
 });
 formatter.match({
@@ -4943,7 +4943,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
 });
 formatter.result({
-  "duration": 877080,
+  "duration": 775843,
   "status": "passed"
 });
 formatter.match({
@@ -4956,7 +4956,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 114767,
+  "duration": 63448,
   "status": "passed"
 });
 formatter.scenario({
@@ -5009,7 +5009,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 832760,
+  "duration": 1001178,
   "status": "passed"
 });
 formatter.match({
@@ -5022,7 +5022,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 45868508,
+  "duration": 39158842,
   "status": "passed"
 });
 formatter.match({
@@ -5035,7 +5035,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 76978,
+  "duration": 83042,
   "status": "passed"
 });
 formatter.match({
@@ -5048,7 +5048,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 76044,
+  "duration": 47587,
   "status": "passed"
 });
 formatter.match({
@@ -5061,7 +5061,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 100304,
+  "duration": 71846,
   "status": "passed"
 });
 formatter.match({
@@ -5074,7 +5074,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
 });
 formatter.result({
-  "duration": 831360,
+  "duration": 845822,
   "status": "passed"
 });
 formatter.match({
@@ -5087,7 +5087,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 53185,
+  "duration": 78378,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -5274,7 +5274,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 693733,
+  "duration": 1000245,
   "status": "passed"
 });
 formatter.match({
@@ -5287,7 +5287,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 30189295,
+  "duration": 38441782,
   "status": "passed"
 });
 formatter.match({
@@ -5300,7 +5300,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 48053,
+  "duration": 58783,
   "status": "passed"
 });
 formatter.match({
@@ -5313,7 +5313,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 40121,
+  "duration": 66714,
   "status": "passed"
 });
 formatter.match({
@@ -5326,7 +5326,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 50386,
+  "duration": 143226,
   "status": "passed"
 });
 formatter.match({
@@ -5367,7 +5367,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 3045989,
+  "duration": 3721527,
   "status": "passed"
 });
 formatter.match({
@@ -5380,7 +5380,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 403115035,
+  "duration": 390770128,
   "status": "passed"
 });
 formatter.match({
@@ -5393,7 +5393,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 58317,
+  "duration": 130162,
   "status": "passed"
 });
 formatter.match({
@@ -5406,14 +5406,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
 });
 formatter.result({
-  "duration": 132962,
+  "duration": 256126,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.it_is_overdue()"
 });
 formatter.result({
-  "duration": 21461,
+  "duration": 55984,
   "status": "passed"
 });
 formatter.scenario({
@@ -5491,7 +5491,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 799170,
+  "duration": 3067915,
   "status": "passed"
 });
 formatter.match({
@@ -5504,7 +5504,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 41136472,
+  "duration": 43033858,
   "status": "passed"
 });
 formatter.match({
@@ -5517,7 +5517,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 61116,
+  "duration": 61582,
   "status": "passed"
 });
 formatter.match({
@@ -5530,7 +5530,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 56917,
+  "duration": 68581,
   "status": "passed"
 });
 formatter.match({
@@ -5543,7 +5543,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 44787,
+  "duration": 43388,
   "status": "passed"
 });
 formatter.match({
@@ -5584,7 +5584,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2882702,
+  "duration": 1430387,
   "status": "passed"
 });
 formatter.match({
@@ -5597,7 +5597,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 416223655,
+  "duration": 410273038,
   "status": "passed"
 });
 formatter.match({
@@ -5610,7 +5610,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 81176,
+  "duration": 119899,
   "status": "passed"
 });
 formatter.match({
@@ -5623,14 +5623,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
 });
 formatter.result({
-  "duration": 157688,
+  "duration": 168885,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.it_is_overdue()"
 });
 formatter.result({
-  "duration": 45254,
+  "duration": 39189,
   "status": "passed"
 });
 formatter.uri("test/cucumber/4-clerkdeletestudent.feature");
@@ -5795,7 +5795,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 3543312,
+  "duration": 1982295,
   "status": "passed"
 });
 formatter.match({
@@ -5808,7 +5808,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 42404040,
+  "duration": 39619776,
   "status": "passed"
 });
 formatter.match({
@@ -5821,7 +5821,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 65781,
+  "duration": 60182,
   "status": "passed"
 });
 formatter.match({
@@ -5834,7 +5834,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 129696,
+  "duration": 57383,
   "status": "passed"
 });
 formatter.match({
@@ -5847,7 +5847,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 53185,
+  "duration": 39655,
   "status": "passed"
 });
 formatter.match({
@@ -5868,7 +5868,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1810144,
+  "duration": 1328683,
   "status": "passed"
 });
 formatter.match({
@@ -5881,7 +5881,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 112901,
+  "duration": 94239,
   "status": "passed"
 });
 formatter.match({
@@ -5894,7 +5894,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
 });
 formatter.result({
-  "duration": 2187569,
+  "duration": 1765357,
   "status": "passed"
 });
 formatter.match({
@@ -5907,7 +5907,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 62049,
+  "duration": 64381,
   "status": "passed"
 });
 formatter.scenario({
@@ -5975,7 +5975,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1059961,
+  "duration": 973186,
   "status": "passed"
 });
 formatter.match({
@@ -5988,7 +5988,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37884743,
+  "duration": 37346831,
   "status": "passed"
 });
 formatter.match({
@@ -6001,7 +6001,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 47120,
+  "duration": 46187,
   "status": "passed"
 });
 formatter.match({
@@ -6014,7 +6014,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 56450,
+  "duration": 38255,
   "status": "passed"
 });
 formatter.match({
@@ -6027,7 +6027,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 48519,
+  "duration": 39655,
   "status": "passed"
 });
 formatter.match({
@@ -6048,7 +6048,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1634728,
+  "duration": 1396331,
   "status": "passed"
 });
 formatter.match({
@@ -6061,7 +6061,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 93773,
+  "duration": 174483,
   "status": "passed"
 });
 formatter.match({
@@ -6074,7 +6074,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
 });
 formatter.result({
-  "duration": 2116190,
+  "duration": 2976942,
   "status": "passed"
 });
 formatter.match({
@@ -6087,7 +6087,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 62982,
+  "duration": 83043,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -6219,7 +6219,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1047831,
+  "duration": 1535357,
   "status": "passed"
 });
 formatter.match({
@@ -6232,7 +6232,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 32381530,
+  "duration": 31767574,
   "status": "passed"
 });
 formatter.match({
@@ -6245,7 +6245,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 66248,
+  "duration": 44321,
   "status": "passed"
 });
 formatter.match({
@@ -6258,7 +6258,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 53184,
+  "duration": 33124,
   "status": "passed"
 });
 formatter.match({
@@ -6271,7 +6271,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 55051,
+  "duration": 57383,
   "status": "passed"
 });
 formatter.match({
@@ -6284,7 +6284,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
 });
 formatter.result({
-  "duration": 717993,
+  "duration": 792638,
   "status": "passed"
 });
 formatter.match({
@@ -6297,7 +6297,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 56450,
+  "duration": 58317,
   "status": "passed"
 });
 formatter.scenario({
@@ -6350,7 +6350,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1927711,
+  "duration": 1045499,
   "status": "passed"
 });
 formatter.match({
@@ -6363,7 +6363,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 44509499,
+  "duration": 43504589,
   "status": "passed"
 });
 formatter.match({
@@ -6376,7 +6376,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 57850,
+  "duration": 62515,
   "status": "passed"
 });
 formatter.match({
@@ -6389,7 +6389,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 61582,
+  "duration": 111968,
   "status": "passed"
 });
 formatter.match({
@@ -6402,7 +6402,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 44787,
+  "duration": 50852,
   "status": "passed"
 });
 formatter.match({
@@ -6415,7 +6415,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
 });
 formatter.result({
-  "duration": 463266,
+  "duration": 463733,
   "status": "passed"
 });
 formatter.match({
@@ -6428,7 +6428,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 85842,
+  "duration": 100770,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -6595,7 +6595,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 3191546,
+  "duration": 1154201,
   "status": "passed"
 });
 formatter.match({
@@ -6608,7 +6608,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 40173550,
+  "duration": 35912712,
   "status": "passed"
 });
 formatter.match({
@@ -6621,7 +6621,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 53185,
+  "duration": 69046,
   "status": "passed"
 });
 formatter.match({
@@ -6634,7 +6634,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 46653,
+  "duration": 68114,
   "status": "passed"
 });
 formatter.match({
@@ -6647,7 +6647,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 51319,
+  "duration": 69047,
   "status": "passed"
 });
 formatter.match({
@@ -6668,7 +6668,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 2062538,
+  "duration": 3403352,
   "status": "passed"
 });
 formatter.match({
@@ -6681,7 +6681,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 400800570,
+  "duration": 393310396,
   "status": "passed"
 });
 formatter.match({
@@ -6694,7 +6694,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 88641,
+  "duration": 117566,
   "status": "passed"
 });
 formatter.match({
@@ -6707,14 +6707,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
 });
 formatter.result({
-  "duration": 181481,
+  "duration": 171684,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.it_is_overdue()"
 });
 formatter.result({
-  "duration": 38722,
+  "duration": 65314,
   "status": "passed"
 });
 formatter.scenario({
@@ -6787,7 +6787,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1144870,
+  "duration": 1676250,
   "status": "passed"
 });
 formatter.match({
@@ -6800,7 +6800,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 46720396,
+  "duration": 41798948,
   "status": "passed"
 });
 formatter.match({
@@ -6813,7 +6813,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 69980,
+  "duration": 84909,
   "status": "passed"
 });
 formatter.match({
@@ -6826,7 +6826,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 70912,
+  "duration": 87708,
   "status": "passed"
 });
 formatter.match({
@@ -6839,7 +6839,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 63448,
+  "duration": 60182,
   "status": "passed"
 });
 formatter.match({
@@ -6860,7 +6860,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 2483817,
+  "duration": 2716617,
   "status": "passed"
 });
 formatter.match({
@@ -6873,7 +6873,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 393334655,
+  "duration": 392286358,
   "status": "passed"
 });
 formatter.match({
@@ -6886,7 +6886,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 94706,
+  "duration": 96572,
   "status": "passed"
 });
 formatter.match({
@@ -6899,14 +6899,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
 });
 formatter.result({
-  "duration": 99837,
+  "duration": 93773,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.it_is_overdue()"
 });
 formatter.result({
-  "duration": 23326,
+  "duration": 20061,
   "status": "passed"
 });
 formatter.uri("test/cucumber/5-clerkcancelcourse.feature");
@@ -7101,7 +7101,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1220915,
+  "duration": 403550,
   "status": "passed"
 });
 formatter.match({
@@ -7114,7 +7114,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 44888324,
+  "duration": 39612312,
   "status": "passed"
 });
 formatter.match({
@@ -7127,7 +7127,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 69980,
+  "duration": 56450,
   "status": "passed"
 });
 formatter.match({
@@ -7140,7 +7140,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 46654,
+  "duration": 50852,
   "status": "passed"
 });
 formatter.match({
@@ -7153,7 +7153,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 46654,
+  "duration": 41521,
   "status": "passed"
 });
 formatter.match({
@@ -7194,7 +7194,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2159110,
+  "duration": 1102415,
   "status": "passed"
 });
 formatter.match({
@@ -7207,7 +7207,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 800669473,
+  "duration": 808081270,
   "status": "passed"
 });
 formatter.match({
@@ -7220,7 +7220,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 140893,
+  "duration": 133895,
   "status": "passed"
 });
 formatter.match({
@@ -7233,7 +7233,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 5147716,
+  "duration": 3533981,
   "status": "passed"
 });
 formatter.match({
@@ -7246,7 +7246,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 112434,
+  "duration": 105903,
   "status": "passed"
 });
 formatter.scenario({
@@ -7324,7 +7324,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 2887834,
+  "duration": 1201321,
   "status": "passed"
 });
 formatter.match({
@@ -7337,7 +7337,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 42223959,
+  "duration": 40549574,
   "status": "passed"
 });
 formatter.match({
@@ -7350,7 +7350,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 101704,
+  "duration": 156755,
   "status": "passed"
 });
 formatter.match({
@@ -7363,7 +7363,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 57850,
+  "duration": 123164,
   "status": "passed"
 });
 formatter.match({
@@ -7376,7 +7376,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 44787,
+  "duration": 89108,
   "status": "passed"
 });
 formatter.match({
@@ -7417,7 +7417,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2728280,
+  "duration": 3212074,
   "status": "passed"
 });
 formatter.match({
@@ -7430,7 +7430,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 802994203,
+  "duration": 798142269,
   "status": "passed"
 });
 formatter.match({
@@ -7443,7 +7443,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 134362,
+  "duration": 133428,
   "status": "passed"
 });
 formatter.match({
@@ -7456,7 +7456,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 5101063,
+  "duration": 3072114,
   "status": "passed"
 });
 formatter.match({
@@ -7469,7 +7469,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 143692,
+  "duration": 110102,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -7626,7 +7626,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1789617,
+  "duration": 1529759,
   "status": "passed"
 });
 formatter.match({
@@ -7639,7 +7639,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 35751759,
+  "duration": 36194498,
   "status": "passed"
 });
 formatter.match({
@@ -7652,7 +7652,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 49452,
+  "duration": 70446,
   "status": "passed"
 });
 formatter.match({
@@ -7665,7 +7665,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 37789,
+  "duration": 58317,
   "status": "passed"
 });
 formatter.match({
@@ -7678,7 +7678,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 799477484,
+  "duration": 798459511,
   "status": "passed"
 });
 formatter.match({
@@ -7691,7 +7691,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 134361,
+  "duration": 158621,
   "status": "passed"
 });
 formatter.match({
@@ -7704,7 +7704,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 1547487,
+  "duration": 1112212,
   "status": "passed"
 });
 formatter.match({
@@ -7717,7 +7717,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 106370,
+  "duration": 102637,
   "status": "passed"
 });
 formatter.scenario({
@@ -7775,7 +7775,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 2410572,
+  "duration": 2483817,
   "status": "passed"
 });
 formatter.match({
@@ -7788,7 +7788,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 35058025,
+  "duration": 33949078,
   "status": "passed"
 });
 formatter.match({
@@ -7801,7 +7801,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 65781,
+  "duration": 55984,
   "status": "passed"
 });
 formatter.match({
@@ -7814,7 +7814,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 53185,
+  "duration": 41521,
   "status": "passed"
 });
 formatter.match({
@@ -7827,7 +7827,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 805413172,
+  "duration": 799836714,
   "status": "passed"
 });
 formatter.match({
@@ -7840,7 +7840,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 141359,
+  "duration": 108235,
   "status": "passed"
 });
 formatter.match({
@@ -7853,7 +7853,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 6844493,
+  "duration": 1140671,
   "status": "passed"
 });
 formatter.match({
@@ -7866,7 +7866,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 153023,
+  "duration": 110568,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -8053,7 +8053,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 2808057,
+  "duration": 1525560,
   "status": "passed"
 });
 formatter.match({
@@ -8066,7 +8066,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 55353573,
+  "duration": 40305113,
   "status": "passed"
 });
 formatter.match({
@@ -8079,7 +8079,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 98905,
+  "duration": 61582,
   "status": "passed"
 });
 formatter.match({
@@ -8092,7 +8092,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 85376,
+  "duration": 46186,
   "status": "passed"
 });
 formatter.match({
@@ -8105,7 +8105,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 101237,
+  "duration": 39655,
   "status": "passed"
 });
 formatter.match({
@@ -8146,7 +8146,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 3007732,
+  "duration": 1566615,
   "status": "passed"
 });
 formatter.match({
@@ -8159,7 +8159,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38749694,
+  "duration": 42941485,
   "status": "passed"
 });
 formatter.match({
@@ -8172,7 +8172,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 269656,
+  "duration": 413347,
   "status": "passed"
 });
 formatter.match({
@@ -8185,14 +8185,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 222070,
+  "duration": 218803,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_course_cannot_be_canceled_before_registration_ends()"
 });
 formatter.result({
-  "duration": 66714,
+  "duration": 65781,
   "status": "passed"
 });
 formatter.scenario({
@@ -8270,7 +8270,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 2231890,
+  "duration": 1396331,
   "status": "passed"
 });
 formatter.match({
@@ -8283,7 +8283,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 34352628,
+  "duration": 43863353,
   "status": "passed"
 });
 formatter.match({
@@ -8296,7 +8296,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 47587,
+  "duration": 47120,
   "status": "passed"
 });
 formatter.match({
@@ -8309,7 +8309,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 34990,
+  "duration": 35923,
   "status": "passed"
 });
 formatter.match({
@@ -8322,7 +8322,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 29392,
+  "duration": 36390,
   "status": "passed"
 });
 formatter.match({
@@ -8363,7 +8363,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2005155,
+  "duration": 1632863,
   "status": "passed"
 });
 formatter.match({
@@ -8376,7 +8376,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 42525805,
+  "duration": 42687226,
   "status": "passed"
 });
 formatter.match({
@@ -8389,7 +8389,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 53184,
+  "duration": 52719,
   "status": "passed"
 });
 formatter.match({
@@ -8402,14 +8402,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 92839,
+  "duration": 72779,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_course_cannot_be_canceled_before_registration_ends()"
 });
 formatter.result({
-  "duration": 16328,
+  "duration": 17728,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -8596,7 +8596,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 676471,
+  "duration": 908805,
   "status": "passed"
 });
 formatter.match({
@@ -8609,7 +8609,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 48600521,
+  "duration": 48505347,
   "status": "passed"
 });
 formatter.match({
@@ -8622,7 +8622,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 48053,
+  "duration": 65315,
   "status": "passed"
 });
 formatter.match({
@@ -8635,7 +8635,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 743652,
+  "duration": 55518,
   "status": "passed"
 });
 formatter.match({
@@ -8648,7 +8648,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 51785,
+  "duration": 46653,
   "status": "passed"
 });
 formatter.match({
@@ -8689,7 +8689,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1457446,
+  "duration": 2269212,
   "status": "passed"
 });
 formatter.match({
@@ -8702,7 +8702,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 2396855574,
+  "duration": 2395777884,
   "status": "passed"
 });
 formatter.match({
@@ -8715,7 +8715,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 107302,
+  "duration": 116166,
   "status": "passed"
 });
 formatter.match({
@@ -8728,14 +8728,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 222536,
+  "duration": 218337,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_term_ends()"
 });
 formatter.result({
-  "duration": 63448,
+  "duration": 62048,
   "status": "passed"
 });
 formatter.scenario({
@@ -8813,7 +8813,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1923512,
+  "duration": 1827407,
   "status": "passed"
 });
 formatter.match({
@@ -8826,7 +8826,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 42294405,
+  "duration": 42232356,
   "status": "passed"
 });
 formatter.match({
@@ -8839,7 +8839,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 57850,
+  "duration": 51318,
   "status": "passed"
 });
 formatter.match({
@@ -8852,7 +8852,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 49919,
+  "duration": 47587,
   "status": "passed"
 });
 formatter.match({
@@ -8906,7 +8906,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2817854,
+  "duration": 2036879,
   "status": "passed"
 });
 formatter.match({
@@ -8919,7 +8919,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 2411569531,
+  "duration": 2407363277,
   "status": "passed"
 });
 formatter.match({
@@ -8932,7 +8932,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 136228,
+  "duration": 112434,
   "status": "passed"
 });
 formatter.match({
@@ -8945,14 +8945,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 180081,
+  "duration": 161420,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_term_ends()"
 });
 formatter.result({
-  "duration": 56451,
+  "duration": 39188,
   "status": "passed"
 });
 formatter.uri("test/cucumber/6-studentselectcourse.feature");
@@ -9215,7 +9215,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1064627,
+  "duration": 2703554,
   "status": "passed"
 });
 formatter.match({
@@ -9228,7 +9228,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 48185306,
+  "duration": 37251659,
   "status": "passed"
 });
 formatter.match({
@@ -9241,7 +9241,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 79311,
+  "duration": 63449,
   "status": "passed"
 });
 formatter.match({
@@ -9254,7 +9254,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 72313,
+  "duration": 50852,
   "status": "passed"
 });
 formatter.match({
@@ -9267,7 +9267,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 63449,
+  "duration": 543976,
   "status": "passed"
 });
 formatter.match({
@@ -9288,7 +9288,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1774689,
+  "duration": 1729901,
   "status": "passed"
 });
 formatter.match({
@@ -9301,7 +9301,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 68114,
+  "duration": 61116,
   "status": "passed"
 });
 formatter.match({
@@ -9342,14 +9342,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2138116,
+  "duration": 1813877,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 37789,
+  "duration": 39656,
   "status": "passed"
 });
 formatter.match({
@@ -9362,7 +9362,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39512940,
+  "duration": 37667340,
   "status": "passed"
 });
 formatter.match({
@@ -9375,7 +9375,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 54118,
+  "duration": 60183,
   "status": "passed"
 });
 formatter.match({
@@ -9392,7 +9392,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 979718,
+  "duration": 493124,
   "status": "passed"
 });
 formatter.match({
@@ -9405,7 +9405,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 420812,
+  "duration": 351765,
   "status": "passed"
 });
 formatter.match({
@@ -9418,7 +9418,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 3094508,
+  "duration": 1692578,
   "status": "passed"
 });
 formatter.match({
@@ -9431,7 +9431,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 62982,
+  "duration": 45721,
   "status": "passed"
 });
 formatter.scenario({
@@ -9543,7 +9543,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 618622,
+  "duration": 519251,
   "status": "passed"
 });
 formatter.match({
@@ -9556,7 +9556,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 29289355,
+  "duration": 32604999,
   "status": "passed"
 });
 formatter.match({
@@ -9569,7 +9569,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 41988,
+  "duration": 44321,
   "status": "passed"
 });
 formatter.match({
@@ -9582,7 +9582,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 28925,
+  "duration": 31257,
   "status": "passed"
 });
 formatter.match({
@@ -9595,7 +9595,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 33123,
+  "duration": 51785,
   "status": "passed"
 });
 formatter.match({
@@ -9616,7 +9616,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1032435,
+  "duration": 1056229,
   "status": "passed"
 });
 formatter.match({
@@ -9629,7 +9629,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 41054,
+  "duration": 32190,
   "status": "passed"
 });
 formatter.match({
@@ -9670,14 +9670,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1626331,
+  "duration": 1038967,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 24259,
   "status": "passed"
 });
 formatter.match({
@@ -9690,7 +9690,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 55133370,
+  "duration": 39608113,
   "status": "passed"
 });
 formatter.match({
@@ -9703,7 +9703,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 68114,
+  "duration": 76977,
   "status": "passed"
 });
 formatter.match({
@@ -9720,7 +9720,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 814099,
+  "duration": 982517,
   "status": "passed"
 });
 formatter.match({
@@ -9733,7 +9733,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 943794,
+  "duration": 822962,
   "status": "passed"
 });
 formatter.match({
@@ -9746,7 +9746,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 3606760,
+  "duration": 4339682,
   "status": "passed"
 });
 formatter.match({
@@ -9759,7 +9759,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 78378,
+  "duration": 108702,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -9984,7 +9984,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 627019,
+  "duration": 1483572,
   "status": "passed"
 });
 formatter.match({
@@ -9997,7 +9997,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 26343671,
+  "duration": 48338796,
   "status": "passed"
 });
 formatter.match({
@@ -10010,7 +10010,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 58783,
+  "duration": 61116,
   "status": "passed"
 });
 formatter.match({
@@ -10023,7 +10023,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 42454,
+  "duration": 50386,
   "status": "passed"
 });
 formatter.match({
@@ -10036,7 +10036,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 41522,
+  "duration": 34990,
   "status": "passed"
 });
 formatter.match({
@@ -10057,14 +10057,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 948460,
+  "duration": 1218582,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 25193,
+  "duration": 25659,
   "status": "passed"
 });
 formatter.match({
@@ -10077,7 +10077,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 41304424,
+  "duration": 43238200,
   "status": "passed"
 });
 formatter.match({
@@ -10090,7 +10090,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 54584,
+  "duration": 46654,
   "status": "passed"
 });
 formatter.match({
@@ -10107,7 +10107,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 663875,
+  "duration": 539778,
   "status": "passed"
 });
 formatter.match({
@@ -10120,7 +10120,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 352232,
+  "duration": 453469,
   "status": "passed"
 });
 formatter.match({
@@ -10133,7 +10133,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 380691,
+  "duration": 459067,
   "status": "passed"
 });
 formatter.match({
@@ -10146,7 +10146,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 41521,
+  "duration": 44321,
   "status": "passed"
 });
 formatter.scenario({
@@ -10238,7 +10238,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 592496,
+  "duration": 641948,
   "status": "passed"
 });
 formatter.match({
@@ -10251,7 +10251,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 40617689,
+  "duration": 47039037,
   "status": "passed"
 });
 formatter.match({
@@ -10264,7 +10264,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 121298,
+  "duration": 72312,
   "status": "passed"
 });
 formatter.match({
@@ -10277,7 +10277,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 86309,
+  "duration": 59716,
   "status": "passed"
 });
 formatter.match({
@@ -10290,7 +10290,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 60183,
+  "duration": 56451,
   "status": "passed"
 });
 formatter.match({
@@ -10311,14 +10311,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 2135318,
+  "duration": 1596473,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 28459,
   "status": "passed"
 });
 formatter.match({
@@ -10331,7 +10331,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 44846803,
+  "duration": 40367628,
   "status": "passed"
 });
 formatter.match({
@@ -10344,7 +10344,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 50385,
+  "duration": 60183,
   "status": "passed"
 });
 formatter.match({
@@ -10361,7 +10361,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 463733,
+  "duration": 539312,
   "status": "passed"
 });
 formatter.match({
@@ -10374,7 +10374,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 304645,
+  "duration": 380224,
   "status": "passed"
 });
 formatter.match({
@@ -10387,7 +10387,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 719859,
+  "duration": 516917,
   "status": "passed"
 });
 formatter.match({
@@ -10400,7 +10400,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 71380,
+  "duration": 108702,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -10655,7 +10655,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 389554,
+  "duration": 428743,
   "status": "passed"
 });
 formatter.match({
@@ -10668,7 +10668,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 35784415,
+  "duration": 51068009,
   "status": "passed"
 });
 formatter.match({
@@ -10681,7 +10681,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 73246,
+  "duration": 48519,
   "status": "passed"
 });
 formatter.match({
@@ -10694,7 +10694,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 51785,
+  "duration": 40588,
   "status": "passed"
 });
 formatter.match({
@@ -10707,7 +10707,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 24260,
+  "duration": 33590,
   "status": "passed"
 });
 formatter.match({
@@ -10728,7 +10728,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1823674,
+  "duration": 2058340,
   "status": "passed"
 });
 formatter.match({
@@ -10741,7 +10741,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 40122,
+  "duration": 56917,
   "status": "passed"
 });
 formatter.match({
@@ -10782,14 +10782,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 985782,
+  "duration": 1693045,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 25193,
+  "duration": 34524,
   "status": "passed"
 });
 formatter.match({
@@ -10802,7 +10802,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 795569811,
+  "duration": 792183720,
   "status": "passed"
 });
 formatter.match({
@@ -10815,7 +10815,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 78377,
+  "duration": 221603,
   "status": "passed"
 });
 formatter.match({
@@ -10832,7 +10832,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 1071624,
+  "duration": 1147669,
   "status": "passed"
 });
 formatter.match({
@@ -10845,7 +10845,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 893409,
+  "duration": 982983,
   "status": "passed"
 });
 formatter.match({
@@ -10865,7 +10865,7 @@ formatter.match({
   "location": "StepDefinitions.course_cannot_be_selected_after_registration_ends()"
 });
 formatter.result({
-  "duration": 60183,
+  "duration": 56917,
   "status": "passed"
 });
 formatter.scenario({
@@ -10977,7 +10977,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 2016818,
+  "duration": 1788685,
   "status": "passed"
 });
 formatter.match({
@@ -10990,7 +10990,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 52907545,
+  "duration": 55985724,
   "status": "passed"
 });
 formatter.match({
@@ -11003,7 +11003,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 58317,
+  "duration": 101704,
   "status": "passed"
 });
 formatter.match({
@@ -11016,7 +11016,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 59250,
+  "duration": 90507,
   "status": "passed"
 });
 formatter.match({
@@ -11029,7 +11029,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 41522,
+  "duration": 101238,
   "status": "passed"
 });
 formatter.match({
@@ -11050,7 +11050,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1394464,
+  "duration": 4164733,
   "status": "passed"
 });
 formatter.match({
@@ -11063,7 +11063,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 47120,
+  "duration": 98438,
   "status": "passed"
 });
 formatter.match({
@@ -11104,14 +11104,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1445783,
+  "duration": 4455382,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 38256,
+  "duration": 62515,
   "status": "passed"
 });
 formatter.match({
@@ -11124,7 +11124,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 793818916,
+  "duration": 792545749,
   "status": "passed"
 });
 formatter.match({
@@ -11137,7 +11137,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 75112,
+  "duration": 126430,
   "status": "passed"
 });
 formatter.match({
@@ -11154,7 +11154,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 587364,
+  "duration": 1205519,
   "status": "passed"
 });
 formatter.match({
@@ -11167,7 +11167,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 558906,
+  "duration": 884545,
   "status": "passed"
 });
 formatter.match({
@@ -11180,14 +11180,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 97972,
+  "duration": 182880,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.course_cannot_be_selected_after_registration_ends()"
 });
 formatter.result({
-  "duration": 21460,
+  "duration": 41988,
   "status": "passed"
 });
 formatter.uri("test/cucumber/7-studentregisterforcourse.feature");
@@ -11473,7 +11473,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1779353,
+  "duration": 871948,
   "status": "passed"
 });
 formatter.match({
@@ -11486,7 +11486,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 35041697,
+  "duration": 41480307,
   "status": "passed"
 });
 formatter.match({
@@ -11499,7 +11499,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 152556,
+  "duration": 44787,
   "status": "passed"
 });
 formatter.match({
@@ -11512,7 +11512,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 111035,
+  "duration": 48986,
   "status": "passed"
 });
 formatter.match({
@@ -11525,7 +11525,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 71379,
+  "duration": 45721,
   "status": "passed"
 });
 formatter.match({
@@ -11546,7 +11546,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 2480085,
+  "duration": 1184525,
   "status": "passed"
 });
 formatter.match({
@@ -11559,7 +11559,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 129230,
+  "duration": 39189,
   "status": "passed"
 });
 formatter.match({
@@ -11600,14 +11600,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 3727125,
+  "duration": 1329616,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 164220,
+  "duration": 31258,
   "status": "passed"
 });
 formatter.match({
@@ -11620,7 +11620,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 285518,
+  "duration": 45254,
   "status": "passed"
 });
 formatter.match({
@@ -11637,7 +11637,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 1533025,
+  "duration": 684869,
   "status": "passed"
 });
 formatter.match({
@@ -11650,7 +11650,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 1218115,
+  "duration": 503389,
   "status": "passed"
 });
 formatter.match({
@@ -11663,7 +11663,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 3842359,
+  "duration": 2498280,
   "status": "passed"
 });
 formatter.match({
@@ -11676,7 +11676,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 404102217,
+  "duration": 409885350,
   "status": "passed"
 });
 formatter.match({
@@ -11689,7 +11689,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 637283,
+  "duration": 426410,
   "status": "passed"
 });
 formatter.match({
@@ -11702,7 +11702,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 6010800,
+  "duration": 3719660,
   "status": "passed"
 });
 formatter.match({
@@ -11715,7 +11715,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 59250,
+  "duration": 47120,
   "status": "passed"
 });
 formatter.scenario({
@@ -11840,7 +11840,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1488704,
+  "duration": 807567,
   "status": "passed"
 });
 formatter.match({
@@ -11853,7 +11853,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 43319376,
+  "duration": 45077269,
   "status": "passed"
 });
 formatter.match({
@@ -11866,7 +11866,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 67181,
+  "duration": 69980,
   "status": "passed"
 });
 formatter.match({
@@ -11879,7 +11879,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 52251,
+  "duration": 51319,
   "status": "passed"
 });
 formatter.match({
@@ -11892,7 +11892,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 36856,
+  "duration": 52718,
   "status": "passed"
 });
 formatter.match({
@@ -11913,7 +11913,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1391666,
+  "duration": 2655034,
   "status": "passed"
 });
 formatter.match({
@@ -11926,7 +11926,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 152090,
+  "duration": 69513,
   "status": "passed"
 });
 formatter.match({
@@ -11967,14 +11967,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1891788,
+  "duration": 1887589,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 38256,
+  "duration": 85376,
   "status": "passed"
 });
 formatter.match({
@@ -11987,7 +11987,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 55518,
+  "duration": 50852,
   "status": "passed"
 });
 formatter.match({
@@ -12004,7 +12004,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 611157,
+  "duration": 585497,
   "status": "passed"
 });
 formatter.match({
@@ -12017,7 +12017,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 761380,
+  "duration": 853754,
   "status": "passed"
 });
 formatter.match({
@@ -12030,7 +12030,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1797548,
+  "duration": 10277236,
   "status": "passed"
 });
 formatter.match({
@@ -12043,7 +12043,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 391300575,
+  "duration": 422774700,
   "status": "passed"
 });
 formatter.match({
@@ -12056,7 +12056,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 408215,
+  "duration": 561238,
   "status": "passed"
 });
 formatter.match({
@@ -12069,7 +12069,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 12045394,
+  "duration": 13683388,
   "status": "passed"
 });
 formatter.match({
@@ -12082,7 +12082,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 91907,
+  "duration": 54584,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -12307,7 +12307,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 410082,
+  "duration": 1316087,
   "status": "passed"
 });
 formatter.match({
@@ -12320,7 +12320,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 40003732,
+  "duration": 41551219,
   "status": "passed"
 });
 formatter.match({
@@ -12333,7 +12333,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 105437,
+  "duration": 981117,
   "status": "passed"
 });
 formatter.match({
@@ -12346,7 +12346,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 104969,
+  "duration": 66247,
   "status": "passed"
 });
 formatter.match({
@@ -12359,7 +12359,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 71380,
+  "duration": 24259,
   "status": "passed"
 });
 formatter.match({
@@ -12380,14 +12380,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1365073,
+  "duration": 3237266,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 40588,
+  "duration": 27525,
   "status": "passed"
 });
 formatter.match({
@@ -12400,7 +12400,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 69513,
+  "duration": 42455,
   "status": "passed"
 });
 formatter.match({
@@ -12417,7 +12417,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 917669,
+  "duration": 697932,
   "status": "passed"
 });
 formatter.match({
@@ -12430,7 +12430,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 415233208,
+  "duration": 406856623,
   "status": "passed"
 });
 formatter.match({
@@ -12443,7 +12443,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 341968,
+  "duration": 512253,
   "status": "passed"
 });
 formatter.match({
@@ -12456,7 +12456,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 383023,
+  "duration": 455802,
   "status": "passed"
 });
 formatter.match({
@@ -12469,7 +12469,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 37323,
+  "duration": 35923,
   "status": "passed"
 });
 formatter.scenario({
@@ -12561,7 +12561,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 661542,
+  "duration": 560305,
   "status": "passed"
 });
 formatter.match({
@@ -12574,7 +12574,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 49182753,
+  "duration": 41257304,
   "status": "passed"
 });
 formatter.match({
@@ -12587,7 +12587,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 36856,
+  "duration": 45254,
   "status": "passed"
 });
 formatter.match({
@@ -12600,7 +12600,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 56917,
+  "duration": 31725,
   "status": "passed"
 });
 formatter.match({
@@ -12613,7 +12613,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 41521,
+  "duration": 55983,
   "status": "passed"
 });
 formatter.match({
@@ -12634,14 +12634,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1022639,
+  "duration": 2201099,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 27992,
+  "duration": 27059,
   "status": "passed"
 });
 formatter.match({
@@ -12654,7 +12654,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 38256,
+  "duration": 40121,
   "status": "passed"
 });
 formatter.match({
@@ -12671,7 +12671,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 1203653,
+  "duration": 1383735,
   "status": "passed"
 });
 formatter.match({
@@ -12684,7 +12684,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 409027397,
+  "duration": 402323330,
   "status": "passed"
 });
 formatter.match({
@@ -12697,7 +12697,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 606958,
+  "duration": 547709,
   "status": "passed"
 });
 formatter.match({
@@ -12710,7 +12710,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 1012375,
+  "duration": 2958747,
   "status": "passed"
 });
 formatter.match({
@@ -12723,7 +12723,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 54585,
+  "duration": 65314,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -12978,7 +12978,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 519251,
+  "duration": 550042,
   "status": "passed"
 });
 formatter.match({
@@ -12991,7 +12991,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 44615869,
+  "duration": 44060695,
   "status": "passed"
 });
 formatter.match({
@@ -13004,7 +13004,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 35923,
+  "duration": 58316,
   "status": "passed"
 });
 formatter.match({
@@ -13017,7 +13017,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 23793,
+  "duration": 59716,
   "status": "passed"
 });
 formatter.match({
@@ -13030,7 +13030,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 17262,
+  "duration": 52252,
   "status": "passed"
 });
 formatter.match({
@@ -13051,7 +13051,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 967121,
+  "duration": 1634262,
   "status": "passed"
 });
 formatter.match({
@@ -13064,7 +13064,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 33591,
+  "duration": 52718,
   "status": "passed"
 });
 formatter.match({
@@ -13105,14 +13105,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 889210,
+  "duration": 2733412,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 18661,
+  "duration": 32190,
   "status": "passed"
 });
 formatter.match({
@@ -13125,7 +13125,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 52251,
+  "duration": 55517,
   "status": "passed"
 });
 formatter.match({
@@ -13142,7 +13142,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 439473,
+  "duration": 876147,
   "status": "passed"
 });
 formatter.match({
@@ -13155,7 +13155,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 400314910,
+  "duration": 403907207,
   "status": "passed"
 });
 formatter.match({
@@ -13168,7 +13168,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 394220,
+  "duration": 459534,
   "status": "passed"
 });
 formatter.match({
@@ -13181,14 +13181,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 1467244,
+  "duration": 2376981,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_register_for_this_course()"
 });
 formatter.result({
-  "duration": 38256,
+  "duration": 39188,
   "status": "passed"
 });
 formatter.scenario({
@@ -13300,7 +13300,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 617222,
+  "duration": 648946,
   "status": "passed"
 });
 formatter.match({
@@ -13313,7 +13313,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 51407178,
+  "duration": 45472888,
   "status": "passed"
 });
 formatter.match({
@@ -13326,7 +13326,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 47586,
+  "duration": 55984,
   "status": "passed"
 });
 formatter.match({
@@ -13339,7 +13339,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 59250,
+  "duration": 145558,
   "status": "passed"
 });
 formatter.match({
@@ -13352,7 +13352,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 36856,
+  "duration": 46187,
   "status": "passed"
 });
 formatter.match({
@@ -13373,7 +13373,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1378136,
+  "duration": 1419191,
   "status": "passed"
 });
 formatter.match({
@@ -13386,7 +13386,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 50385,
+  "duration": 37789,
   "status": "passed"
 });
 formatter.match({
@@ -13427,14 +13427,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1430854,
+  "duration": 1244241,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 21927,
+  "duration": 25659,
   "status": "passed"
 });
 formatter.match({
@@ -13447,7 +13447,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 104969,
+  "duration": 34057,
   "status": "passed"
 });
 formatter.match({
@@ -13464,7 +13464,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 585964,
+  "duration": 559839,
   "status": "passed"
 });
 formatter.match({
@@ -13477,7 +13477,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 391976113,
+  "duration": 407408531,
   "status": "passed"
 });
 formatter.match({
@@ -13490,7 +13490,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 634484,
+  "duration": 673206,
   "status": "passed"
 });
 formatter.match({
@@ -13503,14 +13503,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 1817142,
+  "duration": 3008666,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_register_for_this_course()"
 });
 formatter.result({
-  "duration": 51318,
+  "duration": 39655,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -13788,7 +13788,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 579899,
+  "duration": 1044099,
   "status": "passed"
 });
 formatter.match({
@@ -13801,7 +13801,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39256348,
+  "duration": 39946815,
   "status": "passed"
 });
 formatter.match({
@@ -13814,7 +13814,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 64848,
+  "duration": 56451,
   "status": "passed"
 });
 formatter.match({
@@ -13827,7 +13827,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 55517,
+  "duration": 61116,
   "status": "passed"
 });
 formatter.match({
@@ -13840,7 +13840,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 36390,
+  "duration": 66247,
   "status": "passed"
 });
 formatter.match({
@@ -13861,7 +13861,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 794504,
+  "duration": 807100,
   "status": "passed"
 });
 formatter.match({
@@ -13874,7 +13874,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 34523,
+  "duration": 38256,
   "status": "passed"
 });
 formatter.match({
@@ -13915,14 +13915,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1575013,
+  "duration": 1449049,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 24260,
+  "duration": 24259,
   "status": "passed"
 });
 formatter.match({
@@ -13935,7 +13935,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 60183,
+  "duration": 70447,
   "status": "passed"
 });
 formatter.match({
@@ -13952,7 +13952,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 623753,
+  "duration": 453003,
   "status": "passed"
 });
 formatter.match({
@@ -13965,7 +13965,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 541644,
+  "duration": 485194,
   "status": "passed"
 });
 formatter.match({
@@ -13978,7 +13978,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1440184,
+  "duration": 1665053,
   "status": "passed"
 });
 formatter.match({
@@ -13991,7 +13991,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 43458403,
+  "duration": 38022837,
   "status": "passed"
 });
 formatter.match({
@@ -14004,7 +14004,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 635417,
+  "duration": 562638,
   "status": "passed"
 });
 formatter.match({
@@ -14017,14 +14017,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 162820,
+  "duration": 118966,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.registration_has_not_started()"
 });
 formatter.result({
-  "duration": 40588,
+  "duration": 32657,
   "status": "passed"
 });
 formatter.scenario({
@@ -14149,7 +14149,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 610224,
+  "duration": 1124809,
   "status": "passed"
 });
 formatter.match({
@@ -14162,7 +14162,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 45670699,
+  "duration": 47326421,
   "status": "passed"
 });
 formatter.match({
@@ -14175,7 +14175,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 53651,
+  "duration": 62982,
   "status": "passed"
 });
 formatter.match({
@@ -14188,7 +14188,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 53652,
+  "duration": 41055,
   "status": "passed"
 });
 formatter.match({
@@ -14201,7 +14201,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 47587,
+  "duration": 36856,
   "status": "passed"
 });
 formatter.match({
@@ -14222,7 +14222,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1859597,
+  "duration": 1424322,
   "status": "passed"
 });
 formatter.match({
@@ -14235,7 +14235,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 48986,
+  "duration": 40122,
   "status": "passed"
 });
 formatter.match({
@@ -14276,14 +14276,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1191523,
+  "duration": 1116411,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 34057,
+  "duration": 34990,
   "status": "passed"
 });
 formatter.match({
@@ -14296,7 +14296,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 45254,
+  "duration": 38256,
   "status": "passed"
 });
 formatter.match({
@@ -14313,7 +14313,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 598094,
+  "duration": 401684,
   "status": "passed"
 });
 formatter.match({
@@ -14326,7 +14326,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 994646,
+  "duration": 354098,
   "status": "passed"
 });
 formatter.match({
@@ -14339,7 +14339,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1491970,
+  "duration": 2024749,
   "status": "passed"
 });
 formatter.match({
@@ -14352,7 +14352,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 35646788,
+  "duration": 36115653,
   "status": "passed"
 });
 formatter.match({
@@ -14365,7 +14365,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 477262,
+  "duration": 465599,
   "status": "passed"
 });
 formatter.match({
@@ -14378,14 +14378,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 84909,
+  "duration": 65314,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.registration_has_not_started()"
 });
 formatter.result({
-  "duration": 19595,
+  "duration": 15862,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -14663,7 +14663,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 731989,
+  "duration": 673206,
   "status": "passed"
 });
 formatter.match({
@@ -14676,7 +14676,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39217159,
+  "duration": 44864531,
   "status": "passed"
 });
 formatter.match({
@@ -14689,7 +14689,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 38722,
+  "duration": 41988,
   "status": "passed"
 });
 formatter.match({
@@ -14702,7 +14702,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 19594,
+  "duration": 25659,
   "status": "passed"
 });
 formatter.match({
@@ -14715,7 +14715,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 17729,
+  "duration": 20060,
   "status": "passed"
 });
 formatter.match({
@@ -14736,7 +14736,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1534424,
+  "duration": 1122943,
   "status": "passed"
 });
 formatter.match({
@@ -14749,7 +14749,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 43388,
+  "duration": 42921,
   "status": "passed"
 });
 formatter.match({
@@ -14790,14 +14790,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1241442,
+  "duration": 1003044,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 21461,
+  "duration": 20994,
   "status": "passed"
 });
 formatter.match({
@@ -14810,7 +14810,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 34523,
+  "duration": 28925,
   "status": "passed"
 });
 formatter.match({
@@ -14827,7 +14827,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 506654,
+  "duration": 348499,
   "status": "passed"
 });
 formatter.match({
@@ -14840,7 +14840,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 413347,
+  "duration": 327972,
   "status": "passed"
 });
 formatter.match({
@@ -14853,7 +14853,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2107793,
+  "duration": 1447649,
   "status": "passed"
 });
 formatter.match({
@@ -14866,7 +14866,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 711684531,
+  "duration": 691726286,
   "status": "passed"
 });
 formatter.match({
@@ -14879,7 +14879,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 495924,
+  "duration": 436674,
   "status": "passed"
 });
 formatter.match({
@@ -14899,7 +14899,7 @@ formatter.match({
   "location": "StepDefinitions.registration_has_finished()"
 });
 formatter.result({
-  "duration": 37322,
+  "duration": 43388,
   "status": "passed"
 });
 formatter.scenario({
@@ -15024,7 +15024,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 829027,
+  "duration": 717060,
   "status": "passed"
 });
 formatter.match({
@@ -15037,7 +15037,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 53568154,
+  "duration": 41196188,
   "status": "passed"
 });
 formatter.match({
@@ -15050,7 +15050,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 289716,
+  "duration": 50852,
   "status": "passed"
 });
 formatter.match({
@@ -15063,7 +15063,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 39189,
+  "duration": 37323,
   "status": "passed"
 });
 formatter.match({
@@ -15076,7 +15076,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 32190,
+  "duration": 27992,
   "status": "passed"
 });
 formatter.match({
@@ -15097,7 +15097,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1270367,
+  "duration": 934464,
   "status": "passed"
 });
 formatter.match({
@@ -15110,7 +15110,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 48986,
+  "duration": 33591,
   "status": "passed"
 });
 formatter.match({
@@ -15151,14 +15151,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1607203,
+  "duration": 1024038,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 527648,
+  "duration": 344300,
   "status": "passed"
 });
 formatter.match({
@@ -15171,7 +15171,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 433409,
+  "duration": 38722,
   "status": "passed"
 });
 formatter.match({
@@ -15188,7 +15188,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 684869,
+  "duration": 491725,
   "status": "passed"
 });
 formatter.match({
@@ -15201,7 +15201,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 684402,
+  "duration": 327039,
   "status": "passed"
 });
 formatter.match({
@@ -15214,7 +15214,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 11515880,
+  "duration": 1774222,
   "status": "passed"
 });
 formatter.match({
@@ -15227,7 +15227,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 700151390,
+  "duration": 706349736,
   "status": "passed"
 });
 formatter.match({
@@ -15240,7 +15240,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 539778,
+  "duration": 802435,
   "status": "passed"
 });
 formatter.match({
@@ -15253,14 +15253,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 68114,
+  "duration": 135294,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.registration_has_finished()"
 });
 formatter.result({
-  "duration": 14929,
+  "duration": 37322,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -15838,7 +15838,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 957324,
+  "duration": 1317020,
   "status": "passed"
 });
 formatter.match({
@@ -15851,7 +15851,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 40002332,
+  "duration": 36783727,
   "status": "passed"
 });
 formatter.match({
@@ -15864,7 +15864,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 45254,
+  "duration": 60182,
   "status": "passed"
 });
 formatter.match({
@@ -15877,7 +15877,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 23793,
+  "duration": 27992,
   "status": "passed"
 });
 formatter.match({
@@ -15890,7 +15890,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 22860,
+  "duration": 18194,
   "status": "passed"
 });
 formatter.match({
@@ -15911,7 +15911,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 939130,
+  "duration": 1173795,
   "status": "passed"
 });
 formatter.match({
@@ -15924,7 +15924,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 44787,
+  "duration": 44788,
   "status": "passed"
 });
 formatter.match({
@@ -15945,7 +15945,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1226979,
+  "duration": 969920,
   "status": "passed"
 });
 formatter.match({
@@ -15958,7 +15958,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 39189,
+  "duration": 35923,
   "status": "passed"
 });
 formatter.match({
@@ -15979,7 +15979,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 944727,
+  "duration": 1619333,
   "status": "passed"
 });
 formatter.match({
@@ -15992,7 +15992,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 40588,
+  "duration": 42454,
   "status": "passed"
 });
 formatter.match({
@@ -16033,14 +16033,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1084687,
+  "duration": 972253,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 40122,
+  "duration": 39188,
   "status": "passed"
 });
 formatter.match({
@@ -16053,7 +16053,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 41522,
+  "duration": 28925,
   "status": "passed"
 });
 formatter.match({
@@ -16070,7 +16070,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 431076,
+  "duration": 516451,
   "status": "passed"
 });
 formatter.match({
@@ -16083,7 +16083,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 332171,
+  "duration": 371826,
   "status": "passed"
 });
 formatter.match({
@@ -16096,14 +16096,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2362052,
+  "duration": 1894121,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 13063,
+  "duration": 14462,
   "status": "passed"
 });
 formatter.match({
@@ -16116,7 +16116,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 77444,
+  "duration": 33591,
   "status": "passed"
 });
 formatter.match({
@@ -16133,7 +16133,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 489859,
+  "duration": 767912,
   "status": "passed"
 });
 formatter.match({
@@ -16146,7 +16146,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 327506,
+  "duration": 645214,
   "status": "passed"
 });
 formatter.match({
@@ -16159,14 +16159,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1501300,
+  "duration": 2588787,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 12596,
+  "duration": 30325,
   "status": "passed"
 });
 formatter.match({
@@ -16179,7 +16179,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 34524,
+  "duration": 40588,
   "status": "passed"
 });
 formatter.match({
@@ -16196,7 +16196,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 641015,
+  "duration": 613956,
   "status": "passed"
 });
 formatter.match({
@@ -16209,7 +16209,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 2693757,
+  "duration": 582232,
   "status": "passed"
 });
 formatter.match({
@@ -16222,14 +16222,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 3135096,
+  "duration": 2592519,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 17262,
+  "duration": 21927,
   "status": "passed"
 });
 formatter.match({
@@ -16242,7 +16242,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 418428486,
+  "duration": 388079637,
   "status": "passed"
 });
 formatter.match({
@@ -16255,7 +16255,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 72313,
+  "duration": 41055,
   "status": "passed"
 });
 formatter.match({
@@ -16272,7 +16272,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 596228,
+  "duration": 424544,
   "status": "passed"
 });
 formatter.match({
@@ -16285,7 +16285,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 699332,
+  "duration": 292050,
   "status": "passed"
 });
 formatter.match({
@@ -16298,14 +16298,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 4876660,
+  "duration": 10094822,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 25192,
+  "duration": 15396,
   "status": "passed"
 });
 formatter.match({
@@ -16318,7 +16318,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 46187,
+  "duration": 52251,
   "status": "passed"
 });
 formatter.match({
@@ -16335,7 +16335,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 619088,
+  "duration": 386755,
   "status": "passed"
 });
 formatter.match({
@@ -16348,7 +16348,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 462800,
+  "duration": 291116,
   "status": "passed"
 });
 formatter.match({
@@ -16361,14 +16361,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 5373517,
+  "duration": 2687225,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 19594,
+  "duration": 18661,
   "status": "passed"
 });
 formatter.match({
@@ -16381,7 +16381,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 60649,
+  "duration": 27992,
   "status": "passed"
 });
 formatter.match({
@@ -16398,7 +16398,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 544443,
+  "duration": 350366,
   "status": "passed"
 });
 formatter.match({
@@ -16411,7 +16411,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 543510,
+  "duration": 274787,
   "status": "passed"
 });
 formatter.match({
@@ -16424,7 +16424,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 4596741,
+  "duration": 2132985,
   "status": "passed"
 });
 formatter.match({
@@ -17009,7 +17009,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 717060,
+  "duration": 454403,
   "status": "passed"
 });
 formatter.match({
@@ -17022,7 +17022,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 42685825,
+  "duration": 48151250,
   "status": "passed"
 });
 formatter.match({
@@ -17035,7 +17035,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 74178,
+  "duration": 41055,
   "status": "passed"
 });
 formatter.match({
@@ -17048,7 +17048,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 52252,
+  "duration": 40588,
   "status": "passed"
 });
 formatter.match({
@@ -17061,7 +17061,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 33124,
+  "duration": 26592,
   "status": "passed"
 });
 formatter.match({
@@ -17082,7 +17082,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1373471,
+  "duration": 730589,
   "status": "passed"
 });
 formatter.match({
@@ -17095,7 +17095,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 40588,
+  "duration": 42921,
   "status": "passed"
 });
 formatter.match({
@@ -17136,7 +17136,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1491036,
+  "duration": 726857,
   "status": "passed"
 });
 formatter.match({
@@ -17149,7 +17149,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 46653,
+  "duration": 30325,
   "status": "passed"
 });
 formatter.match({
@@ -17190,7 +17190,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1337081,
+  "duration": 783308,
   "status": "passed"
 });
 formatter.match({
@@ -17203,7 +17203,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 52252,
+  "duration": 35457,
   "status": "passed"
 });
 formatter.match({
@@ -17244,7 +17244,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1512031,
+  "duration": 785640,
   "status": "passed"
 });
 formatter.match({
@@ -17257,7 +17257,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13455254,
+  "duration": 56450,
   "status": "passed"
 });
 formatter.match({
@@ -17298,7 +17298,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1730368,
+  "duration": 764646,
   "status": "passed"
 });
 formatter.match({
@@ -17311,7 +17311,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 135761,
+  "duration": 35923,
   "status": "passed"
 });
 formatter.match({
@@ -17352,14 +17352,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1791484,
+  "duration": 902273,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 13529,
+  "duration": 84443,
   "status": "passed"
 });
 formatter.match({
@@ -17372,7 +17372,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 33124,
+  "duration": 72779,
   "status": "passed"
 });
 formatter.match({
@@ -17389,7 +17389,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 534646,
+  "duration": 515051,
   "status": "passed"
 });
 formatter.match({
@@ -17402,7 +17402,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 466532,
+  "duration": 530447,
   "status": "passed"
 });
 formatter.match({
@@ -17415,7 +17415,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 4560352,
+  "duration": 3422014,
   "status": "passed"
 });
 formatter.match({
@@ -17428,7 +17428,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 704464,
+  "duration": 488926,
   "status": "passed"
 });
 formatter.match({
@@ -17441,7 +17441,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 3320310,
+  "duration": 2207631,
   "status": "passed"
 });
 formatter.match({
@@ -17454,7 +17454,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 516451,
+  "duration": 410082,
   "status": "passed"
 });
 formatter.match({
@@ -17467,7 +17467,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2237954,
+  "duration": 2137651,
   "status": "passed"
 });
 formatter.match({
@@ -17480,7 +17480,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 423611,
+  "duration": 476329,
   "status": "passed"
 });
 formatter.match({
@@ -17493,7 +17493,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 6049989,
+  "duration": 2308401,
   "status": "passed"
 });
 formatter.match({
@@ -17506,7 +17506,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 11703892,
+  "duration": 424077,
   "status": "passed"
 });
 formatter.match({
@@ -17519,7 +17519,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 16544630,
+  "duration": 2110591,
   "status": "passed"
 });
 formatter.match({
@@ -17532,7 +17532,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 400320974,
+  "duration": 385260850,
   "status": "passed"
 });
 formatter.match({
@@ -17545,7 +17545,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 780041,
+  "duration": 479129,
   "status": "passed"
 });
 formatter.match({
@@ -17558,7 +17558,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 6423215,
+  "duration": 3760715,
   "status": "passed"
 });
 formatter.match({
@@ -17571,7 +17571,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 693733,
+  "duration": 392821,
   "status": "passed"
 });
 formatter.match({
@@ -17584,7 +17584,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 8845450,
+  "duration": 2388644,
   "status": "passed"
 });
 formatter.match({
@@ -17597,7 +17597,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 769311,
+  "duration": 292982,
   "status": "passed"
 });
 formatter.match({
@@ -17610,7 +17610,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 7176197,
+  "duration": 2613046,
   "status": "passed"
 });
 formatter.match({
@@ -17623,7 +17623,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 641481,
+  "duration": 268723,
   "status": "passed"
 });
 formatter.match({
@@ -17636,7 +17636,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 13612941,
+  "duration": 2160511,
   "status": "passed"
 });
 formatter.match({
@@ -17649,7 +17649,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 1094484,
+  "duration": 498257,
   "status": "passed"
 });
 formatter.match({
@@ -17662,14 +17662,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 8914963,
+  "duration": 4091021,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_register_for_this_course()"
 });
 formatter.result({
-  "duration": 32191,
+  "duration": 25193,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -18087,7 +18087,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 391421,
+  "duration": 431075,
   "status": "passed"
 });
 formatter.match({
@@ -18100,7 +18100,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 33943479,
+  "duration": 55172559,
   "status": "passed"
 });
 formatter.match({
@@ -18113,7 +18113,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 74179,
+  "duration": 51785,
   "status": "passed"
 });
 formatter.match({
@@ -18126,7 +18126,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 42921,
+  "duration": 40122,
   "status": "passed"
 });
 formatter.match({
@@ -18139,7 +18139,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 31725,
+  "duration": 21927,
   "status": "passed"
 });
 formatter.match({
@@ -18160,7 +18160,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1155600,
+  "duration": 926533,
   "status": "passed"
 });
 formatter.match({
@@ -18173,7 +18173,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 37322,
+  "duration": 24726,
   "status": "passed"
 });
 formatter.match({
@@ -18214,7 +18214,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1224647,
+  "duration": 871016,
   "status": "passed"
 });
 formatter.match({
@@ -18227,7 +18227,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 32190,
+  "duration": 23326,
   "status": "passed"
 });
 formatter.match({
@@ -18268,7 +18268,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1182192,
+  "duration": 833226,
   "status": "passed"
 });
 formatter.match({
@@ -18281,7 +18281,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 32191,
+  "duration": 27059,
   "status": "passed"
 });
 formatter.match({
@@ -18322,14 +18322,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1172395,
+  "duration": 1233978,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 14929,
+  "duration": 11196,
   "status": "passed"
 });
 formatter.match({
@@ -18342,7 +18342,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 37322,
+  "duration": 26593,
   "status": "passed"
 });
 formatter.match({
@@ -18359,7 +18359,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 758115,
+  "duration": 449271,
   "status": "passed"
 });
 formatter.match({
@@ -18372,7 +18372,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 466532,
+  "duration": 363895,
   "status": "passed"
 });
 formatter.match({
@@ -18385,7 +18385,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 39289472,
+  "duration": 1986960,
   "status": "passed"
 });
 formatter.match({
@@ -18398,7 +18398,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 514585,
+  "duration": 375559,
   "status": "passed"
 });
 formatter.match({
@@ -18411,7 +18411,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 3994915,
+  "duration": 2013552,
   "status": "passed"
 });
 formatter.match({
@@ -18424,7 +18424,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 485194,
+  "duration": 574301,
   "status": "passed"
 });
 formatter.match({
@@ -18437,7 +18437,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1972031,
+  "duration": 2294405,
   "status": "passed"
 });
 formatter.match({
@@ -18450,7 +18450,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 406741390,
+  "duration": 397444804,
   "status": "passed"
 });
 formatter.match({
@@ -18463,7 +18463,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 406350,
+  "duration": 314909,
   "status": "passed"
 });
 formatter.match({
@@ -18476,7 +18476,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2032214,
+  "duration": 1967367,
   "status": "passed"
 });
 formatter.match({
@@ -18489,7 +18489,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 299047,
+  "duration": 228134,
   "status": "passed"
 });
 formatter.match({
@@ -18502,7 +18502,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2057407,
+  "duration": 1913715,
   "status": "passed"
 });
 formatter.match({
@@ -18515,7 +18515,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 273388,
+  "duration": 259392,
   "status": "passed"
 });
 formatter.match({
@@ -18528,14 +18528,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 1969699,
+  "duration": 1891321,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_register_for_this_course()"
 });
 formatter.result({
-  "duration": 18662,
+  "duration": 18661,
   "status": "passed"
 });
 formatter.uri("test/cucumber/8-studentdropcourse.feature");
@@ -18821,7 +18821,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 569169,
+  "duration": 1642193,
   "status": "passed"
 });
 formatter.match({
@@ -18834,7 +18834,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 42674629,
+  "duration": 49415552,
   "status": "passed"
 });
 formatter.match({
@@ -18847,7 +18847,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 34057,
+  "duration": 42454,
   "status": "passed"
 });
 formatter.match({
@@ -18860,7 +18860,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 24726,
+  "duration": 40588,
   "status": "passed"
 });
 formatter.match({
@@ -18873,7 +18873,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 19594,
+  "duration": 34057,
   "status": "passed"
 });
 formatter.match({
@@ -18894,7 +18894,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 731056,
+  "duration": 1101016,
   "status": "passed"
 });
 formatter.match({
@@ -18907,7 +18907,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 26126,
+  "duration": 27525,
   "status": "passed"
 });
 formatter.match({
@@ -18948,14 +18948,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1008642,
+  "duration": 1425722,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 15395,
+  "duration": 12130,
   "status": "passed"
 });
 formatter.match({
@@ -18968,7 +18968,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 32658,
+  "duration": 28925,
   "status": "passed"
 });
 formatter.match({
@@ -18985,7 +18985,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 468398,
+  "duration": 478662,
   "status": "passed"
 });
 formatter.match({
@@ -18998,7 +18998,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 428277,
+  "duration": 434808,
   "status": "passed"
 });
 formatter.match({
@@ -19011,7 +19011,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2745075,
+  "duration": 2662499,
   "status": "passed"
 });
 formatter.match({
@@ -19024,7 +19024,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 390351182,
+  "duration": 388799962,
   "status": "passed"
 });
 formatter.match({
@@ -19037,7 +19037,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 580832,
+  "duration": 1041299,
   "status": "passed"
 });
 formatter.match({
@@ -19050,7 +19050,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 1554485,
+  "duration": 3844225,
   "status": "passed"
 });
 formatter.match({
@@ -19063,7 +19063,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 40588,
+  "duration": 59716,
   "status": "passed"
 });
 formatter.scenario({
@@ -19188,7 +19188,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 530447,
+  "duration": 978784,
   "status": "passed"
 });
 formatter.match({
@@ -19201,7 +19201,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 40260791,
+  "duration": 33710680,
   "status": "passed"
 });
 formatter.match({
@@ -19214,7 +19214,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 40588,
+  "duration": 63915,
   "status": "passed"
 });
 formatter.match({
@@ -19227,7 +19227,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 18195,
+  "duration": 47586,
   "status": "passed"
 });
 formatter.match({
@@ -19240,7 +19240,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 20527,
+  "duration": 32657,
   "status": "passed"
 });
 formatter.match({
@@ -19261,7 +19261,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 699332,
+  "duration": 1782619,
   "status": "passed"
 });
 formatter.match({
@@ -19274,7 +19274,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 18661,
+  "duration": 38256,
   "status": "passed"
 });
 formatter.match({
@@ -19315,14 +19315,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1612335,
+  "duration": 3118768,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 12130,
+  "duration": 22393,
   "status": "passed"
 });
 formatter.match({
@@ -19335,7 +19335,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 37789,
+  "duration": 54584,
   "status": "passed"
 });
 formatter.match({
@@ -19352,7 +19352,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 914869,
+  "duration": 1333349,
   "status": "passed"
 });
 formatter.match({
@@ -19365,7 +19365,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 459534,
+  "duration": 998379,
   "status": "passed"
 });
 formatter.match({
@@ -19378,7 +19378,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2251017,
+  "duration": 6937800,
   "status": "passed"
 });
 formatter.match({
@@ -19391,7 +19391,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 396565391,
+  "duration": 414703694,
   "status": "passed"
 });
 formatter.match({
@@ -19404,7 +19404,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 8338329,
+  "duration": 564504,
   "status": "passed"
 });
 formatter.match({
@@ -19417,7 +19417,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 2568259,
+  "duration": 2419902,
   "status": "passed"
 });
 formatter.match({
@@ -19430,7 +19430,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 401684,
+  "duration": 403084,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -19655,7 +19655,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 501522,
+  "duration": 578967,
   "status": "passed"
 });
 formatter.match({
@@ -19668,7 +19668,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 41933775,
+  "duration": 45309603,
   "status": "passed"
 });
 formatter.match({
@@ -19681,7 +19681,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 30325,
   "status": "passed"
 });
 formatter.match({
@@ -19694,7 +19694,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 14929,
+  "duration": 24260,
   "status": "passed"
 });
 formatter.match({
@@ -19707,7 +19707,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 10264,
+  "duration": 23793,
   "status": "passed"
 });
 formatter.match({
@@ -19728,14 +19728,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 741320,
+  "duration": 1192456,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 6998,
+  "duration": 12597,
   "status": "passed"
 });
 formatter.match({
@@ -19748,7 +19748,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 19128,
+  "duration": 37322,
   "status": "passed"
 });
 formatter.match({
@@ -19765,7 +19765,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 281785,
+  "duration": 534179,
   "status": "passed"
 });
 formatter.match({
@@ -19778,7 +19778,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 401624931,
+  "duration": 407118814,
   "status": "passed"
 });
 formatter.match({
@@ -19791,7 +19791,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 478196,
+  "duration": 1067892,
   "status": "passed"
 });
 formatter.match({
@@ -19804,7 +19804,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 335437,
+  "duration": 515984,
   "status": "passed"
 });
 formatter.match({
@@ -19817,7 +19817,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 77911,
+  "duration": 122698,
   "status": "passed"
 });
 formatter.scenario({
@@ -19909,7 +19909,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 468864,
+  "duration": 544443,
   "status": "passed"
 });
 formatter.match({
@@ -19922,7 +19922,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 35329080,
+  "duration": 45709421,
   "status": "passed"
 });
 formatter.match({
@@ -19935,7 +19935,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 42455,
+  "duration": 54118,
   "status": "passed"
 });
 formatter.match({
@@ -19948,7 +19948,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 13996,
+  "duration": 43854,
   "status": "passed"
 });
 formatter.match({
@@ -19961,7 +19961,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 8864,
+  "duration": 45253,
   "status": "passed"
 });
 formatter.match({
@@ -19982,14 +19982,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1066026,
+  "duration": 11503750,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 8398,
+  "duration": 14929,
   "status": "passed"
 });
 formatter.match({
@@ -20002,7 +20002,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 19128,
+  "duration": 41987,
   "status": "passed"
 });
 formatter.match({
@@ -20019,7 +20019,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 342901,
+  "duration": 630752,
   "status": "passed"
 });
 formatter.match({
@@ -20032,7 +20032,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 410282369,
+  "duration": 407996361,
   "status": "passed"
 });
 formatter.match({
@@ -20045,7 +20045,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 361096,
+  "duration": 498256,
   "status": "passed"
 });
 formatter.match({
@@ -20058,7 +20058,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 480528,
+  "duration": 831360,
   "status": "passed"
 });
 formatter.match({
@@ -20071,7 +20071,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 50385,
+  "duration": 48053,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -20326,7 +20326,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 634950,
+  "duration": 621888,
   "status": "passed"
 });
 formatter.match({
@@ -20339,7 +20339,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37829693,
+  "duration": 33364980,
   "status": "passed"
 });
 formatter.match({
@@ -20352,7 +20352,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 34057,
+  "duration": 29858,
   "status": "passed"
 });
 formatter.match({
@@ -20365,7 +20365,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 21927,
+  "duration": 19128,
   "status": "passed"
 });
 formatter.match({
@@ -20399,7 +20399,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 967588,
+  "duration": 951726,
   "status": "passed"
 });
 formatter.match({
@@ -20412,7 +20412,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 21461,
+  "duration": 26126,
   "status": "passed"
 });
 formatter.match({
@@ -20453,14 +20453,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 791238,
+  "duration": 883145,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 9330,
+  "duration": 7931,
   "status": "passed"
 });
 formatter.match({
@@ -20490,7 +20490,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 310711,
+  "duration": 343367,
   "status": "passed"
 });
 formatter.match({
@@ -20503,7 +20503,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 395751292,
+  "duration": 417459966,
   "status": "passed"
 });
 formatter.match({
@@ -20516,7 +20516,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 772577,
+  "duration": 379757,
   "status": "passed"
 });
 formatter.match({
@@ -20529,14 +20529,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 1818542,
+  "duration": 1007709,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_drop_this_course()"
 });
 formatter.result({
-  "duration": 37322,
+  "duration": 21927,
   "status": "passed"
 });
 formatter.scenario({
@@ -20648,7 +20648,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 582699,
+  "duration": 662942,
   "status": "passed"
 });
 formatter.match({
@@ -20661,7 +20661,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 45121123,
+  "duration": 45498548,
   "status": "passed"
 });
 formatter.match({
@@ -20674,7 +20674,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 30791,
+  "duration": 38256,
   "status": "passed"
 });
 formatter.match({
@@ -20687,7 +20687,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 15396,
+  "duration": 27525,
   "status": "passed"
 });
 formatter.match({
@@ -20700,7 +20700,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 7931,
+  "duration": 14929,
   "status": "passed"
 });
 formatter.match({
@@ -20721,7 +20721,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 731523,
+  "duration": 904140,
   "status": "passed"
 });
 formatter.match({
@@ -20734,7 +20734,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 23793,
+  "duration": 32657,
   "status": "passed"
 });
 formatter.match({
@@ -20775,14 +20775,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 703531,
+  "duration": 932131,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 8864,
+  "duration": 8398,
   "status": "passed"
 });
 formatter.match({
@@ -20795,7 +20795,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 24260,
   "status": "passed"
 });
 formatter.match({
@@ -20812,7 +20812,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 510386,
+  "duration": 346633,
   "status": "passed"
 });
 formatter.match({
@@ -20825,7 +20825,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 395825937,
+  "duration": 406835629,
   "status": "passed"
 });
 formatter.match({
@@ -20838,7 +20838,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 399819,
+  "duration": 403084,
   "status": "passed"
 });
 formatter.match({
@@ -20851,14 +20851,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 1109880,
+  "duration": 1107080,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_drop_this_course()"
 });
 formatter.result({
-  "duration": 14929,
+  "duration": 19127,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -21136,7 +21136,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 607424,
+  "duration": 582698,
   "status": "passed"
 });
 formatter.match({
@@ -21149,7 +21149,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 40648479,
+  "duration": 46203478,
   "status": "passed"
 });
 formatter.match({
@@ -21162,7 +21162,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 25659,
   "status": "passed"
 });
 formatter.match({
@@ -21175,7 +21175,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 15862,
+  "duration": 18662,
   "status": "passed"
 });
 formatter.match({
@@ -21188,7 +21188,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 25192,
+  "duration": 26126,
   "status": "passed"
 });
 formatter.match({
@@ -21209,7 +21209,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 728723,
+  "duration": 803368,
   "status": "passed"
 });
 formatter.match({
@@ -21222,7 +21222,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 47120,
+  "duration": 35923,
   "status": "passed"
 });
 formatter.match({
@@ -21263,14 +21263,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 703064,
+  "duration": 605092,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 6531,
+  "duration": 5131,
   "status": "passed"
 });
 formatter.match({
@@ -21283,7 +21283,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 16795,
+  "duration": 12596,
   "status": "passed"
 });
 formatter.match({
@@ -21300,7 +21300,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 309778,
+  "duration": 244462,
   "status": "passed"
 });
 formatter.match({
@@ -21313,7 +21313,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 280853,
+  "duration": 320508,
   "status": "passed"
 });
 formatter.match({
@@ -21326,7 +21326,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1212051,
+  "duration": 2072803,
   "status": "passed"
 });
 formatter.match({
@@ -21339,7 +21339,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 46392424,
+  "duration": 39729878,
   "status": "passed"
 });
 formatter.match({
@@ -21352,7 +21352,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 366228,
+  "duration": 748784,
   "status": "passed"
 });
 formatter.match({
@@ -21365,14 +21365,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 55984,
+  "duration": 100304,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_course_cannot_be_dropped_before_registration_starts()"
 });
 formatter.result({
-  "duration": 20994,
+  "duration": 43388,
   "status": "passed"
 });
 formatter.scenario({
@@ -21497,7 +21497,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 562638,
+  "duration": 1111746,
   "status": "passed"
 });
 formatter.match({
@@ -21510,7 +21510,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 42454892,
+  "duration": 45088467,
   "status": "passed"
 });
 formatter.match({
@@ -21523,7 +21523,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 34990,
+  "duration": 31725,
   "status": "passed"
 });
 formatter.match({
@@ -21536,7 +21536,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 21927,
+  "duration": 19128,
   "status": "passed"
 });
 formatter.match({
@@ -21549,7 +21549,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 11197,
+  "duration": 10730,
   "status": "passed"
 });
 formatter.match({
@@ -21570,7 +21570,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 682536,
+  "duration": 1022172,
   "status": "passed"
 });
 formatter.match({
@@ -21583,7 +21583,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 20527,
+  "duration": 26126,
   "status": "passed"
 });
 formatter.match({
@@ -21624,14 +21624,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 681604,
+  "duration": 744585,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 8397,
+  "duration": 8864,
   "status": "passed"
 });
 formatter.match({
@@ -21644,7 +21644,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 15862,
+  "duration": 20061,
   "status": "passed"
 });
 formatter.match({
@@ -21661,7 +21661,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 264991,
+  "duration": 341502,
   "status": "passed"
 });
 formatter.match({
@@ -21674,7 +21674,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 240731,
+  "duration": 263124,
   "status": "passed"
 });
 formatter.match({
@@ -21687,7 +21687,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1251706,
+  "duration": 1351544,
   "status": "passed"
 });
 formatter.match({
@@ -21700,7 +21700,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 47066096,
+  "duration": 39878235,
   "status": "passed"
 });
 formatter.match({
@@ -21713,7 +21713,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 524382,
+  "duration": 442272,
   "status": "passed"
 });
 formatter.match({
@@ -21726,14 +21726,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 91440,
+  "duration": 65781,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_course_cannot_be_dropped_before_registration_starts()"
 });
 formatter.result({
-  "duration": 26126,
+  "duration": 15396,
   "status": "passed"
 });
 formatter.uri("test/cucumber/9-studentderegistercourse.feature");
@@ -22052,7 +22052,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 515051,
+  "duration": 637749,
   "status": "passed"
 });
 formatter.match({
@@ -22065,7 +22065,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 52009470,
+  "duration": 48005225,
   "status": "passed"
 });
 formatter.match({
@@ -22078,7 +22078,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 25192,
+  "duration": 32191,
   "status": "passed"
 });
 formatter.match({
@@ -22091,7 +22091,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 19594,
+  "duration": 29391,
   "status": "passed"
 });
 formatter.match({
@@ -22104,7 +22104,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 11663,
+  "duration": 21461,
   "status": "passed"
 });
 formatter.match({
@@ -22125,7 +22125,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 6619624,
+  "duration": 1079089,
   "status": "passed"
 });
 formatter.match({
@@ -22138,7 +22138,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 26592,
+  "duration": 54584,
   "status": "passed"
 });
 formatter.match({
@@ -22179,14 +22179,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 660610,
+  "duration": 1818076,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 6065,
+  "duration": 13530,
   "status": "passed"
 });
 formatter.match({
@@ -22199,7 +22199,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 22860,
+  "duration": 25660,
   "status": "passed"
 });
 formatter.match({
@@ -22216,7 +22216,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 333571,
+  "duration": 517850,
   "status": "passed"
 });
 formatter.match({
@@ -22229,7 +22229,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 250994,
+  "duration": 352698,
   "status": "passed"
 });
 formatter.match({
@@ -22242,7 +22242,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2117123,
+  "duration": 1410327,
   "status": "passed"
 });
 formatter.match({
@@ -22255,7 +22255,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 392068486,
+  "duration": 390028342,
   "status": "passed"
 });
 formatter.match({
@@ -22268,7 +22268,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 432008,
+  "duration": 322374,
   "status": "passed"
 });
 formatter.match({
@@ -22281,7 +22281,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2397042,
+  "duration": 2055540,
   "status": "passed"
 });
 formatter.match({
@@ -22294,7 +22294,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 49062387,
+  "duration": 43467733,
   "status": "passed"
 });
 formatter.match({
@@ -22307,7 +22307,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 581765,
+  "duration": 770244,
   "status": "passed"
 });
 formatter.match({
@@ -22320,7 +22320,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 2251018,
+  "duration": 3085177,
   "status": "passed"
 });
 formatter.match({
@@ -22333,7 +22333,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 47586,
+  "duration": 48520,
   "status": "passed"
 });
 formatter.scenario({
@@ -22476,7 +22476,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 749717,
+  "duration": 478662,
   "status": "passed"
 });
 formatter.match({
@@ -22489,7 +22489,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 46350902,
+  "duration": 45509744,
   "status": "passed"
 });
 formatter.match({
@@ -22502,7 +22502,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 28925,
+  "duration": 23794,
   "status": "passed"
 });
 formatter.match({
@@ -22515,7 +22515,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 17261,
+  "duration": 24260,
   "status": "passed"
 });
 formatter.match({
@@ -22528,7 +22528,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 10730,
+  "duration": 16796,
   "status": "passed"
 });
 formatter.match({
@@ -22549,7 +22549,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 725458,
+  "duration": 746918,
   "status": "passed"
 });
 formatter.match({
@@ -22562,7 +22562,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 17728,
+  "duration": 17262,
   "status": "passed"
 });
 formatter.match({
@@ -22603,14 +22603,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 674138,
+  "duration": 659210,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 6998,
+  "duration": 11663,
   "status": "passed"
 });
 formatter.match({
@@ -22623,7 +22623,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27058,
+  "duration": 16328,
   "status": "passed"
 });
 formatter.match({
@@ -22640,7 +22640,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 470730,
+  "duration": 298581,
   "status": "passed"
 });
 formatter.match({
@@ -22653,7 +22653,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 419879,
+  "duration": 230000,
   "status": "passed"
 });
 formatter.match({
@@ -22666,7 +22666,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2552397,
+  "duration": 1621199,
   "status": "passed"
 });
 formatter.match({
@@ -22679,7 +22679,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 399944949,
+  "duration": 393637435,
   "status": "passed"
 });
 formatter.match({
@@ -22692,7 +22692,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 484260,
+  "duration": 749717,
   "status": "passed"
 });
 formatter.match({
@@ -22705,7 +22705,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 5555931,
+  "duration": 4621001,
   "status": "passed"
 });
 formatter.match({
@@ -22718,7 +22718,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39359918,
+  "duration": 40034057,
   "status": "passed"
 });
 formatter.match({
@@ -22731,7 +22731,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 502455,
+  "duration": 509920,
   "status": "passed"
 });
 formatter.match({
@@ -22744,7 +22744,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 6323843,
+  "duration": 3094508,
   "status": "passed"
 });
 formatter.match({
@@ -22757,7 +22757,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 33591,
+  "duration": 25659,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -23038,7 +23038,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 820163,
+  "duration": 643348,
   "status": "passed"
 });
 formatter.match({
@@ -23051,7 +23051,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 61449749,
+  "duration": 44551021,
   "status": "passed"
 });
 formatter.match({
@@ -23064,7 +23064,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 21927,
+  "duration": 33123,
   "status": "passed"
 });
 formatter.match({
@@ -23077,7 +23077,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 18661,
+  "duration": 18662,
   "status": "passed"
 });
 formatter.match({
@@ -23090,7 +23090,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 7931,
+  "duration": 12130,
   "status": "passed"
 });
 formatter.match({
@@ -23111,7 +23111,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 759048,
+  "duration": 660610,
   "status": "passed"
 });
 formatter.match({
@@ -23131,7 +23131,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 21461,
+  "duration": 18661,
   "status": "passed"
 });
 formatter.match({
@@ -23148,7 +23148,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 289250,
+  "duration": 340102,
   "status": "passed"
 });
 formatter.match({
@@ -23161,7 +23161,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 272921,
+  "duration": 236532,
   "status": "passed"
 });
 formatter.match({
@@ -23174,7 +23174,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 303246,
+  "duration": 227668,
   "status": "passed"
 });
 formatter.match({
@@ -23187,7 +23187,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 395681778,
+  "duration": 397156953,
   "status": "passed"
 });
 formatter.match({
@@ -23200,7 +23200,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 167952,
+  "duration": 177283,
   "status": "passed"
 });
 formatter.match({
@@ -23213,7 +23213,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 348033,
+  "duration": 381156,
   "status": "passed"
 });
 formatter.match({
@@ -23226,7 +23226,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 53607810,
+  "duration": 45340394,
   "status": "passed"
 });
 formatter.match({
@@ -23239,7 +23239,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 116633,
+  "duration": 204341,
   "status": "passed"
 });
 formatter.match({
@@ -23252,7 +23252,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 342901,
+  "duration": 772111,
   "status": "passed"
 });
 formatter.match({
@@ -23265,7 +23265,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 34990,
+  "duration": 68581,
   "status": "passed"
 });
 formatter.scenario({
@@ -23388,7 +23388,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 580366,
+  "duration": 1234911,
   "status": "passed"
 });
 formatter.match({
@@ -23401,7 +23401,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 41037101,
+  "duration": 44021973,
   "status": "passed"
 });
 formatter.match({
@@ -23414,7 +23414,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 25193,
+  "duration": 46186,
   "status": "passed"
 });
 formatter.match({
@@ -23427,7 +23427,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 31258,
+  "duration": 44320,
   "status": "passed"
 });
 formatter.match({
@@ -23440,7 +23440,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 17261,
+  "duration": 24726,
   "status": "passed"
 });
 formatter.match({
@@ -23461,14 +23461,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1074423,
+  "duration": 1858197,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 8397,
+  "duration": 20994,
   "status": "passed"
 });
 formatter.match({
@@ -23481,7 +23481,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 19594,
+  "duration": 48986,
   "status": "passed"
 });
 formatter.match({
@@ -23498,7 +23498,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 482860,
+  "duration": 1135540,
   "status": "passed"
 });
 formatter.match({
@@ -23511,7 +23511,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 401218,
+  "duration": 948926,
   "status": "passed"
 });
 formatter.match({
@@ -23524,7 +23524,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 415213,
+  "duration": 1010042,
   "status": "passed"
 });
 formatter.match({
@@ -23537,7 +23537,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 394874211,
+  "duration": 388964182,
   "status": "passed"
 });
 formatter.match({
@@ -23550,7 +23550,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 160487,
+  "duration": 108235,
   "status": "passed"
 });
 formatter.match({
@@ -23563,7 +23563,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 536979,
+  "duration": 399818,
   "status": "passed"
 });
 formatter.match({
@@ -23576,7 +23576,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 50540827,
+  "duration": 45367452,
   "status": "passed"
 });
 formatter.match({
@@ -23589,7 +23589,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 75112,
+  "duration": 203408,
   "status": "passed"
 });
 formatter.match({
@@ -23602,7 +23602,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 617222,
+  "duration": 801036,
   "status": "passed"
 });
 formatter.match({
@@ -23615,7 +23615,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 60649,
+  "duration": 62049,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -23893,7 +23893,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 483794,
+  "duration": 5123456,
   "status": "passed"
 });
 formatter.match({
@@ -23906,7 +23906,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39470952,
+  "duration": 47841006,
   "status": "passed"
 });
 formatter.match({
@@ -23919,7 +23919,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 22860,
+  "duration": 24260,
   "status": "passed"
 });
 formatter.match({
@@ -23932,7 +23932,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 17262,
+  "duration": 17261,
   "status": "passed"
 });
 formatter.match({
@@ -23945,7 +23945,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 10263,
+  "duration": 9797,
   "status": "passed"
 });
 formatter.match({
@@ -23966,7 +23966,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 705397,
+  "duration": 643348,
   "status": "passed"
 });
 formatter.match({
@@ -23979,7 +23979,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 18195,
+  "duration": 25193,
   "status": "passed"
 });
 formatter.match({
@@ -24020,7 +24020,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 839291,
+  "duration": 722192,
   "status": "passed"
 });
 formatter.match({
@@ -24040,7 +24040,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 21460,
+  "duration": 25659,
   "status": "passed"
 });
 formatter.match({
@@ -24057,7 +24057,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 550508,
+  "duration": 340101,
   "status": "passed"
 });
 formatter.match({
@@ -24070,7 +24070,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 602760,
+  "duration": 266857,
   "status": "passed"
 });
 formatter.match({
@@ -24083,7 +24083,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 3608160,
+  "duration": 2006555,
   "status": "passed"
 });
 formatter.match({
@@ -24096,7 +24096,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 404233312,
+  "duration": 393627170,
   "status": "passed"
 });
 formatter.match({
@@ -24109,7 +24109,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 508054,
+  "duration": 439473,
   "status": "passed"
 });
 formatter.match({
@@ -24122,14 +24122,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 1386067,
+  "duration": 1659921,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_deregister_from_this_course()"
 });
 formatter.result({
-  "duration": 24726,
+  "duration": 30791,
   "status": "passed"
 });
 formatter.scenario({
@@ -24254,7 +24254,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 625620,
+  "duration": 578967,
   "status": "passed"
 });
 formatter.match({
@@ -24267,7 +24267,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39068801,
+  "duration": 39725213,
   "status": "passed"
 });
 formatter.match({
@@ -24293,7 +24293,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 23326,
+  "duration": 21927,
   "status": "passed"
 });
 formatter.match({
@@ -24306,7 +24306,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13530,
+  "duration": 12596,
   "status": "passed"
 });
 formatter.match({
@@ -24327,7 +24327,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 886411,
+  "duration": 897141,
   "status": "passed"
 });
 formatter.match({
@@ -24340,7 +24340,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 24726,
+  "duration": 18661,
   "status": "passed"
 });
 formatter.match({
@@ -24381,14 +24381,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 860286,
+  "duration": 894809,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 6064,
+  "duration": 6998,
   "status": "passed"
 });
 formatter.match({
@@ -24401,7 +24401,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13996,
+  "duration": 17728,
   "status": "passed"
 });
 formatter.match({
@@ -24418,7 +24418,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 238398,
+  "duration": 369027,
   "status": "passed"
 });
 formatter.match({
@@ -24431,7 +24431,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 209473,
+  "duration": 329839,
   "status": "passed"
 });
 formatter.match({
@@ -24444,7 +24444,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1215783,
+  "duration": 1672051,
   "status": "passed"
 });
 formatter.match({
@@ -24457,7 +24457,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 393765264,
+  "duration": 413995032,
   "status": "passed"
 });
 formatter.match({
@@ -24470,7 +24470,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 343367,
+  "duration": 334037,
   "status": "passed"
 });
 formatter.match({
@@ -24483,14 +24483,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 1215783,
+  "duration": 1470976,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_deregister_from_this_course()"
 });
 formatter.result({
-  "duration": 18195,
+  "duration": 20061,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -24745,7 +24745,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 615356,
+  "duration": 575701,
   "status": "passed"
 });
 formatter.match({
@@ -24758,7 +24758,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 51577462,
+  "duration": 45004957,
   "status": "passed"
 });
 formatter.match({
@@ -24771,7 +24771,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 22394,
+  "duration": 33590,
   "status": "passed"
 });
 formatter.match({
@@ -24784,7 +24784,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 40588,
+  "duration": 34990,
   "status": "passed"
 });
 formatter.match({
@@ -24797,7 +24797,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 25659,
+  "duration": 14929,
   "status": "passed"
 });
 formatter.match({
@@ -24818,7 +24818,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1292294,
+  "duration": 835092,
   "status": "passed"
 });
 formatter.match({
@@ -24831,7 +24831,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 26592,
   "status": "passed"
 });
 formatter.match({
@@ -24872,14 +24872,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 634484,
+  "duration": 808967,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 8864,
+  "duration": 10263,
   "status": "passed"
 });
 formatter.match({
@@ -24892,7 +24892,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 16795,
+  "duration": 22860,
   "status": "passed"
 });
 formatter.match({
@@ -24909,7 +24909,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 311177,
+  "duration": 491258,
   "status": "passed"
 });
 formatter.match({
@@ -24922,7 +24922,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 404627066,
+  "duration": 407213986,
   "status": "passed"
 });
 formatter.match({
@@ -24935,7 +24935,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 307911,
+  "duration": 508520,
   "status": "passed"
 });
 formatter.match({
@@ -24948,14 +24948,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 1602071,
+  "duration": 1580611,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_deregister_from_this_course()"
 });
 formatter.result({
-  "duration": 20993,
+  "duration": 16795,
   "status": "passed"
 });
 formatter.scenario({
@@ -25067,7 +25067,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 581766,
+  "duration": 551908,
   "status": "passed"
 });
 formatter.match({
@@ -25080,7 +25080,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 41336148,
+  "duration": 47743034,
   "status": "passed"
 });
 formatter.match({
@@ -25106,7 +25106,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 19128,
+  "duration": 20994,
   "status": "passed"
 });
 formatter.match({
@@ -25119,7 +25119,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 8397,
+  "duration": 17728,
   "status": "passed"
 });
 formatter.match({
@@ -25140,7 +25140,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1122476,
+  "duration": 829960,
   "status": "passed"
 });
 formatter.match({
@@ -25153,7 +25153,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 22394,
+  "duration": 17262,
   "status": "passed"
 });
 formatter.match({
@@ -25194,14 +25194,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 768845,
+  "duration": 910671,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 11197,
+  "duration": 9331,
   "status": "passed"
 });
 formatter.match({
@@ -25214,7 +25214,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 25193,
+  "duration": 26126,
   "status": "passed"
 });
 formatter.match({
@@ -25231,7 +25231,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 390488,
+  "duration": 362496,
   "status": "passed"
 });
 formatter.match({
@@ -25244,7 +25244,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 400086308,
+  "duration": 437331436,
   "status": "passed"
 });
 formatter.match({
@@ -25257,7 +25257,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 345700,
+  "duration": 397952,
   "status": "passed"
 });
 formatter.match({
@@ -25270,14 +25270,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 1510165,
+  "duration": 2744609,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_deregister_from_this_course()"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 28925,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -25588,7 +25588,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 637283,
+  "duration": 410082,
   "status": "passed"
 });
 formatter.match({
@@ -25601,7 +25601,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 43772379,
+  "duration": 41237710,
   "status": "passed"
 });
 formatter.match({
@@ -25614,7 +25614,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 34057,
+  "duration": 30325,
   "status": "passed"
 });
 formatter.match({
@@ -25627,7 +25627,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 26126,
+  "duration": 21460,
   "status": "passed"
 });
 formatter.match({
@@ -25640,7 +25640,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 15395,
+  "duration": 13996,
   "status": "passed"
 });
 formatter.match({
@@ -25661,7 +25661,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 2675095,
+  "duration": 989048,
   "status": "passed"
 });
 formatter.match({
@@ -25674,7 +25674,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 38722,
+  "duration": 20994,
   "status": "passed"
 });
 formatter.match({
@@ -25715,14 +25715,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1167264,
+  "duration": 926067,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 13996,
+  "duration": 6998,
   "status": "passed"
 });
 formatter.match({
@@ -25735,7 +25735,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 33590,
+  "duration": 20994,
   "status": "passed"
 });
 formatter.match({
@@ -25752,7 +25752,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 586431,
+  "duration": 373693,
   "status": "passed"
 });
 formatter.match({
@@ -25765,7 +25765,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 357830,
+  "duration": 342901,
   "status": "passed"
 });
 formatter.match({
@@ -25778,7 +25778,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1395397,
+  "duration": 1758826,
   "status": "passed"
 });
 formatter.match({
@@ -25791,7 +25791,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 402181505,
+  "duration": 411519611,
   "status": "passed"
 });
 formatter.match({
@@ -25804,7 +25804,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 340569,
+  "duration": 502922,
   "status": "passed"
 });
 formatter.match({
@@ -25817,7 +25817,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2079334,
+  "duration": 4987228,
   "status": "passed"
 });
 formatter.match({
@@ -25830,7 +25830,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 296282439,
+  "duration": 313778327,
   "status": "passed"
 });
 formatter.match({
@@ -25843,7 +25843,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 753916,
+  "duration": 804768,
   "status": "passed"
 });
 formatter.match({
@@ -25856,14 +25856,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 139027,
+  "duration": 105436,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.registration_has_finished()"
 });
 formatter.result({
-  "duration": 48519,
+  "duration": 31258,
   "status": "passed"
 });
 formatter.scenario({
@@ -26006,7 +26006,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 638683,
+  "duration": 2157711,
   "status": "passed"
 });
 formatter.match({
@@ -26019,7 +26019,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 43772379,
+  "duration": 40666208,
   "status": "passed"
 });
 formatter.match({
@@ -26032,7 +26032,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 29391,
+  "duration": 26126,
   "status": "passed"
 });
 formatter.match({
@@ -26045,7 +26045,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 26592,
+  "duration": 18194,
   "status": "passed"
 });
 formatter.match({
@@ -26058,7 +26058,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 16328,
+  "duration": 9797,
   "status": "passed"
 });
 formatter.match({
@@ -26079,7 +26079,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1167264,
+  "duration": 782375,
   "status": "passed"
 });
 formatter.match({
@@ -26092,7 +26092,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 32190,
+  "duration": 15396,
   "status": "passed"
 });
 formatter.match({
@@ -26133,14 +26133,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1145803,
+  "duration": 851887,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 7931,
+  "duration": 7465,
   "status": "passed"
 });
 formatter.match({
@@ -26153,7 +26153,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 17729,
+  "duration": 16329,
   "status": "passed"
 });
 formatter.match({
@@ -26170,7 +26170,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 257993,
+  "duration": 306512,
   "status": "passed"
 });
 formatter.match({
@@ -26183,7 +26183,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 183813,
+  "duration": 238398,
   "status": "passed"
 });
 formatter.match({
@@ -26196,7 +26196,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1024971,
+  "duration": 1459312,
   "status": "passed"
 });
 formatter.match({
@@ -26209,7 +26209,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 393680823,
+  "duration": 404656924,
   "status": "passed"
 });
 formatter.match({
@@ -26222,7 +26222,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 599028,
+  "duration": 421278,
   "status": "passed"
 });
 formatter.match({
@@ -26235,7 +26235,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 4591143,
+  "duration": 3309112,
   "status": "passed"
 });
 formatter.match({
@@ -26248,7 +26248,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 307504869,
+  "duration": 295125905,
   "status": "passed"
 });
 formatter.match({
@@ -26261,7 +26261,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 302779,
+  "duration": 1176128,
   "status": "passed"
 });
 formatter.match({
@@ -26274,14 +26274,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 53185,
+  "duration": 111968,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.registration_has_finished()"
 });
 formatter.result({
-  "duration": 16329,
+  "duration": 29858,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -26559,7 +26559,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 561238,
+  "duration": 1985561,
   "status": "passed"
 });
 formatter.match({
@@ -26572,7 +26572,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 47748632,
+  "duration": 53404868,
   "status": "passed"
 });
 formatter.match({
@@ -26585,7 +26585,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 38722,
   "status": "passed"
 });
 formatter.match({
@@ -26598,7 +26598,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 28459,
+  "duration": 21927,
   "status": "passed"
 });
 formatter.match({
@@ -26611,7 +26611,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 15396,
+  "duration": 25659,
   "status": "passed"
 });
 formatter.match({
@@ -26632,7 +26632,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 908805,
+  "duration": 678804,
   "status": "passed"
 });
 formatter.match({
@@ -26645,7 +26645,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 21927,
+  "duration": 24260,
   "status": "passed"
 });
 formatter.match({
@@ -26686,14 +26686,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1075823,
+  "duration": 704464,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 9331,
+  "duration": 6998,
   "status": "passed"
 });
 formatter.match({
@@ -26706,7 +26706,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 23793,
+  "duration": 14929,
   "status": "passed"
 });
 formatter.match({
@@ -26723,7 +26723,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 431542,
+  "duration": 317708,
   "status": "passed"
 });
 formatter.match({
@@ -26736,7 +26736,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 369493,
+  "duration": 255193,
   "status": "passed"
 });
 formatter.match({
@@ -26749,7 +26749,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1987427,
+  "duration": 1181726,
   "status": "passed"
 });
 formatter.match({
@@ -26762,7 +26762,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 53918520,
+  "duration": 40418479,
   "status": "passed"
 });
 formatter.match({
@@ -26775,7 +26775,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 390020,
+  "duration": 341502,
   "status": "passed"
 });
 formatter.match({
@@ -26788,14 +26788,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 61116,
+  "duration": 46187,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.registration_has_not_started()"
 });
 formatter.result({
-  "duration": 14462,
+  "duration": 11663,
   "status": "passed"
 });
 formatter.scenario({
@@ -26920,7 +26920,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 825296,
+  "duration": 974119,
   "status": "passed"
 });
 formatter.match({
@@ -26933,7 +26933,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 41206919,
+  "duration": 47449119,
   "status": "passed"
 });
 formatter.match({
@@ -26946,7 +26946,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 36856,
+  "duration": 26592,
   "status": "passed"
 });
 formatter.match({
@@ -26959,7 +26959,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 36390,
+  "duration": 24260,
   "status": "passed"
 });
 formatter.match({
@@ -26972,7 +26972,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 33123,
+  "duration": 12130,
   "status": "passed"
 });
 formatter.match({
@@ -26993,7 +26993,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 895275,
+  "duration": 681604,
   "status": "passed"
 });
 formatter.match({
@@ -27006,7 +27006,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 23327,
+  "duration": 19128,
   "status": "passed"
 });
 formatter.match({
@@ -27047,14 +27047,4975 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 822963,
+  "duration": 695600,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 12596,
+  "duration": 8397,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 15862,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 271522,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 288783,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1190123,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 40629819,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "deregister course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 499656,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 34
+    }
+  ],
+  "location": "StepDefinitions.the_student_deregisters_course_by(int)"
+});
+formatter.result({
+  "duration": 62982,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.registration_has_not_started()"
+});
+formatter.result({
+  "duration": 15862,
+  "status": "passed"
+});
+formatter.uri("test/cucumber/hierachicalusecaces-studenttakecourse.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Hierarchical Use Cases - Student Take Course",
+  "description": "",
+  "id": "hierarchical-use-cases---student-take-course",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "line": 3,
+  "name": "Student takes course: writes final after doing assignments and midterms",
+  "description": "",
+  "id": "hierarchical-use-cases---student-take-course;student-takes-course:-writes-final-after-doing-assignments-and-midterms",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "the clerk creates student by \u003cstudent number\u003e, \u003cname\u003e and \u003cis fulltime(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "the clerk creates course by \u003ctitle\u003e, \u003ccourse code\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "the student logs in with \u003cstudent number\u003e and \u003cname\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "the student selects course by \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "wait for 20 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 18,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 19,
+  "name": "the student registers for course by \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "student starts to take course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 21,
+  "name": "student \u003cstudent number\u003e does assginments for course \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 22,
+  "name": "student \u003cstudent number\u003e does midterms for course \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 23,
+  "name": "student \u003cstudent number\u003e writes final for course \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "student \u003cstudent number\u003e obtains mark for course \u003ccourse code\u003e",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 26,
+  "name": "",
+  "description": "",
+  "id": "hierarchical-use-cases---student-take-course;student-takes-course:-writes-final-after-doing-assignments-and-midterms;",
+  "rows": [
+    {
+      "cells": [
+        "student number",
+        "name",
+        "is fulltime(y/n)",
+        "title",
+        "course code",
+        "capsize",
+        "enforce prereqs(y/n)",
+        "number of midterms",
+        "number of assignments",
+        "has a final(y/n)",
+        "is project course(y/n)"
+      ],
+      "line": 27,
+      "id": "hierarchical-use-cases---student-take-course;student-takes-course:-writes-final-after-doing-assignments-and-midterms;;1"
+    },
+    {
+      "cells": [
+        "101075433",
+        "isaac",
+        "y",
+        "Virtual Environments",
+        "115205",
+        "15",
+        "n",
+        "1",
+        "4",
+        "y",
+        "n"
+      ],
+      "line": 28,
+      "id": "hierarchical-use-cases---student-take-course;student-takes-course:-writes-final-after-doing-assignments-and-midterms;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 28,
+  "name": "Student takes course: writes final after doing assignments and midterms",
+  "description": "",
+  "id": "hierarchical-use-cases---student-take-course;student-takes-course:-writes-final-after-doing-assignments-and-midterms;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "the clerk creates student by 101075433, isaac and y",
+  "matchedColumns": [
+    0,
+    1,
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "the clerk creates course by Virtual Environments, 115205, 15, n, 1, 4, y and n",
+  "matchedColumns": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "the student logs in with 101075433 and isaac",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "the student selects course by 115205",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "wait for 20 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 18,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 19,
+  "name": "the student registers for course by 115205",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "student starts to take course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 21,
+  "name": "student 101075433 does assginments for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 22,
+  "name": "student 101075433 does midterms for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 23,
+  "name": "student 101075433 writes final for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "student 101075433 obtains mark for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.the_university_is_initialized()"
+});
+formatter.result({
+  "duration": 738054,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 45672098,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 44787,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 34990,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 16795,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 29
+    },
+    {
+      "val": "isaac",
+      "offset": 40
+    },
+    {
+      "val": "y",
+      "offset": 50
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 1058561,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 29392,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Virtual Environments",
+      "offset": 28
+    },
+    {
+      "val": "115205",
+      "offset": 50
+    },
+    {
+      "val": "15",
+      "offset": 58
+    },
+    {
+      "val": "n",
+      "offset": 62
+    },
+    {
+      "val": "1",
+      "offset": 65
+    },
+    {
+      "val": "4",
+      "offset": 68
+    },
+    {
+      "val": "y",
+      "offset": 71
+    },
+    {
+      "val": "n",
+      "offset": 77
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 1261970,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 26592,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 33591,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 437141,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 408682,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1928178,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "20",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 391067776,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 695133,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 5690760,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.student_starts_to_take_course()"
+});
+formatter.result({
+  "duration": 71379,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 46
+    }
+  ],
+  "location": "StepDefinitions.student_does_assginments_for_course(int,int)"
+});
+formatter.result({
+  "duration": 1345479,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 43
+    }
+  ],
+  "location": "StepDefinitions.student_does_midterms_for_course(int,int)"
+});
+formatter.result({
+  "duration": 1073957,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 42
+    }
+  ],
+  "location": "StepDefinitions.student_writes_final_for_course(int,int)"
+});
+formatter.result({
+  "duration": 1032436,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 42
+    }
+  ],
+  "location": "StepDefinitions.student_obtains_mark_for_course(int,int)"
+});
+formatter.result({
+  "duration": 5846114,
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "line": 30,
+  "name": "Student takes project course: writes final after doing assignments, midterms and projects",
+  "description": "",
+  "id": "hierarchical-use-cases---student-take-course;student-takes-project-course:-writes-final-after-doing-assignments,-midterms-and-projects",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 31,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 32,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 33,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 34,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "the clerk creates student by \u003cstudent number\u003e, \u003cname\u003e and \u003cis fulltime(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 37,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 38,
+  "name": "the clerk creates course by \u003ctitle\u003e, \u003ccourse code\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 39,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 40,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 41,
+  "name": "the student logs in with \u003cstudent number\u003e and \u003cname\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 42,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 43,
+  "name": "the student selects course by \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 44,
+  "name": "wait for 20 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 45,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 46,
+  "name": "the student registers for course by \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 47,
+  "name": "student starts to take course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 48,
+  "name": "student \u003cstudent number\u003e does assginments for course \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 49,
+  "name": "student \u003cstudent number\u003e does midterms for course \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 50,
+  "name": "student \u003cstudent number\u003e does project for course \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 51,
+  "name": "student \u003cstudent number\u003e writes final for course \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 52,
+  "name": "student \u003cstudent number\u003e obtains mark for course \u003ccourse code\u003e",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 54,
+  "name": "",
+  "description": "",
+  "id": "hierarchical-use-cases---student-take-course;student-takes-project-course:-writes-final-after-doing-assignments,-midterms-and-projects;",
+  "rows": [
+    {
+      "cells": [
+        "student number",
+        "name",
+        "is fulltime(y/n)",
+        "title",
+        "course code",
+        "capsize",
+        "enforce prereqs(y/n)",
+        "number of midterms",
+        "number of assignments",
+        "has a final(y/n)",
+        "is project course(y/n)"
+      ],
+      "line": 55,
+      "id": "hierarchical-use-cases---student-take-course;student-takes-project-course:-writes-final-after-doing-assignments,-midterms-and-projects;;1"
+    },
+    {
+      "cells": [
+        "101075433",
+        "isaac",
+        "y",
+        "Virtual Environments",
+        "115205",
+        "15",
+        "n",
+        "1",
+        "4",
+        "y",
+        "y"
+      ],
+      "line": 56,
+      "id": "hierarchical-use-cases---student-take-course;student-takes-project-course:-writes-final-after-doing-assignments,-midterms-and-projects;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 56,
+  "name": "Student takes project course: writes final after doing assignments, midterms and projects",
+  "description": "",
+  "id": "hierarchical-use-cases---student-take-course;student-takes-project-course:-writes-final-after-doing-assignments,-midterms-and-projects;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 31,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 32,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 33,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 34,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "the clerk creates student by 101075433, isaac and y",
+  "matchedColumns": [
+    0,
+    1,
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 37,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 38,
+  "name": "the clerk creates course by Virtual Environments, 115205, 15, n, 1, 4, y and y",
+  "matchedColumns": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 39,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 40,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 41,
+  "name": "the student logs in with 101075433 and isaac",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 42,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 43,
+  "name": "the student selects course by 115205",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 44,
+  "name": "wait for 20 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 45,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 46,
+  "name": "the student registers for course by 115205",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 47,
+  "name": "student starts to take course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 48,
+  "name": "student 101075433 does assginments for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 49,
+  "name": "student 101075433 does midterms for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 50,
+  "name": "student 101075433 does project for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 51,
+  "name": "student 101075433 writes final for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 52,
+  "name": "student 101075433 obtains mark for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.the_university_is_initialized()"
+});
+formatter.result({
+  "duration": 3960392,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 34026055,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 28925,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 32657,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 16795,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 29
+    },
+    {
+      "val": "isaac",
+      "offset": 40
+    },
+    {
+      "val": "y",
+      "offset": 50
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 824829,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 26126,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Virtual Environments",
+      "offset": 28
+    },
+    {
+      "val": "115205",
+      "offset": 50
+    },
+    {
+      "val": "15",
+      "offset": 58
+    },
+    {
+      "val": "n",
+      "offset": 62
+    },
+    {
+      "val": "1",
+      "offset": 65
+    },
+    {
+      "val": "4",
+      "offset": 68
+    },
+    {
+      "val": "y",
+      "offset": 71
+    },
+    {
+      "val": "y",
+      "offset": 77
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 3325441,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 16328,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 31724,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 574767,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 501056,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 2672296,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "20",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 387343916,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 309778,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 3785909,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.student_starts_to_take_course()"
+});
+formatter.result({
+  "duration": 15396,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 46
+    }
+  ],
+  "location": "StepDefinitions.student_does_assginments_for_course(int,int)"
+});
+formatter.result({
+  "duration": 619555,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 43
+    }
+  ],
+  "location": "StepDefinitions.student_does_midterms_for_course(int,int)"
+});
+formatter.result({
+  "duration": 575234,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 42
+    }
+  ],
+  "location": "StepDefinitions.student_does_project_for_course(int,int)"
+});
+formatter.result({
+  "duration": 613956,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 42
+    }
+  ],
+  "location": "StepDefinitions.student_writes_final_for_course(int,int)"
+});
+formatter.result({
+  "duration": 577567,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 42
+    }
+  ],
+  "location": "StepDefinitions.student_obtains_mark_for_course(int,int)"
+});
+formatter.result({
+  "duration": 589231,
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "line": 58,
+  "name": "Student takes course: writes final before doing assignments and midterms",
+  "description": "",
+  "id": "hierarchical-use-cases---student-take-course;student-takes-course:-writes-final-before-doing-assignments-and-midterms",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 59,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 60,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 61,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 62,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 63,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 64,
+  "name": "the clerk creates student by \u003cstudent number\u003e, \u003cname\u003e and \u003cis fulltime(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 65,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 66,
+  "name": "the clerk creates course by \u003ctitle\u003e, \u003ccourse code\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 67,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 68,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 69,
+  "name": "the student logs in with \u003cstudent number\u003e and \u003cname\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 70,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 71,
+  "name": "the student selects course by \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 72,
+  "name": "wait for 20 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 73,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 74,
+  "name": "the student registers for course by \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 75,
+  "name": "student starts to take course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 76,
+  "name": "student \u003cstudent number\u003e writes final for course \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 77,
+  "name": "student \u003cstudent number\u003e does assginments for course \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 78,
+  "name": "student \u003cstudent number\u003e does midterms for course \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 79,
+  "name": "student \u003cstudent number\u003e cannot obtain mark for course \u003ccourse code\u003e",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 81,
+  "name": "",
+  "description": "",
+  "id": "hierarchical-use-cases---student-take-course;student-takes-course:-writes-final-before-doing-assignments-and-midterms;",
+  "rows": [
+    {
+      "cells": [
+        "student number",
+        "name",
+        "is fulltime(y/n)",
+        "title",
+        "course code",
+        "capsize",
+        "enforce prereqs(y/n)",
+        "number of midterms",
+        "number of assignments",
+        "has a final(y/n)",
+        "is project course(y/n)"
+      ],
+      "line": 82,
+      "id": "hierarchical-use-cases---student-take-course;student-takes-course:-writes-final-before-doing-assignments-and-midterms;;1"
+    },
+    {
+      "cells": [
+        "101075433",
+        "isaac",
+        "y",
+        "Virtual Environments",
+        "115205",
+        "15",
+        "n",
+        "1",
+        "4",
+        "y",
+        "n"
+      ],
+      "line": 83,
+      "id": "hierarchical-use-cases---student-take-course;student-takes-course:-writes-final-before-doing-assignments-and-midterms;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 83,
+  "name": "Student takes course: writes final before doing assignments and midterms",
+  "description": "",
+  "id": "hierarchical-use-cases---student-take-course;student-takes-course:-writes-final-before-doing-assignments-and-midterms;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 59,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 60,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 61,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 62,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 63,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 64,
+  "name": "the clerk creates student by 101075433, isaac and y",
+  "matchedColumns": [
+    0,
+    1,
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 65,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 66,
+  "name": "the clerk creates course by Virtual Environments, 115205, 15, n, 1, 4, y and n",
+  "matchedColumns": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 67,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 68,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 69,
+  "name": "the student logs in with 101075433 and isaac",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 70,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 71,
+  "name": "the student selects course by 115205",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 72,
+  "name": "wait for 20 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 73,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 74,
+  "name": "the student registers for course by 115205",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 75,
+  "name": "student starts to take course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 76,
+  "name": "student 101075433 writes final for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 77,
+  "name": "student 101075433 does assginments for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 78,
+  "name": "student 101075433 does midterms for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 79,
+  "name": "student 101075433 cannot obtain mark for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.the_university_is_initialized()"
+});
+formatter.result({
+  "duration": 662475,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 32180921,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 30791,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 22860,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 15862,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 29
+    },
+    {
+      "val": "isaac",
+      "offset": 40
+    },
+    {
+      "val": "y",
+      "offset": 50
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 755315,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 25192,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Virtual Environments",
+      "offset": 28
+    },
+    {
+      "val": "115205",
+      "offset": 50
+    },
+    {
+      "val": "15",
+      "offset": 58
+    },
+    {
+      "val": "n",
+      "offset": 62
+    },
+    {
+      "val": "1",
+      "offset": 65
+    },
+    {
+      "val": "4",
+      "offset": 68
+    },
+    {
+      "val": "y",
+      "offset": 71
+    },
+    {
+      "val": "n",
+      "offset": 77
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 706796,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 8398,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 19128,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 391887,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 510386,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1747163,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "20",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 407577882,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 357364,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 2029881,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.student_starts_to_take_course()"
+});
+formatter.result({
+  "duration": 13063,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 42
+    }
+  ],
+  "location": "StepDefinitions.student_writes_final_for_course(int,int)"
+});
+formatter.result({
+  "duration": 408215,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 46
+    }
+  ],
+  "location": "StepDefinitions.student_does_assginments_for_course(int,int)"
+});
+formatter.result({
+  "duration": 433409,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 43
+    }
+  ],
+  "location": "StepDefinitions.student_does_midterms_for_course(int,int)"
+});
+formatter.result({
+  "duration": 348033,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 48
+    }
+  ],
+  "location": "StepDefinitions.student_cannot_obtain_mark_for_course(int,int)"
+});
+formatter.result({
+  "duration": 446005,
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "line": 85,
+  "name": "Student takes project course: writes final before doing assignments, midterms and projects",
+  "description": "",
+  "id": "hierarchical-use-cases---student-take-course;student-takes-project-course:-writes-final-before-doing-assignments,-midterms-and-projects",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 86,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 87,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 88,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 89,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 90,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 91,
+  "name": "the clerk creates student by \u003cstudent number\u003e, \u003cname\u003e and \u003cis fulltime(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 92,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 93,
+  "name": "the clerk creates course by \u003ctitle\u003e, \u003ccourse code\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 94,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 95,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 96,
+  "name": "the student logs in with \u003cstudent number\u003e and \u003cname\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 97,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 98,
+  "name": "the student selects course by \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 99,
+  "name": "wait for 20 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 100,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 101,
+  "name": "the student registers for course by \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 102,
+  "name": "student starts to take course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 103,
+  "name": "student \u003cstudent number\u003e writes final for course \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 104,
+  "name": "student \u003cstudent number\u003e does assginments for course \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 105,
+  "name": "student \u003cstudent number\u003e does midterms for course \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 106,
+  "name": "student \u003cstudent number\u003e does project for course \u003ccourse code\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 107,
+  "name": "student \u003cstudent number\u003e cannot obtain mark for course \u003ccourse code\u003e",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 109,
+  "name": "",
+  "description": "",
+  "id": "hierarchical-use-cases---student-take-course;student-takes-project-course:-writes-final-before-doing-assignments,-midterms-and-projects;",
+  "rows": [
+    {
+      "cells": [
+        "student number",
+        "name",
+        "is fulltime(y/n)",
+        "title",
+        "course code",
+        "capsize",
+        "enforce prereqs(y/n)",
+        "number of midterms",
+        "number of assignments",
+        "has a final(y/n)",
+        "is project course(y/n)"
+      ],
+      "line": 110,
+      "id": "hierarchical-use-cases---student-take-course;student-takes-project-course:-writes-final-before-doing-assignments,-midterms-and-projects;;1"
+    },
+    {
+      "cells": [
+        "101075433",
+        "isaac",
+        "y",
+        "Virtual Environments",
+        "115205",
+        "15",
+        "n",
+        "1",
+        "4",
+        "y",
+        "y"
+      ],
+      "line": 111,
+      "id": "hierarchical-use-cases---student-take-course;student-takes-project-course:-writes-final-before-doing-assignments,-midterms-and-projects;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 111,
+  "name": "Student takes project course: writes final before doing assignments, midterms and projects",
+  "description": "",
+  "id": "hierarchical-use-cases---student-take-course;student-takes-project-course:-writes-final-before-doing-assignments,-midterms-and-projects;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 86,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 87,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 88,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 89,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 90,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 91,
+  "name": "the clerk creates student by 101075433, isaac and y",
+  "matchedColumns": [
+    0,
+    1,
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 92,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 93,
+  "name": "the clerk creates course by Virtual Environments, 115205, 15, n, 1, 4, y and y",
+  "matchedColumns": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 94,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 95,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 96,
+  "name": "the student logs in with 101075433 and isaac",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 97,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 98,
+  "name": "the student selects course by 115205",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 99,
+  "name": "wait for 20 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 100,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 101,
+  "name": "the student registers for course by 115205",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 102,
+  "name": "student starts to take course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 103,
+  "name": "student 101075433 writes final for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 104,
+  "name": "student 101075433 does assginments for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 105,
+  "name": "student 101075433 does midterms for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 106,
+  "name": "student 101075433 does project for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 107,
+  "name": "student 101075433 cannot obtain mark for course 115205",
+  "matchedColumns": [
+    0,
+    4
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.the_university_is_initialized()"
+});
+formatter.result({
+  "duration": 607891,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 42822519,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 41055,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 17728,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 7931,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 29
+    },
+    {
+      "val": "isaac",
+      "offset": 40
+    },
+    {
+      "val": "y",
+      "offset": 50
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 650346,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 17262,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Virtual Environments",
+      "offset": 28
+    },
+    {
+      "val": "115205",
+      "offset": 50
+    },
+    {
+      "val": "15",
+      "offset": 58
+    },
+    {
+      "val": "n",
+      "offset": 62
+    },
+    {
+      "val": "1",
+      "offset": 65
+    },
+    {
+      "val": "4",
+      "offset": 68
+    },
+    {
+      "val": "y",
+      "offset": 71
+    },
+    {
+      "val": "y",
+      "offset": 77
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 771644,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 6065,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 14929,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 302313,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 247728,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1200854,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "20",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 394251858,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 743652,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 6012199,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.student_starts_to_take_course()"
+});
+formatter.result({
+  "duration": 30324,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 42
+    }
+  ],
+  "location": "StepDefinitions.student_writes_final_for_course(int,int)"
+});
+formatter.result({
+  "duration": 1036168,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 46
+    }
+  ],
+  "location": "StepDefinitions.student_does_assginments_for_course(int,int)"
+});
+formatter.result({
+  "duration": 1049231,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 43
+    }
+  ],
+  "location": "StepDefinitions.student_does_midterms_for_course(int,int)"
+});
+formatter.result({
+  "duration": 1038967,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 42
+    }
+  ],
+  "location": "StepDefinitions.student_does_project_for_course(int,int)"
+});
+formatter.result({
+  "duration": 1038501,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 8
+    },
+    {
+      "val": "115205",
+      "offset": 48
+    }
+  ],
+  "location": "StepDefinitions.student_cannot_obtain_mark_for_course(int,int)"
+});
+formatter.result({
+  "duration": 1347811,
+  "status": "passed"
+});
+formatter.uri("test/cucumber/hierachicalusecaces-systemofferinformation.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Hierarchical Use Cases - System Offer Information",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "line": 3,
+  "name": "System shows current courses",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-current-courses",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "the clerk creates course by \u003ctitle 1\u003e, \u003ccourse code 1\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "the clerk creates course by \u003ctitle 2\u003e, \u003ccourse code 2\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "the clerk creates course by \u003ctitle 3\u003e, \u003ccourse code 3\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "the clerk creates course by \u003ctitle 4\u003e, \u003ccourse code 4\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "the user inputs delete course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 17,
+  "name": "the current courses in the system is shown",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 19,
+  "name": "",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-current-courses;",
+  "rows": [
+    {
+      "cells": [
+        "title 1",
+        "course code 1",
+        "title 2",
+        "course code 2",
+        "title 3",
+        "course code 3",
+        "title 4",
+        "course code 4",
+        "capsize",
+        "enforce prereqs(y/n)",
+        "number of midterms",
+        "number of assignments",
+        "has a final(y/n)",
+        "is project course(y/n)"
+      ],
+      "line": 20,
+      "id": "hierarchical-use-cases---system-offer-information;system-shows-current-courses;;1"
+    },
+    {
+      "cells": [
+        "Graphical Models",
+        "115007",
+        "Virtual Environments",
+        "115205",
+        "Fault Tolerance",
+        "115004",
+        "Computer Animation",
+        "115201",
+        "20",
+        "n",
+        "1",
+        "3",
+        "y",
+        "n"
+      ],
+      "line": 21,
+      "id": "hierarchical-use-cases---system-offer-information;system-shows-current-courses;;2"
+    },
+    {
+      "cells": [
+        "Graphical Models",
+        "115007",
+        "Virtual Environments",
+        "115205",
+        "Fault Tolerance",
+        "115004",
+        "Computer Animation",
+        "115201",
+        "20",
+        "n",
+        "1",
+        "3",
+        "y",
+        "y"
+      ],
+      "line": 22,
+      "id": "hierarchical-use-cases---system-offer-information;system-shows-current-courses;;3"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 21,
+  "name": "System shows current courses",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-current-courses;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "the clerk creates course by Graphical Models, 115007, 20, n, 1, 3, y and n",
+  "matchedColumns": [
+    0,
+    1,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "the clerk creates course by Virtual Environments, 115205, 20, n, 1, 3, y and n",
+  "matchedColumns": [
+    2,
+    3,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "the clerk creates course by Fault Tolerance, 115004, 20, n, 1, 3, y and n",
+  "matchedColumns": [
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "the clerk creates course by Computer Animation, 115201, 20, n, 1, 3, y and n",
+  "matchedColumns": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "the user inputs delete course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 17,
+  "name": "the current courses in the system is shown",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.the_university_is_initialized()"
+});
+formatter.result({
+  "duration": 1543288,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 39007686,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 27992,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 19594,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 9798,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Graphical Models",
+      "offset": 28
+    },
+    {
+      "val": "115007",
+      "offset": 46
+    },
+    {
+      "val": "20",
+      "offset": 54
+    },
+    {
+      "val": "n",
+      "offset": 58
+    },
+    {
+      "val": "1",
+      "offset": 61
+    },
+    {
+      "val": "3",
+      "offset": 64
+    },
+    {
+      "val": "y",
+      "offset": 67
+    },
+    {
+      "val": "n",
+      "offset": 73
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 888743,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 16795,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Virtual Environments",
+      "offset": 28
+    },
+    {
+      "val": "115205",
+      "offset": 50
+    },
+    {
+      "val": "20",
+      "offset": 58
+    },
+    {
+      "val": "n",
+      "offset": 62
+    },
+    {
+      "val": "1",
+      "offset": 65
+    },
+    {
+      "val": "3",
+      "offset": 68
+    },
+    {
+      "val": "y",
+      "offset": 71
+    },
+    {
+      "val": "n",
+      "offset": 77
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 831827,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 16795,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fault Tolerance",
+      "offset": 28
+    },
+    {
+      "val": "115004",
+      "offset": 45
+    },
+    {
+      "val": "20",
+      "offset": 53
+    },
+    {
+      "val": "n",
+      "offset": 57
+    },
+    {
+      "val": "1",
+      "offset": 60
+    },
+    {
+      "val": "3",
+      "offset": 63
+    },
+    {
+      "val": "y",
+      "offset": 66
+    },
+    {
+      "val": "n",
+      "offset": 72
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 759980,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 14930,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Computer Animation",
+      "offset": 28
+    },
+    {
+      "val": "115201",
+      "offset": 48
+    },
+    {
+      "val": "20",
+      "offset": 56
+    },
+    {
+      "val": "n",
+      "offset": 60
+    },
+    {
+      "val": "1",
+      "offset": 63
+    },
+    {
+      "val": "3",
+      "offset": 66
+    },
+    {
+      "val": "y",
+      "offset": 69
+    },
+    {
+      "val": "n",
+      "offset": 75
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 792172,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "delete course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 139027,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.the_current_courses_in_the_system_is_shown()"
+});
+formatter.result({
+  "duration": 63448,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 22,
+  "name": "System shows current courses",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-current-courses;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "the clerk creates course by Graphical Models, 115007, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    0,
+    1,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "the clerk creates course by Virtual Environments, 115205, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    2,
+    3,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "the clerk creates course by Fault Tolerance, 115004, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "the clerk creates course by Computer Animation, 115201, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "the user inputs delete course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 17,
+  "name": "the current courses in the system is shown",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.the_university_is_initialized()"
+});
+formatter.result({
+  "duration": 472130,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 32600800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 31257,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 20061,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 11663,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Graphical Models",
+      "offset": 28
+    },
+    {
+      "val": "115007",
+      "offset": 46
+    },
+    {
+      "val": "20",
+      "offset": 54
+    },
+    {
+      "val": "n",
+      "offset": 58
+    },
+    {
+      "val": "1",
+      "offset": 61
+    },
+    {
+      "val": "3",
+      "offset": 64
+    },
+    {
+      "val": "y",
+      "offset": 67
+    },
+    {
+      "val": "y",
+      "offset": 73
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 900874,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 17261,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Virtual Environments",
+      "offset": 28
+    },
+    {
+      "val": "115205",
+      "offset": 50
+    },
+    {
+      "val": "20",
+      "offset": 58
+    },
+    {
+      "val": "n",
+      "offset": 62
+    },
+    {
+      "val": "1",
+      "offset": 65
+    },
+    {
+      "val": "3",
+      "offset": 68
+    },
+    {
+      "val": "y",
+      "offset": 71
+    },
+    {
+      "val": "y",
+      "offset": 77
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 829027,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 16796,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fault Tolerance",
+      "offset": 28
+    },
+    {
+      "val": "115004",
+      "offset": 45
+    },
+    {
+      "val": "20",
+      "offset": 53
+    },
+    {
+      "val": "n",
+      "offset": 57
+    },
+    {
+      "val": "1",
+      "offset": 60
+    },
+    {
+      "val": "3",
+      "offset": 63
+    },
+    {
+      "val": "y",
+      "offset": 66
+    },
+    {
+      "val": "y",
+      "offset": 72
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 824362,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 16328,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Computer Animation",
+      "offset": 28
+    },
+    {
+      "val": "115201",
+      "offset": 48
+    },
+    {
+      "val": "20",
+      "offset": 56
+    },
+    {
+      "val": "n",
+      "offset": 60
+    },
+    {
+      "val": "1",
+      "offset": 63
+    },
+    {
+      "val": "3",
+      "offset": 66
+    },
+    {
+      "val": "y",
+      "offset": 69
+    },
+    {
+      "val": "y",
+      "offset": 75
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 822030,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "delete course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 22860,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.the_current_courses_in_the_system_is_shown()"
+});
+formatter.result({
+  "duration": 29858,
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "line": 24,
+  "name": "System shows current students",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-current-students",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 25,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 26,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 27,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 30,
+  "name": "the clerk creates student by \u003cstudent number 1\u003e, \u003cname 1\u003e and \u003cis fulltime(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 31,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 32,
+  "name": "the clerk creates student by \u003cstudent number 2\u003e, \u003cname 2\u003e and \u003cis fulltime(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 33,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 34,
+  "name": "the clerk creates student by \u003cstudent number 3\u003e, \u003cname 3\u003e and \u003cis fulltime(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "the user inputs delete student",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 36,
+  "name": "the current students in the system is shown",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 38,
+  "name": "",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-current-students;",
+  "rows": [
+    {
+      "cells": [
+        "student number 1",
+        "name 1",
+        "student number 2",
+        "name 2",
+        "student number 3",
+        "name 3",
+        "is fulltime(y/n)"
+      ],
+      "line": 39,
+      "id": "hierarchical-use-cases---system-offer-information;system-shows-current-students;;1"
+    },
+    {
+      "cells": [
+        "101075403",
+        "mike",
+        "101075433",
+        "isaac",
+        "101075404",
+        "john",
+        "y"
+      ],
+      "line": 40,
+      "id": "hierarchical-use-cases---system-offer-information;system-shows-current-students;;2"
+    },
+    {
+      "cells": [
+        "101075403",
+        "mike",
+        "101075433",
+        "isaac",
+        "101075404",
+        "john",
+        "n"
+      ],
+      "line": 41,
+      "id": "hierarchical-use-cases---system-offer-information;system-shows-current-students;;3"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 40,
+  "name": "System shows current students",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-current-students;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 25,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 26,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 27,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 30,
+  "name": "the clerk creates student by 101075403, mike and y",
+  "matchedColumns": [
+    0,
+    1,
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 31,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 32,
+  "name": "the clerk creates student by 101075433, isaac and y",
+  "matchedColumns": [
+    2,
+    3,
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 33,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 34,
+  "name": "the clerk creates student by 101075404, john and y",
+  "matchedColumns": [
+    4,
+    5,
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "the user inputs delete student",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 36,
+  "name": "the current students in the system is shown",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.the_university_is_initialized()"
+});
+formatter.result({
+  "duration": 657344,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 36122185,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 33590,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 29858,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 14929,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075403",
+      "offset": 29
+    },
+    {
+      "val": "mike",
+      "offset": 40
+    },
+    {
+      "val": "y",
+      "offset": 49
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 777709,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 22393,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 29
+    },
+    {
+      "val": "isaac",
+      "offset": 40
+    },
+    {
+      "val": "y",
+      "offset": 50
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 839291,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 17261,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075404",
+      "offset": 29
+    },
+    {
+      "val": "john",
+      "offset": 40
+    },
+    {
+      "val": "y",
+      "offset": 49
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 810367,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "delete student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 121298,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.the_current_students_in_the_system_is_shown()"
+});
+formatter.result({
+  "duration": 49453,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 41,
+  "name": "System shows current students",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-current-students;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 25,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 26,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 27,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 30,
+  "name": "the clerk creates student by 101075403, mike and n",
+  "matchedColumns": [
+    0,
+    1,
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 31,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 32,
+  "name": "the clerk creates student by 101075433, isaac and n",
+  "matchedColumns": [
+    2,
+    3,
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 33,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 34,
+  "name": "the clerk creates student by 101075404, john and n",
+  "matchedColumns": [
+    4,
+    5,
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "the user inputs delete student",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 36,
+  "name": "the current students in the system is shown",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.the_university_is_initialized()"
+});
+formatter.result({
+  "duration": 612090,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 45315201,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 21460,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 23793,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 15396,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075403",
+      "offset": 29
+    },
+    {
+      "val": "mike",
+      "offset": 40
+    },
+    {
+      "val": "n",
+      "offset": 49
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 803835,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 18195,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 29
+    },
+    {
+      "val": "isaac",
+      "offset": 40
+    },
+    {
+      "val": "n",
+      "offset": 50
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 708196,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 20527,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075404",
+      "offset": 29
+    },
+    {
+      "val": "john",
+      "offset": 40
+    },
+    {
+      "val": "n",
+      "offset": 49
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 829961,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "delete student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 21460,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.the_current_students_in_the_system_is_shown()"
+});
+formatter.result({
+  "duration": 29391,
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "line": 43,
+  "name": "System shows selected courses of a student",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-selected-courses-of-a-student",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 44,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 45,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 46,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 47,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 48,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 49,
+  "name": "the clerk creates course by \u003ctitle 1\u003e, \u003ccourse code 1\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 50,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 51,
+  "name": "the clerk creates course by \u003ctitle 2\u003e, \u003ccourse code 2\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 52,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 53,
+  "name": "the clerk creates course by \u003ctitle 3\u003e, \u003ccourse code 3\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 54,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 55,
+  "name": "the clerk creates course by \u003ctitle 4\u003e, \u003ccourse code 4\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 56,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 57,
+  "name": "the clerk creates student by \u003cstudent number\u003e, \u003cname\u003e and \u003cis fulltime(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 58,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 59,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 60,
+  "name": "the student logs in with \u003cstudent number\u003e and \u003cname\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 61,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 62,
+  "name": "the student selects course by \u003ccourse code 1\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 63,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 64,
+  "name": "the student selects course by \u003ccourse code 2\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 65,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 66,
+  "name": "the student selects course by \u003ccourse code 3\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 67,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 68,
+  "name": "the student selects course by \u003ccourse code 4\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 69,
+  "name": "the user inputs register for course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 70,
+  "name": "the selected courses of student \u003cstudent number\u003e, \u003cname\u003e is shown",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 72,
+  "name": "",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-selected-courses-of-a-student;",
+  "rows": [
+    {
+      "cells": [
+        "student number",
+        "name",
+        "is fulltime(y/n)",
+        "title 1",
+        "course code 1",
+        "title 2",
+        "course code 2",
+        "title 3",
+        "course code 3",
+        "title 4",
+        "course code 4",
+        "capsize",
+        "enforce prereqs(y/n)",
+        "number of midterms",
+        "number of assignments",
+        "has a final(y/n)",
+        "is project course(y/n)"
+      ],
+      "line": 73,
+      "id": "hierarchical-use-cases---system-offer-information;system-shows-selected-courses-of-a-student;;1"
+    },
+    {
+      "cells": [
+        "101075433",
+        "isaac",
+        "y",
+        "Graphical Models",
+        "115007",
+        "Virtual Environments",
+        "115205",
+        "Fault Tolerance",
+        "115004",
+        "Computer Animation",
+        "115201",
+        "20",
+        "n",
+        "1",
+        "3",
+        "y",
+        "n"
+      ],
+      "line": 74,
+      "id": "hierarchical-use-cases---system-offer-information;system-shows-selected-courses-of-a-student;;2"
+    },
+    {
+      "cells": [
+        "101075433",
+        "isaac",
+        "n",
+        "Graphical Models",
+        "115007",
+        "Virtual Environments",
+        "115205",
+        "Fault Tolerance",
+        "115004",
+        "Computer Animation",
+        "115201",
+        "20",
+        "n",
+        "1",
+        "3",
+        "y",
+        "y"
+      ],
+      "line": 75,
+      "id": "hierarchical-use-cases---system-offer-information;system-shows-selected-courses-of-a-student;;3"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 74,
+  "name": "System shows selected courses of a student",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-selected-courses-of-a-student;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 44,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 45,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 46,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 47,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 48,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 49,
+  "name": "the clerk creates course by Graphical Models, 115007, 20, n, 1, 3, y and n",
+  "matchedColumns": [
+    16,
+    3,
+    4,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 50,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 51,
+  "name": "the clerk creates course by Virtual Environments, 115205, 20, n, 1, 3, y and n",
+  "matchedColumns": [
+    16,
+    5,
+    6,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 52,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 53,
+  "name": "the clerk creates course by Fault Tolerance, 115004, 20, n, 1, 3, y and n",
+  "matchedColumns": [
+    16,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 54,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 55,
+  "name": "the clerk creates course by Computer Animation, 115201, 20, n, 1, 3, y and n",
+  "matchedColumns": [
+    16,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 56,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 57,
+  "name": "the clerk creates student by 101075433, isaac and y",
+  "matchedColumns": [
+    0,
+    1,
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 58,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 59,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 60,
+  "name": "the student logs in with 101075433 and isaac",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 61,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 62,
+  "name": "the student selects course by 115007",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 63,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 64,
+  "name": "the student selects course by 115205",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 65,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 66,
+  "name": "the student selects course by 115004",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 67,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 68,
+  "name": "the student selects course by 115201",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 69,
+  "name": "the user inputs register for course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 70,
+  "name": "the selected courses of student 101075433, isaac is shown",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.the_university_is_initialized()"
+});
+formatter.result({
+  "duration": 489859,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 37938394,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 31724,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 27059,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 17728,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Graphical Models",
+      "offset": 28
+    },
+    {
+      "val": "115007",
+      "offset": 46
+    },
+    {
+      "val": "20",
+      "offset": 54
+    },
+    {
+      "val": "n",
+      "offset": 58
+    },
+    {
+      "val": "1",
+      "offset": 61
+    },
+    {
+      "val": "3",
+      "offset": 64
+    },
+    {
+      "val": "y",
+      "offset": 67
+    },
+    {
+      "val": "n",
+      "offset": 73
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 1048297,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 25659,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Virtual Environments",
+      "offset": 28
+    },
+    {
+      "val": "115205",
+      "offset": 50
+    },
+    {
+      "val": "20",
+      "offset": 58
+    },
+    {
+      "val": "n",
+      "offset": 62
+    },
+    {
+      "val": "1",
+      "offset": 65
+    },
+    {
+      "val": "3",
+      "offset": 68
+    },
+    {
+      "val": "y",
+      "offset": 71
+    },
+    {
+      "val": "n",
+      "offset": 77
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 1107081,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 21927,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fault Tolerance",
+      "offset": 28
+    },
+    {
+      "val": "115004",
+      "offset": 45
+    },
+    {
+      "val": "20",
+      "offset": 53
+    },
+    {
+      "val": "n",
+      "offset": 57
+    },
+    {
+      "val": "1",
+      "offset": 60
+    },
+    {
+      "val": "3",
+      "offset": 63
+    },
+    {
+      "val": "y",
+      "offset": 66
+    },
+    {
+      "val": "n",
+      "offset": 72
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 830428,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 18194,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Computer Animation",
+      "offset": 28
+    },
+    {
+      "val": "115201",
+      "offset": 48
+    },
+    {
+      "val": "20",
+      "offset": 56
+    },
+    {
+      "val": "n",
+      "offset": 60
+    },
+    {
+      "val": "1",
+      "offset": 63
+    },
+    {
+      "val": "3",
+      "offset": 66
+    },
+    {
+      "val": "y",
+      "offset": 69
+    },
+    {
+      "val": "n",
+      "offset": 75
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 731989,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 31258,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 29
+    },
+    {
+      "val": "isaac",
+      "offset": 40
+    },
+    {
+      "val": "y",
+      "offset": 50
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 820630,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 7931,
   "status": "passed"
 });
 formatter.match({
@@ -27084,7 +32045,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 7607740,
+  "duration": 361563,
   "status": "passed"
 });
 formatter.match({
@@ -27097,7 +32058,4098 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 307912,
+  "duration": 325639,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115007",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1113146,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 224402,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1148136,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 223935,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1174727,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 203408,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1107547,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 206207,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 32
+    },
+    {
+      "val": "isaac",
+      "offset": 43
+    }
+  ],
+  "location": "StepDefinitions.the_selected_courses_of_student_isaac_is_shown(int,String)"
+});
+formatter.result({
+  "duration": 283185,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 75,
+  "name": "System shows selected courses of a student",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-selected-courses-of-a-student;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 44,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 45,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 46,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 47,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 48,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 49,
+  "name": "the clerk creates course by Graphical Models, 115007, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    16,
+    3,
+    4,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 50,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 51,
+  "name": "the clerk creates course by Virtual Environments, 115205, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    16,
+    5,
+    6,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 52,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 53,
+  "name": "the clerk creates course by Fault Tolerance, 115004, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    16,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 54,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 55,
+  "name": "the clerk creates course by Computer Animation, 115201, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    16,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 56,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 57,
+  "name": "the clerk creates student by 101075433, isaac and n",
+  "matchedColumns": [
+    0,
+    1,
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 58,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 59,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 60,
+  "name": "the student logs in with 101075433 and isaac",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 61,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 62,
+  "name": "the student selects course by 115007",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 63,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 64,
+  "name": "the student selects course by 115205",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 65,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 66,
+  "name": "the student selects course by 115004",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 67,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 68,
+  "name": "the student selects course by 115201",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 69,
+  "name": "the user inputs register for course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 70,
+  "name": "the selected courses of student 101075433, isaac is shown",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.the_university_is_initialized()"
+});
+formatter.result({
+  "duration": 554707,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 46932668,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 23793,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 22393,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 26592,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Graphical Models",
+      "offset": 28
+    },
+    {
+      "val": "115007",
+      "offset": 46
+    },
+    {
+      "val": "20",
+      "offset": 54
+    },
+    {
+      "val": "n",
+      "offset": 58
+    },
+    {
+      "val": "1",
+      "offset": 61
+    },
+    {
+      "val": "3",
+      "offset": 64
+    },
+    {
+      "val": "y",
+      "offset": 67
+    },
+    {
+      "val": "y",
+      "offset": 73
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 1136939,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 22393,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Virtual Environments",
+      "offset": 28
+    },
+    {
+      "val": "115205",
+      "offset": 50
+    },
+    {
+      "val": "20",
+      "offset": 58
+    },
+    {
+      "val": "n",
+      "offset": 62
+    },
+    {
+      "val": "1",
+      "offset": 65
+    },
+    {
+      "val": "3",
+      "offset": 68
+    },
+    {
+      "val": "y",
+      "offset": 71
+    },
+    {
+      "val": "y",
+      "offset": 77
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 1072558,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 21927,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fault Tolerance",
+      "offset": 28
+    },
+    {
+      "val": "115004",
+      "offset": 45
+    },
+    {
+      "val": "20",
+      "offset": 53
+    },
+    {
+      "val": "n",
+      "offset": 57
+    },
+    {
+      "val": "1",
+      "offset": 60
+    },
+    {
+      "val": "3",
+      "offset": 63
+    },
+    {
+      "val": "y",
+      "offset": 66
+    },
+    {
+      "val": "y",
+      "offset": 72
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 1147203,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 19595,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Computer Animation",
+      "offset": 28
+    },
+    {
+      "val": "115201",
+      "offset": 48
+    },
+    {
+      "val": "20",
+      "offset": 56
+    },
+    {
+      "val": "n",
+      "offset": 60
+    },
+    {
+      "val": "1",
+      "offset": 63
+    },
+    {
+      "val": "3",
+      "offset": 66
+    },
+    {
+      "val": "y",
+      "offset": 69
+    },
+    {
+      "val": "y",
+      "offset": 75
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 747851,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 21461,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 29
+    },
+    {
+      "val": "isaac",
+      "offset": 40
+    },
+    {
+      "val": "n",
+      "offset": 50
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 717060,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 7465,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 13996,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 362496,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 442739,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115007",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1716372,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 247728,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1475175,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 392820,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1335215,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 233732,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1311888,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 263124,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 32
+    },
+    {
+      "val": "isaac",
+      "offset": 43
+    }
+  ],
+  "location": "StepDefinitions.the_selected_courses_of_student_isaac_is_shown(int,String)"
+});
+formatter.result({
+  "duration": 304645,
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "line": 77,
+  "name": "System shows registered courses of a student",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-registered-courses-of-a-student",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 78,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 79,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 80,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 81,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 82,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 83,
+  "name": "the clerk creates course by \u003ctitle 1\u003e, \u003ccourse code 1\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 84,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 85,
+  "name": "the clerk creates course by \u003ctitle 2\u003e, \u003ccourse code 2\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 86,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 87,
+  "name": "the clerk creates course by \u003ctitle 3\u003e, \u003ccourse code 3\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 88,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 89,
+  "name": "the clerk creates course by \u003ctitle 4\u003e, \u003ccourse code 4\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 90,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 91,
+  "name": "the clerk creates student by \u003cstudent number\u003e, \u003cname\u003e and \u003cis fulltime(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 92,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 93,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 94,
+  "name": "the student logs in with \u003cstudent number\u003e and \u003cname\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 95,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 96,
+  "name": "the student selects course by \u003ccourse code 1\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 97,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 98,
+  "name": "the student selects course by \u003ccourse code 2\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 99,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 100,
+  "name": "the student selects course by \u003ccourse code 3\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 101,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 102,
+  "name": "the student selects course by \u003ccourse code 4\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 103,
+  "name": "wait for 20 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 104,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 105,
+  "name": "the student registers for course by \u003ccourse code 1\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 106,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 107,
+  "name": "the student registers for course by \u003ccourse code 2\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 108,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 109,
+  "name": "the student registers for course by \u003ccourse code 3\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 110,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 111,
+  "name": "the student registers for course by \u003ccourse code 4\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 112,
+  "name": "the user inputs deregister course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 113,
+  "name": "the registered courses of student \u003cstudent number\u003e, \u003cname\u003e is shown",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 115,
+  "name": "",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-registered-courses-of-a-student;",
+  "rows": [
+    {
+      "cells": [
+        "student number",
+        "name",
+        "is fulltime(y/n)",
+        "title 1",
+        "course code 1",
+        "title 2",
+        "course code 2",
+        "title 3",
+        "course code 3",
+        "title 4",
+        "course code 4",
+        "capsize",
+        "enforce prereqs(y/n)",
+        "number of midterms",
+        "number of assignments",
+        "has a final(y/n)",
+        "is project course(y/n)"
+      ],
+      "line": 116,
+      "id": "hierarchical-use-cases---system-offer-information;system-shows-registered-courses-of-a-student;;1"
+    },
+    {
+      "cells": [
+        "101075433",
+        "isaac",
+        "y",
+        "Graphical Models",
+        "115007",
+        "Virtual Environments",
+        "115205",
+        "Fault Tolerance",
+        "115004",
+        "Computer Animation",
+        "115201",
+        "20",
+        "n",
+        "1",
+        "3",
+        "y",
+        "n"
+      ],
+      "line": 117,
+      "id": "hierarchical-use-cases---system-offer-information;system-shows-registered-courses-of-a-student;;2"
+    },
+    {
+      "cells": [
+        "101075433",
+        "isaac",
+        "n",
+        "Graphical Models",
+        "115007",
+        "Virtual Environments",
+        "115205",
+        "Fault Tolerance",
+        "115004",
+        "Computer Animation",
+        "115201",
+        "20",
+        "n",
+        "1",
+        "3",
+        "y",
+        "y"
+      ],
+      "line": 118,
+      "id": "hierarchical-use-cases---system-offer-information;system-shows-registered-courses-of-a-student;;3"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 117,
+  "name": "System shows registered courses of a student",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-registered-courses-of-a-student;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 78,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 79,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 80,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 81,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 82,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 83,
+  "name": "the clerk creates course by Graphical Models, 115007, 20, n, 1, 3, y and n",
+  "matchedColumns": [
+    16,
+    3,
+    4,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 84,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 85,
+  "name": "the clerk creates course by Virtual Environments, 115205, 20, n, 1, 3, y and n",
+  "matchedColumns": [
+    16,
+    5,
+    6,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 86,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 87,
+  "name": "the clerk creates course by Fault Tolerance, 115004, 20, n, 1, 3, y and n",
+  "matchedColumns": [
+    16,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 88,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 89,
+  "name": "the clerk creates course by Computer Animation, 115201, 20, n, 1, 3, y and n",
+  "matchedColumns": [
+    16,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 90,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 91,
+  "name": "the clerk creates student by 101075433, isaac and y",
+  "matchedColumns": [
+    0,
+    1,
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 92,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 93,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 94,
+  "name": "the student logs in with 101075433 and isaac",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 95,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 96,
+  "name": "the student selects course by 115007",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 97,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 98,
+  "name": "the student selects course by 115205",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 99,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 100,
+  "name": "the student selects course by 115004",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 101,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 102,
+  "name": "the student selects course by 115201",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 103,
+  "name": "wait for 20 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 104,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 105,
+  "name": "the student registers for course by 115007",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 106,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 107,
+  "name": "the student registers for course by 115205",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 108,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 109,
+  "name": "the student registers for course by 115004",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 110,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 111,
+  "name": "the student registers for course by 115201",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 112,
+  "name": "the user inputs deregister course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 113,
+  "name": "the registered courses of student 101075433, isaac is shown",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.the_university_is_initialized()"
+});
+formatter.result({
+  "duration": 676472,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 41917447,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 23793,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 20528,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 12596,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Graphical Models",
+      "offset": 28
+    },
+    {
+      "val": "115007",
+      "offset": 46
+    },
+    {
+      "val": "20",
+      "offset": 54
+    },
+    {
+      "val": "n",
+      "offset": 58
+    },
+    {
+      "val": "1",
+      "offset": 61
+    },
+    {
+      "val": "3",
+      "offset": 64
+    },
+    {
+      "val": "y",
+      "offset": 67
+    },
+    {
+      "val": "n",
+      "offset": 73
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 808501,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 16795,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Virtual Environments",
+      "offset": 28
+    },
+    {
+      "val": "115205",
+      "offset": 50
+    },
+    {
+      "val": "20",
+      "offset": 58
+    },
+    {
+      "val": "n",
+      "offset": 62
+    },
+    {
+      "val": "1",
+      "offset": 65
+    },
+    {
+      "val": "3",
+      "offset": 68
+    },
+    {
+      "val": "y",
+      "offset": 71
+    },
+    {
+      "val": "n",
+      "offset": 77
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 832293,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 28925,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fault Tolerance",
+      "offset": 28
+    },
+    {
+      "val": "115004",
+      "offset": 45
+    },
+    {
+      "val": "20",
+      "offset": 53
+    },
+    {
+      "val": "n",
+      "offset": 57
+    },
+    {
+      "val": "1",
+      "offset": 60
+    },
+    {
+      "val": "3",
+      "offset": 63
+    },
+    {
+      "val": "y",
+      "offset": 66
+    },
+    {
+      "val": "n",
+      "offset": 72
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 1074424,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 60650,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Computer Animation",
+      "offset": 28
+    },
+    {
+      "val": "115201",
+      "offset": 48
+    },
+    {
+      "val": "20",
+      "offset": 56
+    },
+    {
+      "val": "n",
+      "offset": 60
+    },
+    {
+      "val": "1",
+      "offset": 63
+    },
+    {
+      "val": "3",
+      "offset": 66
+    },
+    {
+      "val": "y",
+      "offset": 69
+    },
+    {
+      "val": "n",
+      "offset": 75
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 741319,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 20994,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 29
+    },
+    {
+      "val": "isaac",
+      "offset": 40
+    },
+    {
+      "val": "y",
+      "offset": 50
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 774910,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 6998,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 14929,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 362496,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 311177,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115007",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1323552,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 245862,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1448116,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 317242,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1451848,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 284585,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1320753,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "20",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 398226244,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 578033,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115007",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 2085398,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 401684,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 3537246,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 278520,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 2052275,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 215071,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 2004222,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "deregister course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 258925,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 34
+    },
+    {
+      "val": "isaac",
+      "offset": 45
+    }
+  ],
+  "location": "StepDefinitions.the_registered_courses_of_student_isaac_is_shown(int,String)"
+});
+formatter.result({
+  "duration": 264991,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 118,
+  "name": "System shows registered courses of a student",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-registered-courses-of-a-student;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 78,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 79,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 80,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 81,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 82,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 83,
+  "name": "the clerk creates course by Graphical Models, 115007, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    16,
+    3,
+    4,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 84,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 85,
+  "name": "the clerk creates course by Virtual Environments, 115205, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    16,
+    5,
+    6,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 86,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 87,
+  "name": "the clerk creates course by Fault Tolerance, 115004, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    16,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 88,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 89,
+  "name": "the clerk creates course by Computer Animation, 115201, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    16,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 90,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 91,
+  "name": "the clerk creates student by 101075433, isaac and n",
+  "matchedColumns": [
+    0,
+    1,
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 92,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 93,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 94,
+  "name": "the student logs in with 101075433 and isaac",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 95,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 96,
+  "name": "the student selects course by 115007",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 97,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 98,
+  "name": "the student selects course by 115205",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 99,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 100,
+  "name": "the student selects course by 115004",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 101,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 102,
+  "name": "the student selects course by 115201",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 103,
+  "name": "wait for 20 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 104,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 105,
+  "name": "the student registers for course by 115007",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 106,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 107,
+  "name": "the student registers for course by 115205",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 108,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 109,
+  "name": "the student registers for course by 115004",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 110,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 111,
+  "name": "the student registers for course by 115201",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 112,
+  "name": "the user inputs deregister course",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 113,
+  "name": "the registered courses of student 101075433, isaac is shown",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.the_university_is_initialized()"
+});
+formatter.result({
+  "duration": 545843,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 49631089,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 20994,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 18194,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 9797,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Graphical Models",
+      "offset": 28
+    },
+    {
+      "val": "115007",
+      "offset": 46
+    },
+    {
+      "val": "20",
+      "offset": 54
+    },
+    {
+      "val": "n",
+      "offset": 58
+    },
+    {
+      "val": "1",
+      "offset": 61
+    },
+    {
+      "val": "3",
+      "offset": 64
+    },
+    {
+      "val": "y",
+      "offset": 67
+    },
+    {
+      "val": "y",
+      "offset": 73
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 1388866,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 35923,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Virtual Environments",
+      "offset": 28
+    },
+    {
+      "val": "115205",
+      "offset": 50
+    },
+    {
+      "val": "20",
+      "offset": 58
+    },
+    {
+      "val": "n",
+      "offset": 62
+    },
+    {
+      "val": "1",
+      "offset": 65
+    },
+    {
+      "val": "3",
+      "offset": 68
+    },
+    {
+      "val": "y",
+      "offset": 71
+    },
+    {
+      "val": "y",
+      "offset": 77
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 1396330,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 34057,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fault Tolerance",
+      "offset": 28
+    },
+    {
+      "val": "115004",
+      "offset": 45
+    },
+    {
+      "val": "20",
+      "offset": 53
+    },
+    {
+      "val": "n",
+      "offset": 57
+    },
+    {
+      "val": "1",
+      "offset": 60
+    },
+    {
+      "val": "3",
+      "offset": 63
+    },
+    {
+      "val": "y",
+      "offset": 66
+    },
+    {
+      "val": "y",
+      "offset": 72
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 1517629,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 28459,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Computer Animation",
+      "offset": 28
+    },
+    {
+      "val": "115201",
+      "offset": 48
+    },
+    {
+      "val": "20",
+      "offset": 56
+    },
+    {
+      "val": "n",
+      "offset": 60
+    },
+    {
+      "val": "1",
+      "offset": 63
+    },
+    {
+      "val": "3",
+      "offset": 66
+    },
+    {
+      "val": "y",
+      "offset": 69
+    },
+    {
+      "val": "y",
+      "offset": 75
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 1614201,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 29858,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 29
+    },
+    {
+      "val": "isaac",
+      "offset": 40
+    },
+    {
+      "val": "n",
+      "offset": 50
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 1356675,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 9797,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 28925,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 446004,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 419412,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115007",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 6196946,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 414747,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 7363743,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 462333,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1939841,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 363895,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1904385,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "20",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 388472457,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 328438,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115007",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 1976697,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 213671,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 1902518,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 221137,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 1796615,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 215538,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 1753694,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "deregister course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 203875,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 34
+    },
+    {
+      "val": "isaac",
+      "offset": 45
+    }
+  ],
+  "location": "StepDefinitions.the_registered_courses_of_student_isaac_is_shown(int,String)"
+});
+formatter.result({
+  "duration": 269656,
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "line": 120,
+  "name": "System shows dean\u0027s list",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-dean\u0027s-list",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 121,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 122,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 123,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 124,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 125,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 126,
+  "name": "the clerk creates course by \u003ctitle 1\u003e, \u003ccourse code 1\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 127,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 128,
+  "name": "the clerk creates course by \u003ctitle 2\u003e, \u003ccourse code 2\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 129,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 130,
+  "name": "the clerk creates course by \u003ctitle 3\u003e, \u003ccourse code 3\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 131,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 132,
+  "name": "the clerk creates course by \u003ctitle 4\u003e, \u003ccourse code 4\u003e, \u003ccapsize\u003e, \u003cenforce prereqs(y/n)\u003e, \u003cnumber of midterms\u003e, \u003cnumber of assignments\u003e, \u003chas a final(y/n)\u003e and \u003cis project course(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 133,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 134,
+  "name": "the clerk creates student by \u003cstudent number 1\u003e, \u003cname 1\u003e and \u003cis fulltime(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 135,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 136,
+  "name": "the clerk creates student by \u003cstudent number 2\u003e, \u003cname 2\u003e and \u003cis fulltime(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 137,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 138,
+  "name": "the clerk creates student by \u003cstudent number 3\u003e, \u003cname 3\u003e and \u003cis fulltime(y/n)\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 139,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 140,
+  "name": "the user inputs student",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 141,
+  "name": "the student logs in with \u003cstudent number 1\u003e and \u003cname 1\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 142,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 143,
+  "name": "the student selects course by \u003ccourse code 1\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 144,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 145,
+  "name": "the student selects course by \u003ccourse code 2\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 146,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 147,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 148,
+  "name": "the student logs in with \u003cstudent number 2\u003e and \u003cname 2\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 149,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 150,
+  "name": "the student selects course by \u003ccourse code 3\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 151,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 152,
+  "name": "the student selects course by \u003ccourse code 4\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 153,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 154,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 155,
+  "name": "the student logs in with \u003cstudent number 3\u003e and \u003cname 3\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 156,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 157,
+  "name": "the student selects course by \u003ccourse code 2\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 158,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 159,
+  "name": "the student selects course by \u003ccourse code 3\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 160,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 161,
+  "name": "wait for 20 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 162,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 163,
+  "name": "the student logs in with \u003cstudent number 1\u003e and \u003cname 1\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 164,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 165,
+  "name": "the student registers for course by \u003ccourse code 1\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 166,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 167,
+  "name": "the student registers for course by \u003ccourse code 2\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 168,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 169,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 170,
+  "name": "the student logs in with \u003cstudent number 2\u003e and \u003cname 2\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 171,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 172,
+  "name": "the student registers for course by \u003ccourse code 3\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 173,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 174,
+  "name": "the student registers for course by \u003ccourse code 4\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 175,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 176,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 177,
+  "name": "the student logs in with \u003cstudent number 3\u003e and \u003cname 3\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 178,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 179,
+  "name": "the student registers for course by \u003ccourse code 2\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 180,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 181,
+  "name": "the student registers for course by \u003ccourse code 3\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 182,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 183,
+  "name": "wait for 100 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 184,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 185,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 186,
+  "name": "the user inputs dean\u0027s list",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 187,
+  "name": "the dean\u0027s list is generated",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 189,
+  "name": "",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-dean\u0027s-list;",
+  "rows": [
+    {
+      "cells": [
+        "student number 1",
+        "name 1",
+        "student number 2",
+        "name 2",
+        "student number 3",
+        "name 3",
+        "is fulltime(y/n)",
+        "title 1",
+        "course code 1",
+        "title 2",
+        "course code 2",
+        "title 3",
+        "course code 3",
+        "title 4",
+        "course code 4",
+        "capsize",
+        "enforce prereqs(y/n)",
+        "number of midterms",
+        "number of assignments",
+        "has a final(y/n)",
+        "is project course(y/n)"
+      ],
+      "line": 190,
+      "id": "hierarchical-use-cases---system-offer-information;system-shows-dean\u0027s-list;;1"
+    },
+    {
+      "cells": [
+        "101075403",
+        "mike",
+        "101075433",
+        "isaac",
+        "101075404",
+        "john",
+        "y",
+        "Graphical Models",
+        "115007",
+        "Virtual Environments",
+        "115205",
+        "Fault Tolerance",
+        "115004",
+        "Computer Animation",
+        "115201",
+        "20",
+        "n",
+        "1",
+        "3",
+        "y",
+        "n"
+      ],
+      "line": 191,
+      "id": "hierarchical-use-cases---system-offer-information;system-shows-dean\u0027s-list;;2"
+    },
+    {
+      "cells": [
+        "101075403",
+        "mike",
+        "101075433",
+        "isaac",
+        "101075404",
+        "john",
+        "n",
+        "Graphical Models",
+        "115007",
+        "Virtual Environments",
+        "115205",
+        "Fault Tolerance",
+        "115004",
+        "Computer Animation",
+        "115201",
+        "20",
+        "n",
+        "1",
+        "3",
+        "y",
+        "y"
+      ],
+      "line": 192,
+      "id": "hierarchical-use-cases---system-offer-information;system-shows-dean\u0027s-list;;3"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 191,
+  "name": "System shows dean\u0027s list",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-dean\u0027s-list;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 121,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 122,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 123,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 124,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 125,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 126,
+  "name": "the clerk creates course by Graphical Models, 115007, 20, n, 1, 3, y and n",
+  "matchedColumns": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    7,
+    8,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 127,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 128,
+  "name": "the clerk creates course by Virtual Environments, 115205, 20, n, 1, 3, y and n",
+  "matchedColumns": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    9,
+    10,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 129,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 130,
+  "name": "the clerk creates course by Fault Tolerance, 115004, 20, n, 1, 3, y and n",
+  "matchedColumns": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    11,
+    12,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 131,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 132,
+  "name": "the clerk creates course by Computer Animation, 115201, 20, n, 1, 3, y and n",
+  "matchedColumns": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 133,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 134,
+  "name": "the clerk creates student by 101075403, mike and y",
+  "matchedColumns": [
+    0,
+    1,
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 135,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 136,
+  "name": "the clerk creates student by 101075433, isaac and y",
+  "matchedColumns": [
+    2,
+    3,
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 137,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 138,
+  "name": "the clerk creates student by 101075404, john and y",
+  "matchedColumns": [
+    4,
+    5,
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 139,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 140,
+  "name": "the user inputs student",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 141,
+  "name": "the student logs in with 101075403 and mike",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 142,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 143,
+  "name": "the student selects course by 115007",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 144,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 145,
+  "name": "the student selects course by 115205",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 146,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 147,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 148,
+  "name": "the student logs in with 101075433 and isaac",
+  "matchedColumns": [
+    2,
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 149,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 150,
+  "name": "the student selects course by 115004",
+  "matchedColumns": [
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 151,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 152,
+  "name": "the student selects course by 115201",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 153,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 154,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 155,
+  "name": "the student logs in with 101075404 and john",
+  "matchedColumns": [
+    4,
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 156,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 157,
+  "name": "the student selects course by 115205",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 158,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 159,
+  "name": "the student selects course by 115004",
+  "matchedColumns": [
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 160,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 161,
+  "name": "wait for 20 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 162,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 163,
+  "name": "the student logs in with 101075403 and mike",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 164,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 165,
+  "name": "the student registers for course by 115007",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 166,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 167,
+  "name": "the student registers for course by 115205",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 168,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 169,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 170,
+  "name": "the student logs in with 101075433 and isaac",
+  "matchedColumns": [
+    2,
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 171,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 172,
+  "name": "the student registers for course by 115004",
+  "matchedColumns": [
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 173,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 174,
+  "name": "the student registers for course by 115201",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 175,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 176,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 177,
+  "name": "the student logs in with 101075404 and john",
+  "matchedColumns": [
+    4,
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 178,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 179,
+  "name": "the student registers for course by 115205",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 180,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 181,
+  "name": "the student registers for course by 115004",
+  "matchedColumns": [
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 182,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 183,
+  "name": "wait for 100 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 184,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 185,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 186,
+  "name": "the user inputs dean\u0027s list",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 187,
+  "name": "the dean\u0027s list is generated",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.the_university_is_initialized()"
+});
+formatter.result({
+  "duration": 421279,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 46593965,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 33591,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 24727,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 12596,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Graphical Models",
+      "offset": 28
+    },
+    {
+      "val": "115007",
+      "offset": 46
+    },
+    {
+      "val": "20",
+      "offset": 54
+    },
+    {
+      "val": "n",
+      "offset": 58
+    },
+    {
+      "val": "1",
+      "offset": 61
+    },
+    {
+      "val": "3",
+      "offset": 64
+    },
+    {
+      "val": "y",
+      "offset": 67
+    },
+    {
+      "val": "n",
+      "offset": 73
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 777709,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 16795,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Virtual Environments",
+      "offset": 28
+    },
+    {
+      "val": "115205",
+      "offset": 50
+    },
+    {
+      "val": "20",
+      "offset": 58
+    },
+    {
+      "val": "n",
+      "offset": 62
+    },
+    {
+      "val": "1",
+      "offset": 65
+    },
+    {
+      "val": "3",
+      "offset": 68
+    },
+    {
+      "val": "y",
+      "offset": 71
+    },
+    {
+      "val": "n",
+      "offset": 77
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 631684,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 20994,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fault Tolerance",
+      "offset": 28
+    },
+    {
+      "val": "115004",
+      "offset": 45
+    },
+    {
+      "val": "20",
+      "offset": 53
+    },
+    {
+      "val": "n",
+      "offset": 57
+    },
+    {
+      "val": "1",
+      "offset": 60
+    },
+    {
+      "val": "3",
+      "offset": 63
+    },
+    {
+      "val": "y",
+      "offset": 66
+    },
+    {
+      "val": "n",
+      "offset": 72
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 665275,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 14463,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Computer Animation",
+      "offset": 28
+    },
+    {
+      "val": "115201",
+      "offset": 48
+    },
+    {
+      "val": "20",
+      "offset": 56
+    },
+    {
+      "val": "n",
+      "offset": 60
+    },
+    {
+      "val": "1",
+      "offset": 63
+    },
+    {
+      "val": "3",
+      "offset": 66
+    },
+    {
+      "val": "y",
+      "offset": 69
+    },
+    {
+      "val": "n",
+      "offset": 75
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 707263,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 20061,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075403",
+      "offset": 29
+    },
+    {
+      "val": "mike",
+      "offset": 40
+    },
+    {
+      "val": "y",
+      "offset": 49
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 588297,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 22394,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 29
+    },
+    {
+      "val": "isaac",
+      "offset": 40
+    },
+    {
+      "val": "y",
+      "offset": 50
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 680204,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 15395,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075404",
+      "offset": 29
+    },
+    {
+      "val": "john",
+      "offset": 40
+    },
+    {
+      "val": "y",
+      "offset": 49
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 611624,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 6998,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 20994,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075403",
+      "offset": 25
+    },
+    {
+      "val": "mike",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 267323,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 235132,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115007",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1157000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 236065,
   "status": "passed"
 });
 formatter.match({
@@ -27114,6 +36166,995 @@ formatter.result({
   "status": "passed"
 });
 formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 8864,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 15862,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 296714,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 208073,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1539090,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 234199,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1385134,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 8398,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 16795,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075404",
+      "offset": 25
+    },
+    {
+      "val": "john",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 393287,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 297647,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1399597,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 236999,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1525560,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 10730,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "20",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 390987066,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 27992,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075403",
+      "offset": 25
+    },
+    {
+      "val": "mike",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 406350,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 252394,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115007",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 2254750,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 239798,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 2099394,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 13063,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 22394,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 471198,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 389555,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 2087265,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 222069,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 1984628,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 10730,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 15862,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075404",
+      "offset": 25
+    },
+    {
+      "val": "john",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 415214,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 292516,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 3241465,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 283185,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 2194101,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 11197,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "100",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 1994996909,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 35923,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 22860,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "dean\u0027s list",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 229067,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.the_dean_s_list_is_generated()"
+});
+formatter.result({
+  "duration": 64848,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 192,
+  "name": "System shows dean\u0027s list",
+  "description": "",
+  "id": "hierarchical-use-cases---system-offer-information;system-shows-dean\u0027s-list;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 121,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 122,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 123,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 124,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 125,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 126,
+  "name": "the clerk creates course by Graphical Models, 115007, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    7,
+    8,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 127,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 128,
+  "name": "the clerk creates course by Virtual Environments, 115205, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    9,
+    10,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 129,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 130,
+  "name": "the clerk creates course by Fault Tolerance, 115004, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    11,
+    12,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 131,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 132,
+  "name": "the clerk creates course by Computer Animation, 115201, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 133,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 134,
+  "name": "the clerk creates student by 101075403, mike and n",
+  "matchedColumns": [
+    0,
+    1,
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 135,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 136,
+  "name": "the clerk creates student by 101075433, isaac and n",
+  "matchedColumns": [
+    2,
+    3,
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 137,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 138,
+  "name": "the clerk creates student by 101075404, john and n",
+  "matchedColumns": [
+    4,
+    5,
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 139,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 140,
+  "name": "the user inputs student",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 141,
+  "name": "the student logs in with 101075403 and mike",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 142,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 143,
+  "name": "the student selects course by 115007",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 144,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 145,
+  "name": "the student selects course by 115205",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 146,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 147,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 148,
+  "name": "the student logs in with 101075433 and isaac",
+  "matchedColumns": [
+    2,
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 149,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 150,
+  "name": "the student selects course by 115004",
+  "matchedColumns": [
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 151,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 152,
+  "name": "the student selects course by 115201",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 153,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 154,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 155,
+  "name": "the student logs in with 101075404 and john",
+  "matchedColumns": [
+    4,
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 156,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 157,
+  "name": "the student selects course by 115205",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 158,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 159,
+  "name": "the student selects course by 115004",
+  "matchedColumns": [
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 160,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 161,
+  "name": "wait for 20 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 162,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 163,
+  "name": "the student logs in with 101075403 and mike",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 164,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 165,
+  "name": "the student registers for course by 115007",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 166,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 167,
+  "name": "the student registers for course by 115205",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 168,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 169,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 170,
+  "name": "the student logs in with 101075433 and isaac",
+  "matchedColumns": [
+    2,
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 171,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 172,
+  "name": "the student registers for course by 115004",
+  "matchedColumns": [
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 173,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 174,
+  "name": "the student registers for course by 115201",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 175,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 176,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 177,
+  "name": "the student logs in with 101075404 and john",
+  "matchedColumns": [
+    4,
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 178,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 179,
+  "name": "the student registers for course by 115205",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 180,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 181,
+  "name": "the student registers for course by 115004",
+  "matchedColumns": [
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 182,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 183,
+  "name": "wait for 100 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 184,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 185,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 186,
+  "name": "the user inputs dean\u0027s list",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 187,
+  "name": "the dean\u0027s list is generated",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.the_university_is_initialized()"
+});
+formatter.result({
+  "duration": 1758826,
+  "status": "passed"
+});
+formatter.match({
   "arguments": [
     {
       "val": "2",
@@ -27123,40 +37164,964 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38769288,
+  "duration": 40447404,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "deregister course",
+      "val": "clerk",
       "offset": 16
     }
   ],
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 338702,
+  "duration": 84909,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 114767,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 141825,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Graphical Models",
+      "offset": 28
+    },
+    {
+      "val": "115007",
+      "offset": 46
+    },
+    {
+      "val": "20",
+      "offset": 54
+    },
+    {
+      "val": "n",
+      "offset": 58
+    },
+    {
+      "val": "1",
+      "offset": 61
+    },
+    {
+      "val": "3",
+      "offset": 64
+    },
+    {
+      "val": "y",
+      "offset": 67
+    },
+    {
+      "val": "y",
+      "offset": 73
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 4458181,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 123631,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Virtual Environments",
+      "offset": 28
+    },
+    {
+      "val": "115205",
+      "offset": 50
+    },
+    {
+      "val": "20",
+      "offset": 58
+    },
+    {
+      "val": "n",
+      "offset": 62
+    },
+    {
+      "val": "1",
+      "offset": 65
+    },
+    {
+      "val": "3",
+      "offset": 68
+    },
+    {
+      "val": "y",
+      "offset": 71
+    },
+    {
+      "val": "y",
+      "offset": 77
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 2940552,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 90040,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fault Tolerance",
+      "offset": 28
+    },
+    {
+      "val": "115004",
+      "offset": 45
+    },
+    {
+      "val": "20",
+      "offset": 53
+    },
+    {
+      "val": "n",
+      "offset": 57
+    },
+    {
+      "val": "1",
+      "offset": 60
+    },
+    {
+      "val": "3",
+      "offset": 63
+    },
+    {
+      "val": "y",
+      "offset": 66
+    },
+    {
+      "val": "y",
+      "offset": 72
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 1819009,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 125963,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Computer Animation",
+      "offset": 28
+    },
+    {
+      "val": "115201",
+      "offset": 48
+    },
+    {
+      "val": "20",
+      "offset": 56
+    },
+    {
+      "val": "n",
+      "offset": 60
+    },
+    {
+      "val": "1",
+      "offset": 63
+    },
+    {
+      "val": "3",
+      "offset": 66
+    },
+    {
+      "val": "y",
+      "offset": 69
+    },
+    {
+      "val": "y",
+      "offset": 75
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 2055540,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 40588,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075403",
+      "offset": 29
+    },
+    {
+      "val": "mike",
+      "offset": 40
+    },
+    {
+      "val": "n",
+      "offset": 49
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 2552398,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 77911,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 29
+    },
+    {
+      "val": "isaac",
+      "offset": 40
+    },
+    {
+      "val": "n",
+      "offset": 50
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 2617245,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 27526,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075404",
+      "offset": 29
+    },
+    {
+      "val": "john",
+      "offset": 40
+    },
+    {
+      "val": "n",
+      "offset": 49
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 1537223,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 52252,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 33124,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075403",
+      "offset": 25
+    },
+    {
+      "val": "mike",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 897141,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 656877,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115007",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 3570370,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 1437853,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "115205",
-      "offset": 34
+      "offset": 30
     }
   ],
-  "location": "StepDefinitions.the_student_deregisters_course_by(int)"
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 58783,
+  "duration": 2580856,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefinitions.registration_has_not_started()"
+  "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 13529,
+  "duration": 14462,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 27059,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 464666,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 381157,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 2024283,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 2142782,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 2488482,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 13063,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 32657,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075404",
+      "offset": 25
+    },
+    {
+      "val": "john",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 599493,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 492192,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 2256616,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 521583,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 2130186,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 14929,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "20",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 412633224,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 32658,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075403",
+      "offset": 25
+    },
+    {
+      "val": "mike",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 424544,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 333104,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115007",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 1994424,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 258925,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 1944040,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 12130,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 23326,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 348033,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 256593,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 1934242,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 255660,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 1999557,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 7464,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 14463,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075404",
+      "offset": 25
+    },
+    {
+      "val": "john",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 248662,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 184747,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 2356920,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 207607,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 1903917,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 6065,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "100",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 2003135563,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 59716,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 46653,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "dean\u0027s list",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 111968,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.the_dean_s_list_is_generated()"
+});
+formatter.result({
+  "duration": 106836,
   "status": "passed"
 });
 formatter.uri("test/cucumber/usecasedependencies.feature");
@@ -27693,8 +38658,6 @@ formatter.examples({
         "course code 3",
         "title 4",
         "course code 4",
-        "title 5",
-        "course code 5",
         "capsize",
         "enforce prereqs(y/n)",
         "number of midterms",
@@ -27722,8 +38685,6 @@ formatter.examples({
         "115004",
         "Computer Animation",
         "115201",
-        "Distributed Operating System",
-        "105102",
         "20",
         "n",
         "1",
@@ -27733,6 +38694,33 @@ formatter.examples({
       ],
       "line": 106,
       "id": "use-case-dependencies;use-case-dependencies;;2"
+    },
+    {
+      "cells": [
+        "101075403",
+        "mike",
+        "101075433",
+        "isaac",
+        "101075404",
+        "john",
+        "n",
+        "Graphical Models",
+        "115007",
+        "Virtual Environments",
+        "115205",
+        "Fault Tolerance",
+        "115004",
+        "Computer Animation",
+        "115201",
+        "20",
+        "n",
+        "1",
+        "3",
+        "y",
+        "y"
+      ],
+      "line": 107,
+      "id": "use-case-dependencies;use-case-dependencies;;3"
     }
   ],
   "keyword": "Examples"
@@ -27774,14 +38762,14 @@ formatter.step({
   "line": 9,
   "name": "the clerk creates course by Graphical Models, 115007, 20, n, 1, 3, y and n",
   "matchedColumns": [
+    16,
     17,
     18,
     19,
     20,
-    21,
-    22,
     7,
-    8
+    8,
+    15
   ],
   "keyword": "And "
 });
@@ -27799,14 +38787,14 @@ formatter.step({
   "line": 12,
   "name": "the clerk creates course by Virtual Environments, 115205, 20, n, 1, 3, y and n",
   "matchedColumns": [
+    16,
     17,
     18,
     19,
     20,
-    21,
-    22,
     9,
-    10
+    10,
+    15
   ],
   "keyword": "And "
 });
@@ -27824,14 +38812,14 @@ formatter.step({
   "line": 15,
   "name": "the clerk creates course by Fault Tolerance, 115004, 20, n, 1, 3, y and n",
   "matchedColumns": [
+    16,
     17,
     18,
     19,
     20,
-    21,
-    22,
     11,
-    12
+    12,
+    15
   ],
   "keyword": "And "
 });
@@ -27849,14 +38837,14 @@ formatter.step({
   "line": 18,
   "name": "the clerk creates course by Computer Animation, 115201, 20, n, 1, 3, y and n",
   "matchedColumns": [
+    16,
     17,
     18,
     19,
     20,
-    21,
-    22,
     13,
-    14
+    14,
+    15
   ],
   "keyword": "And "
 });
@@ -28370,7 +39358,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 504788,
+  "duration": 920468,
   "status": "passed"
 });
 formatter.match({
@@ -28383,7 +39371,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 26002635,
+  "duration": 43429945,
   "status": "passed"
 });
 formatter.match({
@@ -28396,7 +39384,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 52718,
+  "duration": 27059,
   "status": "passed"
 });
 formatter.match({
@@ -28409,7 +39397,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 26593,
+  "duration": 25660,
   "status": "passed"
 });
 formatter.match({
@@ -28422,7 +39410,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 17728,
+  "duration": 22393,
   "status": "passed"
 });
 formatter.match({
@@ -28463,7 +39451,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1205986,
+  "duration": 1129941,
   "status": "passed"
 });
 formatter.match({
@@ -28476,7 +39464,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 30325,
+  "duration": 34990,
   "status": "passed"
 });
 formatter.match({
@@ -28489,7 +39477,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13996,
+  "duration": 14463,
   "status": "passed"
 });
 formatter.match({
@@ -28530,7 +39518,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 996513,
+  "duration": 1092618,
   "status": "passed"
 });
 formatter.match({
@@ -28543,7 +39531,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 28925,
   "status": "passed"
 });
 formatter.match({
@@ -28556,7 +39544,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13063,
+  "duration": 12597,
   "status": "passed"
 });
 formatter.match({
@@ -28597,7 +39585,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1067426,
+  "duration": 1042233,
   "status": "passed"
 });
 formatter.match({
@@ -28610,7 +39598,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 38256,
+  "duration": 30791,
   "status": "passed"
 });
 formatter.match({
@@ -28623,7 +39611,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 28459,
+  "duration": 14463,
   "status": "passed"
 });
 formatter.match({
@@ -28664,7 +39652,1830 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1068825,
+  "duration": 1033835,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 37789,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 36856,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075403",
+      "offset": 29
+    },
+    {
+      "val": "mike",
+      "offset": 40
+    },
+    {
+      "val": "y",
+      "offset": 49
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 1084688,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 41054,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 18661,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 29
+    },
+    {
+      "val": "isaac",
+      "offset": 40
+    },
+    {
+      "val": "y",
+      "offset": 50
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 924667,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 34990,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 20994,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075404",
+      "offset": 29
+    },
+    {
+      "val": "john",
+      "offset": 40
+    },
+    {
+      "val": "y",
+      "offset": 49
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
+});
+formatter.result({
+  "duration": 928865,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create student",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 532313,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "delete course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 38256,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115007",
+      "offset": 28
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
+});
+formatter.result({
+  "duration": 6327109,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "delete student",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 35923,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "delete student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 18661,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075403",
+      "offset": 29
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
+});
+formatter.result({
+  "duration": 4237511,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "delete student",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 45720,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 14929,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 21927,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 435274,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 384889,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1732234,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 32658,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 348500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1854932,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 29858,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 6065,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 18661,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075404",
+      "offset": 25
+    },
+    {
+      "val": "john",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 565904,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 389088,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1779820,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 28458,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 6065,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "20",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 396858839,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 22860,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 333104,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 257526,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1151868,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 27059,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 242597,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 1971564,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 25660,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 248662,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 2105926,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 27992,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "deregister course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 254260,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 34
+    }
+  ],
+  "location": "StepDefinitions.the_student_deregisters_course_by(int)"
+});
+formatter.result({
+  "duration": 2000023,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "deregister course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 47586,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 8864,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 26592,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075404",
+      "offset": 25
+    },
+    {
+      "val": "john",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 452070,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 263124,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1511565,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 44320,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 351299,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1733634,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 45254,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 374625,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 3457936,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 41055,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 400751,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 5461692,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 55517,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "deregister course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 301846,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 34
+    }
+  ],
+  "location": "StepDefinitions.the_student_deregisters_course_by(int)"
+});
+formatter.result({
+  "duration": 2240287,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "deregister course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 30792,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "drop course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 280386,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 28
+    }
+  ],
+  "location": "StepDefinitions.the_student_drops_course_by(int)"
+});
+formatter.result({
+  "duration": 1393999,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "drop course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 31258,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 6531,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "15",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 293619939,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 31257,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 438540,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "drop course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 312576,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 28
+    }
+  ],
+  "location": "StepDefinitions.the_student_drops_course_by(int)"
+});
+formatter.result({
+  "duration": 1746697,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "drop course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 29391,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 9331,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 23327,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 21460,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "cancel course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 118500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 28
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
+});
+formatter.result({
+  "duration": 3451871,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "cancel course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 35923,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "100",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 1990695949,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "dean\u0027s list",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 152089,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.the_dean_s_list_is_generated()"
+});
+formatter.result({
+  "duration": 79311,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 107,
+  "name": "Use case dependencies",
+  "description": "",
+  "id": "use-case-dependencies;use-case-dependencies;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "the university is initialized",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "wait for 2 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "the clerk creates course by Graphical Models, 115007, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    7,
+    8,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "create course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "the clerk creates course by Virtual Environments, 115205, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    9,
+    10,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "create course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "the clerk creates course by Fault Tolerance, 115004, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    11,
+    12,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "create course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "the user inputs create course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 18,
+  "name": "the clerk creates course by Computer Animation, 115201, 20, n, 1, 3, y and y",
+  "matchedColumns": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 19,
+  "name": "create course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 21,
+  "name": "the clerk creates student by 101075403, mike and n",
+  "matchedColumns": [
+    0,
+    1,
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 22,
+  "name": "create student successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 23,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "the clerk creates student by 101075433, isaac and n",
+  "matchedColumns": [
+    2,
+    3,
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 25,
+  "name": "create student successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 26,
+  "name": "the user inputs create student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 27,
+  "name": "the clerk creates student by 101075404, john and n",
+  "matchedColumns": [
+    4,
+    5,
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "create student successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "the user inputs delete course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 30,
+  "name": "the clerk deletes course by 115007",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 31,
+  "name": "delete student successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 32,
+  "name": "the user inputs delete student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 33,
+  "name": "the clerk deletes student by 101075403",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 34,
+  "name": "delete student successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "the user inputs student",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 37,
+  "name": "the student logs in with 101075433 and isaac",
+  "matchedColumns": [
+    2,
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 38,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 39,
+  "name": "the student selects course by 115004",
+  "matchedColumns": [
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 40,
+  "name": "select course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 41,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 42,
+  "name": "the student selects course by 115201",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 43,
+  "name": "select course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 44,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 45,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 46,
+  "name": "the student logs in with 101075404 and john",
+  "matchedColumns": [
+    4,
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 47,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 48,
+  "name": "the student selects course by 115201",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 49,
+  "name": "select course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 50,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 51,
+  "name": "wait for 20 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 52,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 53,
+  "name": "the student logs in with 101075433 and isaac",
+  "matchedColumns": [
+    2,
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 54,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 55,
+  "name": "the student selects course by 115205",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 56,
+  "name": "select course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 57,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 58,
+  "name": "the student registers for course by 115004",
+  "matchedColumns": [
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 59,
+  "name": "register for course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 60,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 61,
+  "name": "the student registers for course by 115201",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 62,
+  "name": "register for course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 63,
+  "name": "the user inputs deregister course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 64,
+  "name": "the student deregisters course by 115201",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 65,
+  "name": "deregister course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 66,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 67,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 68,
+  "name": "the student logs in with 101075404 and john",
+  "matchedColumns": [
+    4,
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 69,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 70,
+  "name": "the student selects course by 115205",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 71,
+  "name": "select course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 72,
+  "name": "the user inputs select course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 73,
+  "name": "the student selects course by 115004",
+  "matchedColumns": [
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 74,
+  "name": "select course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 75,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 76,
+  "name": "the student registers for course by 115205",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 77,
+  "name": "register for course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 78,
+  "name": "the user inputs register for course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 79,
+  "name": "the student registers for course by 115004",
+  "matchedColumns": [
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 80,
+  "name": "register for course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 81,
+  "name": "the user inputs deregister course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 82,
+  "name": "the student deregisters course by 115205",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 83,
+  "name": "deregister course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 84,
+  "name": "the user inputs drop course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 85,
+  "name": "the student drops course by 115201",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 86,
+  "name": "drop course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 87,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 88,
+  "name": "wait for 15 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 89,
+  "name": "the user inputs student",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 90,
+  "name": "the student logs in with 101075433 and isaac",
+  "matchedColumns": [
+    2,
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 91,
+  "name": "the user inputs drop course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 92,
+  "name": "the student drops course by 115205",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 93,
+  "name": "drop course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 94,
+  "name": "log out",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 95,
+  "name": "the user inputs clerk",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 96,
+  "name": "the clerk logs in with password admin",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 97,
+  "name": "the user inputs cancel course",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 98,
+  "name": "the clerk cancels course by 115205",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 99,
+  "name": "cancel course successfully",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 100,
+  "name": "wait for 100 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 101,
+  "name": "the user inputs dean\u0027s list",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 102,
+  "name": "the dean\u0027s list is generated",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.the_university_is_initialized()"
+});
+formatter.result({
+  "duration": 1450448,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 43983718,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "clerk",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 31257,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
+});
+formatter.result({
+  "duration": 47586,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 27992,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Graphical Models",
+      "offset": 28
+    },
+    {
+      "val": "115007",
+      "offset": 46
+    },
+    {
+      "val": "20",
+      "offset": 54
+    },
+    {
+      "val": "n",
+      "offset": 58
+    },
+    {
+      "val": "1",
+      "offset": 61
+    },
+    {
+      "val": "3",
+      "offset": 64
+    },
+    {
+      "val": "y",
+      "offset": 67
+    },
+    {
+      "val": "y",
+      "offset": 73
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 1199921,
   "status": "passed"
 });
 formatter.match({
@@ -28678,6 +41489,207 @@ formatter.match({
 });
 formatter.result({
   "duration": 30325,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 15862,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Virtual Environments",
+      "offset": 28
+    },
+    {
+      "val": "115205",
+      "offset": 50
+    },
+    {
+      "val": "20",
+      "offset": 58
+    },
+    {
+      "val": "n",
+      "offset": 62
+    },
+    {
+      "val": "1",
+      "offset": 65
+    },
+    {
+      "val": "3",
+      "offset": 68
+    },
+    {
+      "val": "y",
+      "offset": 71
+    },
+    {
+      "val": "y",
+      "offset": 77
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 1764425,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 41988,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 16795,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fault Tolerance",
+      "offset": 28
+    },
+    {
+      "val": "115004",
+      "offset": 45
+    },
+    {
+      "val": "20",
+      "offset": 53
+    },
+    {
+      "val": "n",
+      "offset": 57
+    },
+    {
+      "val": "1",
+      "offset": 60
+    },
+    {
+      "val": "3",
+      "offset": 63
+    },
+    {
+      "val": "y",
+      "offset": 66
+    },
+    {
+      "val": "y",
+      "offset": 72
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 1063227,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 26593,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 13996,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Computer Animation",
+      "offset": 28
+    },
+    {
+      "val": "115201",
+      "offset": 48
+    },
+    {
+      "val": "20",
+      "offset": 56
+    },
+    {
+      "val": "n",
+      "offset": 60
+    },
+    {
+      "val": "1",
+      "offset": 63
+    },
+    {
+      "val": "3",
+      "offset": 66
+    },
+    {
+      "val": "y",
+      "offset": 69
+    },
+    {
+      "val": "y",
+      "offset": 75
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
+});
+formatter.result({
+  "duration": 1039900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 40588,
   "status": "passed"
 });
 formatter.match({
@@ -28704,511 +41716,20 @@ formatter.match({
       "offset": 40
     },
     {
-      "val": "y",
+      "val": "n",
       "offset": 49
     }
   ],
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 933531,
+  "duration": 954992,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "create student",
-      "offset": 0
-    }
-  ],
-  "location": "StepDefinitions.success(String)"
-});
-formatter.result({
-  "duration": 26126,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "create student",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 11664,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "101075433",
-      "offset": 29
-    },
-    {
-      "val": "isaac",
-      "offset": 40
-    },
-    {
-      "val": "y",
-      "offset": 50
-    }
-  ],
-  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
-});
-formatter.result({
-  "duration": 1022638,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "create student",
-      "offset": 0
-    }
-  ],
-  "location": "StepDefinitions.success(String)"
-});
-formatter.result({
-  "duration": 40122,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "create student",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 17261,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "101075404",
-      "offset": 29
-    },
-    {
-      "val": "john",
-      "offset": 40
-    },
-    {
-      "val": "y",
-      "offset": 49
-    }
-  ],
-  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
-});
-formatter.result({
-  "duration": 669007,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "create student",
-      "offset": 0
-    }
-  ],
-  "location": "StepDefinitions.success(String)"
-});
-formatter.result({
-  "duration": 33124,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "delete course",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 123631,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115007",
-      "offset": 28
-    }
-  ],
-  "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
-});
-formatter.result({
-  "duration": 3839093,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "delete student",
-      "offset": 0
-    }
-  ],
-  "location": "StepDefinitions.success(String)"
-});
-formatter.result({
-  "duration": 34990,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "delete student",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 103104,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "101075403",
-      "offset": 29
-    }
-  ],
-  "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
-});
-formatter.result({
-  "duration": 3166354,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "delete student",
-      "offset": 0
-    }
-  ],
-  "location": "StepDefinitions.success(String)"
-});
-formatter.result({
-  "duration": 35457,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinitions.log_out()"
-});
-formatter.result({
-  "duration": 5598,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "student",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 15396,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "101075433",
-      "offset": 25
-    },
-    {
-      "val": "isaac",
-      "offset": 39
-    }
-  ],
-  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
-});
-formatter.result({
-  "duration": 374625,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "select course",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 267323,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115004",
-      "offset": 30
-    }
-  ],
-  "location": "StepDefinitions.the_student_selects_course_by(int)"
-});
-formatter.result({
-  "duration": 1206452,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "select course",
-      "offset": 0
-    }
-  ],
-  "location": "StepDefinitions.success(String)"
-});
-formatter.result({
-  "duration": 27058,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "select course",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 248196,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115201",
-      "offset": 30
-    }
-  ],
-  "location": "StepDefinitions.the_student_selects_course_by(int)"
-});
-formatter.result({
-  "duration": 1647325,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "select course",
-      "offset": 0
-    }
-  ],
-  "location": "StepDefinitions.success(String)"
-});
-formatter.result({
-  "duration": 122698,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinitions.log_out()"
-});
-formatter.result({
-  "duration": 9331,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "student",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 47586,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "101075404",
-      "offset": 25
-    },
-    {
-      "val": "john",
-      "offset": 39
-    }
-  ],
-  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
-});
-formatter.result({
-  "duration": 471197,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "select course",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 260791,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115201",
-      "offset": 30
-    }
-  ],
-  "location": "StepDefinitions.the_student_selects_course_by(int)"
-});
-formatter.result({
-  "duration": 1221848,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "select course",
-      "offset": 0
-    }
-  ],
-  "location": "StepDefinitions.success(String)"
-});
-formatter.result({
-  "duration": 19594,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinitions.log_out()"
-});
-formatter.result({
-  "duration": 4666,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "20",
-      "offset": 9
-    }
-  ],
-  "location": "StepDefinitions.wait_for_days(int)"
-});
-formatter.result({
-  "duration": 410795554,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "student",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 22393,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "101075433",
-      "offset": 25
-    },
-    {
-      "val": "isaac",
-      "offset": 39
-    }
-  ],
-  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
-});
-formatter.result({
-  "duration": 619088,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "select course",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 284118,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115205",
-      "offset": 30
-    }
-  ],
-  "location": "StepDefinitions.the_student_selects_course_by(int)"
-});
-formatter.result({
-  "duration": 2353189,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "select course",
-      "offset": 0
-    }
-  ],
-  "location": "StepDefinitions.success(String)"
-});
-formatter.result({
-  "duration": 69514,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "register for course",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 402151,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115004",
-      "offset": 36
-    }
-  ],
-  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
-});
-formatter.result({
-  "duration": 2061605,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "register for course",
       "offset": 0
     }
   ],
@@ -29221,370 +41742,180 @@ formatter.result({
 formatter.match({
   "arguments": [
     {
-      "val": "register for course",
+      "val": "create student",
       "offset": 16
     }
   ],
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 215538,
+  "duration": 13529,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "115201",
-      "offset": 36
+      "val": "101075433",
+      "offset": 29
+    },
+    {
+      "val": "isaac",
+      "offset": 40
+    },
+    {
+      "val": "n",
+      "offset": 50
     }
   ],
-  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 2195500,
+  "duration": 946594,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "register for course",
+      "val": "create student",
       "offset": 0
     }
   ],
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 25659,
+  "duration": 25193,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "deregister course",
+      "val": "create student",
       "offset": 16
     }
   ],
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 390954,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115201",
-      "offset": 34
-    }
-  ],
-  "location": "StepDefinitions.the_student_deregisters_course_by(int)"
-});
-formatter.result({
-  "duration": 5260150,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "deregister course",
-      "offset": 0
-    }
-  ],
-  "location": "StepDefinitions.success(String)"
-});
-formatter.result({
-  "duration": 75578,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinitions.log_out()"
-});
-formatter.result({
-  "duration": 32191,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "student",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 29858,
+  "duration": 15395,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "101075404",
-      "offset": 25
+      "offset": 29
     },
     {
       "val": "john",
-      "offset": 39
+      "offset": 40
+    },
+    {
+      "val": "n",
+      "offset": 49
     }
   ],
-  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+  "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 527181,
+  "duration": 1499901,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "select course",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 307445,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115205",
-      "offset": 30
-    }
-  ],
-  "location": "StepDefinitions.the_student_selects_course_by(int)"
-});
-formatter.result({
-  "duration": 1686047,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "select course",
+      "val": "create student",
       "offset": 0
     }
   ],
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 28925,
+  "duration": 36389,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "select course",
+      "val": "delete course",
       "offset": 16
     }
   ],
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 297648,
+  "duration": 22393,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "115004",
-      "offset": 30
-    }
-  ],
-  "location": "StepDefinitions.the_student_selects_course_by(int)"
-});
-formatter.result({
-  "duration": 1399130,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "select course",
-      "offset": 0
-    }
-  ],
-  "location": "StepDefinitions.success(String)"
-});
-formatter.result({
-  "duration": 32190,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "register for course",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 397952,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115205",
-      "offset": 36
-    }
-  ],
-  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
-});
-formatter.result({
-  "duration": 3355299,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "register for course",
-      "offset": 0
-    }
-  ],
-  "location": "StepDefinitions.success(String)"
-});
-formatter.result({
-  "duration": 30792,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "register for course",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 349433,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115004",
-      "offset": 36
-    }
-  ],
-  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
-});
-formatter.result({
-  "duration": 2322864,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "register for course",
-      "offset": 0
-    }
-  ],
-  "location": "StepDefinitions.success(String)"
-});
-formatter.result({
-  "duration": 26126,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "deregister course",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 361096,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115205",
-      "offset": 34
-    }
-  ],
-  "location": "StepDefinitions.the_student_deregisters_course_by(int)"
-});
-formatter.result({
-  "duration": 2139050,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "deregister course",
-      "offset": 0
-    }
-  ],
-  "location": "StepDefinitions.success(String)"
-});
-formatter.result({
-  "duration": 43387,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "drop course",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 369493,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115201",
+      "val": "115007",
       "offset": 28
     }
   ],
-  "location": "StepDefinitions.the_student_drops_course_by(int)"
+  "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
 });
 formatter.result({
-  "duration": 1331483,
+  "duration": 6281855,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "drop course",
+      "val": "delete student",
       "offset": 0
     }
   ],
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 24259,
+  "duration": 41055,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "delete student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 31724,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075403",
+      "offset": 29
+    }
+  ],
+  "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
+});
+formatter.result({
+  "duration": 3175684,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "delete student",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 27992,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 5598,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "15",
-      "offset": 9
-    }
-  ],
-  "location": "StepDefinitions.wait_for_days(int)"
-});
-formatter.result({
-  "duration": 306718763,
+  "duration": 6531,
   "status": "passed"
 });
 formatter.match({
@@ -29597,7 +41928,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 33123,
+  "duration": 20061,
   "status": "passed"
 });
 formatter.match({
@@ -29614,7 +41945,599 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 691401,
+  "duration": 330305,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 251461,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1219982,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 33590,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 285051,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1214383,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 27525,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 6065,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 14929,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075404",
+      "offset": 25
+    },
+    {
+      "val": "john",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 306046,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 241664,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1185459,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 26592,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 6065,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "20",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 394103033,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 35457,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 699798,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 534179,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1496635,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 30324,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 236065,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 1989293,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 26592,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 267323,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 1919313,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 23327,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "deregister course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 231400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 34
+    }
+  ],
+  "location": "StepDefinitions.the_student_deregisters_course_by(int)"
+});
+formatter.result({
+  "duration": 1967366,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "deregister course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 23326,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 5132,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 9331,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075404",
+      "offset": 25
+    },
+    {
+      "val": "john",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 983917,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 271522,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1404262,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 24726,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 236531,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 1319819,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 28458,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 242597,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 2095196,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 24260,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 216471,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 2132985,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 26592,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "deregister course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 229067,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 34
+    }
+  ],
+  "location": "StepDefinitions.the_student_deregisters_course_by(int)"
+});
+formatter.result({
+  "duration": 2105460,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "deregister course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 25193,
   "status": "passed"
 });
 formatter.match({
@@ -29627,20 +42550,20 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 539778,
+  "duration": 501055,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "115205",
+      "val": "115201",
       "offset": 28
     }
   ],
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 1254972,
+  "duration": 1579211,
   "status": "passed"
 });
 formatter.match({
@@ -29653,7 +42576,96 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 25193,
+  "duration": 24260,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 7465,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "15",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 297084874,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 25659,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 449271,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "drop course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 338236,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 28
+    }
+  ],
+  "location": "StepDefinitions.the_student_drops_course_by(int)"
+});
+formatter.result({
+  "duration": 1372537,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "drop course",
+      "offset": 0
+    }
+  ],
+  "location": "StepDefinitions.success(String)"
+});
+formatter.result({
+  "duration": 35923,
   "status": "passed"
 });
 formatter.match({
@@ -29673,7 +42685,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 10263,
+  "duration": 10730,
   "status": "passed"
 });
 formatter.match({
@@ -29686,7 +42698,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 10264,
+  "duration": 12597,
   "status": "passed"
 });
 formatter.match({
@@ -29699,7 +42711,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 84442,
+  "duration": 12130,
   "status": "passed"
 });
 formatter.match({
@@ -29712,7 +42724,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 2229090,
+  "duration": 3393555,
   "status": "passed"
 });
 formatter.match({
@@ -29725,7 +42737,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 31257,
+  "duration": 29391,
   "status": "passed"
 });
 formatter.match({
@@ -29738,7 +42750,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 1992847596,
+  "duration": 1992875121,
   "status": "passed"
 });
 formatter.match({
@@ -29751,14 +42763,14 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 621421,
+  "duration": 91440,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_dean_s_list_is_generated()"
 });
 formatter.result({
-  "duration": 94706,
+  "duration": 54117,
   "status": "passed"
 });
 });

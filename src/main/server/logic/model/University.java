@@ -453,7 +453,8 @@ public class University implements UniversityInt {
 		return result;
 	}
 	
-	private boolean candofinal;
+	private boolean candofinal = false;
+	private boolean cantakecourse = true;
 	
 	@Override
 	public boolean MarkStudents(Course course) {
@@ -464,6 +465,7 @@ public class University implements UniversityInt {
 				for (Student key: course.getEnrollStudent().keySet()) {
 					//Random random = new Random();
 					//course.getEnrollStudent().put(key, random.nextInt(25) + 75);
+					CanTakeCourse();
 					CannotDoFinal();
 					DoAssignments(key, course);
 					DoMidterms(key, course);
@@ -493,64 +495,93 @@ public class University implements UniversityInt {
 		candofinal = true;
 	}
 	
-	public boolean DoAssignments(Student student, Course course) {
+	public void CannotTakeCourse() {
+		cantakecourse = false;
+	}
+	
+	public void CanTakeCourse() {
+		cantakecourse = true;
+	}
+	
+	public int DoAssignments(Student student, Course course) {
 		double mark;
 		double weight;
-		Random random = new Random();
-		weight = 0;
-		for (int i = 0; i < course.getWeightOfAssignments().size(); i++) {
-			weight = weight + course.getWeightOfAssignments().get(i);
-		}
-		if (weight > 0) {
-			weight = weight / 100;
-			mark = course.getEnrollStudent().get(student) + weight
-					* (random.nextInt(25) + 75);
-			course.getEnrollStudent().put(student, (int) mark);
-			CanDoFinal();
-			return true;
+		if (cantakecourse) {
+			Random random = new Random();
+			weight = 0;
+			for (int i = 0; i < course.getWeightOfAssignments().size(); i++) {
+				weight = weight + course.getWeightOfAssignments().get(i);
+			}
+			if (weight > 0) {
+				weight = weight / 100;
+				mark = course.getEnrollStudent().get(student) + weight
+						* (random.nextInt(25) + 75);
+				course.getEnrollStudent().put(student, (int) mark);
+				CanDoFinal();
+				CanTakeCourse();
+				return (int) mark;
+			} else {
+				CannotDoFinal();
+				CannotTakeCourse();
+				return 0;
+			}
 		} else {
-			return false;
+			return 0;
 		}
 	}
 
-	public boolean DoMidterms(Student student, Course course) {
+	public int DoMidterms(Student student, Course course) {
 		double mark;
 		double weight;
-		Random random = new Random();
-		weight = 0;
-		for (int i = 0; i < course.getWeightOfMidterms().size(); i++) {
-			weight = weight + course.getWeightOfMidterms().get(i);
-		}
-		if (weight > 0) {
-			weight = weight / 100;
-			mark = course.getEnrollStudent().get(student) + weight
-					* (random.nextInt(25) + 75);
-			course.getEnrollStudent().put(student, (int) mark);
-			CanDoFinal();
-			return true;
+		if (cantakecourse) {
+			Random random = new Random();
+			weight = 0;
+			for (int i = 0; i < course.getWeightOfMidterms().size(); i++) {
+				weight = weight + course.getWeightOfMidterms().get(i);
+			}
+			if (weight > 0) {
+				weight = weight / 100;
+				mark = course.getEnrollStudent().get(student) + weight
+						* (random.nextInt(25) + 75);
+				course.getEnrollStudent().put(student, (int) mark);
+				CanDoFinal();
+				CanTakeCourse();
+				return (int) mark;
+			} else {
+				CannotDoFinal();
+				CannotTakeCourse();
+				return 0;
+			}
 		} else {
-			return false;
+			return 0;
 		}
 	}
 
-	public boolean DoProject(Student student, ProjectCourse course) {
+	public int DoProject(Student student, ProjectCourse course) {
 		double mark;
 		double weight;
-		Random random = new Random();
-		weight = course.getWeightOfProject();
-		if (weight > 0) {
-			weight = weight / 100;
-			mark = course.getEnrollStudent().get(student) + weight
-					* (random.nextInt(25) + 75);
-			course.getEnrollStudent().put(student, (int) mark);
-			CanDoFinal();
-			return true;
+		if (cantakecourse) {
+			Random random = new Random();
+			weight = course.getWeightOfProject();
+			if (weight > 0) {
+				weight = weight / 100;
+				mark = course.getEnrollStudent().get(student) + weight
+						* (random.nextInt(25) + 75);
+				course.getEnrollStudent().put(student, (int) mark);
+				CanDoFinal();
+				CanTakeCourse();
+				return (int) mark;
+			} else {
+				CannotDoFinal();
+				CannotTakeCourse();
+				return 0;
+			}
 		} else {
-			return false;
+			return 0;
 		}
 	}
 
-	public boolean DoFinal(Student student, Course course) {
+	public int DoFinal(Student student, Course course) {
 		double mark;
 		double weight;
 		if (candofinal) {
@@ -561,12 +592,18 @@ public class University implements UniversityInt {
 				mark = course.getEnrollStudent().get(student) + weight
 						* (random.nextInt(25) + 75);
 				course.getEnrollStudent().put(student, (int) mark);
-				return true;
+				CannotDoFinal();
+				CannotTakeCourse();
+				return (int) mark;
 			} else {
-				return false;
+				CannotDoFinal();
+				CannotTakeCourse();
+				return 0;
 			}
 		} else {
-			return false;
+			CannotDoFinal();
+			CannotTakeCourse();
+			return 0;
 		}
 	}
 

@@ -1,10 +1,18 @@
 package test.cucumber;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import main.server.logic.handler.InputHandler;
 import main.server.logic.handler.OutputHandler;
 import main.server.logic.handler.model.ServerOutput;
+import main.server.logic.model.Course;
+import main.server.logic.model.ProjectCourse;
+import main.server.logic.model.Student;
 import main.server.logic.model.University;
 import main.utilities.Config;
+import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 import cucumber.api.java.en.Given;
@@ -18,6 +26,8 @@ public class StepDefinitions {
 
 	int state;
 	String output;
+	
+	int mark = 0;
 
 	@Given("^the university is initialized$")
 	public void the_university_is_initialized() throws Throwable {
@@ -133,6 +143,32 @@ public class StepDefinitions {
 		state = serverOutput.getState();
 		output = serverOutput.getOutput();
 	}
+	
+	@When("^student starts to take course$")
+	public void student_starts_to_take_course() throws Throwable {
+		University.getInstance().CanTakeCourse();
+	    University.getInstance().CannotDoFinal();
+	}
+	
+	@When("^student (\\d+) does assginments for course (\\d+)$")
+	public void student_does_assginments_for_course(int studentnumber, int coursecode) throws Throwable {
+		mark = University.getInstance().DoAssignments(University.getInstance().GetStudent(studentnumber), University.getInstance().GetCourse(coursecode));
+	}
+
+	@When("^student (\\d+) does midterms for course (\\d+)$")
+	public void student_does_midterms_for_course(int studentnumber, int coursecode) throws Throwable {
+		mark = University.getInstance().DoMidterms(University.getInstance().GetStudent(studentnumber), University.getInstance().GetCourse(coursecode));
+	}
+	
+	@When("^student (\\d+) does project for course (\\d+)$")
+	public void student_does_project_for_course(int studentnumber, int coursecode) throws Throwable {
+		mark = University.getInstance().DoProject(University.getInstance().GetStudent(studentnumber), (ProjectCourse)University.getInstance().GetCourse(coursecode));
+	}
+
+	@When("^student (\\d+) writes final for course (\\d+)$")
+	public void student_writes_final_for_course(int studentnumber, int coursecode) throws Throwable {
+		mark = University.getInstance().DoFinal(University.getInstance().GetStudent(studentnumber), University.getInstance().GetCourse(coursecode));
+	}
 
 	@Then("^the clerk is logged in$")
 	public void the_clerk_is_logged_in() throws Throwable {
@@ -226,7 +262,85 @@ public class StepDefinitions {
 	
 	@Then("^the dean's list is generated$")
 	public void the_dean_s_list_is_generated() throws Throwable {
-	    assertThat(output, !equals("Dean's list not generated!"));
+		String o = "";
+		for (int i=0; i<University.getInstance().DeansList().size(); i++) {
+			o = o + "\n" + University.getInstance().DeansList().get(i).toString();
+		}
+	    assertThat(output, equalTo(o));
+	}
+	
+	@Then("^the current courses in the system is shown$")
+	public void the_current_courses_in_the_system_is_shown() throws Throwable {
+		String o = "Please Input Course Info: 'course code'\nAvailable Course List: ";
+		for (int i = 0; i < University.getInstance().Courses().size(); i++) {
+			o = o
+					+ "\n"
+					+ University.getInstance().Courses().get(i)
+							.toString();
+		}
+		assertThat(output, equalTo(o));
+	}
+	
+	@Then("^the current students in the system is shown$")
+	public void the_current_students_in_the_system_is_shown() throws Throwable {
+		String o = "Please Input Student Info: 'student number'\nAvailable Student List: ";
+		for (int i = 0; i < University.getInstance().Students().size(); i++) {
+			o = o
+					+ "\n"
+					+ University.getInstance().Students().get(i)
+							.toString();
+		}
+		assertThat(output, equalTo(o));
+	}
+	
+	@Then("^the selected courses of student (\\d+), (.*) is shown$")
+	public void the_selected_courses_of_student_isaac_is_shown(int studentnumber, String name) throws Throwable {
+	    Student student = University.getInstance().GetStudent(studentnumber);
+	    List<Course> availableCourses = new ArrayList<Course>(
+				student.getSelectedCourses());
+	    String o = "";
+		if (availableCourses.size() > 0) {
+			o = "Please Input Course Info: 'course code'\nAvailable Course List: ";
+			for (int i = 0; i < availableCourses.size(); i++) {
+				o = o + "\n"
+						+ availableCourses.get(i).toString();
+			}
+		} else {
+			o = "No Available Courses!";
+		}
+		assertThat(output, equalTo(o));
+	}
+	
+	@Then("^the registered courses of student (\\d+), (.*) is shown$")
+	public void the_registered_courses_of_student_isaac_is_shown(int studentnumber, String name) throws Throwable {
+		Student student = University.getInstance().GetStudent(studentnumber);
+		List<Course> availableCourses = new ArrayList<Course>(
+				student.getRegisteredCourses());
+		String o = "";
+		if (availableCourses.size() > 0) {
+			o = "Please Input Course Info: 'course code'\nAvailable Course List: ";
+			for (int i = 0; i < availableCourses.size(); i++) {
+				o = o + "\n"
+						+ availableCourses.get(i).toString();
+			}
+		} else {
+			o = "No Available Courses!";
+		}
+		assertThat(output, equalTo(o));
+	}
+	
+	@Then("^student (\\d+) obtains mark for course (\\d+)$")
+	public void student_obtains_mark_for_course(int studentnumber, int coursecode) throws Throwable {
+		//System.out.println(mark);
+		assertThat(mark, not(equalTo(0)));
+		assertThat(mark, equalTo(University.getInstance().GetCourse(coursecode).getEnrollStudent().get(University.getInstance().GetStudent(studentnumber))));
+	}
+	
+	@Then("^student (\\d+) cannot obtain mark for course (\\d+)$")
+	public void student_cannot_obtain_mark_for_course(int studentnumber, int coursecode) throws Throwable {
+		//System.out.println(mark);
+		assertThat(mark, equalTo(0));
+		assertThat(mark, equalTo(University.getInstance().GetCourse(coursecode).getEnrollStudent().get(University.getInstance().GetStudent(studentnumber))));
 	}
 
 }
