@@ -1,4 +1,4 @@
-Feature: Student Register For Course
+Feature: Student Deregister Course
 
   Scenario Outline: Student deregisters registered course during registration time
     Given the university is initialized
