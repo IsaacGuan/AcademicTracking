@@ -55,8 +55,8 @@ public class University implements UniversityInt {
 		timer_registrationends.cancel();
 		timer_termends.cancel();
 		TimeSimulate();
-		InitializeCourses();
-		InitializeStudents();
+		courses.clear();
+		students.clear();
 	}
 	
 	private void TimeSimulate() {
@@ -99,7 +99,6 @@ public class University implements UniversityInt {
 	
 	private void InitializeCourses() {
 		courses.clear();
-		/*
 		ProjectCourse c1 = new ProjectCourse("OO Software Dev", 105104, 30, false, 0, 3, false);
 		ProjectCourse c2 = new ProjectCourse("Computational Geometry", 105008, 20, false, 0, 3, false);
 		Course c3 = new Course("Principles of Distributed Computing", 105003, 20, false, 1, 2, true);
@@ -111,12 +110,10 @@ public class University implements UniversityInt {
 		courses.add(c4);
 		courses.add(c5);
 		logger.info(String.format("University Operation: Initialize course list; courses: %s", courses));
-		*/
 	}
 
 	private void InitializeStudents() {
 		students.clear();
-		/*
 		int[] studentNumberList = new int[]{101075401, 101075402};
 		String[] studentNameList = new String[]{"tom","jack"};
 		boolean[] isFullTimeList = new boolean[]{true,false};
@@ -125,7 +122,6 @@ public class University implements UniversityInt {
 			students.add(s);
 		}
 		logger.info(String.format("University Operation: Initialize student list; students: %s", students));
-		*/
 	}
 
 	public int getUniversityCourses() {
