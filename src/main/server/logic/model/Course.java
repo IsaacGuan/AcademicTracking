@@ -13,7 +13,7 @@ import org.apache.log4j.Logger;
 
 public class Course implements CourseInt {
 	
-	private Logger logger = Trace.getInstance().getLogger("opreation_file");
+	//private Logger logger = Trace.getInstance().getLogger("opreation_file");
 	
 	String title;
 	int myCode;
@@ -48,7 +48,7 @@ public class Course implements CourseInt {
 		this.weightOfFinal = 100;
 		this.enrollStudent = new HashMap<Student, Integer>();
 		GenerateWeights();
-		logger.info(String.format("Course Operation: Initialize course; title: %s, myCode: %d", this.title, this.myCode));
+		//logger.info(String.format("Course Operation: Initialize course; title: %s, myCode: %d", this.title, this.myCode));
 	}
 	
 	public Course(String title, int myCode, int capsize,
@@ -68,7 +68,7 @@ public class Course implements CourseInt {
 		this.weightOfFinal = 0;
 		this.enrollStudent = new HashMap<Student, Integer>();
 		GenerateWeights();
-		logger.info(String.format("Course Operation: Initialize course; title: %s, myCode: %d", this.title, this.myCode));
+		//logger.info(String.format("Course Operation: Initialize course; title: %s, myCode: %d", this.title, this.myCode));
 	}
 
 	public String getTitle() {
@@ -256,7 +256,7 @@ public class Course implements CourseInt {
 		int flag = 0;
 		if (Students().size()>=this.capsize) {
 			result = false;
-			logger.info(String.format("Course Operation: Add student %d to course %d; State: Fail; Reason: The course is full.", student.StudentNumber(), this.myCode));
+			//logger.info(String.format("Course Operation: Add student %d to course %d; State: Fail; Reason: The course is full.", student.StudentNumber(), this.myCode));
 		} else {
 			for (int i = 0; i<Students().size(); i++) {
 				if (student.equals(Students().get(i))) {
@@ -266,11 +266,11 @@ public class Course implements CourseInt {
 			if (flag==0) {
 				enrollStudent.put(student, 0);
 				result = true;
-				logger.info(String.format("Course Operation: Add student %d to course %d; State: Success", student.StudentNumber(), this.myCode));
+				//logger.info(String.format("Course Operation: Add student %d to course %d; State: Success", student.StudentNumber(), this.myCode));
 			}
 			else {
 				result = false;
-				logger.info(String.format("Course Operation: Add student %d to course %d; State: Fail; Reason: The student has registered.", student.StudentNumber(), this.myCode));
+				//logger.info(String.format("Course Operation: Add student %d to course %d; State: Fail; Reason: The student has registered.", student.StudentNumber(), this.myCode));
 			}
 		}
 		return result;
@@ -284,11 +284,11 @@ public class Course implements CourseInt {
 			Student key = (Student)iterator.next();
 			if (student.equals(key)) {
 				enrollStudent.remove(student);
-				logger.info(String.format("Course Operation: Remove student %d from course %d; State: Success", student.StudentNumber(), this.myCode));
+				//logger.info(String.format("Course Operation: Remove student %d from course %d; State: Success", student.StudentNumber(), this.myCode));
 				return true;
 			}
 		}
-		logger.info(String.format("Course Operation: Remove student %d from course %d; State: Fail; Reason: The student has not registered.", student.StudentNumber(), this.myCode));
+		//logger.info(String.format("Course Operation: Remove student %d from course %d; State: Fail; Reason: The student has not registered.", student.StudentNumber(), this.myCode));
 		return false;
 	}
 	

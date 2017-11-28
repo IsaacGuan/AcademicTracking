@@ -18,7 +18,7 @@ public class ServerThread extends Thread {
 	private ATServer server = null;
 	private BufferedReader streamIn = null;
 	private BufferedWriter streamOut = null;
-	private Logger logger = Trace.getInstance().getLogger(this);
+	//private Logger logger = Trace.getInstance().getLogger(this);
 	private String clientAddress = null;;
 	
 	private boolean done = false;
@@ -40,8 +40,8 @@ public class ServerThread extends Thread {
 			streamOut.write(msg);
 			streamOut.flush();
 		} catch (IOException ioe) {
-			String message = String.format("Exception thrown : %s \n", ioe.getMessage());
-			logger.info(String.format ("Class: %-12s: %s",this.getClass().getSimpleName(), message));
+			//String message = String.format("Exception thrown : %s \n", ioe.getMessage());
+			//logger.info(String.format ("Class: %-12s: %s",this.getClass().getSimpleName(), message));
 			server.remove(ID);
 		}
 	}
@@ -51,14 +51,14 @@ public class ServerThread extends Thread {
 	}
 	
 	public void run() {
-		logger.info(String.format ("Class: %-12s: %s",this.getClass().getSimpleName(), "Server Thread Running"+"__"+ID));
+		//logger.info(String.format ("Class: %-12s: %s",this.getClass().getSimpleName(), "Server Thread Running"+"__"+ID));
 		while (!done) {
 			try {
 				/** Received a message and pass to the server to handle */
 				server.handle(ID, streamIn.readLine());
 			} catch (IOException ioe) {
-				String message = String.format("Exception thrown : %s \n", ioe.getMessage());
-				logger.info(String.format ("Class: %-12s: %s",this.getClass().getSimpleName(), message));
+				//String message = String.format("Exception thrown : %s \n", ioe.getMessage());
+				//logger.info(String.format ("Class: %-12s: %s",this.getClass().getSimpleName(), message));
 				server.remove(ID);
 				break;
 			}}

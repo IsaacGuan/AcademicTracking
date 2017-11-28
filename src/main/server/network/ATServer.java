@@ -22,20 +22,20 @@ public class ATServer implements Runnable {
 	private Thread thread = null;
 	private ServerSocket server = null;
 	private HashMap<Integer, ServerThread> clients;
-	private Logger logger = Trace.getInstance().getLogger(this);
+	//private Logger logger = Trace.getInstance().getLogger(this);
 	InputHandler handler=new InputHandler();
 	private List<Client> clientList=new ArrayList<Client>();
 	
 	public ATServer(int port) {
 		
 		try {
-			logger.info("Binding to port " + port);
+			//logger.info("Binding to port " + port);
 			clients = new HashMap<Integer, ServerThread>();
 			server = new ServerSocket(port);
 			server.setReuseAddress(true);
 			start();
 		} catch (IOException ioe) {
-			logger.fatal(ioe);
+			//logger.fatal(ioe);
 		}
 	}
 	
@@ -43,7 +43,7 @@ public class ATServer implements Runnable {
 		if (thread == null) {
 			thread = new Thread(this);
 			thread.start();
-			logger.info(String.format("Server started: %s %d", server,thread.getId()));
+			//logger.info(String.format("Server started: %s %d", server,thread.getId()));
 			
 			University.getInstance();
 			
@@ -55,17 +55,17 @@ public class ATServer implements Runnable {
 	public void run() {
 		while (thread != null) {
 			try {
-				logger.info("Waiting for a client ...");
+				//logger.info("Waiting for a client ...");
 				addThread(server.accept());
 			} catch (IOException e) {				
-				logger.fatal(e);
+				//logger.fatal(e);
 			}}
 		
 	}
 
 	private void addThread(Socket socket) {
 		String message = String.format("%s : Client Address : [%15s] Client Socket: [%-6d]\n", "Client accepted", socket.getRemoteSocketAddress(), socket.getPort());
-		logger.info(String.format(message));
+		//logger.info(String.format(message));
 		if (clientCount < Config.MAX_CLIENTS) {
 			try {
 				ServerThread serverThread = new ServerThread(this, socket);
@@ -74,28 +74,28 @@ public class ATServer implements Runnable {
 				clients.put(serverThread.getID(), serverThread);
 				this.clientCount++;
 			} catch (IOException e) {
-				logger.fatal(e);
+				//logger.fatal(e);
 			}
 		} else {
-			logger.info(String.format("Client Tried to connect: %s", socket));
-			logger.info(String.format("Client refused: maximum number of clients reached: d", 5));
+			//logger.info(String.format("Client Tried to connect: %s", socket));
+			//logger.info(String.format("Client refused: maximum number of clients reached: d", 5));
 		}
 	}
 	
 	public synchronized void handle(int ID, String input) {
 		if (input.equals("Exit")) 
 		{
-			logger.info(String.format("Client: %d Exits", ID));
+			//logger.info(String.format("Client: %d Exits", ID));
 			if (clients.containsKey(ID)) {
 				clients.get(ID).send("Exit" + "\n");
 				remove(ID);
-				logger.info(String.format("Client : "+ ID +"Exits"));
+				//logger.info(String.format("Client : "+ ID +"Exits"));
 			}}
 
 		else 
 		{
 			ServerThread from = clients.get(ID);			
-			logger.info(String.format("Input from %s:%d"+" "+input,from.getSocketAddress(),from.getID()));
+			//logger.info(String.format("Input from %s:%d"+" "+input,from.getSocketAddress(),from.getID()));
 			ServerOutput so;
 			String output;
 			if(exist(from)){
@@ -104,7 +104,7 @@ public class ATServer implements Runnable {
 				output=so.getOutput()+"\n";
 				from.send(output);
 				clientSetState(from,so.getState());
-				logger.info(String.format("Output to %s:%d"+" "+output,from.getSocketAddress(),from.getID()));
+				//logger.info(String.format("Output to %s:%d"+" "+output,from.getSocketAddress(),from.getID()));
 			}else{
 				Client client=new Client(from,InputHandler.WAITING);
 				clientList.add(client);
@@ -112,7 +112,7 @@ public class ATServer implements Runnable {
 				output=so.getOutput()+"\n";
 				from.send(output);
 				clientSetState(from,so.getState());
-				logger.info(String.format("Output to %s:%d"+" "+output,from.getSocketAddress(),from.getID()));
+				//logger.info(String.format("Output to %s:%d"+" "+output,from.getSocketAddress(),from.getID()));
 			};
 			
 	}} 

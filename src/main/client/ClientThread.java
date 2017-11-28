@@ -15,7 +15,7 @@ public class ClientThread extends Thread {
 	private ATClient      client   = null;
 	private BufferedReader streamIn = null;
 	private boolean done = false;
-	private Logger logger = Trace.getInstance().getLogger(this);
+	//private Logger logger = Trace.getInstance().getLogger(this);
 	
 	public ClientThread(ATClient client, Socket socket) {  
 		this.client = client;
@@ -28,9 +28,9 @@ public class ClientThread extends Thread {
 		try {  
 			streamIn  = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 	    } catch(IOException ioe) {  
-	    	logger.info(String.format ("Error getting input stream"));
+	    	//logger.info(String.format ("Error getting input stream"));
 	    	String message = String.format("Exception thrown : %s \n", ioe.getMessage());
-			logger.info(String.format ("Class: %-12s: %s",this.getClass().getSimpleName(), message));
+			//logger.info(String.format ("Class: %-12s: %s",this.getClass().getSimpleName(), message));
 			client.stop();
 	    }
 	}
