@@ -128,7 +128,7 @@ public class OutputHandler {
 						|| Integer.parseInt(numofmidterms) > 2
 						|| Integer.parseInt(numofassignments) < 0
 						|| Integer.parseInt(numofassignments) > 5) {
-					output.setOutput("The unmber of midterms should range from 0 to 2, the number of assignments should range from 0 to 5");
+					output.setOutput("The number of midterms should range from 0 to 2, the number of assignments should range from 0 to 5");
 					output.setState(CREATECOURSE);
 				} else {
 					boolean enforcep, hasf, isp;
