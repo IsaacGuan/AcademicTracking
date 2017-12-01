@@ -47,21 +47,21 @@ public class CreateCourse extends HttpServlet {
 		Integer numberofmidterms = (Integer.parseInt(request.getParameter("Midterms")));
 		Integer numberofassignments = (Integer.parseInt(request.getParameter("assignments")));
 		String title  = request.getParameter("Name");
-		Boolean enforcePrereqs=Boolean.valueOf(request.getParameter("EnforcePrerequites"));
-		Boolean hasafinal=Boolean.valueOf(request.getParameter("hasFinal"));
-		Boolean isprojectcourse=Boolean.valueOf(request.getParameter("project"));
+		Boolean enforcePrereqs=Boolean.parseBoolean(request.getParameter("EnforcePrerequites"));
+		Boolean hasafinal=Boolean.parseBoolean(request.getParameter("hasFinal"));
+		Boolean isprojectcourse=Boolean.parseBoolean(request.getParameter("project"));
 		Boolean result=University.getInstance().CreateCourse(title, mycode, cap, enforcePrereqs, numberofmidterms, numberofassignments, hasafinal, isprojectcourse);
 		if(result==true)
 		{	
-		out.println("<script type=\"text/javascript\">");
+		out.println("<script type='text/javascript'>");
 		out.println("alert('course successfully created!');");
-		out.println("location='add_course.jsp';");
+		out.println("location='clerk.jsp';");
 		out.println("</script>");
-		response.sendRedirect("clerk.jsp");
+		//response.sendRedirect("clerk.jsp");
 		}
 		else
 		{
-			out.println("<script type=\"text/javascript\">");
+			out.println("<script type='text/javascript'>");
 			out.println("alert('course could not be created! Try with valid inputs');");
 			out.println("location='add_course.jsp';");
 			out.println("</script>");	 

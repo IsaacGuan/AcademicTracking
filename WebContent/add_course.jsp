@@ -11,9 +11,9 @@ function validate()
 	var course_code=document.courseform.code.value;
 	var course_name=document.courseform.Name.value;
 	var course_cap=document.courseform.Cap.value;
-	var enforcePrereqs=document.courseform.EnforcePrerequites.value;
-	var hasafinal=document.courseform.hasFinal.value;
-	var hasproject=document.courseform.project.value;
+	var enforcePrereqs=document.courseform.EnforcePrerequites.options[EnforcePrerequites.selectedIndex].value;
+	var hasafinal=document.courseform.hasFinal.options[hasFinal.selectedIndex].value;
+	var hasproject=document.courseform.project.options[project.selectedIndex].value;
 	var num_midterms=document.courseform.Midterms.value;
 	var num_assignmnts=document.courseform.assignments.value;
 	var regex=/^[a-zA-Z ]+$/;
@@ -37,7 +37,7 @@ function validate()
 		  document.courseform.Cap.focus();
 		  return false;
 		}
-	else if(enforcePrereqs==""||!(enforcePrereqs.equalsIgnoreCase("y")) || !(enforcePrereqs.equalsIgnoreCase("n")))
+	else if(enforcePrereqs==""||!(enforcePrereqs.equalsIgnoreCase("1")) || !(enforcePrereqs.equalsIgnoreCase("2")))
 		{
 			alert("should be either Y/y or N/n");
 		  document.courseform.EnforcePrerequites.focus();
@@ -57,13 +57,13 @@ function validate()
 			 return false;
 		}
 	
-	else if (hasafinal==""||!(hasafinal.equalsIgnoreCase("y")) || !(hasafinal.equalsIgnoreCase("n")))
+	else if (hasafinal==""||!(hasafinal.equalsIgnoreCase("1")) || !(hasafinal.equalsIgnoreCase("2")))
 		{
 		alert("should be either Y/y or N/n");
 		  document.courseform.hasFinal.focus();
 		  return false;
 		}
-	else if (hasaproject==""||!(hasproject.equalsIgnoreCase("y") || hasproject.equalsIgnoreCase("n")))
+	else if (hasaproject==""||!(hasproject.equalsIgnoreCase("1") || hasproject.equalsIgnoreCase("2")))
 	{
 	alert("should be either Y/y or N/n");
 	  document.courseform.project.focus();
@@ -82,7 +82,7 @@ function validate()
 <%@page session="true"  %>
 	
 Enter details of the course you want to add to the university : <br><br>
-<form name= "courseform" method="post" action="CreateCourse"  >
+<form onsubmit="return validate()" name= "courseform" method="post" action="CreateCourse"  >
 Course code : 
 <input type ="text" name="code" ><br>
 Course name :
@@ -90,20 +90,28 @@ Course name :
 Maximum Students Allowed : 
 <input type= "text" name= "Cap"><br>
 Does it requires PreRequistes ?
-<input type= "text" name= "EnforcePrerequites"><br>
+ <select name="EnforcePrerequites">
+    <option value="true">true</option>
+    <option value="false">false</option> 
+    </select><br>
 No. of Midterms allowed :
 <input type= "text" name= "Midterms"><br>
 No. of assignments allowed :
 <input type= "text" name= "assignments"><br>
-Is there any final ?
-<input type= "text" name= "hasFinal"><br>
+Is there any final ? <select name= "hasFinal">
+    <option value="true">true</option>
+    <option value="false">false</option> 
+    </select><br>
 Does it involve any project ?
-<input type= "text" name= "project"><br>
+ <select name= "project">
+  <option value="true">true</option>
+    <option value="false">false</option> 
+    </select>
 <br><br>
-<input type= "submit" name="create" value= "Create course" onclick="return validate()" > <br>
+<input type= "submit" name="create" value= "Create course"  > <br>
 </form>
-<form >
-<input type= "submit" name="back" value= "Back" onclick="javaScript:window.location='clerk.jsp'">
+<form>
+<input type= "submit" name="back" value= "Back" onclick="window.location='./index.jsp'">
 </form>
 
 
