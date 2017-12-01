@@ -73,8 +73,6 @@ function validate()
 	
 	else return true;
 }
-
-
 </script>
 
 </head>
