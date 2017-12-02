@@ -3,6 +3,7 @@ package main.servlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -45,7 +46,8 @@ public class StudentLogin extends HttpServlet {
 				Integer.parseInt(studentnumber), studentname);
 		if (result) {
 			session.setAttribute("currentStudentNumber", studentnumber);
-			response.sendRedirect("student.jsp");
+			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/student-home.jsp");
+			dispatcher.forward(request, response);
 		} else {
 			PrintWriter out = response.getWriter();
 			out.println("<script type=\"text/javascript\">");

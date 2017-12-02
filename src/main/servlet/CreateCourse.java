@@ -43,7 +43,7 @@ public class CreateCourse extends HttpServlet {
 		}
 		else
 		{
-			RequestDispatcher dispatcher=getServletContext().getRequestDispatcher( "/WEB-INF/add_course.jsp" );
+			RequestDispatcher dispatcher=getServletContext().getRequestDispatcher( "/WEB-INF/clerk-createcourse.jsp" );
 			dispatcher.forward( request, response );
 		}
 	}

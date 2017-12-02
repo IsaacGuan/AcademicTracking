@@ -43,9 +43,8 @@ public class ClerkLogin extends HttpServlet {
 		String password = request.getParameter("password");
 		if (password.equalsIgnoreCase(Config.CLERK_PASSWORD)) {
 			session.setAttribute("password", "hello");
-			RequestDispatcher dispatcher=getServletContext().getRequestDispatcher( "/WEB-INF/clerk.jsp" );
-			dispatcher.forward( request, response );
-		
+			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/clerk-home.jsp");
+			dispatcher.forward(request, response);
 		} else {
 			PrintWriter out = response.getWriter();
 			out.println("<script type=\"text/javascript\">");

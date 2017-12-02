@@ -20,79 +20,75 @@ import main.utilities.Config;
 @WebServlet("/CreateStudent")
 public class CreateStudent extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public CreateStudent() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
 
 	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#HttpServlet()
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	public CreateStudent() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doGet(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		HttpSession session = request.getSession();
-		if(session.getAttribute("password")==null)
-		{
-			/*RequestDispatcher dispatcher=getServletContext().getRequestDispatcher( "/WEB-INF/index.jsp" );
-			dispatcher.forward( request, response );*/
+		if (session.getAttribute("password") == null) {
+			/*
+			 * RequestDispatcher
+			 * dispatcher=getServletContext().getRequestDispatcher(
+			 * "/WEB-INF/index.jsp" ); dispatcher.forward( request, response );
+			 */
 			response.sendRedirect("index.jsp");
-		}
-		else
-		{
-			RequestDispatcher dispatcher=getServletContext().getRequestDispatcher( "/WEB-INF/add_student.jsp" );
-			dispatcher.forward( request, response );
+		} else {
+			RequestDispatcher dispatcher = getServletContext()
+					.getRequestDispatcher("/WEB-INF/clerk-createstudent.jsp");
+			dispatcher.forward(request, response);
 		}
 	}
-  
-	
 
 	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		PrintWriter out=response.getWriter();
+		PrintWriter out = response.getWriter();
 		Integer sno = (Integer.parseInt(request.getParameter("sno")));
-		String name  = request.getParameter("Name");
-		Boolean isfulltime=Boolean.parseBoolean(request.getParameter("isfulltime"));
-		if(Config.TERM_ENDS)
-		{
+		String name = request.getParameter("Name");
+		Boolean isfulltime = Boolean.parseBoolean(request
+				.getParameter("isfulltime"));
+		if (Config.TERM_ENDS) {
 			out.println("<script type='text/javascript'>");
 			out.println("alert('Term has ended!');");
-			out.println("location='clerk';");
+			out.println("location='ClerkHome';");
 			out.println("</script>");
-		}
-		else if(Config.REGISTRATION_STARTS)
-		{
+		} else if (Config.REGISTRATION_STARTS) {
 			out.println("<script type='text/javascript'>");
 			out.println("alert('Student cannot be created after registration starts!!');");
-			out.println("location='clerk';");
+			out.println("location='ClerkHome';");
 			out.println("</script>");
 
-		}
-		else {
-		Boolean result=University.getInstance().CreateStudent(sno, name, isfulltime);
-				if(result==true)
-				{	
-					out.println("<script type='text/javascript'>");
-					out.println("alert('student successfully created!');");
-				out.println("location='clerk';");
-					out.println("</script>");
-				
-				
-				}
-				else
-				{
-					out.println("<script type='text/javascript'>");
-					out.println("alert('student not created! try again !');");
-					out.println("location='Create_Student';");
-					out.println("</script>");
-					
-				}
+		} else {
+			Boolean result = University.getInstance().CreateStudent(sno, name,
+					isfulltime);
+			if (result == true) {
+				out.println("<script type='text/javascript'>");
+				out.println("alert('student successfully created!');");
+				out.println("location='CreateStudent';");
+				out.println("</script>");
+
+			} else {
+				out.println("<script type='text/javascript'>");
+				out.println("alert('student not created! try again !');");
+				out.println("location='CreateStudent';");
+				out.println("</script>");
+			}
 		}
 	}
 }
