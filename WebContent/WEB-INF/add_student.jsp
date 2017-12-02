@@ -11,7 +11,7 @@ function validate()
 {
 		var s_code=document.studentform.sno.value;
 	    var s_name=document.studentform.Name.value;
-	    var isfulltime=document.studentform.isfulltime.options[isfulltime.selectedIndex].value;
+	    var isfulltime=document.getElementById("isfulltime").options[isfulltime.selectedIndex].value;
 	    var regex=/^[a-zA-Z ]+$/;
 		var reg=/^[0-9]*$/;
 	    if(s_code==""||s_code < 100000000 || s_code > 999999999 ||reg.test(s_code)==false)
@@ -26,14 +26,13 @@ function validate()
 		  document.studentform.Name.focus();
 		  return false;
     	  }
-	else if (isfulltime==""||!(isfulltime.equalsIgnoreCase("true")) || !(isfulltime.equalsIgnoreCase("false")))
-	{
-	alert("should be either Y/y or N/n");
-	  document.studentform.isfulltime.focus();
-	  return false;
-	}
+	
 	else return true;
 }
+function goBack()
+{
+	window.location.href="index.jsp";
+	}
 
 </script>
 <body>
@@ -44,12 +43,14 @@ Student Number :
 Student name :
 <input type= "text" name= "Name"><br>
 Is Student full-time ?
-<select name= "isfulltime">
+<select name= "isfulltime" id= "isfulltime">
   <option value="true">true</option>
     <option value="false">false</option> 
     </select><br>
 <br><br>
 <input type= "submit" name="create" value= "Create student"  > <br>
+<input type="button" name="back" value= "Back" onclick="goBack()">
+
 </form>
 
 

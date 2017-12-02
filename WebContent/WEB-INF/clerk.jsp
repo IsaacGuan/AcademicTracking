@@ -17,8 +17,8 @@ Here is the list of options you can choose from :<br><br>
 <a href="delete_course"> Delete a Course </a><br>
 <a href="CreateStudent"> Add a Student  </a><br>
 <a href="delete_student"> Delete Student </a><br>
-<a href="cancel_course.jsp"> Cancel Course </a><br>
-<a href="print_DEAN's_List.jsp"> Print DEAN's List </a><br>
+<a href="cancel_course"> Cancel Course </a><br>
+<a href="print_DEAN_List"> Print DEAN's List </a><br>
 </form>
 </body>
 </html>

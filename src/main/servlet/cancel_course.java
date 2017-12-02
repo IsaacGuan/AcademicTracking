@@ -11,20 +11,21 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import main.server.logic.model.Course;
 import main.server.logic.model.University;
 import main.utilities.Config;
 
 /**
- * Servlet implementation class CreateCourse
+ * Servlet implementation class cancel_course
  */
-@WebServlet("/CreateCourse")
-public class CreateCourse extends HttpServlet {
+@WebServlet("/cancel_course")
+public class cancel_course extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public CreateCourse() {
+    public cancel_course() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -43,7 +44,7 @@ public class CreateCourse extends HttpServlet {
 		}
 		else
 		{
-			RequestDispatcher dispatcher=getServletContext().getRequestDispatcher( "/WEB-INF/add_course.jsp" );
+			RequestDispatcher dispatcher=getServletContext().getRequestDispatcher( "/WEB-INF/cancel_course.jsp" );
 			dispatcher.forward( request, response );
 		}
 	}
@@ -53,17 +54,10 @@ public class CreateCourse extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		
-		PrintWriter out = response.getWriter();
-		
-		Integer mycode = (Integer.parseInt(request.getParameter("code")));
-		Integer cap = (Integer.parseInt(request.getParameter("Cap")));
-		Integer numberofmidterms = (Integer.parseInt(request.getParameter("Midterms")));
-		Integer numberofassignments = (Integer.parseInt(request.getParameter("assignments")));
-		String title  = request.getParameter("Name");
-		Boolean enforcePrereqs=Boolean.parseBoolean(request.getParameter("EnforcePrerequites"));
-		Boolean hasafinal=Boolean.parseBoolean(request.getParameter("hasFinal"));
-		Boolean isprojectcourse=Boolean.parseBoolean(request.getParameter("project"));
+		PrintWriter out=response.getWriter();
+		Integer code =(Integer.parseInt(request.getParameter("radioButton")));
+	
+		Course course=University.getInstance().GetCourse(code);
 		
 		if(Config.TERM_ENDS)
 		{
@@ -71,34 +65,34 @@ public class CreateCourse extends HttpServlet {
 			out.println("alert('Term has ended!');");
 			out.println("location='clerk';");
 			out.println("</script>");
+
 		}
-		else if(Config.REGISTRATION_STARTS)
+		else if(!Config.REGISTRATION_ENDS)
 		{
 			out.println("<script type='text/javascript'>");
-			out.println("alert('Course cannot be created after registration starts!!');");
+			out.println("alert('Course cannot be canceled before registration ends!!');");
 			out.println("location='clerk';");
 			out.println("</script>");
 
 		}
-		else {
-		
-		Boolean result=University.getInstance().CreateCourse(title, mycode, cap, enforcePrereqs, numberofmidterms, numberofassignments, hasafinal, isprojectcourse);
-		if(result==true)
-		{	
-		out.println("<script type='text/javascript'>");
-		out.println("alert('course successfully created!');");
-		out.println("location='clerk';");
-		out.println("</script>");
-		
+	else {
+		if(University.getInstance().CancelCourse(course))
+		{
+			out.println("<script type='text/javascript'>");
+			out.println("alert('course successfully cancelled!');");
+			out.println("location='clerk';");
+			out.println("</script>");
 		}
 		else
 		{
 			out.println("<script type='text/javascript'>");
-			out.println("alert('course could not be created! Try with valid inputs');");
-			out.println("location='CreateCourse';");
-			out.println("</script>");	 
-		}
+			out.println("alert('Sorry !Could not be cancelled!');");
+			out.println("location='cancel_course';");
+			out.println("</script>");
+			
 		}
 	}
+	}
+	
 
 }
