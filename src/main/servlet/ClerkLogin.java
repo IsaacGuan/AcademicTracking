@@ -3,6 +3,7 @@ package main.servlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -31,7 +32,8 @@ public class ClerkLogin extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		doPost(request, response);
+		RequestDispatcher dispatcher=getServletContext().getRequestDispatcher( "/WEB-INF/index.jsp" );
+		dispatcher.forward( request, response );
 	}
 
 	/**
@@ -41,8 +43,10 @@ public class ClerkLogin extends HttpServlet {
 		HttpSession session = request.getSession();
 		String password = request.getParameter("password");
 		if (password.equalsIgnoreCase(Config.CLERK_PASSWORD)) {
-			session.setAttribute("password", password);
-			response.sendRedirect("clerk.jsp");
+			session.setAttribute("password", "hello");
+			RequestDispatcher dispatcher=getServletContext().getRequestDispatcher( "/WEB-INF/clerk.jsp" );
+			dispatcher.forward( request, response );
+		
 		} else {
 			PrintWriter out = response.getWriter();
 			out.println("<script type=\"text/javascript\">");
