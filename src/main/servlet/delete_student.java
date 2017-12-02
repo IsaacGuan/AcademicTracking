@@ -44,7 +44,7 @@ public class delete_student extends HttpServlet {
 		}
 		else
 		{
-			RequestDispatcher dispatcher=getServletContext().getRequestDispatcher( "/WEB-INF/add_course.jsp" );
+			RequestDispatcher dispatcher=getServletContext().getRequestDispatcher( "/WEB-INF/delete_student.jsp" );
 			dispatcher.forward( request, response );
 		}
 	}

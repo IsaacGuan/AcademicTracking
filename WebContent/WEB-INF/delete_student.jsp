@@ -23,7 +23,7 @@
    
 	<td> <div class="radio"></div><input type="radio" name="radioButton" value="${student.studentNumber}">${student.studentNumber}</div></td>
 	<td>${student.studentName}</td>
-	<td>${student.isFullTime}</td>
+	
 </tr>
 </c:forEach>
 </table>
