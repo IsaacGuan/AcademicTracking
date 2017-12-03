@@ -67,7 +67,7 @@ public class CreateCourse extends HttpServlet {
 				.getParameter("Midterms")));
 		Integer numberofassignments = (Integer.parseInt(request
 				.getParameter("assignments")));
-		String title = request.getParameter("Name");
+		String title = request.getParameter("title");
 		Boolean enforcePrereqs = Boolean.parseBoolean(request
 				.getParameter("EnforcePrerequites"));
 		Boolean hasafinal = Boolean.parseBoolean(request
@@ -78,12 +78,12 @@ public class CreateCourse extends HttpServlet {
 		if (Config.TERM_ENDS) {
 			out.println("<script type='text/javascript'>");
 			out.println("alert('Term has ended!');");
-			out.println("location='clerk';");
+			out.println("location='CreateCourse';");
 			out.println("</script>");
 		} else if (Config.REGISTRATION_STARTS) {
 			out.println("<script type='text/javascript'>");
-			out.println("alert('Course cannot be created after registration starts!!');");
-			out.println("location='clerk';");
+			out.println("alert('Course cannot be created after registration starts!');");
+			out.println("location='CreateCourse';");
 			out.println("</script>");
 		} else {
 			Boolean result = University.getInstance().CreateCourse(title,
@@ -92,11 +92,11 @@ public class CreateCourse extends HttpServlet {
 			if (result == true) {
 				out.println("<script type='text/javascript'>");
 				out.println("alert('course successfully created!');");
-				out.println("location='clerk';");
+				out.println("location='CreateCourse';");
 				out.println("</script>");
 			} else {
 				out.println("<script type='text/javascript'>");
-				out.println("alert('course could not be created! Try with valid inputs');");
+				out.println("alert('course could not be created! Try with valid inputs.');");
 				out.println("location='CreateCourse';");
 				out.println("</script>");
 			}

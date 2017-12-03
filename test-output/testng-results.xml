@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="291" started-at="2017-12-03T03:57:05Z" finished-at="2017-12-03T03:57:05Z">
+  <suite name="Default suite" duration-ms="5195" started-at="2017-12-03T23:03:30Z" finished-at="2017-12-03T23:03:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="291" started-at="2017-12-03T03:57:05Z" finished-at="2017-12-03T03:57:05Z">
-      <class name="test.selenium.Runner">
-        <test-method status="PASS" signature="TestsRunner()[pri:0, instance:test.selenium.Runner@14bf9759]" name="TestsRunner" duration-ms="250" started-at="2017-12-02T22:57:05Z" finished-at="2017-12-02T22:57:05Z">
+    <test name="Default test" duration-ms="5195" started-at="2017-12-03T23:03:30Z" finished-at="2017-12-03T23:03:35Z">
+      <class name="test.selenium.ClerkCreateStudent">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:test.selenium.ClerkCreateStudent@5bcab519]" name="BeforeTest" is-config="true" duration-ms="3579" started-at="2017-12-03T18:03:30Z" finished-at="2017-12-03T18:03:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestsRunner -->
-      </class> <!-- test.selenium.Runner -->
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:test.selenium.ClerkCreateStudent@5bcab519]" name="Test" duration-ms="1584" started-at="2017-12-03T18:03:34Z" finished-at="2017-12-03T18:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- test.selenium.ClerkCreateStudent -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

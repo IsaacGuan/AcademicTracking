@@ -59,14 +59,14 @@
 				<!-- BEGIN TOP NAVIGATION MENU -->
 				<ul class="nav pull-right">
 					<!-- BEGIN USER LOGIN DROPDOWN -->
-					<li class="dropdown user"><a href="#" class="dropdown-toggle"
+					<li class="dropdown user"><a id= "clerkmenu" href="#" class="dropdown-toggle"
 						data-toggle="dropdown"> <span class="username">
 								<%out.print("Clerk"); %>
 						</span> <i class="icon-angle-down"></i>
 					</a>
 						<ul class="dropdown-menu">
-							<li><a href="ClerkHome"><i class="icon-user"></i> Home</a></li>
-							<li><a href="Logout"><i class="icon-key"></i> Log Out</a></li>
+							<li><a href="ClerkHome" id= "home"><i class="icon-user"></i> Home</a></li>
+							<li><a href="Logout" id= "logout"><i class="icon-key"></i> Log Out</a></li>
 						</ul></li>
 					<!-- END USER LOGIN DROPDOWN -->
 				</ul>
@@ -103,16 +103,16 @@
 						class="title">Student</span> <span class="arrow "></span>
 				</a>
 					<ul class="sub-menu">
-						<li><a href="CreateStudent"> Create Student</a></li>
-						<li><a href="DeleteStudent"> Delete Student</a></li>
+						<li><a id= "createstudent" href="CreateStudent"> Create Student</a></li>
+						<li><a id= "deletestudent" href="DeleteStudent"> Delete Student</a></li>
 					</ul></li>
-				<li class=""><a href=""> <i class="icon-table"></i> <span
+				<li class=""><a href="" id= "course"> <i class="icon-table"></i> <span
 						class="title">Course</span> <span class="arrow "></span>
 				</a>
 					<ul class="sub-menu">
-						<li><a href="CreateCourse"> Create Course</a></li>
-						<li><a href="DeleteCourse"> Delete Course</a></li>
-						<li><a href="CancelCourse"> Cancel Course</a></li>
+						<li><a id= "createcourse" href="CreateCourse"> Create Course</a></li>
+						<li><a id= "deletecourse" href="DeleteCourse"> Delete Course</a></li>
+						<li><a id= "cancelcourse" href="CancelCourse"> Cancel Course</a></li>
 					</ul></li>
 				<li class="active "><a href="DeansList"> <i class="icon-th"></i>
 						<span class="title">Dean's List</span> <span class="selected"></span>

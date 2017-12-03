@@ -62,13 +62,13 @@
 				<ul class="nav pull-right">
 					<!-- BEGIN USER LOGIN DROPDOWN -->
 					<li class="dropdown user">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<a href="#" id= "studentmenu" class="dropdown-toggle" data-toggle="dropdown">
 							<span class="username"><%out.print(currentStudent.StudentNumber()); %> <%out.print(currentStudent.Name()); %></span>
 							<i class="icon-angle-down"></i>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a href="StudentHome"><i class="icon-user"></i> Home</a></li>
-							<li><a href="Logout"><i class="icon-key"></i> Log Out</a></li>
+							<li><a id= "home" href="StudentHome"><i class="icon-user"></i> Home</a></li>
+							<li><a id= "logout" href="Logout"><i class="icon-key"></i> Log Out</a></li>
 						</ul>
 					</li>
 					<!-- END USER LOGIN DROPDOWN -->
@@ -102,19 +102,19 @@
 					<!-- END RESPONSIVE QUICK SEARCH FORM -->
 				</li>
 				<li class="">
-					<a href="StudentHome">
+					<a id= "studenthome" href="StudentHome">
 					    <i class="icon-home"></i>
 						<span class="title">Home</span>
 					</a>
 				</li>
 				<li class="">
-					<a href="SelectCourse">
+					<a id= "selectcourse" href="SelectCourse">
 					    <i class="icon-calendar"></i>
 						<span class="title">Select Course</span>
 					</a>
 				</li>
 				<li class="">
-					<a href="RegisterForCourse">
+					<a id= "registercourse" href="RegisterForCourse">
 					    <i class="icon-table"></i>
 						<span class="title">Register for Course</span>
 					</a>
@@ -127,7 +127,7 @@
 					</a>
 				</li>
 				<li class="">
-					<a href="DeregisterCourse">
+					<a href="DeregisterCourse" id= "deregistercourse">
 					    <i class="icon-briefcase"></i>
 						<span class="title">Deregister Course</span>
 					</a>
@@ -196,7 +196,7 @@
 												<tr>
 													<td>
 													<label class="radio">
-														<input type="radio" name="radioButton" value="${course.myCode}">${course.Code()}
+														<input type="radio" name="radioButton" id="${course.Code()}" value="${course.Code()}">${course.Code()}
 													</label>
 													</td>
 													<td>${course.Title()}</td>
@@ -211,7 +211,7 @@
 										</tbody>
 									</table>
 									<div class="form-actions">
-										<button type="submit" name="dropcourse" id="dropcourse" value="DropCourse" class="btn red">Drop</button>
+										<button type="submit" name="dropcourse_btn" id="dropcourse_btn" value="DropCourse" class="btn red">Drop</button>
 									</div>
 								</form>
 								<!-- END FORM-->

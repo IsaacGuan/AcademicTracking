@@ -46,13 +46,13 @@
 				<ul class="nav pull-right">
 					<!-- BEGIN USER LOGIN DROPDOWN -->
 					<li class="dropdown user">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<a id="coursemenu" href="#" class="dropdown-toggle" data-toggle="dropdown">
 							<span class="username"><%out.print("Clerk"); %></span>
 							<i class="icon-angle-down"></i>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a href="ClerkHome"><i class="icon-user"></i> Home</a></li>
-							<li><a href="Logout"><i class="icon-key"></i> Log Out</a></li>
+							<li><a href="ClerkHome" id="home"><i class="icon-user"></i> Home</a></li>
+							<li><a href="Logout" id="logout"><i class="icon-key"></i> Log Out</a></li>
 						</ul>
 					</li>
 					<!-- END USER LOGIN DROPDOWN -->
@@ -86,52 +86,52 @@
 					<!-- END RESPONSIVE QUICK SEARCH FORM -->
 				</li>
 				<li class="active ">
-					<a href="javascript:;">
+					<a id="clerkhome" href="javascript:;">
 					    <i class="icon-home"></i>
 						<span class="title">Home</span>
 						<span class="selected"></span>
 					</a>
 				</li>
 				<li class="">
-					<a href="">
+					<a id="student" href="">
 						<i class="icon-user"></i>
 						<span class="title">Student</span>
 						<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
 						<li >
-							<a href="CreateStudent">
+							<a id="createstudent" href="CreateStudent">
 							Create Student</a>
 						</li>
 						<li >
-							<a href="DeleteStudent">
+							<a id ="deletestudent" href="DeleteStudent">
 							Delete Student</a>
 						</li>
 					</ul>
 				</li>
 				<li class="">
-					<a href="">
+					<a  id="course" href="">
 						<i class="icon-table"></i>
 						<span class="title">Course</span>
 						<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
 						<li >
-							<a href="CreateCourse">
+							<a id="createcourse" href="CreateCourse">
 							Create Course</a>
 						</li>
 						<li >
-							<a href="DeleteCourse">
+							<a id="deletecourse" href="DeleteCourse">
 							Delete Course</a>
 						</li>
 						<li >
-							<a href="CancelCourse">
+							<a id="deletecourse" href="CancelCourse">
 							Cancel Course</a>
 						</li>
 					</ul>
 				</li>
 				<li class="">
-					<a href="DeansList">
+					<a id="deanlist" href="DeansList">
 					    <i class="icon-th"></i>
 						<span class="title">Dean's List</span>
 					</a>

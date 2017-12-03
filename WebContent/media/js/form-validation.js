@@ -23,7 +23,7 @@ var FormValidation = function () {
                         digits: true,
                         range: [100000, 999999]
                     },
-                    Name: {
+                    title: {
                         required: true
                     },
                     Cap: {
@@ -71,6 +71,7 @@ var FormValidation = function () {
                 submitHandler: function (form) {
                     success1.show();
                     error1.hide();
+                    form1[0].submit();
                 }
             });
             
@@ -89,7 +90,7 @@ var FormValidation = function () {
                         digits: true,
                         range: [100000000, 999999999]
                     },
-                    Name: {
+                    name: {
                         required: true
                     }
                     
@@ -122,6 +123,7 @@ var FormValidation = function () {
                 submitHandler: function (form) {
                     success2.show();
                     error2.hide();
+                    form2[0].submit();
                 }
             });
 

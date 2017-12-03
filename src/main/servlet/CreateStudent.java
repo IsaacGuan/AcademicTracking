@@ -60,18 +60,18 @@ public class CreateStudent extends HttpServlet {
 		// TODO Auto-generated method stub
 		PrintWriter out = response.getWriter();
 		Integer sno = (Integer.parseInt(request.getParameter("sno")));
-		String name = request.getParameter("Name");
+		String name = request.getParameter("name");
 		Boolean isfulltime = Boolean.parseBoolean(request
 				.getParameter("isfulltime"));
 		if (Config.TERM_ENDS) {
 			out.println("<script type='text/javascript'>");
 			out.println("alert('Term has ended!');");
-			out.println("location='ClerkHome';");
+			out.println("location='CreateStudent';");
 			out.println("</script>");
 		} else if (Config.REGISTRATION_STARTS) {
 			out.println("<script type='text/javascript'>");
-			out.println("alert('Student cannot be created after registration starts!!');");
-			out.println("location='ClerkHome';");
+			out.println("alert('Student cannot be created after registration starts!');");
+			out.println("location='CreateStudent';");
 			out.println("</script>");
 
 		} else {
@@ -85,7 +85,7 @@ public class CreateStudent extends HttpServlet {
 
 			} else {
 				out.println("<script type='text/javascript'>");
-				out.println("alert('student not created! try again !');");
+				out.println("alert('student not created! try again!');");
 				out.println("location='CreateStudent';");
 				out.println("</script>");
 			}

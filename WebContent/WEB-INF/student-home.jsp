@@ -52,13 +52,13 @@ Student currentStudent = University.getInstance().GetStudent(currentStudentNumbe
 				<ul class="nav pull-right">
 					<!-- BEGIN USER LOGIN DROPDOWN -->
 					<li class="dropdown user">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<a href="#" name="studentmenu" id="studentmenu" class="dropdown-toggle" data-toggle="dropdown">
 							<span class="username"><%out.print(currentStudent.StudentNumber()); %> <%out.print(currentStudent.Name()); %></span>
 							<i class="icon-angle-down"></i>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a href="StudentHome"><i class="icon-user"></i> Home</a></li>
-							<li><a href="Logout"><i class="icon-key"></i> Log Out</a></li>
+							<li><a name="home" id="home" href="StudentHome"><i class="icon-user"></i> Home</a></li>
+							<li><a name="logout" id="logout" href="Logout"><i class="icon-key"></i> Log Out</a></li>
 						</ul>
 					</li>
 					<!-- END USER LOGIN DROPDOWN -->
@@ -99,25 +99,25 @@ Student currentStudent = University.getInstance().GetStudent(currentStudentNumbe
 					</a>
 				</li>
 				<li class="">
-					<a href="SelectCourse">
+					<a name="selectcourse" id="selectcourse" href="SelectCourse">
 					    <i class="icon-calendar"></i>
 						<span class="title">Select Course</span>
 					</a>
 				</li>
 				<li class="">
-					<a href="RegisterForCourse">
+					<a id="registercourse" href="RegisterForCourse">
 					    <i class="icon-table"></i>
 						<span class="title">Register for Course</span>
 					</a>
 				</li>
 				<li class="">
-					<a href="DropCourse">
+					<a href="DropCourse" id="dropcourse">
 					    <i class="icon-coffee"></i>
 						<span class="title">Drop Course</span>
 					</a>
 				</li>
 				<li class="">
-					<a href="DeregisterCourse">
+					<a href="DeregisterCourse" id="deregistercourse">
 					    <i class="icon-briefcase"></i>
 						<span class="title">Deregister Course</span>
 					</a>

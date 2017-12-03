@@ -48,7 +48,7 @@ University.getInstance();
 				<div class="controls">
 					<div class="input-icon left">
 						<i class="icon-home"></i>
-						<input class="m-wrap placeholder-no-fix" type="text" placeholder="Student Number" name="studentnumber"/>
+						<input class="m-wrap placeholder-no-fix" type="text" placeholder="Student Number" name="studentnumber" id="studentnumber"/>
 					</div>
 				</div>
 			</div>
@@ -57,19 +57,19 @@ University.getInstance();
 				<div class="controls">
 					<div class="input-icon left">
 						<i class="icon-user"></i>
-						<input class="m-wrap placeholder-no-fix" type="text" placeholder="Student Name" name="studentname"/>
+						<input class="m-wrap placeholder-no-fix" type="text" placeholder="Student Name" name="studentname" id="studentname"/>
 					</div>
 				</div>
 			</div>
 			<div class="form-actions">
-				<button type="submit" class="btn green pull-right">
+				<button name="studentlogin" id="studentlogin" type="submit" class="btn green pull-right" >
 				Login <i class="m-icon-swapright m-icon-white"></i>
 				</button>
 			</div>
 			<div class="create-account">
 				<p>
-					You are a clerk ?&nbsp;
-					<a href="javascript:;" id="clerk-btn" class="">Clerk Login</a>
+					Are you a clerk ?&nbsp;
+					<a href="javascript:;" id="clerk-btn" name="clerk-btn" class="">Clerk Login</a>
 				</p>
 			</div>
 		</form>
@@ -83,15 +83,15 @@ University.getInstance();
 				<div class="controls">
 					<div class="input-icon left">
 						<i class="icon-lock"></i>
-						<input class="m-wrap placeholder-no-fix" type="password" id="password" placeholder="Password" name="password"/>
+						<input class="m-wrap placeholder-no-fix" type="password" placeholder="Password" name="password" id="password" />
 					</div>
 				</div>
 			</div>
 			<div class="form-actions">
-				<button id="back-btn" type="button" class="btn">
+				<button id="back-btn" name="back" id="back" type="button" class="btn">
 				<i class="m-icon-swapleft"></i>  Back
 				</button>
-				<button type="submit" class="btn green pull-right">
+				<button type="submit" name="clerklogin" id="clerklogin" class="btn green pull-right">
 				Login <i class="m-icon-swapright m-icon-white"></i>
 				</button>
 			</div>

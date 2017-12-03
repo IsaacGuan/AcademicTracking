@@ -49,13 +49,13 @@
 				<ul class="nav pull-right">
 					<!-- BEGIN USER LOGIN DROPDOWN -->
 					<li class="dropdown user">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<a href="#" id="clerkmenu" class="dropdown-toggle" data-toggle="dropdown">
 							<span class="username"><%out.print("Clerk"); %></span>
 							<i class="icon-angle-down"></i>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a href="ClerkHome"><i class="icon-user"></i> Home</a></li>
-							<li><a href="Logout"><i class="icon-key"></i> Log Out</a></li>
+							<li><a  id="home" href="ClerkHome"><i class="icon-user"></i> Home</a></li>
+							<li><a id="logout" href="Logout"><i class="icon-key"></i> Log Out</a></li>
 						</ul>
 					</li>
 					<!-- END USER LOGIN DROPDOWN -->
@@ -89,31 +89,31 @@
 					<!-- END RESPONSIVE QUICK SEARCH FORM -->
 				</li>
 				<li class="">
-					<a href="ClerkHome">
+					<a  id="clerkhome" href="ClerkHome">
 					    <i class="icon-home"></i>
 						<span class="title">Home</span>
 						<span class="selected"></span>
 					</a>
 				</li>
 				<li class="">
-					<a href="">
+					<a id="student" href="">
 						<i class="icon-user"></i>
 						<span class="title">Student</span>
 						<span class="arrow "></span>
 					</a>
 					<ul class="sub-menu">
 						<li >
-							<a href="CreateStudent">
+							<a id= "createstudent" href="CreateStudent">
 							Create Student</a>
 						</li>
 						<li >
-							<a href="DeleteStudent">
+							<a href="DeleteStudent" id= "deletestudent">
 							Delete Student</a>
 						</li>
 					</ul>
 				</li>
 				<li class="active ">
-					<a href="">
+					<a id= "course" href="">
 						<i class="icon-table"></i>
 						<span class="title">Course</span>
 						<span class="arrow open"></span>
@@ -121,21 +121,21 @@
 					</a>
 					<ul class="sub-menu">
 						<li >
-							<a href="CreateCourse">
+							<a id= "createcourse" href="CreateCourse">
 							Create Course</a>
 						</li>
 						<li >
-							<a href="DeleteCourse">
+							<a id= "deletecourse" href="DeleteCourse">
 							Delete Course</a>
 						</li>
-						<li class="active">
+						<li class="active" id= "cancelcourse">
 							<a href="javascript:;">
 							Cancel Course</a>
 						</li>
 					</ul>
 				</li>
 				<li class="">
-					<a href="DeansList">
+					<a href="DeansList" id="deanlist">
 					    <i class="icon-th"></i>
 						<span class="title">Dean's List</span>
 					</a>
@@ -158,7 +158,7 @@
 						<ul class="breadcrumb">
 						    <li>
 						        <i class="icon-home"></i>
-								<a href="ClerkHome">Home</a>
+								<a id="home" href="ClerkHome">Home</a>
 								<i class="icon-angle-right"></i>
 							</li>
 							<li>
@@ -208,7 +208,7 @@
 												<tr>
 													<td>
 													<label class="radio">
-														<input type="radio" name="radioButton" value="${course.myCode}">${course.Code()}
+														<input type="radio" name="radioButton" id="${course.Code()}" value="${course.Code()}">${course.Code()}
 													</label>
 													</td>
 													<td>${course.Title()}</td>
@@ -223,7 +223,7 @@
 										</tbody>
 									</table>
 									<div class="form-actions">
-										<button type="submit" name="cancelcourse" id="cancelcourse" value="CancelCourse" class="btn blue">Cancel</button>
+										<button type="submit" name="cancelcourse_btn" id="cancelcourse_btn" value="CancelCourse" class="btn blue">Cancel</button>
 									</div>
 								</form>
 								<!-- END FORM-->
