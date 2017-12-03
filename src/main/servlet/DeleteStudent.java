@@ -58,32 +58,37 @@ public class DeleteStudent extends HttpServlet {
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
-		Integer s_no = (Integer.parseInt(request.getParameter("radioButton")));
-
-		Student student = University.getInstance().GetStudent(s_no);
-		if (Config.TERM_ENDS) {
+		if (request.getParameter("radioButton") == null) {
 			out.println("<script type='text/javascript'>");
-			out.println("alert('Term has ended!');");
-			out.println("location='ClerkHome';");
+			out.println("alert('Please select a student! ');");
+			out.println("location='DeleteStudent';");
 			out.println("</script>");
-		} else if (Config.REGISTRATION_STARTS) {
-			out.println("<script type='text/javascript'>");
-			out.println("alert('Student cannot be deleted after registration starts!!');");
-			out.println("location='ClerkHome';");
-			out.println("</script>");
-
 		} else {
-			if (University.getInstance().DestroyStudent(student)) {
+			Integer s_no = (Integer.parseInt(request
+					.getParameter("radioButton")));
+			Student student = University.getInstance().GetStudent(s_no);
+			if (Config.TERM_ENDS) {
 				out.println("<script type='text/javascript'>");
-				out.println("alert('student successfully deleted!');");
+				out.println("alert('Term has ended!');");
+				out.println("location='DeleteStudent';");
+				out.println("</script>");
+			} else if (Config.REGISTRATION_STARTS) {
+				out.println("<script type='text/javascript'>");
+				out.println("alert('Student cannot be deleted after registration starts!!');");
 				out.println("location='DeleteStudent';");
 				out.println("</script>");
 			} else {
-				out.println("<script type='text/javascript'>");
-				out.println("alert('Sorry !Could not be deleted!');");
-				out.println("location='DeleteStudent';");
-				out.println("</script>");
-
+				if (University.getInstance().DestroyStudent(student)) {
+					out.println("<script type='text/javascript'>");
+					out.println("alert('student successfully deleted!');");
+					out.println("location='DeleteStudent';");
+					out.println("</script>");
+				} else {
+					out.println("<script type='text/javascript'>");
+					out.println("alert('Sorry !Could not be deleted!');");
+					out.println("location='DeleteStudent';");
+					out.println("</script>");
+				}
 			}
 		}
 	}

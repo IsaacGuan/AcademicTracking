@@ -242,7 +242,7 @@ public class University implements UniversityInt {
 		for (int i=0; i<students.size(); i++) {
 			int studentnumber = students.get(i).StudentNumber();
 			String studentname = students.get(i).Name();
-			if (studentnumber==number && studentname.equalsIgnoreCase(studentname)) {
+			if (studentnumber==number && studentname.equalsIgnoreCase(name)) {
 				flag = flag + 1;
 			}
 		}

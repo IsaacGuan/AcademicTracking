@@ -54,35 +54,43 @@ public class SelectCourse extends HttpServlet {
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
-		HttpSession session = request.getSession();
-		int currentStudentNumber = Integer.parseInt((String) session
-				.getAttribute("currentStudentNumber"));
-		Integer code = (Integer.parseInt(request.getParameter("radioButton")));
-		Student currentStudent = University.getInstance().GetStudent(
-				currentStudentNumber);
-		Course course = University.getInstance().GetCourse(code);
-		if (Config.TERM_ENDS) {
+		if (request.getParameter("radioButton") == null) {
 			out.println("<script type='text/javascript'>");
-			out.println("alert('Term ends! ');");
-			out.println("location.href='StudentHome';");
-			out.println("</script>");
-		} else if (Config.REGISTRATION_ENDS) {
-			out.println("<script type='text/javascript'>");
-			out.println("alert('Course cannot be selected after registration ends! ');");
-			out.println("location.href='StudentHome';");
+			out.println("alert('Please select a course! ');");
+			out.println("location='SelectCourse';");
 			out.println("</script>");
 		} else {
-			boolean result = currentStudent.SelectCourse(course);
-			if (result) {
+			HttpSession session = request.getSession();
+			int currentStudentNumber = Integer.parseInt((String) session
+					.getAttribute("currentStudentNumber"));
+			Integer code = (Integer.parseInt(request
+					.getParameter("radioButton")));
+			Student currentStudent = University.getInstance().GetStudent(
+					currentStudentNumber);
+			Course course = University.getInstance().GetCourse(code);
+			if (Config.TERM_ENDS) {
 				out.println("<script type='text/javascript'>");
-				out.println("alert('Course successfully selected! ');");
+				out.println("alert('Term ends! ');");
+				out.println("location.href='SelectCourse';");
+				out.println("</script>");
+			} else if (Config.REGISTRATION_ENDS) {
+				out.println("<script type='text/javascript'>");
+				out.println("alert('Course cannot be selected after registration ends! ');");
 				out.println("location.href='SelectCourse';");
 				out.println("</script>");
 			} else {
-				out.println("<script type='text/javascript'>");
-				out.println("alert('Sorry! Could not be selected! ');");
-				out.println("location.href='SelectCourse';");
-				out.println("</script>");
+				boolean result = currentStudent.SelectCourse(course);
+				if (result) {
+					out.println("<script type='text/javascript'>");
+					out.println("alert('Course successfully selected! ');");
+					out.println("location.href='SelectCourse';");
+					out.println("</script>");
+				} else {
+					out.println("<script type='text/javascript'>");
+					out.println("alert('Sorry! Could not be selected! ');");
+					out.println("location.href='SelectCourse';");
+					out.println("</script>");
+				}
 			}
 		}
 	}

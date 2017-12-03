@@ -58,29 +58,37 @@ public class DeleteCourse extends HttpServlet {
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
-		Integer code = (Integer.parseInt(request.getParameter("radioButton")));
-		if (Config.TERM_ENDS) {
+		if (request.getParameter("radioButton") == null) {
 			out.println("<script type='text/javascript'>");
-			out.println("alert('Term has ended! ');");
-			out.println("location='ClerkHome';");
-			out.println("</script>");
-		} else if (Config.REGISTRATION_STARTS) {
-			out.println("<script type='text/javascript'>");
-			out.println("alert('Course cannot be deleted after registration starts!!');");
-			out.println("location='ClerkHome';");
+			out.println("alert('Please select a course! ');");
+			out.println("location='DeleteCourse';");
 			out.println("</script>");
 		} else {
-			Course course = University.getInstance().GetCourse(code);
-			if (University.getInstance().DestroyCourse(course)) {
+			Integer code = (Integer.parseInt(request
+					.getParameter("radioButton")));
+			if (Config.TERM_ENDS) {
 				out.println("<script type='text/javascript'>");
-				out.println("alert('course successfully deleted! ');");
+				out.println("alert('Term has ended! ');");
+				out.println("location='DeleteCourse';");
+				out.println("</script>");
+			} else if (Config.REGISTRATION_STARTS) {
+				out.println("<script type='text/javascript'>");
+				out.println("alert('Course cannot be deleted after registration starts!!');");
 				out.println("location='DeleteCourse';");
 				out.println("</script>");
 			} else {
-				out.println("<script type='text/javascript'>");
-				out.println("alert('Sorry! Could not be deleted! ');");
-				out.println("location='DeleteCourse';");
-				out.println("</script>");
+				Course course = University.getInstance().GetCourse(code);
+				if (University.getInstance().DestroyCourse(course)) {
+					out.println("<script type='text/javascript'>");
+					out.println("alert('course successfully deleted! ');");
+					out.println("location='DeleteCourse';");
+					out.println("</script>");
+				} else {
+					out.println("<script type='text/javascript'>");
+					out.println("alert('Sorry! Could not be deleted! ');");
+					out.println("location='DeleteCourse';");
+					out.println("</script>");
+				}
 			}
 		}
 	}

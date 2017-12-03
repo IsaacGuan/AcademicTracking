@@ -60,31 +60,36 @@ public class CancelCourse extends HttpServlet {
 			HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		PrintWriter out = response.getWriter();
-		Integer code = (Integer.parseInt(request.getParameter("radioButton")));
-
-		Course course = University.getInstance().GetCourse(code);
-
-		if (Config.TERM_ENDS) {
+		if (request.getParameter("radioButton") == null) {
 			out.println("<script type='text/javascript'>");
-			out.println("alert('Term has ended!');");
-			out.println("location='ClerkHome';");
-			out.println("</script>");
-		} else if (!Config.REGISTRATION_ENDS) {
-			out.println("<script type='text/javascript'>");
-			out.println("alert('Course cannot be canceled before registration ends!!');");
-			out.println("location='ClerkHome';");
+			out.println("alert('Please select a course! ');");
+			out.println("location='CancelCourse';");
 			out.println("</script>");
 		} else {
-			if (University.getInstance().CancelCourse(course)) {
+			Integer code = (Integer.parseInt(request.getParameter("radioButton")));
+			Course course = University.getInstance().GetCourse(code);
+			if (Config.TERM_ENDS) {
 				out.println("<script type='text/javascript'>");
-				out.println("alert('course successfully cancelled!');");
+				out.println("alert('Term has ended!');");
+				out.println("location='CancelCourse';");
+				out.println("</script>");
+			} else if (!Config.REGISTRATION_ENDS) {
+				out.println("<script type='text/javascript'>");
+				out.println("alert('Course cannot be canceled before registration ends!!');");
 				out.println("location='CancelCourse';");
 				out.println("</script>");
 			} else {
-				out.println("<script type='text/javascript'>");
-				out.println("alert('Sorry !Could not be cancelled!');");
-				out.println("location='CancelCourse';");
-				out.println("</script>");
+				if (University.getInstance().CancelCourse(course)) {
+					out.println("<script type='text/javascript'>");
+					out.println("alert('course successfully cancelled!');");
+					out.println("location='CancelCourse';");
+					out.println("</script>");
+				} else {
+					out.println("<script type='text/javascript'>");
+					out.println("alert('Sorry !Could not be cancelled!');");
+					out.println("location='CancelCourse';");
+					out.println("</script>");
+				}
 			}
 		}
 	}

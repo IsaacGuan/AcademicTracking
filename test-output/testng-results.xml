@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="291" started-at="2017-12-03T03:57:05Z" finished-at="2017-12-03T03:57:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="291" started-at="2017-12-03T03:57:05Z" finished-at="2017-12-03T03:57:05Z">
+      <class name="test.selenium.Runner">
+        <test-method status="PASS" signature="TestsRunner()[pri:0, instance:test.selenium.Runner@14bf9759]" name="TestsRunner" duration-ms="250" started-at="2017-12-02T22:57:05Z" finished-at="2017-12-02T22:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestsRunner -->
+      </class> <!-- test.selenium.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
