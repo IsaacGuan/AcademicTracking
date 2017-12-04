@@ -115,7 +115,7 @@ public class University implements UniversityInt {
 	private void InitializeStudents() {
 		students.clear();
 		int[] studentNumberList = new int[]{101075401, 101075402};
-		String[] studentNameList = new String[]{"tom","jack"};
+		String[] studentNameList = new String[]{"Tom","Jerry"};
 		boolean[] isFullTimeList = new boolean[]{true,false};
 		for(int i=0;i<studentNumberList.length;i++) {
 			Student s = new Student(studentNumberList[i], studentNameList[i], isFullTimeList[i]);
@@ -385,6 +385,7 @@ public class University implements UniversityInt {
 				course.RemoveStudent(students.get(i));
 				students.get(i).DeRegisterCourse(course);
 			}
+			course.setCancelled(true);
 			result = true;
 			//logger.info(String.format("University Operation: cancel course %d; State: Success", course.Code()));
 		} else {

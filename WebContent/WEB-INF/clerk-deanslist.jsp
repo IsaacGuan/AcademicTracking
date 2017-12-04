@@ -1,7 +1,6 @@
 <%@page import="main.utilities.Config"%>
 <%@page import="main.server.logic.model.University"%>
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -13,31 +12,25 @@
 <meta content="" name="description" />
 <meta content="" name="author" />
 <!-- BEGIN GLOBAL MANDATORY STYLES -->
-<link href="media/css/bootstrap.min.css" rel="stylesheet"
-	type="text/css" />
-<link href="media/css/bootstrap-responsive.min.css" rel="stylesheet"
-	type="text/css" />
-<link href="media/css/font-awesome.min.css" rel="stylesheet"
-	type="text/css" />
+<link href="media/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="media/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+<link href="media/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="media/css/style-metro.css" rel="stylesheet" type="text/css" />
 <link href="media/css/style.css" rel="stylesheet" type="text/css" />
-<link href="media/css/style-responsive.css" rel="stylesheet"
-	type="text/css" />
-<link href="media/css/default.css" rel="stylesheet" type="text/css"
-	id="style_color" />
-<link href="media/css/uniform.default.css" rel="stylesheet"
-	type="text/css" />
+<link href="media/css/style-responsive.css" rel="stylesheet" type="text/css" />
+<link href="media/css/default.css" rel="stylesheet" type="text/css" id="style_color" />
+<link href="media/css/uniform.default.css" rel="stylesheet" type="text/css" />
 <!-- END GLOBAL MANDATORY STYLES -->
 <!-- BEGIN PAGE LEVEL STYLES -->
-<link rel="stylesheet" type="text/css"
-	href="media/css/select2_metro.css" />
+<link rel="stylesheet" type="text/css" href="media/css/select2_metro.css" />
 <link rel="stylesheet" href="media/css/DT_bootstrap.css" />
 <!-- END PAGE LEVEL STYLES -->
 <link rel="shortcut icon" href="media/image/favicon.ico" />
 <%
-	request.setAttribute("dean_students",University.getInstance().DeansList());
+	request.setAttribute("dean_students", University.getInstance()
+			.DeansList());
 	request.setAttribute("state", Config.TERM_ENDS);
-	%>
+%>
 </head>
 <!-- END HEAD -->
 <!-- BEGIN BODY -->
@@ -51,23 +44,37 @@
 				<a class="brand"> &nbsp Academic Tracking </a>
 				<!-- END LOGO -->
 				<!-- BEGIN RESPONSIVE MENU TOGGLER -->
-				<a href="javascript:;" class="btn-navbar collapsed"
-					data-toggle="collapse" data-target=".nav-collapse"> <img
-					src="media/image/menu-toggler.png" alt="" />
+				<a href="javascript:;" class="btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+					<img src="media/image/menu-toggler.png" alt="" />
 				</a>
 				<!-- END RESPONSIVE MENU TOGGLER -->
 				<!-- BEGIN TOP NAVIGATION MENU -->
 				<ul class="nav pull-right">
 					<!-- BEGIN USER LOGIN DROPDOWN -->
-					<li class="dropdown user"><a id= "clerkmenu" href="#" class="dropdown-toggle"
-						data-toggle="dropdown"> <span class="username">
-								<%out.print("Clerk"); %>
-						</span> <i class="icon-angle-down"></i>
-					</a>
+					<li class="dropdown user">
+						<a id="clerkmenu" href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="username">
+								<%
+									out.print("Clerk");
+								%>
+							</span>
+							<i class="icon-angle-down"></i>
+						</a>
 						<ul class="dropdown-menu">
-							<li><a href="ClerkHome" id= "home"><i class="icon-user"></i> Home</a></li>
-							<li><a href="Logout" id= "logout"><i class="icon-key"></i> Log Out</a></li>
-						</ul></li>
+							<li>
+								<a id="home" href="ClerkHome">
+									<i class="icon-user"></i>
+									Home
+								</a>
+							</li>
+							<li>
+								<a id="logout" href="Logout">
+									<i class="icon-key"></i>
+									Log Out
+								</a>
+							</li>
+						</ul>
+					</li>
 					<!-- END USER LOGIN DROPDOWN -->
 				</ul>
 				<!-- END TOP NAVIGATION MENU -->
@@ -84,39 +91,66 @@
 			<ul class="page-sidebar-menu">
 				<li>
 					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
-					<div class="sidebar-toggler hidden-phone"></div> <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+					<div class="sidebar-toggler hidden-phone"></div>
+					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
 				</li>
 				<li>
 					<!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
 					<form class="sidebar-search">
 						<div class="input-box">
-							<a href="javascript:;" class="remove"></a> <input type="text"
-								placeholder="Search..." /> <input type="button" class="submit"
-								value=" " />
+							<a href="javascript:;" class="remove"></a>
+							<input type="text" placeholder="Search..." />
+							<input type="button" class="submit" value=" " />
 						</div>
-					</form> <!-- END RESPONSIVE QUICK SEARCH FORM -->
+					</form>
+					<!-- END RESPONSIVE QUICK SEARCH FORM -->
 				</li>
-				<li class=""><a href="javascript:;"> <i class="icon-home"></i>
+				<li class="">
+					<a href="ClerkHome">
+						<i class="icon-home"></i>
 						<span class="title">Home</span>
-				</a></li>
-				<li class=""><a href=""> <i class="icon-user"></i> <span
-						class="title">Student</span> <span class="arrow "></span>
-				</a>
-					<ul class="sub-menu">
-						<li><a id= "createstudent" href="CreateStudent"> Create Student</a></li>
-						<li><a id= "deletestudent" href="DeleteStudent"> Delete Student</a></li>
-					</ul></li>
-				<li class=""><a href="" id= "course"> <i class="icon-table"></i> <span
-						class="title">Course</span> <span class="arrow "></span>
-				</a>
-					<ul class="sub-menu">
-						<li><a id= "createcourse" href="CreateCourse"> Create Course</a></li>
-						<li><a id= "deletecourse" href="DeleteCourse"> Delete Course</a></li>
-						<li><a id= "cancelcourse" href="CancelCourse"> Cancel Course</a></li>
-					</ul></li>
-				<li class="active "><a href="DeansList"> <i class="icon-th"></i>
-						<span class="title">Dean's List</span> <span class="selected"></span>
-				</a></li>
+					</a>
+				</li>
+				<li class="">
+					<a id="student" href="">
+						<i class="icon-user"></i>
+						<span class="title">Student</span>
+						<span class="arrow "></span>
+					</a>
+					<ul id="sub-student" class="sub-menu">
+						<li>
+							<a id="createstudent" href="CreateStudent"> Create Student</a>
+						</li>
+						<li>
+							<a id="deletestudent" href="DeleteStudent"> Delete Student</a>
+						</li>
+					</ul>
+				</li>
+				<li class="">
+					<a id="course" href="">
+						<i class="icon-table"></i>
+						<span class="title">Course</span>
+						<span class="arrow "></span>
+					</a>
+					<ul id="sub-course" class="sub-menu">
+						<li>
+							<a id="createcourse" href="CreateCourse"> Create Course</a>
+						</li>
+						<li>
+							<a id="deletecourse" href="DeleteCourse"> Delete Course</a>
+						</li>
+						<li>
+							<a id="cancelcourse" href="CancelCourse"> Cancel Course</a>
+						</li>
+					</ul>
+				</li>
+				<li class="active ">
+					<a href="DeansList">
+						<i class="icon-th"></i>
+						<span class="title">Dean's List</span>
+						<span class="selected"></span>
+					</a>
+				</li>
 			</ul>
 			<!-- END SIDEBAR MENU -->
 		</div>
@@ -130,13 +164,18 @@
 					<div class="span12">
 						<!-- BEGIN PAGE TITLE & BREADCRUMB-->
 						<h3 class="page-title">
-							Dean's List <small>all students who have an average above
-								85%</small>
+							Dean's List
+							<small>all students who have an average above 85%</small>
 						</h3>
 						<ul class="breadcrumb">
-							<li><i class="icon-home"></i> <a href="ClerkHome">Home</a> <i
-								class="icon-angle-right"></i></li>
-							<li><a href="#">Dean's List</a> <i class="icon-angle-right"></i>
+							<li>
+								<i class="icon-home"></i>
+								<a href="ClerkHome">Home</a>
+								<i class="icon-angle-right"></i>
+							</li>
+							<li>
+								<a href="#">Dean's List</a>
+								<i class="icon-angle-right"></i>
 							</li>
 						</ul>
 					</div>
@@ -149,7 +188,8 @@
 						<div class="portlet box green">
 							<div class="portlet-title">
 								<div class="caption">
-									<i class="icon-table"></i>Students
+									<i class="icon-table"></i>
+									Students
 								</div>
 								<div class="tools">
 									<a href="javascript:;" class="reload"></a>
@@ -157,8 +197,7 @@
 							</div>
 							<div class="portlet-body">
 								<c:if test="${state==true}">
-									<table
-										class="table table-striped table-bordered table-hover table-full-width">
+									<table class="table table-striped table-bordered table-hover table-full-width">
 										<thead>
 											<tr role="row">
 												<th>Student Number</th>
@@ -169,9 +208,7 @@
 										<tbody>
 											<c:forEach items="${dean_students}" var="student">
 												<tr>
-													<td><label class="radio"> <input type="radio"
-															name="radioButton" value="${student.StudentNumber()}">${student.studentNumber}
-													</label></td>
+													<td>${student.studentNumber}</td>
 													<td>${student.Name()}</td>
 													<td>${student.isFullTime()}</td>
 												</tr>
@@ -198,7 +235,8 @@
 	<div class="footer">
 		<div class="footer-inner">2017 &copy; Academic Tracking System</div>
 		<div class="footer-tools">
-			<span class="go-top"> <i class="icon-angle-up"></i>
+			<span class="go-top">
+				<i class="icon-angle-up"></i>
 			</span>
 		</div>
 	</div>
@@ -206,11 +244,9 @@
 	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
 	<!-- BEGIN CORE PLUGINS -->
 	<script src="media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
-	<script src="media/js/jquery-migrate-1.2.1.min.js"
-		type="text/javascript"></script>
+	<script src="media/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
 	<!-- IMPORTANT! Load jquery-ui-1.10.1.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
-	<script src="media/js/jquery-ui-1.10.1.custom.min.js"
-		type="text/javascript"></script>
+	<script src="media/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
 	<script src="media/js/bootstrap.min.js" type="text/javascript"></script>
 	<!--[if lt IE 9]>
 	<script src="media/js/excanvas.min.js"></script>

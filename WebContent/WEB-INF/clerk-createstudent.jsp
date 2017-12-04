@@ -47,13 +47,13 @@
 				<ul class="nav pull-right">
 					<!-- BEGIN USER LOGIN DROPDOWN -->
 					<li class="dropdown user">
-						<a id= "clerk" href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<a id="clerkmenu" href="#" class="dropdown-toggle" data-toggle="dropdown">
 							<span class="username"><%out.print("Clerk"); %></span>
 							<i class="icon-angle-down"></i>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a id= "home" href="ClerkHome"><i class="icon-user"></i> Home</a></li>
-							<li><a id= "logout" href="Logout"><i class="icon-key"></i> Log Out</a></li>
+							<li><a id="home" href="ClerkHome"><i class="icon-user"></i> Home</a></li>
+							<li><a id="logout" href="Logout"><i class="icon-key"></i> Log Out</a></li>
 						</ul>
 					</li>
 					<!-- END USER LOGIN DROPDOWN -->
@@ -87,26 +87,26 @@
 					<!-- END RESPONSIVE QUICK SEARCH FORM -->
 				</li>
 				<li class="">
-					<a id= "clerkhome" href="ClerkHome">
+					<a id="clerkhome" href="ClerkHome">
 					    <i class="icon-home"></i>
 						<span class="title">Home</span>
 						<span class="selected"></span>
 					</a>
 				</li>
 				<li class="active ">
-					<a href="" id="student">
+					<a id="student" href="">
 						<i class="icon-user"></i>
 						<span class="title">Student</span>
 						<span class="arrow open"></span>
 						<span class="selected"></span>
 					</a>
-					<ul class="sub-menu">
+					<ul id="sub-student" class="sub-menu">
 						<li class="active">
 							<a href="javascript:;">
 							Create Student</a>
 						</li>
 						<li >
-							<a id= "deletestudent" href="DeleteStudent">
+							<a id="deletestudent" href="DeleteStudent">
 							Delete Student</a>
 						</li>
 					</ul>
@@ -117,23 +117,23 @@
 						<span class="title">Course</span>
 						<span class="arrow"></span>
 					</a>
-					<ul class="sub-menu">
+					<ul id="sub-course" class="sub-menu">
 						<li >
-							<a id= "createcourse" href="CreateCourse">
+							<a id="createcourse" href="CreateCourse">
 							Create Course</a>
 						</li>
 						<li >
-							<a id= "deletecourse" href="DeleteCourse">
+							<a id="deletecourse" href="DeleteCourse">
 							Delete Course</a>
 						</li>
 						<li >
-							<a id= "cancelcourse" href="CancelCourse">
+							<a id="cancelcourse" href="CancelCourse">
 							Cancel Course</a>
 						</li>
 					</ul>
 				</li>
 				<li class="">
-					<a id= "deanlist" href="DeansList">
+					<a id="deanslist" href="DeansList">
 					    <i class="icon-th"></i>
 						<span class="title">Dean's List</span>
 					</a>

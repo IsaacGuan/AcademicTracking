@@ -3,12 +3,38 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="test.selenium.ClerkCreateStudent">
+      <class name="test.selenium.UseCaseDependencies">
         <methods>
-          <include name="Test"/>
+          <include name="ClerkLogout"/>
+          <include name="StudentALogin"/>
+          <include name="AfterTest"/>
+          <include name="StudentARegisterforCourses"/>
+          <include name="ClerkDeleteNewStudent"/>
+          <include name="StudentALogout"/>
+          <include name="ClerkCancelCourseD"/>
+          <include name="ClerkCreateNewCourse"/>
+          <include name="ClerkLogin"/>
+          <include name="ClerkViewDeansList"/>
+          <include name="ClerkLoginAgain"/>
+          <include name="ClerkCreateNewStudent"/>
+          <include name="WaitTilRegistrationEnds"/>
+          <include name="StudentADeregisterforCourseB"/>
+          <include name="StudentBRegisterforCourses"/>
           <include name="BeforeTest"/>
+          <include name="StudentBLogin"/>
+          <include name="WaitTilTermEnds"/>
+          <include name="StudentALoginAgain"/>
+          <include name="WaitTilRegistrationStarts"/>
+          <include name="StudentBSelectCourses"/>
+          <include name="StudentBLogout"/>
+          <include name="StudentBLoginAgain"/>
+          <include name="StudentBLogoutAgain"/>
+          <include name="StudentASelectCourses"/>
+          <include name="StudentALogoutAgain"/>
+          <include name="StudentBDropCourses"/>
+          <include name="ClerkDeleteNewCourse"/>
         </methods>
-      </class> <!-- test.selenium.ClerkCreateStudent -->
+      </class> <!-- test.selenium.UseCaseDependencies -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

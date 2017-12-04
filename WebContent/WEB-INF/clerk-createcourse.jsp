@@ -99,13 +99,13 @@
 						<span class="title">Student</span>
 						<span class="arrow "></span>
 					</a>
-					<ul class="sub-menu">
+					<ul id="sub-student" class="sub-menu">
 						<li >
-							<a id= "createstudent" href="CreateStudent">
+							<a id="createstudent" href="CreateStudent">
 							Create Student</a>
 						</li>
 						<li >
-							<a id= "deletestudent" href="DeleteStudent">
+							<a id="deletestudent" href="DeleteStudent">
 							Delete Student</a>
 						</li>
 					</ul>
@@ -117,7 +117,7 @@
 						<span class="arrow open"></span>
 						<span class="selected"></span>
 					</a>
-					<ul class="sub-menu">
+					<ul id="sub-course" class="sub-menu">
 						<li class="active">
 							<a href="javascript:;">
 							Create Course</a>
@@ -133,7 +133,7 @@
 					</ul>
 				</li>
 				<li class="">
-					<a id= "deanlist" href="DeansList">
+					<a id="deanslist" href="DeansList">
 					    <i class="icon-th"></i>
 						<span class="title">Dean's List</span>
 					</a>
@@ -193,7 +193,7 @@
 									<div class="control-group">
 										<label class="control-label">Course Code<span class="required">*</span></label>
 										<div class="controls">
-											<input type="text" class="span3 m-wrap popovers" name="code" name="code">
+											<input type="text" class="span3 m-wrap popovers" name="code" id="code">
 										</div>
 									</div>
 									<div class="control-group">

@@ -38,7 +38,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 591824957,
+  "duration": 191163971,
   "status": "passed"
 });
 formatter.match({
@@ -51,7 +51,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 3957125,
+  "duration": 4662525,
   "status": "passed"
 });
 formatter.match({
@@ -64,14 +64,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 128763,
+  "duration": 212273,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_clerk_is_logged_in()"
 });
 formatter.result({
-  "duration": 4306558,
+  "duration": 4404998,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -167,7 +167,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 465133,
+  "duration": 1019374,
   "status": "passed"
 });
 formatter.match({
@@ -180,7 +180,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 92373,
+  "duration": 102637,
   "status": "passed"
 });
 formatter.match({
@@ -193,14 +193,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 86308,
+  "duration": 151623,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_clerk_is_not_logged_in()"
 });
 formatter.result({
-  "duration": 37322,
+  "duration": 43388,
   "status": "passed"
 });
 formatter.scenario({
@@ -238,7 +238,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 789839,
+  "duration": 648480,
   "status": "passed"
 });
 formatter.match({
@@ -251,7 +251,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 79311,
+  "duration": 148357,
   "status": "passed"
 });
 formatter.match({
@@ -264,14 +264,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 90507,
+  "duration": 126430,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_clerk_is_not_logged_in()"
 });
 formatter.result({
-  "duration": 36389,
+  "duration": 50852,
   "status": "passed"
 });
 formatter.scenario({
@@ -311,7 +311,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 439473,
+  "duration": 13472522,
   "status": "passed"
 });
 formatter.match({
@@ -324,7 +324,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 86775,
+  "duration": 172150,
   "status": "passed"
 });
 formatter.match({
@@ -337,7 +337,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 88641,
+  "duration": 110568,
   "status": "passed"
 });
 formatter.match({
@@ -350,14 +350,14 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 151623,
+  "duration": 125031,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_clerk_is_logged_out()"
 });
 formatter.result({
-  "duration": 58317,
+  "duration": 50852,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -525,7 +525,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 461867,
+  "duration": 824363,
   "status": "passed"
 });
 formatter.match({
@@ -538,7 +538,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 85842,
+  "duration": 89108,
   "status": "passed"
 });
 formatter.match({
@@ -551,7 +551,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 80244,
+  "duration": 83043,
   "status": "passed"
 });
 formatter.match({
@@ -564,7 +564,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 94706,
+  "duration": 98904,
   "status": "passed"
 });
 formatter.match({
@@ -585,7 +585,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 45788264,
+  "duration": 1470977,
   "status": "passed"
 });
 formatter.match({
@@ -598,7 +598,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 115700,
+  "duration": 131096,
   "status": "passed"
 });
 formatter.match({
@@ -611,7 +611,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 113367,
+  "duration": 134361,
   "status": "passed"
 });
 formatter.match({
@@ -624,7 +624,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 136227,
+  "duration": 145092,
   "status": "passed"
 });
 formatter.match({
@@ -641,14 +641,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 2390977,
+  "duration": 963390,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_student_is_logged_in()"
 });
 formatter.result({
-  "duration": 57383,
+  "duration": 59716,
   "status": "passed"
 });
 formatter.scenario({
@@ -722,7 +722,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1092618,
+  "duration": 1246108,
   "status": "passed"
 });
 formatter.match({
@@ -735,7 +735,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 108236,
+  "duration": 106836,
   "status": "passed"
 });
 formatter.match({
@@ -748,7 +748,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 86308,
+  "duration": 117100,
   "status": "passed"
 });
 formatter.match({
@@ -761,7 +761,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 80244,
+  "duration": 95172,
   "status": "passed"
 });
 formatter.match({
@@ -782,7 +782,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 2770735,
+  "duration": 293448,
   "status": "passed"
 });
 formatter.match({
@@ -795,7 +795,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 106369,
+  "duration": 106836,
   "status": "passed"
 });
 formatter.match({
@@ -808,7 +808,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 82110,
+  "duration": 94239,
   "status": "passed"
 });
 formatter.match({
@@ -821,7 +821,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 107769,
+  "duration": 141359,
   "status": "passed"
 });
 formatter.match({
@@ -838,14 +838,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 1091685,
+  "duration": 302313,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_student_is_logged_in()"
 });
 formatter.result({
-  "duration": 154888,
+  "duration": 48519,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -948,7 +948,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 400751,
+  "duration": 630751,
   "status": "passed"
 });
 formatter.match({
@@ -961,7 +961,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 483794,
+  "duration": 836026,
   "status": "passed"
 });
 formatter.match({
@@ -978,14 +978,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 1054829,
+  "duration": 224869,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_student_is_not_logged_in()"
 });
 formatter.result({
-  "duration": 45254,
+  "duration": 70446,
   "status": "passed"
 });
 formatter.scenario({
@@ -1024,7 +1024,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 378357,
+  "duration": 1437386,
   "status": "passed"
 });
 formatter.match({
@@ -1037,7 +1037,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 74646,
+  "duration": 132495,
   "status": "passed"
 });
 formatter.match({
@@ -1054,14 +1054,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 893876,
+  "duration": 229067,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_student_is_not_logged_in()"
 });
 formatter.result({
-  "duration": 28459,
+  "duration": 32658,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1239,7 +1239,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 414747,
+  "duration": 425944,
   "status": "passed"
 });
 formatter.match({
@@ -1252,7 +1252,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 85375,
+  "duration": 78378,
   "status": "passed"
 });
 formatter.match({
@@ -1265,7 +1265,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 86775,
+  "duration": 91907,
   "status": "passed"
 });
 formatter.match({
@@ -1278,7 +1278,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 80710,
+  "duration": 70913,
   "status": "passed"
 });
 formatter.match({
@@ -1299,7 +1299,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 11150585,
+  "duration": 358297,
   "status": "passed"
 });
 formatter.match({
@@ -1312,7 +1312,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 79310,
+  "duration": 78378,
   "status": "passed"
 });
 formatter.match({
@@ -1325,7 +1325,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 56450,
+  "duration": 71380,
   "status": "passed"
 });
 formatter.match({
@@ -1338,7 +1338,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 73245,
+  "duration": 74645,
   "status": "passed"
 });
 formatter.match({
@@ -1355,7 +1355,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 2837449,
+  "duration": 220203,
   "status": "passed"
 });
 formatter.match({
@@ -1368,14 +1368,14 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 775843,
+  "duration": 131095,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_clerk_is_logged_out()"
 });
 formatter.result({
-  "duration": 32191,
+  "duration": 41055,
   "status": "passed"
 });
 formatter.scenario({
@@ -1454,7 +1454,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 5147250,
+  "duration": 1177061,
   "status": "passed"
 });
 formatter.match({
@@ -1467,7 +1467,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 82110,
+  "duration": 99838,
   "status": "passed"
 });
 formatter.match({
@@ -1480,7 +1480,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 116167,
+  "duration": 91907,
   "status": "passed"
 });
 formatter.match({
@@ -1493,7 +1493,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 69513,
+  "duration": 98905,
   "status": "passed"
 });
 formatter.match({
@@ -1514,7 +1514,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 3618423,
+  "duration": 293916,
   "status": "passed"
 });
 formatter.match({
@@ -1527,7 +1527,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 79777,
+  "duration": 154888,
   "status": "passed"
 });
 formatter.match({
@@ -1540,7 +1540,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 1343146,
+  "duration": 95172,
   "status": "passed"
 });
 formatter.match({
@@ -1553,7 +1553,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 114767,
+  "duration": 94706,
   "status": "passed"
 });
 formatter.match({
@@ -1570,7 +1570,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 7783623,
+  "duration": 229068,
   "status": "passed"
 });
 formatter.match({
@@ -1583,14 +1583,14 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 2072802,
+  "duration": 97505,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_clerk_is_logged_out()"
 });
 formatter.result({
-  "duration": 470731,
+  "duration": 39655,
   "status": "passed"
 });
 formatter.uri("test/cucumber/1-clerkcreatecourse.feature");
@@ -1752,7 +1752,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1107548,
+  "duration": 828095,
   "status": "passed"
 });
 formatter.match({
@@ -1765,7 +1765,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38321417,
+  "duration": 2001845602,
   "status": "passed"
 });
 formatter.match({
@@ -1778,7 +1778,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 80243,
+  "duration": 126896,
   "status": "passed"
 });
 formatter.match({
@@ -1791,7 +1791,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 136228,
+  "duration": 223935,
   "status": "passed"
 });
 formatter.match({
@@ -1804,7 +1804,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 74179,
+  "duration": 204808,
   "status": "passed"
 });
 formatter.match({
@@ -1845,7 +1845,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 24689348,
+  "duration": 1288096,
   "status": "passed"
 });
 formatter.match({
@@ -1858,7 +1858,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 129230,
+  "duration": 178215,
   "status": "passed"
 });
 formatter.scenario({
@@ -1918,7 +1918,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 525315,
+  "duration": 2019619,
   "status": "passed"
 });
 formatter.match({
@@ -1931,7 +1931,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37103302,
+  "duration": 2000001400,
   "status": "passed"
 });
 formatter.match({
@@ -1944,7 +1944,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 68580,
+  "duration": 169818,
   "status": "passed"
 });
 formatter.match({
@@ -1957,7 +1957,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 61583,
+  "duration": 121298,
   "status": "passed"
 });
 formatter.match({
@@ -1970,7 +1970,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 54118,
+  "duration": 149291,
   "status": "passed"
 });
 formatter.match({
@@ -2011,7 +2011,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 15148765,
+  "duration": 1095418,
   "status": "passed"
 });
 formatter.match({
@@ -2024,7 +2024,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 86775,
+  "duration": 172617,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2208,7 +2208,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 672273,
+  "duration": 3127166,
   "status": "passed"
 });
 formatter.match({
@@ -2221,7 +2221,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39648235,
+  "duration": 2000147890,
   "status": "passed"
 });
 formatter.match({
@@ -2234,7 +2234,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 66714,
+  "duration": 149290,
   "status": "passed"
 });
 formatter.match({
@@ -2247,7 +2247,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 82110,
+  "duration": 214138,
   "status": "passed"
 });
 formatter.match({
@@ -2260,7 +2260,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 67648,
+  "duration": 133895,
   "status": "passed"
 });
 formatter.match({
@@ -2301,7 +2301,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1203653,
+  "duration": 604626,
   "status": "passed"
 });
 formatter.match({
@@ -2314,7 +2314,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 43387,
+  "duration": 98439,
   "status": "passed"
 });
 formatter.match({
@@ -2355,7 +2355,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1170996,
+  "duration": 814565,
   "status": "passed"
 });
 formatter.match({
@@ -2368,7 +2368,7 @@ formatter.match({
   "location": "StepDefinitions.the_already_exists(String)"
 });
 formatter.result({
-  "duration": 97972,
+  "duration": 143692,
   "status": "passed"
 });
 formatter.scenario({
@@ -2448,7 +2448,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 764646,
+  "duration": 5309138,
   "status": "passed"
 });
 formatter.match({
@@ -2461,7 +2461,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38530424,
+  "duration": 2000362495,
   "status": "passed"
 });
 formatter.match({
@@ -2474,7 +2474,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 53185,
+  "duration": 87242,
   "status": "passed"
 });
 formatter.match({
@@ -2487,7 +2487,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 45720,
+  "duration": 76512,
   "status": "passed"
 });
 formatter.match({
@@ -2500,7 +2500,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 37789,
+  "duration": 94240,
   "status": "passed"
 });
 formatter.match({
@@ -2541,7 +2541,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1592274,
+  "duration": 582699,
   "status": "passed"
 });
 formatter.match({
@@ -2554,7 +2554,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 44787,
+  "duration": 66714,
   "status": "passed"
 });
 formatter.match({
@@ -2595,7 +2595,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1736900,
+  "duration": 673672,
   "status": "passed"
 });
 formatter.match({
@@ -2608,7 +2608,7 @@ formatter.match({
   "location": "StepDefinitions.the_already_exists(String)"
 });
 formatter.result({
-  "duration": 77445,
+  "duration": 82576,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2762,7 +2762,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 815965,
+  "duration": 2397043,
   "status": "passed"
 });
 formatter.match({
@@ -2775,7 +2775,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 416781161,
+  "duration": 21000061116,
   "status": "passed"
 });
 formatter.match({
@@ -2788,7 +2788,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 100771,
+  "duration": 54584,
   "status": "passed"
 });
 formatter.match({
@@ -2801,7 +2801,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 80244,
+  "duration": 47586,
   "status": "passed"
 });
 formatter.match({
@@ -2814,7 +2814,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 77445,
+  "duration": 31724,
   "status": "passed"
 });
 formatter.match({
@@ -2855,14 +2855,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 297181,
+  "duration": 167485,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.it_is_overdue()"
 });
 formatter.result({
-  "duration": 54117,
+  "duration": 40122,
   "status": "passed"
 });
 formatter.scenario({
@@ -2922,7 +2922,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 6938267,
+  "duration": 2364386,
   "status": "passed"
 });
 formatter.match({
@@ -2935,7 +2935,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 417572400,
+  "duration": 21000455802,
   "status": "passed"
 });
 formatter.match({
@@ -2948,7 +2948,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 57850,
+  "duration": 237465,
   "status": "passed"
 });
 formatter.match({
@@ -2961,7 +2961,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 54118,
+  "duration": 47119,
   "status": "passed"
 });
 formatter.match({
@@ -2974,7 +2974,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 35457,
+  "duration": 31725,
   "status": "passed"
 });
 formatter.match({
@@ -3015,14 +3015,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 157221,
+  "duration": 171217,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.it_is_overdue()"
 });
 formatter.result({
-  "duration": 34990,
+  "duration": 21461,
   "status": "passed"
 });
 formatter.uri("test/cucumber/2-clerkcreatestudent.feature");
@@ -3164,7 +3164,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1143937,
+  "duration": 1629131,
   "status": "passed"
 });
 formatter.match({
@@ -3177,7 +3177,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38571945,
+  "duration": 1999739675,
   "status": "passed"
 });
 formatter.match({
@@ -3190,7 +3190,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 59717,
+  "duration": 66248,
   "status": "passed"
 });
 formatter.match({
@@ -3203,7 +3203,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 82576,
+  "duration": 85842,
   "status": "passed"
 });
 formatter.match({
@@ -3216,7 +3216,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 68580,
+  "duration": 73246,
   "status": "passed"
 });
 formatter.match({
@@ -3237,7 +3237,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 2403574,
+  "duration": 200142,
   "status": "passed"
 });
 formatter.match({
@@ -3250,7 +3250,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 69513,
+  "duration": 66248,
   "status": "passed"
 });
 formatter.scenario({
@@ -3305,7 +3305,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1498967,
+  "duration": 2122722,
   "status": "passed"
 });
 formatter.match({
@@ -3318,7 +3318,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39240486,
+  "duration": 2000549109,
   "status": "passed"
 });
 formatter.match({
@@ -3331,7 +3331,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 48519,
+  "duration": 100304,
   "status": "passed"
 });
 formatter.match({
@@ -3344,7 +3344,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 846290,
+  "duration": 840225,
   "status": "passed"
 });
 formatter.match({
@@ -3357,7 +3357,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 76978,
+  "duration": 95173,
   "status": "passed"
 });
 formatter.match({
@@ -3378,7 +3378,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 4245443,
+  "duration": 456736,
   "status": "passed"
 });
 formatter.match({
@@ -3391,7 +3391,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 105436,
+  "duration": 133429,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -3550,7 +3550,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1704709,
+  "duration": 2566861,
   "status": "passed"
 });
 formatter.match({
@@ -3563,7 +3563,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39975740,
+  "duration": 1999967342,
   "status": "passed"
 });
 formatter.match({
@@ -3576,7 +3576,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 70447,
+  "duration": 105903,
   "status": "passed"
 });
 formatter.match({
@@ -3589,7 +3589,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 70913,
+  "duration": 146958,
   "status": "passed"
 });
 formatter.match({
@@ -3602,7 +3602,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 44787,
+  "duration": 140893,
   "status": "passed"
 });
 formatter.match({
@@ -3623,7 +3623,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 2522073,
+  "duration": 439007,
   "status": "passed"
 });
 formatter.match({
@@ -3636,7 +3636,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 49452,
+  "duration": 105436,
   "status": "passed"
 });
 formatter.match({
@@ -3657,7 +3657,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1951971,
+  "duration": 578967,
   "status": "passed"
 });
 formatter.match({
@@ -3670,7 +3670,7 @@ formatter.match({
   "location": "StepDefinitions.the_already_exists(String)"
 });
 formatter.result({
-  "duration": 105437,
+  "duration": 131562,
   "status": "passed"
 });
 formatter.scenario({
@@ -3740,7 +3740,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1112213,
+  "duration": 2301871,
   "status": "passed"
 });
 formatter.match({
@@ -3753,7 +3753,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39197099,
+  "duration": 2000616755,
   "status": "passed"
 });
 formatter.match({
@@ -3766,7 +3766,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 68113,
+  "duration": 107769,
   "status": "passed"
 });
 formatter.match({
@@ -3779,7 +3779,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 42921,
+  "duration": 99371,
   "status": "passed"
 });
 formatter.match({
@@ -3792,7 +3792,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 40588,
+  "duration": 100771,
   "status": "passed"
 });
 formatter.match({
@@ -3813,7 +3813,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1366939,
+  "duration": 270122,
   "status": "passed"
 });
 formatter.match({
@@ -3826,7 +3826,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 45720,
+  "duration": 110568,
   "status": "passed"
 });
 formatter.match({
@@ -3847,7 +3847,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 977851,
+  "duration": 393287,
   "status": "passed"
 });
 formatter.match({
@@ -3860,7 +3860,7 @@ formatter.match({
   "location": "StepDefinitions.the_already_exists(String)"
 });
 formatter.result({
-  "duration": 56451,
+  "duration": 250062,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -3994,7 +3994,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1817609,
+  "duration": 2314001,
   "status": "passed"
 });
 formatter.match({
@@ -4007,7 +4007,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 418812443,
+  "duration": 20999895030,
   "status": "passed"
 });
 formatter.match({
@@ -4020,7 +4020,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 48519,
+  "duration": 114301,
   "status": "passed"
 });
 formatter.match({
@@ -4033,7 +4033,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 36389,
+  "duration": 90041,
   "status": "passed"
 });
 formatter.match({
@@ -4046,7 +4046,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 32191,
+  "duration": 93307,
   "status": "passed"
 });
 formatter.match({
@@ -4067,14 +4067,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 114300,
+  "duration": 277587,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.it_is_overdue()"
 });
 formatter.result({
-  "duration": 25659,
+  "duration": 46653,
   "status": "passed"
 });
 formatter.scenario({
@@ -4129,7 +4129,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 955924,
+  "duration": 2986273,
   "status": "passed"
 });
 formatter.match({
@@ -4142,7 +4142,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 418146234,
+  "duration": 20999999067,
   "status": "passed"
 });
 formatter.match({
@@ -4155,7 +4155,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 120832,
+  "duration": 100304,
   "status": "passed"
 });
 formatter.match({
@@ -4168,7 +4168,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 115233,
+  "duration": 97972,
   "status": "passed"
 });
 formatter.match({
@@ -4181,7 +4181,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 133428,
+  "duration": 76045,
   "status": "passed"
 });
 formatter.match({
@@ -4202,14 +4202,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 355031,
+  "duration": 263591,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.it_is_overdue()"
 });
 formatter.result({
-  "duration": 61582,
+  "duration": 40588,
   "status": "passed"
 });
 formatter.uri("test/cucumber/3-clerkdeletecourse.feature");
@@ -4394,7 +4394,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1329150,
+  "duration": 3005868,
   "status": "passed"
 });
 formatter.match({
@@ -4407,7 +4407,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38136204,
+  "duration": 2000182414,
   "status": "passed"
 });
 formatter.match({
@@ -4420,7 +4420,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 41055,
+  "duration": 103570,
   "status": "passed"
 });
 formatter.match({
@@ -4433,7 +4433,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 71846,
+  "duration": 174950,
   "status": "passed"
 });
 formatter.match({
@@ -4446,7 +4446,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 39655,
+  "duration": 89574,
   "status": "passed"
 });
 formatter.match({
@@ -4487,7 +4487,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1978096,
+  "duration": 892943,
   "status": "passed"
 });
 formatter.match({
@@ -4500,7 +4500,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 115233,
+  "duration": 957324,
   "status": "passed"
 });
 formatter.match({
@@ -4513,7 +4513,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
 });
 formatter.result({
-  "duration": 2785663,
+  "duration": 355498,
   "status": "passed"
 });
 formatter.match({
@@ -4526,7 +4526,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 64848,
+  "duration": 120832,
   "status": "passed"
 });
 formatter.scenario({
@@ -4599,7 +4599,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1592274,
+  "duration": 4762363,
   "status": "passed"
 });
 formatter.match({
@@ -4612,7 +4612,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 40529981,
+  "duration": 2000003733,
   "status": "passed"
 });
 formatter.match({
@@ -4625,7 +4625,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 66247,
+  "duration": 144625,
   "status": "passed"
 });
 formatter.match({
@@ -4638,7 +4638,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 43388,
+  "duration": 100771,
   "status": "passed"
 });
 formatter.match({
@@ -4651,7 +4651,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 34056,
+  "duration": 89108,
   "status": "passed"
 });
 formatter.match({
@@ -4692,7 +4692,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2045744,
+  "duration": 895742,
   "status": "passed"
 });
 formatter.match({
@@ -4705,7 +4705,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 55051,
+  "duration": 137628,
   "status": "passed"
 });
 formatter.match({
@@ -4718,7 +4718,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
 });
 formatter.result({
-  "duration": 1624465,
+  "duration": 260325,
   "status": "passed"
 });
 formatter.match({
@@ -4731,7 +4731,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 64381,
+  "duration": 135295,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -4878,7 +4878,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 881746,
+  "duration": 3265260,
   "status": "passed"
 });
 formatter.match({
@@ -4891,7 +4891,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36419832,
+  "duration": 2000778643,
   "status": "passed"
 });
 formatter.match({
@@ -4904,7 +4904,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 72312,
+  "duration": 101704,
   "status": "passed"
 });
 formatter.match({
@@ -4917,7 +4917,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 77444,
+  "duration": 79311,
   "status": "passed"
 });
 formatter.match({
@@ -4930,7 +4930,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 274788,
+  "duration": 76978,
   "status": "passed"
 });
 formatter.match({
@@ -4943,7 +4943,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
 });
 formatter.result({
-  "duration": 1090752,
+  "duration": 267789,
   "status": "passed"
 });
 formatter.match({
@@ -4956,7 +4956,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 62982,
+  "duration": 149757,
   "status": "passed"
 });
 formatter.scenario({
@@ -5009,7 +5009,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1546087,
+  "duration": 2616314,
   "status": "passed"
 });
 formatter.match({
@@ -5022,7 +5022,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37849287,
+  "duration": 2001388400,
   "status": "passed"
 });
 formatter.match({
@@ -5035,7 +5035,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 86308,
+  "duration": 154889,
   "status": "passed"
 });
 formatter.match({
@@ -5048,7 +5048,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 56450,
+  "duration": 94707,
   "status": "passed"
 });
 formatter.match({
@@ -5061,7 +5061,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 78377,
+  "duration": 165619,
   "status": "passed"
 });
 formatter.match({
@@ -5074,7 +5074,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
 });
 formatter.result({
-  "duration": 847222,
+  "duration": 293449,
   "status": "passed"
 });
 formatter.match({
@@ -5087,7 +5087,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 58316,
+  "duration": 145092,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -5274,7 +5274,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1721504,
+  "duration": 5011957,
   "status": "passed"
 });
 formatter.match({
@@ -5287,7 +5287,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38785150,
+  "duration": 2013313434,
   "status": "passed"
 });
 formatter.match({
@@ -5300,7 +5300,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 47120,
+  "duration": 57383,
   "status": "passed"
 });
 formatter.match({
@@ -5313,7 +5313,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 46186,
+  "duration": 67180,
   "status": "passed"
 });
 formatter.match({
@@ -5326,7 +5326,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 585498,
+  "duration": 86308,
   "status": "passed"
 });
 formatter.match({
@@ -5367,7 +5367,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2692357,
+  "duration": 3058120,
   "status": "passed"
 });
 formatter.match({
@@ -5380,7 +5380,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 397236264,
+  "duration": 20000456269,
   "status": "passed"
 });
 formatter.match({
@@ -5393,7 +5393,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 51319,
+  "duration": 113834,
   "status": "passed"
 });
 formatter.match({
@@ -5406,14 +5406,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
 });
 formatter.result({
-  "duration": 74645,
+  "duration": 181481,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.it_is_overdue()"
 });
 formatter.result({
-  "duration": 16329,
+  "duration": 53652,
   "status": "passed"
 });
 formatter.scenario({
@@ -5491,7 +5491,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1040367,
+  "duration": 2733413,
   "status": "passed"
 });
 formatter.match({
@@ -5504,7 +5504,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38834137,
+  "duration": 2000733855,
   "status": "passed"
 });
 formatter.match({
@@ -5517,7 +5517,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 48986,
+  "duration": 94239,
   "status": "passed"
 });
 formatter.match({
@@ -5530,7 +5530,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 36856,
+  "duration": 73246,
   "status": "passed"
 });
 formatter.match({
@@ -5543,7 +5543,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 47120,
+  "duration": 82576,
   "status": "passed"
 });
 formatter.match({
@@ -5584,7 +5584,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2353188,
+  "duration": 575234,
   "status": "passed"
 });
 formatter.match({
@@ -5597,7 +5597,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 399201297,
+  "duration": 20000390954,
   "status": "passed"
 });
 formatter.match({
@@ -5610,7 +5610,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 59716,
+  "duration": 83043,
   "status": "passed"
 });
 formatter.match({
@@ -5623,14 +5623,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
 });
 formatter.result({
-  "duration": 72779,
+  "duration": 107769,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.it_is_overdue()"
 });
 formatter.result({
-  "duration": 21927,
+  "duration": 37323,
   "status": "passed"
 });
 formatter.uri("test/cucumber/4-clerkdeletestudent.feature");
@@ -5795,7 +5795,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1101949,
+  "duration": 3225605,
   "status": "passed"
 });
 formatter.match({
@@ -5808,7 +5808,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36512672,
+  "duration": 2000195943,
   "status": "passed"
 });
 formatter.match({
@@ -5821,7 +5821,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 69980,
+  "duration": 77444,
   "status": "passed"
 });
 formatter.match({
@@ -5834,7 +5834,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 70912,
+  "duration": 81177,
   "status": "passed"
 });
 formatter.match({
@@ -5847,7 +5847,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 37789,
+  "duration": 73245,
   "status": "passed"
 });
 formatter.match({
@@ -5868,7 +5868,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1283430,
+  "duration": 237932,
   "status": "passed"
 });
 formatter.match({
@@ -5881,7 +5881,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 85842,
+  "duration": 230934,
   "status": "passed"
 });
 formatter.match({
@@ -5894,7 +5894,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
 });
 formatter.result({
-  "duration": 1741564,
+  "duration": 236999,
   "status": "passed"
 });
 formatter.match({
@@ -5907,7 +5907,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 51785,
+  "duration": 85842,
   "status": "passed"
 });
 formatter.scenario({
@@ -5975,7 +5975,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 674605,
+  "duration": 7332023,
   "status": "passed"
 });
 formatter.match({
@@ -5988,7 +5988,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38759025,
+  "duration": 2000127364,
   "status": "passed"
 });
 formatter.match({
@@ -6001,7 +6001,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 47120,
+  "duration": 60649,
   "status": "passed"
 });
 formatter.match({
@@ -6014,7 +6014,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 59249,
+  "duration": 30791,
   "status": "passed"
 });
 formatter.match({
@@ -6027,7 +6027,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 40588,
+  "duration": 30791,
   "status": "passed"
 });
 formatter.match({
@@ -6048,7 +6048,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1366939,
+  "duration": 116633,
   "status": "passed"
 });
 formatter.match({
@@ -6061,7 +6061,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 104970,
+  "duration": 86775,
   "status": "passed"
 });
 formatter.match({
@@ -6074,7 +6074,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
 });
 formatter.result({
-  "duration": 1351077,
+  "duration": 473996,
   "status": "passed"
 });
 formatter.match({
@@ -6087,7 +6087,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 158154,
+  "duration": 80710,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -6219,7 +6219,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 866817,
+  "duration": 1406595,
   "status": "passed"
 });
 formatter.match({
@@ -6232,7 +6232,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39808722,
+  "duration": 1999954280,
   "status": "passed"
 });
 formatter.match({
@@ -6245,7 +6245,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 57383,
+  "duration": 111501,
   "status": "passed"
 });
 formatter.match({
@@ -6258,7 +6258,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 52718,
+  "duration": 119899,
   "status": "passed"
 });
 formatter.match({
@@ -6271,7 +6271,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 39655,
+  "duration": 161887,
   "status": "passed"
 });
 formatter.match({
@@ -6284,7 +6284,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
 });
 formatter.result({
-  "duration": 501989,
+  "duration": 404950,
   "status": "passed"
 });
 formatter.match({
@@ -6297,7 +6297,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 60183,
+  "duration": 145558,
   "status": "passed"
 });
 formatter.scenario({
@@ -6350,7 +6350,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 4003312,
+  "duration": 5616584,
   "status": "passed"
 });
 formatter.match({
@@ -6363,7 +6363,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38529025,
+  "duration": 1999583853,
   "status": "passed"
 });
 formatter.match({
@@ -6376,7 +6376,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 53651,
+  "duration": 89574,
   "status": "passed"
 });
 formatter.match({
@@ -6389,7 +6389,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 69980,
+  "duration": 109635,
   "status": "passed"
 });
 formatter.match({
@@ -6402,7 +6402,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 53651,
+  "duration": 76045,
   "status": "passed"
 });
 formatter.match({
@@ -6415,7 +6415,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
 });
 formatter.result({
-  "duration": 592029,
+  "duration": 172150,
   "status": "passed"
 });
 formatter.match({
@@ -6428,7 +6428,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 79310,
+  "duration": 84443,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -6595,7 +6595,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 490792,
+  "duration": 2612581,
   "status": "passed"
 });
 formatter.match({
@@ -6608,7 +6608,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39435029,
+  "duration": 2000560305,
   "status": "passed"
 });
 formatter.match({
@@ -6621,7 +6621,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 53651,
+  "duration": 101238,
   "status": "passed"
 });
 formatter.match({
@@ -6634,7 +6634,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 47120,
+  "duration": 80243,
   "status": "passed"
 });
 formatter.match({
@@ -6647,7 +6647,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 42455,
+  "duration": 69513,
   "status": "passed"
 });
 formatter.match({
@@ -6668,7 +6668,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1644526,
+  "duration": 262191,
   "status": "passed"
 });
 formatter.match({
@@ -6681,7 +6681,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 400181014,
+  "duration": 19999929087,
   "status": "passed"
 });
 formatter.match({
@@ -6694,7 +6694,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 71846,
+  "duration": 114301,
   "status": "passed"
 });
 formatter.match({
@@ -6707,14 +6707,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
 });
 formatter.result({
-  "duration": 99371,
+  "duration": 179615,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.it_is_overdue()"
 });
 formatter.result({
-  "duration": 19595,
+  "duration": 39188,
   "status": "passed"
 });
 formatter.scenario({
@@ -6787,7 +6787,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 620021,
+  "duration": 2578058,
   "status": "passed"
 });
 formatter.match({
@@ -6800,7 +6800,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38851865,
+  "duration": 1999927221,
   "status": "passed"
 });
 formatter.match({
@@ -6813,7 +6813,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 73712,
+  "duration": 104504,
   "status": "passed"
 });
 formatter.match({
@@ -6826,7 +6826,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 60182,
+  "duration": 87241,
   "status": "passed"
 });
 formatter.match({
@@ -6839,7 +6839,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 71380,
+  "duration": 81177,
   "status": "passed"
 });
 formatter.match({
@@ -6860,7 +6860,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 2901830,
+  "duration": 1424789,
   "status": "passed"
 });
 formatter.match({
@@ -6873,7 +6873,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 398210383,
+  "duration": 20000274321,
   "status": "passed"
 });
 formatter.match({
@@ -6886,7 +6886,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 60649,
+  "duration": 132495,
   "status": "passed"
 });
 formatter.match({
@@ -6899,14 +6899,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
 });
 formatter.result({
-  "duration": 118033,
+  "duration": 222536,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.it_is_overdue()"
 });
 formatter.result({
-  "duration": 32657,
+  "duration": 40121,
   "status": "passed"
 });
 formatter.uri("test/cucumber/5-clerkcancelcourse.feature");
@@ -7101,7 +7101,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 2225825,
+  "duration": 2886902,
   "status": "passed"
 });
 formatter.match({
@@ -7114,7 +7114,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36619042,
+  "duration": 2000035923,
   "status": "passed"
 });
 formatter.match({
@@ -7127,7 +7127,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 105436,
+  "duration": 61116,
   "status": "passed"
 });
 formatter.match({
@@ -7140,7 +7140,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 86309,
+  "duration": 53651,
   "status": "passed"
 });
 formatter.match({
@@ -7153,7 +7153,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 107769,
+  "duration": 40122,
   "status": "passed"
 });
 formatter.match({
@@ -7194,7 +7194,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2195967,
+  "duration": 240731,
   "status": "passed"
 });
 formatter.match({
@@ -7207,7 +7207,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 796833180,
+  "duration": 39999370647,
   "status": "passed"
 });
 formatter.match({
@@ -7220,7 +7220,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 118032,
+  "duration": 61115,
   "status": "passed"
 });
 formatter.match({
@@ -7233,7 +7233,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 3725726,
+  "duration": 133895,
   "status": "passed"
 });
 formatter.match({
@@ -7246,7 +7246,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 106836,
+  "duration": 65781,
   "status": "passed"
 });
 formatter.scenario({
@@ -7324,7 +7324,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 2178705,
+  "duration": 853754,
   "status": "passed"
 });
 formatter.match({
@@ -7337,7 +7337,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36494944,
+  "duration": 2000381623,
   "status": "passed"
 });
 formatter.match({
@@ -7350,7 +7350,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 71380,
+  "duration": 159554,
   "status": "passed"
 });
 formatter.match({
@@ -7363,7 +7363,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 57384,
+  "duration": 133428,
   "status": "passed"
 });
 formatter.match({
@@ -7376,7 +7376,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 41055,
+  "duration": 118499,
   "status": "passed"
 });
 formatter.match({
@@ -7417,7 +7417,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1496635,
+  "duration": 965722,
   "status": "passed"
 });
 formatter.match({
@@ -7430,7 +7430,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 800213205,
+  "duration": 40000750651,
   "status": "passed"
 });
 formatter.match({
@@ -7443,7 +7443,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 126430,
+  "duration": 131562,
   "status": "passed"
 });
 formatter.match({
@@ -7456,7 +7456,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 3136029,
+  "duration": 283651,
   "status": "passed"
 });
 formatter.match({
@@ -7469,7 +7469,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 104970,
+  "duration": 112901,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -7626,7 +7626,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1751828,
+  "duration": 4294431,
   "status": "passed"
 });
 formatter.match({
@@ -7639,7 +7639,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38440849,
+  "duration": 1999748539,
   "status": "passed"
 });
 formatter.match({
@@ -7652,7 +7652,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 52252,
+  "duration": 97506,
   "status": "passed"
 });
 formatter.match({
@@ -7665,7 +7665,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 41988,
+  "duration": 73712,
   "status": "passed"
 });
 formatter.match({
@@ -7678,7 +7678,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 798781418,
+  "duration": 39999892698,
   "status": "passed"
 });
 formatter.match({
@@ -7691,7 +7691,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 132962,
+  "duration": 188946,
   "status": "passed"
 });
 formatter.match({
@@ -7704,7 +7704,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 1042233,
+  "duration": 250061,
   "status": "passed"
 });
 formatter.match({
@@ -7717,7 +7717,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 136227,
+  "duration": 105903,
   "status": "passed"
 });
 formatter.scenario({
@@ -7775,7 +7775,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1397730,
+  "duration": 2376515,
   "status": "passed"
 });
 formatter.match({
@@ -7788,7 +7788,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 40321440,
+  "duration": 2000027059,
   "status": "passed"
 });
 formatter.match({
@@ -7801,7 +7801,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 94707,
+  "duration": 91441,
   "status": "passed"
 });
 formatter.match({
@@ -7814,7 +7814,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 107302,
+  "duration": 83043,
   "status": "passed"
 });
 formatter.match({
@@ -7827,7 +7827,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 797547440,
+  "duration": 39999588052,
   "status": "passed"
 });
 formatter.match({
@@ -7840,7 +7840,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 136694,
+  "duration": 134361,
   "status": "passed"
 });
 formatter.match({
@@ -7853,7 +7853,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 1547954,
+  "duration": 218337,
   "status": "passed"
 });
 formatter.match({
@@ -7866,7 +7866,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 142292,
+  "duration": 90508,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -8053,7 +8053,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1344079,
+  "duration": 2544934,
   "status": "passed"
 });
 formatter.match({
@@ -8066,7 +8066,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39067868,
+  "duration": 2000348033,
   "status": "passed"
 });
 formatter.match({
@@ -8079,7 +8079,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 56451,
+  "duration": 104970,
   "status": "passed"
 });
 formatter.match({
@@ -8092,7 +8092,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 53185,
+  "duration": 134362,
   "status": "passed"
 });
 formatter.match({
@@ -8105,7 +8105,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 55051,
+  "duration": 135761,
   "status": "passed"
 });
 formatter.match({
@@ -8146,7 +8146,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1659922,
+  "duration": 984850,
   "status": "passed"
 });
 formatter.match({
@@ -8159,7 +8159,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39490080,
+  "duration": 2000443205,
   "status": "passed"
 });
 formatter.match({
@@ -8172,7 +8172,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 280386,
+  "duration": 207607,
   "status": "passed"
 });
 formatter.match({
@@ -8185,14 +8185,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 145558,
+  "duration": 122698,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_course_cannot_be_canceled_before_registration_ends()"
 });
 formatter.result({
-  "duration": 50385,
+  "duration": 36856,
   "status": "passed"
 });
 formatter.scenario({
@@ -8270,7 +8270,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 811766,
+  "duration": 1470043,
   "status": "passed"
 });
 formatter.match({
@@ -8283,7 +8283,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37977117,
+  "duration": 2000266857,
   "status": "passed"
 });
 formatter.match({
@@ -8296,7 +8296,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 41988,
+  "duration": 50852,
   "status": "passed"
 });
 formatter.match({
@@ -8309,7 +8309,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 37322,
+  "duration": 39655,
   "status": "passed"
 });
 formatter.match({
@@ -8322,7 +8322,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 57850,
+  "duration": 48053,
   "status": "passed"
 });
 formatter.match({
@@ -8363,7 +8363,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 3206475,
+  "duration": 1504567,
   "status": "passed"
 });
 formatter.match({
@@ -8376,7 +8376,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37834358,
+  "duration": 2000264990,
   "status": "passed"
 });
 formatter.match({
@@ -8389,7 +8389,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 77911,
+  "duration": 56450,
   "status": "passed"
 });
 formatter.match({
@@ -8402,14 +8402,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 128763,
+  "duration": 160487,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_course_cannot_be_canceled_before_registration_ends()"
 });
 formatter.result({
-  "duration": 29858,
+  "duration": 36856,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -8596,7 +8596,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1992092,
+  "duration": 5309605,
   "status": "passed"
 });
 formatter.match({
@@ -8609,7 +8609,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 41264303,
+  "duration": 2000037322,
   "status": "passed"
 });
 formatter.match({
@@ -8622,7 +8622,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 58783,
+  "duration": 84908,
   "status": "passed"
 });
 formatter.match({
@@ -8635,7 +8635,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 49919,
+  "duration": 69980,
   "status": "passed"
 });
 formatter.match({
@@ -8648,7 +8648,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 63915,
+  "duration": 128296,
   "status": "passed"
 });
 formatter.match({
@@ -8689,7 +8689,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2303736,
+  "duration": 9354907,
   "status": "passed"
 });
 formatter.match({
@@ -8702,7 +8702,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 2400611623,
+  "duration": 120000599494,
   "status": "passed"
 });
 formatter.match({
@@ -8715,7 +8715,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 123631,
+  "duration": 96105,
   "status": "passed"
 });
 formatter.match({
@@ -8728,14 +8728,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 175882,
+  "duration": 184281,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_term_ends()"
 });
 formatter.result({
-  "duration": 60649,
+  "duration": 44320,
   "status": "passed"
 });
 formatter.scenario({
@@ -8813,7 +8813,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1606737,
+  "duration": 1349678,
   "status": "passed"
 });
 formatter.match({
@@ -8826,7 +8826,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37571700,
+  "duration": 1999943083,
   "status": "passed"
 });
 formatter.match({
@@ -8839,7 +8839,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 67647,
+  "duration": 105436,
   "status": "passed"
 });
 formatter.match({
@@ -8852,7 +8852,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 50385,
+  "duration": 73245,
   "status": "passed"
 });
 formatter.match({
@@ -8865,7 +8865,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 53185,
+  "duration": 75578,
   "status": "passed"
 });
 formatter.match({
@@ -8906,7 +8906,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2789862,
+  "duration": 436208,
   "status": "passed"
 });
 formatter.match({
@@ -8919,7 +8919,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 2399217159,
+  "duration": 120000631218,
   "status": "passed"
 });
 formatter.match({
@@ -8932,7 +8932,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 112900,
+  "duration": 116633,
   "status": "passed"
 });
 formatter.match({
@@ -8945,14 +8945,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 159554,
+  "duration": 190812,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_term_ends()"
 });
 formatter.result({
-  "duration": 46653,
+  "duration": 49452,
   "status": "passed"
 });
 formatter.uri("test/cucumber/6-studentselectcourse.feature");
@@ -9215,7 +9215,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1523227,
+  "duration": 6006604,
   "status": "passed"
 });
 formatter.match({
@@ -9228,7 +9228,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 40662009,
+  "duration": 2000241197,
   "status": "passed"
 });
 formatter.match({
@@ -9241,7 +9241,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 64382,
+  "duration": 174483,
   "status": "passed"
 });
 formatter.match({
@@ -9254,7 +9254,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 58783,
+  "duration": 100304,
   "status": "passed"
 });
 formatter.match({
@@ -9267,7 +9267,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 59716,
+  "duration": 87708,
   "status": "passed"
 });
 formatter.match({
@@ -9288,7 +9288,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1284829,
+  "duration": 313976,
   "status": "passed"
 });
 formatter.match({
@@ -9301,7 +9301,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 50852,
+  "duration": 76978,
   "status": "passed"
 });
 formatter.match({
@@ -9342,14 +9342,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1701442,
+  "duration": 453936,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 33590,
+  "duration": 80710,
   "status": "passed"
 });
 formatter.match({
@@ -9362,7 +9362,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36399305,
+  "duration": 2000536046,
   "status": "passed"
 });
 formatter.match({
@@ -9375,7 +9375,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 70913,
+  "duration": 73245,
   "status": "passed"
 });
 formatter.match({
@@ -9392,7 +9392,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 576168,
+  "duration": 160954,
   "status": "passed"
 });
 formatter.match({
@@ -9405,7 +9405,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 861218,
+  "duration": 150690,
   "status": "passed"
 });
 formatter.match({
@@ -9418,7 +9418,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2919558,
+  "duration": 167952,
   "status": "passed"
 });
 formatter.match({
@@ -9431,7 +9431,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 77911,
+  "duration": 53184,
   "status": "passed"
 });
 formatter.scenario({
@@ -9543,7 +9543,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 806168,
+  "duration": 2720817,
   "status": "passed"
 });
 formatter.match({
@@ -9556,7 +9556,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37400950,
+  "duration": 2000078377,
   "status": "passed"
 });
 formatter.match({
@@ -9569,7 +9569,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 45720,
+  "duration": 95173,
   "status": "passed"
 });
 formatter.match({
@@ -9582,7 +9582,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 33590,
+  "duration": 68114,
   "status": "passed"
 });
 formatter.match({
@@ -9595,7 +9595,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 28458,
+  "duration": 71379,
   "status": "passed"
 });
 formatter.match({
@@ -9616,7 +9616,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 897141,
+  "duration": 246329,
   "status": "passed"
 });
 formatter.match({
@@ -9629,7 +9629,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 36856,
+  "duration": 62516,
   "status": "passed"
 });
 formatter.match({
@@ -9670,14 +9670,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2203897,
+  "duration": 427344,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 24726,
+  "duration": 42455,
   "status": "passed"
 });
 formatter.match({
@@ -9690,7 +9690,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37724723,
+  "duration": 2000307912,
   "status": "passed"
 });
 formatter.match({
@@ -9703,7 +9703,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 44787,
+  "duration": 125031,
   "status": "passed"
 });
 formatter.match({
@@ -9720,7 +9720,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 488459,
+  "duration": 382090,
   "status": "passed"
 });
 formatter.match({
@@ -9733,7 +9733,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 403083,
+  "duration": 378357,
   "status": "passed"
 });
 formatter.match({
@@ -9746,7 +9746,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2148380,
+  "duration": 288317,
   "status": "passed"
 });
 formatter.match({
@@ -9759,7 +9759,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 63448,
+  "duration": 105903,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -9984,7 +9984,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 595295,
+  "duration": 1828807,
   "status": "passed"
 });
 formatter.match({
@@ -9997,7 +9997,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36191232,
+  "duration": 2000305113,
   "status": "passed"
 });
 formatter.match({
@@ -10010,7 +10010,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 55051,
+  "duration": 46653,
   "status": "passed"
 });
 formatter.match({
@@ -10023,7 +10023,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 43854,
+  "duration": 25659,
   "status": "passed"
 });
 formatter.match({
@@ -10036,7 +10036,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 41988,
+  "duration": 34057,
   "status": "passed"
 });
 formatter.match({
@@ -10057,14 +10057,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 3835827,
+  "duration": 283185,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 28459,
+  "duration": 41521,
   "status": "passed"
 });
 formatter.match({
@@ -10077,7 +10077,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37388353,
+  "duration": 2000440406,
   "status": "passed"
 });
 formatter.match({
@@ -10090,7 +10090,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 42454,
+  "duration": 98439,
   "status": "passed"
 });
 formatter.match({
@@ -10107,7 +10107,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 461867,
+  "duration": 276654,
   "status": "passed"
 });
 formatter.match({
@@ -10120,7 +10120,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 393287,
+  "duration": 226269,
   "status": "passed"
 });
 formatter.match({
@@ -10133,7 +10133,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 345700,
+  "duration": 198277,
   "status": "passed"
 });
 formatter.match({
@@ -10146,7 +10146,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 47586,
+  "duration": 135761,
   "status": "passed"
 });
 formatter.scenario({
@@ -10238,7 +10238,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 610224,
+  "duration": 2843981,
   "status": "passed"
 });
 formatter.match({
@@ -10251,7 +10251,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37834824,
+  "duration": 1999624442,
   "status": "passed"
 });
 formatter.match({
@@ -10264,7 +10264,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 53185,
+  "duration": 111968,
   "status": "passed"
 });
 formatter.match({
@@ -10277,7 +10277,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 110102,
+  "duration": 108702,
   "status": "passed"
 });
 formatter.match({
@@ -10290,7 +10290,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 103570,
+  "duration": 85842,
   "status": "passed"
 });
 formatter.match({
@@ -10311,14 +10311,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1625864,
+  "duration": 232799,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 33591,
+  "duration": 36390,
   "status": "passed"
 });
 formatter.match({
@@ -10331,7 +10331,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38468375,
+  "duration": 2001036169,
   "status": "passed"
 });
 formatter.match({
@@ -10344,7 +10344,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 42455,
+  "duration": 114767,
   "status": "passed"
 });
 formatter.match({
@@ -10361,7 +10361,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 427344,
+  "duration": 254727,
   "status": "passed"
 });
 formatter.match({
@@ -10374,7 +10374,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 325173,
+  "duration": 87242,
   "status": "passed"
 });
 formatter.match({
@@ -10387,7 +10387,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 505721,
+  "duration": 411949,
   "status": "passed"
 });
 formatter.match({
@@ -10400,7 +10400,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 58783,
+  "duration": 93306,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -10655,7 +10655,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 554706,
+  "duration": 4116216,
   "status": "passed"
 });
 formatter.match({
@@ -10668,7 +10668,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38055494,
+  "duration": 1999977607,
   "status": "passed"
 });
 formatter.match({
@@ -10681,7 +10681,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 45254,
+  "duration": 216471,
   "status": "passed"
 });
 formatter.match({
@@ -10694,7 +10694,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 35457,
+  "duration": 72312,
   "status": "passed"
 });
 formatter.match({
@@ -10707,7 +10707,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 38722,
+  "duration": 64382,
   "status": "passed"
 });
 formatter.match({
@@ -10728,7 +10728,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1498035,
+  "duration": 487992,
   "status": "passed"
 });
 formatter.match({
@@ -10741,7 +10741,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 61116,
+  "duration": 101704,
   "status": "passed"
 });
 formatter.match({
@@ -10782,14 +10782,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1716372,
+  "duration": 619088,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 25659,
+  "duration": 57384,
   "status": "passed"
 });
 formatter.match({
@@ -10802,7 +10802,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 797477927,
+  "duration": 40000793572,
   "status": "passed"
 });
 formatter.match({
@@ -10815,7 +10815,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 103104,
+  "duration": 73245,
   "status": "passed"
 });
 formatter.match({
@@ -10832,7 +10832,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 1295560,
+  "duration": 211806,
   "status": "passed"
 });
 formatter.match({
@@ -10845,7 +10845,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 1009575,
+  "duration": 71846,
   "status": "passed"
 });
 formatter.match({
@@ -10858,14 +10858,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 172151,
+  "duration": 93773,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.course_cannot_be_selected_after_registration_ends()"
 });
 formatter.result({
-  "duration": 61583,
+  "duration": 32657,
   "status": "passed"
 });
 formatter.scenario({
@@ -10977,7 +10977,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1433186,
+  "duration": 1266169,
   "status": "passed"
 });
 formatter.match({
@@ -10990,7 +10990,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37699530,
+  "duration": 2000144158,
   "status": "passed"
 });
 formatter.match({
@@ -11003,7 +11003,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 56917,
+  "duration": 41521,
   "status": "passed"
 });
 formatter.match({
@@ -11016,7 +11016,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 95639,
+  "duration": 35923,
   "status": "passed"
 });
 formatter.match({
@@ -11029,7 +11029,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 48519,
+  "duration": 52252,
   "status": "passed"
 });
 formatter.match({
@@ -11050,7 +11050,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 2106393,
+  "duration": 146025,
   "status": "passed"
 });
 formatter.match({
@@ -11063,7 +11063,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 46187,
+  "duration": 35456,
   "status": "passed"
 });
 formatter.match({
@@ -11104,14 +11104,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2173107,
+  "duration": 207140,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 32190,
+  "duration": 26593,
   "status": "passed"
 });
 formatter.match({
@@ -11124,7 +11124,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 797940727,
+  "duration": 40000006532,
   "status": "passed"
 });
 formatter.match({
@@ -11137,7 +11137,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 130629,
+  "duration": 118966,
   "status": "passed"
 });
 formatter.match({
@@ -11154,7 +11154,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 1191056,
+  "duration": 264524,
   "status": "passed"
 });
 formatter.match({
@@ -11167,7 +11167,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 900407,
+  "duration": 102170,
   "status": "passed"
 });
 formatter.match({
@@ -11180,14 +11180,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 184280,
+  "duration": 169351,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.course_cannot_be_selected_after_registration_ends()"
 });
 formatter.result({
-  "duration": 44320,
+  "duration": 44787,
   "status": "passed"
 });
 formatter.uri("test/cucumber/7-studentregisterforcourse.feature");
@@ -11473,7 +11473,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1911382,
+  "duration": 2132986,
   "status": "passed"
 });
 formatter.match({
@@ -11486,7 +11486,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 43122500,
+  "duration": 2000863551,
   "status": "passed"
 });
 formatter.match({
@@ -11499,7 +11499,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 124564,
+  "duration": 101237,
   "status": "passed"
 });
 formatter.match({
@@ -11512,7 +11512,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 56450,
+  "duration": 70913,
   "status": "passed"
 });
 formatter.match({
@@ -11525,7 +11525,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 58783,
+  "duration": 62049,
   "status": "passed"
 });
 formatter.match({
@@ -11546,7 +11546,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 2026149,
+  "duration": 210873,
   "status": "passed"
 });
 formatter.match({
@@ -11559,7 +11559,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 76045,
+  "duration": 53184,
   "status": "passed"
 });
 formatter.match({
@@ -11600,14 +11600,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2425968,
+  "duration": 357363,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 79311,
+  "duration": 41988,
   "status": "passed"
 });
 formatter.match({
@@ -11620,7 +11620,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 119899,
+  "duration": 56450,
   "status": "passed"
 });
 formatter.match({
@@ -11637,7 +11637,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 1493836,
+  "duration": 196876,
   "status": "passed"
 });
 formatter.match({
@@ -11650,7 +11650,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 1103348,
+  "duration": 103104,
   "status": "passed"
 });
 formatter.match({
@@ -11663,7 +11663,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 4470311,
+  "duration": 155355,
   "status": "passed"
 });
 formatter.match({
@@ -11676,7 +11676,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 399067402,
+  "duration": 19999722413,
   "status": "passed"
 });
 formatter.match({
@@ -11689,7 +11689,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 425010,
+  "duration": 142292,
   "status": "passed"
 });
 formatter.match({
@@ -11702,7 +11702,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 4453516,
+  "duration": 382557,
   "status": "passed"
 });
 formatter.match({
@@ -11715,7 +11715,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 48053,
+  "duration": 83509,
   "status": "passed"
 });
 formatter.scenario({
@@ -11840,7 +11840,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 925133,
+  "duration": 2735279,
   "status": "passed"
 });
 formatter.match({
@@ -11853,7 +11853,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39044542,
+  "duration": 2000125497,
   "status": "passed"
 });
 formatter.match({
@@ -11866,7 +11866,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 52718,
+  "duration": 65781,
   "status": "passed"
 });
 formatter.match({
@@ -11879,7 +11879,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 74646,
+  "duration": 56917,
   "status": "passed"
 });
 formatter.match({
@@ -11892,7 +11892,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 53184,
+  "duration": 57384,
   "status": "passed"
 });
 formatter.match({
@@ -11913,7 +11913,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1592741,
+  "duration": 138560,
   "status": "passed"
 });
 formatter.match({
@@ -11926,7 +11926,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 52251,
+  "duration": 32657,
   "status": "passed"
 });
 formatter.match({
@@ -11967,14 +11967,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2359253,
+  "duration": 227668,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 32657,
+  "duration": 37789,
   "status": "passed"
 });
 formatter.match({
@@ -11987,7 +11987,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 50385,
+  "duration": 385823,
   "status": "passed"
 });
 formatter.match({
@@ -12004,7 +12004,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 1066493,
+  "duration": 720326,
   "status": "passed"
 });
 formatter.match({
@@ -12017,7 +12017,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 690934,
+  "duration": 76044,
   "status": "passed"
 });
 formatter.match({
@@ -12030,7 +12030,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 7687517,
+  "duration": 102170,
   "status": "passed"
 });
 formatter.match({
@@ -12043,7 +12043,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 397440605,
+  "duration": 19999563792,
   "status": "passed"
 });
 formatter.match({
@@ -12056,7 +12056,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 555640,
+  "duration": 109635,
   "status": "passed"
 });
 formatter.match({
@@ -12069,7 +12069,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 14394383,
+  "duration": 254726,
   "status": "passed"
 });
 formatter.match({
@@ -12082,7 +12082,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 74179,
+  "duration": 79777,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -12307,7 +12307,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 951259,
+  "duration": 3352968,
   "status": "passed"
 });
 formatter.match({
@@ -12320,7 +12320,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36750137,
+  "duration": 2000529047,
   "status": "passed"
 });
 formatter.match({
@@ -12333,7 +12333,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 1105215,
+  "duration": 138094,
   "status": "passed"
 });
 formatter.match({
@@ -12346,7 +12346,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 90507,
+  "duration": 93773,
   "status": "passed"
 });
 formatter.match({
@@ -12359,7 +12359,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 29392,
+  "duration": 139493,
   "status": "passed"
 });
 formatter.match({
@@ -12380,14 +12380,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 12988255,
+  "duration": 310244,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 184280,
+  "duration": 55983,
   "status": "passed"
 });
 formatter.match({
@@ -12400,7 +12400,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 54118,
+  "duration": 168419,
   "status": "passed"
 });
 formatter.match({
@@ -12417,7 +12417,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 621887,
+  "duration": 295781,
   "status": "passed"
 });
 formatter.match({
@@ -12430,7 +12430,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 399581054,
+  "duration": 20000145558,
   "status": "passed"
 });
 formatter.match({
@@ -12443,7 +12443,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 357364,
+  "duration": 81177,
   "status": "passed"
 });
 formatter.match({
@@ -12456,7 +12456,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 402151,
+  "duration": 139027,
   "status": "passed"
 });
 formatter.match({
@@ -12469,7 +12469,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 38255,
+  "duration": 55984,
   "status": "passed"
 });
 formatter.scenario({
@@ -12561,7 +12561,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 708662,
+  "duration": 3531184,
   "status": "passed"
 });
 formatter.match({
@@ -12574,7 +12574,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38819207,
+  "duration": 2000204808,
   "status": "passed"
 });
 formatter.match({
@@ -12587,7 +12587,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 41521,
+  "duration": 84443,
   "status": "passed"
 });
 formatter.match({
@@ -12600,7 +12600,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 21927,
+  "duration": 63448,
   "status": "passed"
 });
 formatter.match({
@@ -12613,7 +12613,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 29392,
+  "duration": 53652,
   "status": "passed"
 });
 formatter.match({
@@ -12634,14 +12634,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 893875,
+  "duration": 255660,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 70913,
+  "duration": 42921,
   "status": "passed"
 });
 formatter.match({
@@ -12654,7 +12654,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 37322,
+  "duration": 59716,
   "status": "passed"
 });
 formatter.match({
@@ -12671,7 +12671,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 1186858,
+  "duration": 1191524,
   "status": "passed"
 });
 formatter.match({
@@ -12684,7 +12684,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 399050607,
+  "duration": 20000149290,
   "status": "passed"
 });
 formatter.match({
@@ -12697,7 +12697,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 379757,
+  "duration": 145092,
   "status": "passed"
 });
 formatter.match({
@@ -12710,7 +12710,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 656411,
+  "duration": 204341,
   "status": "passed"
 });
 formatter.match({
@@ -12723,7 +12723,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 57850,
+  "duration": 80243,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -12978,7 +12978,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 675072,
+  "duration": 3561042,
   "status": "passed"
 });
 formatter.match({
@@ -12991,7 +12991,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39325395,
+  "duration": 2000683936,
   "status": "passed"
 });
 formatter.match({
@@ -13004,7 +13004,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 55984,
+  "duration": 41522,
   "status": "passed"
 });
 formatter.match({
@@ -13017,7 +13017,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 36856,
+  "duration": 29391,
   "status": "passed"
 });
 formatter.match({
@@ -13030,7 +13030,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 34523,
+  "duration": 27059,
   "status": "passed"
 });
 formatter.match({
@@ -13051,7 +13051,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1078622,
+  "duration": 125031,
   "status": "passed"
 });
 formatter.match({
@@ -13064,7 +13064,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 39189,
   "status": "passed"
 });
 formatter.match({
@@ -13105,14 +13105,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 830893,
+  "duration": 156755,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 16795,
+  "duration": 16329,
   "status": "passed"
 });
 formatter.match({
@@ -13125,7 +13125,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 23793,
+  "duration": 19128,
   "status": "passed"
 });
 formatter.match({
@@ -13142,7 +13142,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 337769,
+  "duration": 93307,
   "status": "passed"
 });
 formatter.match({
@@ -13155,7 +13155,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 397984581,
+  "duration": 19999951015,
   "status": "passed"
 });
 formatter.match({
@@ -13168,7 +13168,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 395619,
+  "duration": 57850,
   "status": "passed"
 });
 formatter.match({
@@ -13181,14 +13181,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 1376736,
+  "duration": 83976,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_register_for_this_course()"
 });
 formatter.result({
-  "duration": 44787,
+  "duration": 29392,
   "status": "passed"
 });
 formatter.scenario({
@@ -13300,7 +13300,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 649879,
+  "duration": 1038035,
   "status": "passed"
 });
 formatter.match({
@@ -13313,7 +13313,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36497743,
+  "duration": 1999551196,
   "status": "passed"
 });
 formatter.match({
@@ -13326,7 +13326,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 47586,
+  "duration": 52251,
   "status": "passed"
 });
 formatter.match({
@@ -13339,7 +13339,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 58316,
+  "duration": 132029,
   "status": "passed"
 });
 formatter.match({
@@ -13352,7 +13352,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 42921,
+  "duration": 59716,
   "status": "passed"
 });
 formatter.match({
@@ -13373,7 +13373,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1635195,
+  "duration": 591097,
   "status": "passed"
 });
 formatter.match({
@@ -13386,7 +13386,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 50852,
+  "duration": 66715,
   "status": "passed"
 });
 formatter.match({
@@ -13427,14 +13427,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1465377,
+  "duration": 278986,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 27526,
+  "duration": 29858,
   "status": "passed"
 });
 formatter.match({
@@ -13447,7 +13447,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 42921,
+  "duration": 49452,
   "status": "passed"
 });
 formatter.match({
@@ -13464,7 +13464,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 679737,
+  "duration": 157688,
   "status": "passed"
 });
 formatter.match({
@@ -13477,7 +13477,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 399307200,
+  "duration": 20007265309,
   "status": "passed"
 });
 formatter.match({
@@ -13490,7 +13490,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 1014708,
+  "duration": 288317,
   "status": "passed"
 });
 formatter.match({
@@ -13503,14 +13503,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 4625666,
+  "duration": 245396,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_register_for_this_course()"
 });
 formatter.result({
-  "duration": 55984,
+  "duration": 44787,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -13788,7 +13788,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1944506,
+  "duration": 1520429,
   "status": "passed"
 });
 formatter.match({
@@ -13801,7 +13801,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38026102,
+  "duration": 2001836272,
   "status": "passed"
 });
 formatter.match({
@@ -13814,7 +13814,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 59250,
+  "duration": 81176,
   "status": "passed"
 });
 formatter.match({
@@ -13827,7 +13827,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 74178,
+  "duration": 89108,
   "status": "passed"
 });
 formatter.match({
@@ -13840,7 +13840,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 79311,
+  "duration": 74179,
   "status": "passed"
 });
 formatter.match({
@@ -13861,7 +13861,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1096817,
+  "duration": 287850,
   "status": "passed"
 });
 formatter.match({
@@ -13874,7 +13874,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 46187,
+  "duration": 57383,
   "status": "passed"
 });
 formatter.match({
@@ -13915,14 +13915,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1404729,
+  "duration": 5333864,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 31257,
+  "duration": 35923,
   "status": "passed"
 });
 formatter.match({
@@ -13935,7 +13935,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 63915,
+  "duration": 81643,
   "status": "passed"
 });
 formatter.match({
@@ -13952,7 +13952,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 605558,
+  "duration": 180082,
   "status": "passed"
 });
 formatter.match({
@@ -13965,7 +13965,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 784707,
+  "duration": 320975,
   "status": "passed"
 });
 formatter.match({
@@ -13978,7 +13978,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1887589,
+  "duration": 306979,
   "status": "passed"
 });
 formatter.match({
@@ -13991,7 +13991,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36997866,
+  "duration": 2000743653,
   "status": "passed"
 });
 formatter.match({
@@ -14004,7 +14004,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 591563,
+  "duration": 333104,
   "status": "passed"
 });
 formatter.match({
@@ -14017,14 +14017,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 101704,
+  "duration": 163287,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.registration_has_not_started()"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 58783,
   "status": "passed"
 });
 formatter.scenario({
@@ -14149,7 +14149,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 466998,
+  "duration": 2408240,
   "status": "passed"
 });
 formatter.match({
@@ -14162,7 +14162,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39579188,
+  "duration": 1999623975,
   "status": "passed"
 });
 formatter.match({
@@ -14175,7 +14175,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 40588,
+  "duration": 46653,
   "status": "passed"
 });
 formatter.match({
@@ -14188,7 +14188,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 22860,
+  "duration": 70446,
   "status": "passed"
 });
 formatter.match({
@@ -14201,7 +14201,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 25659,
+  "duration": 47119,
   "status": "passed"
 });
 formatter.match({
@@ -14222,7 +14222,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1243774,
+  "duration": 237931,
   "status": "passed"
 });
 formatter.match({
@@ -14235,7 +14235,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 51785,
+  "duration": 38722,
   "status": "passed"
 });
 formatter.match({
@@ -14276,14 +14276,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1590875,
+  "duration": 227668,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 34057,
+  "duration": 24726,
   "status": "passed"
 });
 formatter.match({
@@ -14296,7 +14296,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 39655,
+  "duration": 37789,
   "status": "passed"
 });
 formatter.match({
@@ -14313,7 +14313,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 648013,
+  "duration": 116633,
   "status": "passed"
 });
 formatter.match({
@@ -14326,7 +14326,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 452536,
+  "duration": 61583,
   "status": "passed"
 });
 formatter.match({
@@ -14339,7 +14339,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 8168512,
+  "duration": 176349,
   "status": "passed"
 });
 formatter.match({
@@ -14352,7 +14352,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37614154,
+  "duration": 1999965010,
   "status": "passed"
 });
 formatter.match({
@@ -14365,7 +14365,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 395152,
+  "duration": 93307,
   "status": "passed"
 });
 formatter.match({
@@ -14378,14 +14378,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 72779,
+  "duration": 231867,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.registration_has_not_started()"
 });
 formatter.result({
-  "duration": 20061,
+  "duration": 69047,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -14663,7 +14663,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 583632,
+  "duration": 1365074,
   "status": "passed"
 });
 formatter.match({
@@ -14676,7 +14676,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38276164,
+  "duration": 1999462088,
   "status": "passed"
 });
 formatter.match({
@@ -14689,7 +14689,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 49919,
+  "duration": 67647,
   "status": "passed"
 });
 formatter.match({
@@ -14702,7 +14702,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 33124,
+  "duration": 163287,
   "status": "passed"
 });
 formatter.match({
@@ -14715,7 +14715,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 32190,
+  "duration": 59250,
   "status": "passed"
 });
 formatter.match({
@@ -14736,7 +14736,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 887344,
+  "duration": 218337,
   "status": "passed"
 });
 formatter.match({
@@ -14749,7 +14749,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 29858,
+  "duration": 41522,
   "status": "passed"
 });
 formatter.match({
@@ -14790,14 +14790,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 927933,
+  "duration": 271056,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 24259,
+  "duration": 40589,
   "status": "passed"
 });
 formatter.match({
@@ -14810,7 +14810,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 36856,
+  "duration": 56917,
   "status": "passed"
 });
 formatter.match({
@@ -14827,7 +14827,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 420346,
+  "duration": 163286,
   "status": "passed"
 });
 formatter.match({
@@ -14840,7 +14840,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 341035,
+  "duration": 76512,
   "status": "passed"
 });
 formatter.match({
@@ -14853,7 +14853,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1585277,
+  "duration": 140426,
   "status": "passed"
 });
 formatter.match({
@@ -14866,7 +14866,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 696253980,
+  "duration": 35000564504,
   "status": "passed"
 });
 formatter.match({
@@ -14879,7 +14879,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 412881,
+  "duration": 68581,
   "status": "passed"
 });
 formatter.match({
@@ -14892,14 +14892,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 70913,
+  "duration": 523916,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.registration_has_finished()"
 });
 formatter.result({
-  "duration": 31725,
+  "duration": 74645,
   "status": "passed"
 });
 formatter.scenario({
@@ -15024,7 +15024,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 578967,
+  "duration": 1508766,
   "status": "passed"
 });
 formatter.match({
@@ -15037,7 +15037,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39277808,
+  "duration": 2000192678,
   "status": "passed"
 });
 formatter.match({
@@ -15050,7 +15050,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 64848,
+  "duration": 46653,
   "status": "passed"
 });
 formatter.match({
@@ -15063,7 +15063,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 46187,
+  "duration": 38722,
   "status": "passed"
 });
 formatter.match({
@@ -15076,7 +15076,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 32191,
+  "duration": 37323,
   "status": "passed"
 });
 formatter.match({
@@ -15097,7 +15097,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1308156,
+  "duration": 115700,
   "status": "passed"
 });
 formatter.match({
@@ -15110,7 +15110,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 48052,
+  "duration": 39189,
   "status": "passed"
 });
 formatter.match({
@@ -15151,14 +15151,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1844668,
+  "duration": 182880,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 355031,
+  "duration": 419879,
   "status": "passed"
 });
 formatter.match({
@@ -15171,7 +15171,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 37789,
+  "duration": 46187,
   "status": "passed"
 });
 formatter.match({
@@ -15188,7 +15188,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 405416,
+  "duration": 125030,
   "status": "passed"
 });
 formatter.match({
@@ -15201,7 +15201,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 405416,
+  "duration": 131562,
   "status": "passed"
 });
 formatter.match({
@@ -15214,7 +15214,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1647325,
+  "duration": 136227,
   "status": "passed"
 });
 formatter.match({
@@ -15227,7 +15227,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 697329803,
+  "duration": 35021413369,
   "status": "passed"
 });
 formatter.match({
@@ -15240,7 +15240,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 420812,
+  "duration": 527182,
   "status": "passed"
 });
 formatter.match({
@@ -15253,14 +15253,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 72779,
+  "duration": 138560,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.registration_has_finished()"
 });
 formatter.result({
-  "duration": 18194,
+  "duration": 336836,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -15838,7 +15838,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 585964,
+  "duration": 24624978,
   "status": "passed"
 });
 formatter.match({
@@ -15851,7 +15851,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39027747,
+  "duration": 2002167042,
   "status": "passed"
 });
 formatter.match({
@@ -15864,7 +15864,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 41521,
+  "duration": 45720,
   "status": "passed"
 });
 formatter.match({
@@ -15877,7 +15877,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 21927,
+  "duration": 34524,
   "status": "passed"
 });
 formatter.match({
@@ -15890,7 +15890,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 17262,
+  "duration": 27992,
   "status": "passed"
 });
 formatter.match({
@@ -15911,7 +15911,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 835559,
+  "duration": 117566,
   "status": "passed"
 });
 formatter.match({
@@ -15924,7 +15924,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 29858,
+  "duration": 27525,
   "status": "passed"
 });
 formatter.match({
@@ -15945,7 +15945,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 710995,
+  "duration": 90507,
   "status": "passed"
 });
 formatter.match({
@@ -15958,7 +15958,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 37789,
+  "duration": 30324,
   "status": "passed"
 });
 formatter.match({
@@ -15979,7 +15979,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1002111,
+  "duration": 98905,
   "status": "passed"
 });
 formatter.match({
@@ -15992,7 +15992,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 30792,
+  "duration": 41055,
   "status": "passed"
 });
 formatter.match({
@@ -16033,14 +16033,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 733388,
+  "duration": 222536,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 32658,
+  "duration": 175883,
   "status": "passed"
 });
 formatter.match({
@@ -16053,7 +16053,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 32658,
+  "duration": 66248,
   "status": "passed"
 });
 formatter.match({
@@ -16070,7 +16070,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 413348,
+  "duration": 139959,
   "status": "passed"
 });
 formatter.match({
@@ -16083,7 +16083,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 274320,
+  "duration": 87708,
   "status": "passed"
 });
 formatter.match({
@@ -16096,14 +16096,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1326351,
+  "duration": 219737,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 21460,
+  "duration": 23327,
   "status": "passed"
 });
 formatter.match({
@@ -16116,7 +16116,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 32657,
+  "duration": 57383,
   "status": "passed"
 });
 formatter.match({
@@ -16133,7 +16133,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 388621,
+  "duration": 108702,
   "status": "passed"
 });
 formatter.match({
@@ -16146,7 +16146,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 456735,
+  "duration": 68113,
   "status": "passed"
 });
 formatter.match({
@@ -16159,14 +16159,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1691179,
+  "duration": 86775,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 13529,
+  "duration": 18195,
   "status": "passed"
 });
 formatter.match({
@@ -16179,7 +16179,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 34989,
+  "duration": 46653,
   "status": "passed"
 });
 formatter.match({
@@ -16196,7 +16196,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 393753,
+  "duration": 148357,
   "status": "passed"
 });
 formatter.match({
@@ -16209,7 +16209,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 503388,
+  "duration": 63915,
   "status": "passed"
 });
 formatter.match({
@@ -16222,14 +16222,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 9791111,
+  "duration": 113834,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 25193,
+  "duration": 23793,
   "status": "passed"
 });
 formatter.match({
@@ -16242,7 +16242,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 396663362,
+  "duration": 19999764868,
   "status": "passed"
 });
 formatter.match({
@@ -16255,7 +16255,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 69513,
+  "duration": 112434,
   "status": "passed"
 });
 formatter.match({
@@ -16272,7 +16272,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 454869,
+  "duration": 449270,
   "status": "passed"
 });
 formatter.match({
@@ -16285,7 +16285,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 371359,
+  "duration": 117566,
   "status": "passed"
 });
 formatter.match({
@@ -16298,14 +16298,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2733412,
+  "duration": 200142,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 15395,
+  "duration": 36856,
   "status": "passed"
 });
 formatter.match({
@@ -16318,7 +16318,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 34990,
+  "duration": 67647,
   "status": "passed"
 });
 formatter.match({
@@ -16335,7 +16335,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 434341,
+  "duration": 254260,
   "status": "passed"
 });
 formatter.match({
@@ -16348,7 +16348,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 329372,
+  "duration": 76511,
   "status": "passed"
 });
 formatter.match({
@@ -16361,14 +16361,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 3236800,
+  "duration": 277120,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 17261,
+  "duration": 27525,
   "status": "passed"
 });
 formatter.match({
@@ -16381,7 +16381,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 38722,
+  "duration": 61116,
   "status": "passed"
 });
 formatter.match({
@@ -16398,7 +16398,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 536978,
+  "duration": 252860,
   "status": "passed"
 });
 formatter.match({
@@ -16411,7 +16411,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 405417,
+  "duration": 74179,
   "status": "passed"
 });
 formatter.match({
@@ -16424,14 +16424,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 3425279,
+  "duration": 168418,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_register_for_this_course()"
 });
 formatter.result({
-  "duration": 26593,
+  "duration": 39189,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -17009,7 +17009,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 750184,
+  "duration": 2713819,
   "status": "passed"
 });
 formatter.match({
@@ -17022,7 +17022,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38027502,
+  "duration": 2000591097,
   "status": "passed"
 });
 formatter.match({
@@ -17035,7 +17035,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 53652,
+  "duration": 52718,
   "status": "passed"
 });
 formatter.match({
@@ -17048,7 +17048,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 40588,
+  "duration": 36389,
   "status": "passed"
 });
 formatter.match({
@@ -17061,7 +17061,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 39656,
+  "duration": 32191,
   "status": "passed"
 });
 formatter.match({
@@ -17082,7 +17082,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1249840,
+  "duration": 127830,
   "status": "passed"
 });
 formatter.match({
@@ -17095,7 +17095,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 71379,
+  "duration": 31258,
   "status": "passed"
 });
 formatter.match({
@@ -17136,7 +17136,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2021017,
+  "duration": 230001,
   "status": "passed"
 });
 formatter.match({
@@ -17149,7 +17149,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 55050,
+  "duration": 38256,
   "status": "passed"
 });
 formatter.match({
@@ -17190,7 +17190,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1301158,
+  "duration": 197809,
   "status": "passed"
 });
 formatter.match({
@@ -17203,7 +17203,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 60182,
+  "duration": 30325,
   "status": "passed"
 });
 formatter.match({
@@ -17244,7 +17244,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1903451,
+  "duration": 197343,
   "status": "passed"
 });
 formatter.match({
@@ -17257,7 +17257,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 5412240,
+  "duration": 101704,
   "status": "passed"
 });
 formatter.match({
@@ -17298,7 +17298,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1348744,
+  "duration": 237465,
   "status": "passed"
 });
 formatter.match({
@@ -17311,7 +17311,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 142759,
+  "duration": 36856,
   "status": "passed"
 });
 formatter.match({
@@ -17352,14 +17352,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1356209,
+  "duration": 206207,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 12130,
+  "duration": 18661,
   "status": "passed"
 });
 formatter.match({
@@ -17372,7 +17372,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 35923,
+  "duration": 34990,
   "status": "passed"
 });
 formatter.match({
@@ -17389,7 +17389,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 524849,
+  "duration": 104037,
   "status": "passed"
 });
 formatter.match({
@@ -17402,7 +17402,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 497790,
+  "duration": 61582,
   "status": "passed"
 });
 formatter.match({
@@ -17415,7 +17415,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 3788708,
+  "duration": 706330,
   "status": "passed"
 });
 formatter.match({
@@ -17428,7 +17428,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 582233,
+  "duration": 230933,
   "status": "passed"
 });
 formatter.match({
@@ -17441,7 +17441,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2608848,
+  "duration": 134827,
   "status": "passed"
 });
 formatter.match({
@@ -17454,7 +17454,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 849555,
+  "duration": 62982,
   "status": "passed"
 });
 formatter.match({
@@ -17467,7 +17467,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2650836,
+  "duration": 94706,
   "status": "passed"
 });
 formatter.match({
@@ -17480,7 +17480,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 1106147,
+  "duration": 55051,
   "status": "passed"
 });
 formatter.match({
@@ -17493,7 +17493,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 3009133,
+  "duration": 123631,
   "status": "passed"
 });
 formatter.match({
@@ -17506,7 +17506,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 463733,
+  "duration": 51319,
   "status": "passed"
 });
 formatter.match({
@@ -17519,7 +17519,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 3945929,
+  "duration": 114300,
   "status": "passed"
 });
 formatter.match({
@@ -17532,7 +17532,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 397180279,
+  "duration": 20000044320,
   "status": "passed"
 });
 formatter.match({
@@ -17545,7 +17545,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 335903,
+  "duration": 246795,
   "status": "passed"
 });
 formatter.match({
@@ -17558,7 +17558,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2153979,
+  "duration": 226735,
   "status": "passed"
 });
 formatter.match({
@@ -17571,7 +17571,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 585498,
+  "duration": 85842,
   "status": "passed"
 });
 formatter.match({
@@ -17584,7 +17584,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 4182927,
+  "duration": 253793,
   "status": "passed"
 });
 formatter.match({
@@ -17597,7 +17597,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 371360,
+  "duration": 71846,
   "status": "passed"
 });
 formatter.match({
@@ -17610,7 +17610,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 4347613,
+  "duration": 1229313,
   "status": "passed"
 });
 formatter.match({
@@ -17623,7 +17623,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 376958,
+  "duration": 235132,
   "status": "passed"
 });
 formatter.match({
@@ -17636,7 +17636,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 9475268,
+  "duration": 248195,
   "status": "passed"
 });
 formatter.match({
@@ -17649,7 +17649,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 555640,
+  "duration": 74645,
   "status": "passed"
 });
 formatter.match({
@@ -17662,14 +17662,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 5168243,
+  "duration": 352231,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_register_for_this_course()"
 });
 formatter.result({
-  "duration": 33590,
+  "duration": 57850,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -18087,7 +18087,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 490792,
+  "duration": 2195968,
   "status": "passed"
 });
 formatter.match({
@@ -18100,7 +18100,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38234176,
+  "duration": 1999934219,
   "status": "passed"
 });
 formatter.match({
@@ -18113,7 +18113,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 29391,
+  "duration": 28925,
   "status": "passed"
 });
 formatter.match({
@@ -18126,7 +18126,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 21927,
+  "duration": 16329,
   "status": "passed"
 });
 formatter.match({
@@ -18139,7 +18139,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 26593,
+  "duration": 16329,
   "status": "passed"
 });
 formatter.match({
@@ -18160,7 +18160,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1057162,
+  "duration": 65315,
   "status": "passed"
 });
 formatter.match({
@@ -18173,7 +18173,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 24260,
+  "duration": 10731,
   "status": "passed"
 });
 formatter.match({
@@ -18214,7 +18214,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1234911,
+  "duration": 106836,
   "status": "passed"
 });
 formatter.match({
@@ -18227,7 +18227,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 31724,
+  "duration": 9798,
   "status": "passed"
 });
 formatter.match({
@@ -18268,7 +18268,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1234911,
+  "duration": 132028,
   "status": "passed"
 });
 formatter.match({
@@ -18281,7 +18281,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 31257,
+  "duration": 13063,
   "status": "passed"
 });
 formatter.match({
@@ -18322,14 +18322,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1231645,
+  "duration": 194077,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 9797,
+  "duration": 5598,
   "status": "passed"
 });
 formatter.match({
@@ -18342,7 +18342,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 23326,
+  "duration": 11197,
   "status": "passed"
 });
 formatter.match({
@@ -18359,7 +18359,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 476796,
+  "duration": 47586,
   "status": "passed"
 });
 formatter.match({
@@ -18372,7 +18372,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 367161,
+  "duration": 23794,
   "status": "passed"
 });
 formatter.match({
@@ -18385,7 +18385,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2000957,
+  "duration": 36856,
   "status": "passed"
 });
 formatter.match({
@@ -18398,7 +18398,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 643815,
+  "duration": 19128,
   "status": "passed"
 });
 formatter.match({
@@ -18411,7 +18411,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2251018,
+  "duration": 31258,
   "status": "passed"
 });
 formatter.match({
@@ -18424,7 +18424,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 417080,
+  "duration": 16795,
   "status": "passed"
 });
 formatter.match({
@@ -18437,7 +18437,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2165642,
+  "duration": 32658,
   "status": "passed"
 });
 formatter.match({
@@ -18450,7 +18450,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 398742696,
+  "duration": 20000200142,
   "status": "passed"
 });
 formatter.match({
@@ -18463,7 +18463,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 377891,
+  "duration": 91441,
   "status": "passed"
 });
 formatter.match({
@@ -18476,7 +18476,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2053208,
+  "duration": 176349,
   "status": "passed"
 });
 formatter.match({
@@ -18489,7 +18489,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 268723,
+  "duration": 81177,
   "status": "passed"
 });
 formatter.match({
@@ -18502,7 +18502,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2214162,
+  "duration": 215538,
   "status": "passed"
 });
 formatter.match({
@@ -18515,7 +18515,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 285051,
+  "duration": 73712,
   "status": "passed"
 });
 formatter.match({
@@ -18528,14 +18528,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2392844,
+  "duration": 174949,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_register_for_this_course()"
 });
 formatter.result({
-  "duration": 19128,
+  "duration": 35923,
   "status": "passed"
 });
 formatter.uri("test/cucumber/8-studentdropcourse.feature");
@@ -18821,7 +18821,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 660609,
+  "duration": 1728502,
   "status": "passed"
 });
 formatter.match({
@@ -18834,7 +18834,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37581497,
+  "duration": 2000505721,
   "status": "passed"
 });
 formatter.match({
@@ -18847,7 +18847,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 45254,
+  "duration": 52252,
   "status": "passed"
 });
 formatter.match({
@@ -18860,7 +18860,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 34057,
+  "duration": 43387,
   "status": "passed"
 });
 formatter.match({
@@ -18873,7 +18873,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 19594,
+  "duration": 34523,
   "status": "passed"
 });
 formatter.match({
@@ -18894,7 +18894,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1098217,
+  "duration": 160953,
   "status": "passed"
 });
 formatter.match({
@@ -18907,7 +18907,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 75112,
+  "duration": 32191,
   "status": "passed"
 });
 formatter.match({
@@ -18948,14 +18948,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1229778,
+  "duration": 312110,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 12129,
+  "duration": 13063,
   "status": "passed"
 });
 formatter.match({
@@ -18968,7 +18968,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 41055,
   "status": "passed"
 });
 formatter.match({
@@ -18985,7 +18985,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 487060,
+  "duration": 201076,
   "status": "passed"
 });
 formatter.match({
@@ -18998,7 +18998,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 476796,
+  "duration": 102171,
   "status": "passed"
 });
 formatter.match({
@@ -19011,7 +19011,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2236555,
+  "duration": 181481,
   "status": "passed"
 });
 formatter.match({
@@ -19024,7 +19024,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 399731744,
+  "duration": 20000707263,
   "status": "passed"
 });
 formatter.match({
@@ -19037,7 +19037,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 613023,
+  "duration": 407282,
   "status": "passed"
 });
 formatter.match({
@@ -19050,7 +19050,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 1474241,
+  "duration": 337770,
   "status": "passed"
 });
 formatter.match({
@@ -19063,7 +19063,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 40122,
+  "duration": 60650,
   "status": "passed"
 });
 formatter.scenario({
@@ -19188,7 +19188,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 529980,
+  "duration": 2454894,
   "status": "passed"
 });
 formatter.match({
@@ -19201,7 +19201,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37829692,
+  "duration": 1999405171,
   "status": "passed"
 });
 formatter.match({
@@ -19214,7 +19214,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27058,
+  "duration": 54118,
   "status": "passed"
 });
 formatter.match({
@@ -19227,7 +19227,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 15396,
+  "duration": 39655,
   "status": "passed"
 });
 formatter.match({
@@ -19240,7 +19240,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 10264,
+  "duration": 29391,
   "status": "passed"
 });
 formatter.match({
@@ -19261,7 +19261,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 780975,
+  "duration": 163753,
   "status": "passed"
 });
 formatter.match({
@@ -19274,7 +19274,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27992,
+  "duration": 28925,
   "status": "passed"
 });
 formatter.match({
@@ -19315,14 +19315,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1478441,
+  "duration": 377425,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 11663,
+  "duration": 14929,
   "status": "passed"
 });
 formatter.match({
@@ -19335,7 +19335,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 23793,
+  "duration": 39189,
   "status": "passed"
 });
 formatter.match({
@@ -19352,7 +19352,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 560771,
+  "duration": 150224,
   "status": "passed"
 });
 formatter.match({
@@ -19365,7 +19365,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 403551,
+  "duration": 75112,
   "status": "passed"
 });
 formatter.match({
@@ -19378,7 +19378,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2143248,
+  "duration": 125963,
   "status": "passed"
 });
 formatter.match({
@@ -19391,7 +19391,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 398100281,
+  "duration": 19999550263,
   "status": "passed"
 });
 formatter.match({
@@ -19404,7 +19404,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 370427,
+  "duration": 90507,
   "status": "passed"
 });
 formatter.match({
@@ -19417,7 +19417,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 9814437,
+  "duration": 232800,
   "status": "passed"
 });
 formatter.match({
@@ -19430,7 +19430,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 505254,
+  "duration": 1009576,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -19655,7 +19655,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 348033,
+  "duration": 2118057,
   "status": "passed"
 });
 formatter.match({
@@ -19668,7 +19668,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37648212,
+  "duration": 2000239331,
   "status": "passed"
 });
 formatter.match({
@@ -19681,7 +19681,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 33124,
+  "duration": 77445,
   "status": "passed"
 });
 formatter.match({
@@ -19694,7 +19694,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 17729,
+  "duration": 41521,
   "status": "passed"
 });
 formatter.match({
@@ -19707,7 +19707,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 12130,
+  "duration": 33124,
   "status": "passed"
 });
 formatter.match({
@@ -19728,14 +19728,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 809433,
+  "duration": 304180,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 8398,
+  "duration": 14463,
   "status": "passed"
 });
 formatter.match({
@@ -19748,7 +19748,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 21927,
+  "duration": 41054,
   "status": "passed"
 });
 formatter.match({
@@ -19765,7 +19765,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 477262,
+  "duration": 270589,
   "status": "passed"
 });
 formatter.match({
@@ -19778,7 +19778,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 396626039,
+  "duration": 20000371827,
   "status": "passed"
 });
 formatter.match({
@@ -19791,7 +19791,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 329838,
+  "duration": 75578,
   "status": "passed"
 });
 formatter.match({
@@ -19804,7 +19804,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 294382,
+  "duration": 103570,
   "status": "passed"
 });
 formatter.match({
@@ -19817,7 +19817,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 37789,
+  "duration": 53185,
   "status": "passed"
 });
 formatter.scenario({
@@ -19909,7 +19909,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 722192,
+  "duration": 1917448,
   "status": "passed"
 });
 formatter.match({
@@ -19922,7 +19922,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39184502,
+  "duration": 1999726146,
   "status": "passed"
 });
 formatter.match({
@@ -19935,7 +19935,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 48986,
+  "duration": 94706,
   "status": "passed"
 });
 formatter.match({
@@ -19948,7 +19948,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 23793,
+  "duration": 45721,
   "status": "passed"
 });
 formatter.match({
@@ -19961,7 +19961,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 16329,
+  "duration": 28925,
   "status": "passed"
 });
 formatter.match({
@@ -19982,14 +19982,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 808967,
+  "duration": 138094,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 7464,
+  "duration": 15395,
   "status": "passed"
 });
 formatter.match({
@@ -20002,7 +20002,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 22860,
+  "duration": 29859,
   "status": "passed"
 });
 formatter.match({
@@ -20019,7 +20019,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 334971,
+  "duration": 141359,
   "status": "passed"
 });
 formatter.match({
@@ -20032,7 +20032,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 396602713,
+  "duration": 20000581766,
   "status": "passed"
 });
 formatter.match({
@@ -20045,7 +20045,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 342901,
+  "duration": 66714,
   "status": "passed"
 });
 formatter.match({
@@ -20058,7 +20058,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 386755,
+  "duration": 112901,
   "status": "passed"
 });
 formatter.match({
@@ -20071,7 +20071,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 40122,
+  "duration": 180081,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -20326,7 +20326,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 605092,
+  "duration": 5752344,
   "status": "passed"
 });
 formatter.match({
@@ -20339,7 +20339,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39355719,
+  "duration": 2000123165,
   "status": "passed"
 });
 formatter.match({
@@ -20352,7 +20352,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27992,
+  "duration": 39655,
   "status": "passed"
 });
 formatter.match({
@@ -20365,7 +20365,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 20994,
+  "duration": 29858,
   "status": "passed"
 });
 formatter.match({
@@ -20378,7 +20378,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 19128,
+  "duration": 29391,
   "status": "passed"
 });
 formatter.match({
@@ -20399,7 +20399,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 901806,
+  "duration": 117567,
   "status": "passed"
 });
 formatter.match({
@@ -20412,7 +20412,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 24726,
+  "duration": 27059,
   "status": "passed"
 });
 formatter.match({
@@ -20453,14 +20453,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 667141,
+  "duration": 197810,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 9331,
+  "duration": 13529,
   "status": "passed"
 });
 formatter.match({
@@ -20473,7 +20473,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 25659,
+  "duration": 28925,
   "status": "passed"
 });
 formatter.match({
@@ -20490,7 +20490,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 333570,
+  "duration": 104037,
   "status": "passed"
 });
 formatter.match({
@@ -20503,7 +20503,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 399108923,
+  "duration": 19999914158,
   "status": "passed"
 });
 formatter.match({
@@ -20516,7 +20516,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 293915,
+  "duration": 39656,
   "status": "passed"
 });
 formatter.match({
@@ -20529,14 +20529,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 973652,
+  "duration": 90507,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_drop_this_course()"
 });
 formatter.result({
-  "duration": 25192,
+  "duration": 46654,
   "status": "passed"
 });
 formatter.scenario({
@@ -20648,7 +20648,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 556106,
+  "duration": 1039434,
   "status": "passed"
 });
 formatter.match({
@@ -20661,7 +20661,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39805922,
+  "duration": 2000844423,
   "status": "passed"
 });
 formatter.match({
@@ -20674,7 +20674,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 26592,
+  "duration": 54118,
   "status": "passed"
 });
 formatter.match({
@@ -20687,7 +20687,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 18195,
+  "duration": 74179,
   "status": "passed"
 });
 formatter.match({
@@ -20700,7 +20700,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13063,
+  "duration": 36390,
   "status": "passed"
 });
 formatter.match({
@@ -20721,7 +20721,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 741319,
+  "duration": 187079,
   "status": "passed"
 });
 formatter.match({
@@ -20734,7 +20734,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 26126,
+  "duration": 52719,
   "status": "passed"
 });
 formatter.match({
@@ -20775,14 +20775,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 745984,
+  "duration": 306979,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 8397,
+  "duration": 19595,
   "status": "passed"
 });
 formatter.match({
@@ -20795,7 +20795,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 39189,
+  "duration": 46187,
   "status": "passed"
 });
 formatter.match({
@@ -20812,7 +20812,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 776309,
+  "duration": 174950,
   "status": "passed"
 });
 formatter.match({
@@ -20825,7 +20825,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 397952857,
+  "duration": 19999783063,
   "status": "passed"
 });
 formatter.match({
@@ -20838,7 +20838,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 294849,
+  "duration": 32658,
   "status": "passed"
 });
 formatter.match({
@@ -20851,14 +20851,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 939595,
+  "duration": 63448,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_drop_this_course()"
 });
 formatter.result({
-  "duration": 15396,
+  "duration": 27992,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -21136,7 +21136,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 627485,
+  "duration": 843957,
   "status": "passed"
 });
 formatter.match({
@@ -21149,7 +21149,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36440826,
+  "duration": 2001033836,
   "status": "passed"
 });
 formatter.match({
@@ -21162,7 +21162,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 28458,
+  "duration": 33124,
   "status": "passed"
 });
 formatter.match({
@@ -21175,7 +21175,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 21460,
+  "duration": 29858,
   "status": "passed"
 });
 formatter.match({
@@ -21188,7 +21188,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 31724,
+  "duration": 54584,
   "status": "passed"
 });
 formatter.match({
@@ -21209,7 +21209,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 796836,
+  "duration": 98439,
   "status": "passed"
 });
 formatter.match({
@@ -21222,7 +21222,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 47586,
+  "duration": 57383,
   "status": "passed"
 });
 formatter.match({
@@ -21263,14 +21263,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 796837,
+  "duration": 161420,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 8397,
+  "duration": 12596,
   "status": "passed"
 });
 formatter.match({
@@ -21283,7 +21283,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 28459,
+  "duration": 26592,
   "status": "passed"
 });
 formatter.match({
@@ -21300,7 +21300,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 417080,
+  "duration": 99371,
   "status": "passed"
 });
 formatter.match({
@@ -21313,7 +21313,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 280386,
+  "duration": 61115,
   "status": "passed"
 });
 formatter.match({
@@ -21326,7 +21326,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1466310,
+  "duration": 73246,
   "status": "passed"
 });
 formatter.match({
@@ -21339,7 +21339,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36441759,
+  "duration": 1999506875,
   "status": "passed"
 });
 formatter.match({
@@ -21352,7 +21352,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 380224,
+  "duration": 111501,
   "status": "passed"
 });
 formatter.match({
@@ -21365,14 +21365,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 58783,
+  "duration": 118499,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_course_cannot_be_dropped_before_registration_starts()"
 });
 formatter.result({
-  "duration": 20527,
+  "duration": 77911,
   "status": "passed"
 });
 formatter.scenario({
@@ -21497,7 +21497,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 546775,
+  "duration": 2975544,
   "status": "passed"
 });
 formatter.match({
@@ -21510,7 +21510,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 40011197,
+  "duration": 2000054584,
   "status": "passed"
 });
 formatter.match({
@@ -21523,7 +21523,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 30791,
+  "duration": 43854,
   "status": "passed"
 });
 formatter.match({
@@ -21536,7 +21536,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 28459,
+  "duration": 52251,
   "status": "passed"
 });
 formatter.match({
@@ -21549,7 +21549,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 16329,
+  "duration": 23327,
   "status": "passed"
 });
 formatter.match({
@@ -21570,7 +21570,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 753916,
+  "duration": 125963,
   "status": "passed"
 });
 formatter.match({
@@ -21583,7 +21583,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 26126,
+  "duration": 45254,
   "status": "passed"
 });
 formatter.match({
@@ -21624,14 +21624,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 778642,
+  "duration": 208074,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 6998,
+  "duration": 13063,
   "status": "passed"
 });
 formatter.match({
@@ -21644,7 +21644,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 24727,
+  "duration": 26126,
   "status": "passed"
 });
 formatter.match({
@@ -21661,7 +21661,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 724525,
+  "duration": 97038,
   "status": "passed"
 });
 formatter.match({
@@ -21674,7 +21674,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 376491,
+  "duration": 64848,
   "status": "passed"
 });
 formatter.match({
@@ -21687,7 +21687,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1317020,
+  "duration": 99371,
   "status": "passed"
 });
 formatter.match({
@@ -21700,7 +21700,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36516871,
+  "duration": 2000250994,
   "status": "passed"
 });
 formatter.match({
@@ -21713,7 +21713,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 319575,
+  "duration": 77911,
   "status": "passed"
 });
 formatter.match({
@@ -21726,14 +21726,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 51318,
+  "duration": 334037,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_course_cannot_be_dropped_before_registration_starts()"
 });
 formatter.result({
-  "duration": 14929,
+  "duration": 64382,
   "status": "passed"
 });
 formatter.uri("test/cucumber/9-studentderegistercourse.feature");
@@ -22052,7 +22052,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 787039,
+  "duration": 989049,
   "status": "passed"
 });
 formatter.match({
@@ -22065,7 +22065,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38121741,
+  "duration": 2000107303,
   "status": "passed"
 });
 formatter.match({
@@ -22078,7 +22078,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 23793,
+  "duration": 44787,
   "status": "passed"
 });
 formatter.match({
@@ -22091,7 +22091,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 21927,
+  "duration": 45720,
   "status": "passed"
 });
 formatter.match({
@@ -22104,7 +22104,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 10730,
+  "duration": 32191,
   "status": "passed"
 });
 formatter.match({
@@ -22125,7 +22125,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 805234,
+  "duration": 147424,
   "status": "passed"
 });
 formatter.match({
@@ -22138,7 +22138,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 20061,
+  "duration": 28925,
   "status": "passed"
 });
 formatter.match({
@@ -22179,14 +22179,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 777243,
+  "duration": 239797,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 8398,
+  "duration": 16329,
   "status": "passed"
 });
 formatter.match({
@@ -22199,7 +22199,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 19127,
+  "duration": 35457,
   "status": "passed"
 });
 formatter.match({
@@ -22216,7 +22216,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 453003,
+  "duration": 194078,
   "status": "passed"
 });
 formatter.match({
@@ -22229,7 +22229,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 361096,
+  "duration": 143692,
   "status": "passed"
 });
 formatter.match({
@@ -22242,7 +22242,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1448583,
+  "duration": 172617,
   "status": "passed"
 });
 formatter.match({
@@ -22255,7 +22255,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 396508940,
+  "duration": 19999856774,
   "status": "passed"
 });
 formatter.match({
@@ -22268,7 +22268,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 358763,
+  "duration": 84442,
   "status": "passed"
 });
 formatter.match({
@@ -22281,7 +22281,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2201099,
+  "duration": 82110,
   "status": "passed"
 });
 formatter.match({
@@ -22294,7 +22294,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36329792,
+  "duration": 2000282252,
   "status": "passed"
 });
 formatter.match({
@@ -22307,7 +22307,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 498723,
+  "duration": 426410,
   "status": "passed"
 });
 formatter.match({
@@ -22320,7 +22320,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 2342924,
+  "duration": 433409,
   "status": "passed"
 });
 formatter.match({
@@ -22333,7 +22333,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 75578,
+  "duration": 80243,
   "status": "passed"
 });
 formatter.scenario({
@@ -22476,7 +22476,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 534646,
+  "duration": 27035551,
   "status": "passed"
 });
 formatter.match({
@@ -22489,7 +22489,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39605781,
+  "duration": 1999743407,
   "status": "passed"
 });
 formatter.match({
@@ -22502,7 +22502,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 24726,
+  "duration": 43387,
   "status": "passed"
 });
 formatter.match({
@@ -22515,7 +22515,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 29858,
+  "duration": 42921,
   "status": "passed"
 });
 formatter.match({
@@ -22528,7 +22528,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 11663,
+  "duration": 25192,
   "status": "passed"
 });
 formatter.match({
@@ -22549,7 +22549,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 757648,
+  "duration": 120365,
   "status": "passed"
 });
 formatter.match({
@@ -22562,7 +22562,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 19128,
+  "duration": 23327,
   "status": "passed"
 });
 formatter.match({
@@ -22603,14 +22603,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 738987,
+  "duration": 207607,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 8397,
+  "duration": 14462,
   "status": "passed"
 });
 formatter.match({
@@ -22623,7 +22623,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 18194,
+  "duration": 26592,
   "status": "passed"
 });
 formatter.match({
@@ -22640,7 +22640,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 521117,
+  "duration": 109168,
   "status": "passed"
 });
 formatter.match({
@@ -22653,7 +22653,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 371826,
+  "duration": 75578,
   "status": "passed"
 });
 formatter.match({
@@ -22666,7 +22666,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1484039,
+  "duration": 106369,
   "status": "passed"
 });
 formatter.match({
@@ -22679,7 +22679,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 396490745,
+  "duration": 20000162354,
   "status": "passed"
 });
 formatter.match({
@@ -22692,7 +22692,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 615823,
+  "duration": 92374,
   "status": "passed"
 });
 formatter.match({
@@ -22705,7 +22705,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 4534692,
+  "duration": 138094,
   "status": "passed"
 });
 formatter.match({
@@ -22718,7 +22718,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37274053,
+  "duration": 2000005132,
   "status": "passed"
 });
 formatter.match({
@@ -22731,7 +22731,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 460467,
+  "duration": 102637,
   "status": "passed"
 });
 formatter.match({
@@ -22744,7 +22744,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 3317043,
+  "duration": 157221,
   "status": "passed"
 });
 formatter.match({
@@ -22757,7 +22757,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 36856,
+  "duration": 43388,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -23038,7 +23038,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 539778,
+  "duration": 2883170,
   "status": "passed"
 });
 formatter.match({
@@ -23051,7 +23051,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37210604,
+  "duration": 2000090041,
   "status": "passed"
 });
 formatter.match({
@@ -23064,7 +23064,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 23793,
+  "duration": 85376,
   "status": "passed"
 });
 formatter.match({
@@ -23077,7 +23077,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 19594,
+  "duration": 53185,
   "status": "passed"
 });
 formatter.match({
@@ -23090,7 +23090,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 11197,
+  "duration": 30324,
   "status": "passed"
 });
 formatter.match({
@@ -23111,14 +23111,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 929332,
+  "duration": 146958,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 7931,
+  "duration": 12130,
   "status": "passed"
 });
 formatter.match({
@@ -23131,7 +23131,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 17728,
+  "duration": 26593,
   "status": "passed"
 });
 formatter.match({
@@ -23148,7 +23148,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 330305,
+  "duration": 95640,
   "status": "passed"
 });
 formatter.match({
@@ -23161,7 +23161,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 310710,
+  "duration": 39189,
   "status": "passed"
 });
 formatter.match({
@@ -23174,7 +23174,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 298580,
+  "duration": 72779,
   "status": "passed"
 });
 formatter.match({
@@ -23187,7 +23187,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 399653366,
+  "duration": 19999551663,
   "status": "passed"
 });
 formatter.match({
@@ -23200,7 +23200,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 121765,
+  "duration": 247262,
   "status": "passed"
 });
 formatter.match({
@@ -23213,7 +23213,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 312577,
+  "duration": 91907,
   "status": "passed"
 });
 formatter.match({
@@ -23226,7 +23226,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38761358,
+  "duration": 1999896897,
   "status": "passed"
 });
 formatter.match({
@@ -23239,7 +23239,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 91440,
+  "duration": 200142,
   "status": "passed"
 });
 formatter.match({
@@ -23252,7 +23252,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 483327,
+  "duration": 122231,
   "status": "passed"
 });
 formatter.match({
@@ -23265,7 +23265,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 36389,
+  "duration": 67181,
   "status": "passed"
 });
 formatter.scenario({
@@ -23388,7 +23388,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1872194,
+  "duration": 2914894,
   "status": "passed"
 });
 formatter.match({
@@ -23401,7 +23401,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37336102,
+  "duration": 2000373226,
   "status": "passed"
 });
 formatter.match({
@@ -23414,7 +23414,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 22394,
+  "duration": 27525,
   "status": "passed"
 });
 formatter.match({
@@ -23427,7 +23427,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 16328,
+  "duration": 32657,
   "status": "passed"
 });
 formatter.match({
@@ -23440,7 +23440,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 9797,
+  "duration": 16795,
   "status": "passed"
 });
 formatter.match({
@@ -23461,14 +23461,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 692334,
+  "duration": 98438,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 7931,
+  "duration": 7465,
   "status": "passed"
 });
 formatter.match({
@@ -23481,7 +23481,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 16796,
+  "duration": 15396,
   "status": "passed"
 });
 formatter.match({
@@ -23498,7 +23498,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 438074,
+  "duration": 55517,
   "status": "passed"
 });
 formatter.match({
@@ -23511,7 +23511,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 397019,
+  "duration": 23327,
   "status": "passed"
 });
 formatter.match({
@@ -23524,7 +23524,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 460001,
+  "duration": 36390,
   "status": "passed"
 });
 formatter.match({
@@ -23537,7 +23537,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 399218092,
+  "duration": 20000449737,
   "status": "passed"
 });
 formatter.match({
@@ -23550,7 +23550,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 55984,
+  "duration": 114300,
   "status": "passed"
 });
 formatter.match({
@@ -23563,7 +23563,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 369493,
+  "duration": 60182,
   "status": "passed"
 });
 formatter.match({
@@ -23576,7 +23576,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38465109,
+  "duration": 2000142292,
   "status": "passed"
 });
 formatter.match({
@@ -23589,7 +23589,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 63448,
+  "duration": 253328,
   "status": "passed"
 });
 formatter.match({
@@ -23602,7 +23602,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 414281,
+  "duration": 167485,
   "status": "passed"
 });
 formatter.match({
@@ -23615,7 +23615,7 @@ formatter.match({
   "location": "StepDefinitions.the_does_not_be_exist(String)"
 });
 formatter.result({
-  "duration": 31724,
+  "duration": 92840,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -23893,7 +23893,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1207852,
+  "duration": 2593453,
   "status": "passed"
 });
 formatter.match({
@@ -23906,7 +23906,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38513628,
+  "duration": 1999849310,
   "status": "passed"
 });
 formatter.match({
@@ -23919,7 +23919,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 34056,
+  "duration": 30792,
   "status": "passed"
 });
 formatter.match({
@@ -23932,7 +23932,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 55984,
   "status": "passed"
 });
 formatter.match({
@@ -23945,7 +23945,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 12130,
+  "duration": 17262,
   "status": "passed"
 });
 formatter.match({
@@ -23966,7 +23966,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1037101,
+  "duration": 73712,
   "status": "passed"
 });
 formatter.match({
@@ -23979,7 +23979,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 25192,
+  "duration": 19594,
   "status": "passed"
 });
 formatter.match({
@@ -24020,14 +24020,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1343613,
+  "duration": 117566,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 13996,
+  "duration": 6532,
   "status": "passed"
 });
 formatter.match({
@@ -24040,7 +24040,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 41055,
+  "duration": 28925,
   "status": "passed"
 });
 formatter.match({
@@ -24057,7 +24057,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 350832,
+  "duration": 65781,
   "status": "passed"
 });
 formatter.match({
@@ -24070,7 +24070,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 283185,
+  "duration": 34990,
   "status": "passed"
 });
 formatter.match({
@@ -24083,7 +24083,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2391910,
+  "duration": 53185,
   "status": "passed"
 });
 formatter.match({
@@ -24096,7 +24096,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 397917400,
+  "duration": 20000348966,
   "status": "passed"
 });
 formatter.match({
@@ -24109,7 +24109,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 330305,
+  "duration": 50852,
   "status": "passed"
 });
 formatter.match({
@@ -24122,14 +24122,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 1536757,
+  "duration": 111967,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_deregister_from_this_course()"
 });
 formatter.result({
-  "duration": 25660,
+  "duration": 39656,
   "status": "passed"
 });
 formatter.scenario({
@@ -24254,7 +24254,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 584098,
+  "duration": 2279943,
   "status": "passed"
 });
 formatter.match({
@@ -24267,7 +24267,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37416345,
+  "duration": 2000723591,
   "status": "passed"
 });
 formatter.match({
@@ -24280,7 +24280,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 28458,
+  "duration": 43387,
   "status": "passed"
 });
 formatter.match({
@@ -24293,7 +24293,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 41521,
   "status": "passed"
 });
 formatter.match({
@@ -24306,7 +24306,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13996,
+  "duration": 25193,
   "status": "passed"
 });
 formatter.match({
@@ -24327,7 +24327,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 767445,
+  "duration": 145091,
   "status": "passed"
 });
 formatter.match({
@@ -24340,7 +24340,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 24260,
+  "duration": 29858,
   "status": "passed"
 });
 formatter.match({
@@ -24381,14 +24381,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 815032,
+  "duration": 288784,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 6998,
+  "duration": 20994,
   "status": "passed"
 });
 formatter.match({
@@ -24401,7 +24401,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 15862,
+  "duration": 36856,
   "status": "passed"
 });
 formatter.match({
@@ -24418,7 +24418,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 550974,
+  "duration": 117100,
   "status": "passed"
 });
 formatter.match({
@@ -24431,7 +24431,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 294849,
+  "duration": 112434,
   "status": "passed"
 });
 formatter.match({
@@ -24444,7 +24444,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1484505,
+  "duration": 147890,
   "status": "passed"
 });
 formatter.match({
@@ -24457,7 +24457,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 396758068,
+  "duration": 20000069047,
   "status": "passed"
 });
 formatter.match({
@@ -24470,7 +24470,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 723125,
+  "duration": 83509,
   "status": "passed"
 });
 formatter.match({
@@ -24483,14 +24483,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 3670208,
+  "duration": 122231,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_deregister_from_this_course()"
 });
 formatter.result({
-  "duration": 37322,
+  "duration": 34990,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -24745,7 +24745,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1717305,
+  "duration": 2650370,
   "status": "passed"
 });
 formatter.match({
@@ -24758,7 +24758,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 40804302,
+  "duration": 2001771890,
   "status": "passed"
 });
 formatter.match({
@@ -24771,7 +24771,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 26593,
+  "duration": 61116,
   "status": "passed"
 });
 formatter.match({
@@ -24784,7 +24784,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 32657,
+  "duration": 60649,
   "status": "passed"
 });
 formatter.match({
@@ -24797,7 +24797,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13063,
+  "duration": 28459,
   "status": "passed"
 });
 formatter.match({
@@ -24818,7 +24818,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 880346,
+  "duration": 128297,
   "status": "passed"
 });
 formatter.match({
@@ -24831,7 +24831,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 19595,
+  "duration": 26593,
   "status": "passed"
 });
 formatter.match({
@@ -24872,14 +24872,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 875214,
+  "duration": 209940,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 20061,
+  "duration": 19595,
   "status": "passed"
 });
 formatter.match({
@@ -24892,7 +24892,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 22394,
+  "duration": 36857,
   "status": "passed"
 });
 formatter.match({
@@ -24909,7 +24909,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 325640,
+  "duration": 118032,
   "status": "passed"
 });
 formatter.match({
@@ -24922,7 +24922,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 398818741,
+  "duration": 20000094706,
   "status": "passed"
 });
 formatter.match({
@@ -24935,7 +24935,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 418946,
+  "duration": 33591,
   "status": "passed"
 });
 formatter.match({
@@ -24948,14 +24948,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 1768157,
+  "duration": 97039,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_deregister_from_this_course()"
 });
 formatter.result({
-  "duration": 39656,
+  "duration": 12130,
   "status": "passed"
 });
 formatter.scenario({
@@ -25067,7 +25067,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 656411,
+  "duration": 1131341,
   "status": "passed"
 });
 formatter.match({
@@ -25080,7 +25080,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38795880,
+  "duration": 1999847444,
   "status": "passed"
 });
 formatter.match({
@@ -25093,7 +25093,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 30325,
+  "duration": 84443,
   "status": "passed"
 });
 formatter.match({
@@ -25106,7 +25106,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 21927,
+  "duration": 69047,
   "status": "passed"
 });
 formatter.match({
@@ -25119,7 +25119,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 11197,
+  "duration": 29391,
   "status": "passed"
 });
 formatter.match({
@@ -25140,7 +25140,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 7440255,
+  "duration": 145091,
   "status": "passed"
 });
 formatter.match({
@@ -25153,7 +25153,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 26593,
+  "duration": 51318,
   "status": "passed"
 });
 formatter.match({
@@ -25194,14 +25194,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 726390,
+  "duration": 271056,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 11663,
+  "duration": 22860,
   "status": "passed"
 });
 formatter.match({
@@ -25214,7 +25214,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27526,
+  "duration": 36390,
   "status": "passed"
 });
 formatter.match({
@@ -25231,7 +25231,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 387688,
+  "duration": 164219,
   "status": "passed"
 });
 formatter.match({
@@ -25244,7 +25244,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 396718880,
+  "duration": 20000993714,
   "status": "passed"
 });
 formatter.match({
@@ -25257,7 +25257,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 311644,
+  "duration": 85842,
   "status": "passed"
 });
 formatter.match({
@@ -25270,14 +25270,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 1540956,
+  "duration": 136228,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.unable_to_deregister_from_this_course()"
 });
 formatter.result({
-  "duration": 25193,
+  "duration": 36389,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -25588,7 +25588,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1404728,
+  "duration": 7327358,
   "status": "passed"
 });
 formatter.match({
@@ -25601,7 +25601,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37804966,
+  "duration": 2000271988,
   "status": "passed"
 });
 formatter.match({
@@ -25614,7 +25614,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 38722,
+  "duration": 43388,
   "status": "passed"
 });
 formatter.match({
@@ -25627,7 +25627,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 20527,
+  "duration": 43854,
   "status": "passed"
 });
 formatter.match({
@@ -25640,7 +25640,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 12596,
+  "duration": 43854,
   "status": "passed"
 });
 formatter.match({
@@ -25661,7 +25661,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 750650,
+  "duration": 129696,
   "status": "passed"
 });
 formatter.match({
@@ -25674,7 +25674,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 25660,
+  "duration": 23326,
   "status": "passed"
 });
 formatter.match({
@@ -25715,14 +25715,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1103348,
+  "duration": 243530,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 14929,
+  "duration": 13996,
   "status": "passed"
 });
 formatter.match({
@@ -25735,7 +25735,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 24726,
+  "duration": 33590,
   "status": "passed"
 });
 formatter.match({
@@ -25752,7 +25752,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 378824,
+  "duration": 128763,
   "status": "passed"
 });
 formatter.match({
@@ -25765,7 +25765,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 332170,
+  "duration": 71380,
   "status": "passed"
 });
 formatter.match({
@@ -25778,7 +25778,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1873127,
+  "duration": 168418,
   "status": "passed"
 });
 formatter.match({
@@ -25791,7 +25791,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 399309532,
+  "duration": 19999526936,
   "status": "passed"
 });
 formatter.match({
@@ -25804,7 +25804,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 320974,
+  "duration": 118965,
   "status": "passed"
 });
 formatter.match({
@@ -25817,7 +25817,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2044811,
+  "duration": 210873,
   "status": "passed"
 });
 formatter.match({
@@ -25830,7 +25830,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 296525968,
+  "duration": 15000505721,
   "status": "passed"
 });
 formatter.match({
@@ -25843,7 +25843,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 705396,
+  "duration": 94239,
   "status": "passed"
 });
 formatter.match({
@@ -25856,14 +25856,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 140426,
+  "duration": 110101,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.registration_has_finished()"
 });
 formatter.result({
-  "duration": 30325,
+  "duration": 32657,
   "status": "passed"
 });
 formatter.scenario({
@@ -26006,7 +26006,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 566837,
+  "duration": 2858444,
   "status": "passed"
 });
 formatter.match({
@@ -26019,7 +26019,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39727078,
+  "duration": 2000708197,
   "status": "passed"
 });
 formatter.match({
@@ -26032,7 +26032,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 23327,
+  "duration": 44787,
   "status": "passed"
 });
 formatter.match({
@@ -26045,7 +26045,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 16795,
+  "duration": 45254,
   "status": "passed"
 });
 formatter.match({
@@ -26058,7 +26058,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 9331,
+  "duration": 28925,
   "status": "passed"
 });
 formatter.match({
@@ -26079,7 +26079,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 665742,
+  "duration": 138560,
   "status": "passed"
 });
 formatter.match({
@@ -26092,7 +26092,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 14462,
+  "duration": 29859,
   "status": "passed"
 });
 formatter.match({
@@ -26133,14 +26133,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 606492,
+  "duration": 315843,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 5599,
+  "duration": 14929,
   "status": "passed"
 });
 formatter.match({
@@ -26153,7 +26153,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13996,
+  "duration": 36856,
   "status": "passed"
 });
 formatter.match({
@@ -26170,7 +26170,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 232800,
+  "duration": 117566,
   "status": "passed"
 });
 formatter.match({
@@ -26183,7 +26183,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 187546,
+  "duration": 48520,
   "status": "passed"
 });
 formatter.match({
@@ -26196,7 +26196,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1052964,
+  "duration": 99838,
   "status": "passed"
 });
 formatter.match({
@@ -26209,7 +26209,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 398659187,
+  "duration": 20000574301,
   "status": "passed"
 });
 formatter.match({
@@ -26222,7 +26222,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 283651,
+  "duration": 37789,
   "status": "passed"
 });
 formatter.match({
@@ -26235,7 +26235,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 1922579,
+  "duration": 76511,
   "status": "passed"
 });
 formatter.match({
@@ -26248,7 +26248,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 297016760,
+  "duration": 15000561705,
   "status": "passed"
 });
 formatter.match({
@@ -26261,7 +26261,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 690001,
+  "duration": 69046,
   "status": "passed"
 });
 formatter.match({
@@ -26274,14 +26274,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 88641,
+  "duration": 91907,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.registration_has_finished()"
 });
 formatter.result({
-  "duration": 27526,
+  "duration": 29858,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -26559,7 +26559,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1470043,
+  "duration": 2006089,
   "status": "passed"
 });
 formatter.match({
@@ -26572,7 +26572,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37963121,
+  "duration": 2000443206,
   "status": "passed"
 });
 formatter.match({
@@ -26585,7 +26585,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 25659,
+  "duration": 45253,
   "status": "passed"
 });
 formatter.match({
@@ -26598,7 +26598,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 20061,
+  "duration": 39188,
   "status": "passed"
 });
 formatter.match({
@@ -26611,7 +26611,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 11664,
+  "duration": 23793,
   "status": "passed"
 });
 formatter.match({
@@ -26632,7 +26632,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 871949,
+  "duration": 172151,
   "status": "passed"
 });
 formatter.match({
@@ -26645,7 +26645,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 20060,
+  "duration": 39655,
   "status": "passed"
 });
 formatter.match({
@@ -26686,14 +26686,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 836959,
+  "duration": 211339,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 6532,
+  "duration": 17262,
   "status": "passed"
 });
 formatter.match({
@@ -26706,7 +26706,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 18195,
+  "duration": 53184,
   "status": "passed"
 });
 formatter.match({
@@ -26723,7 +26723,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 361096,
+  "duration": 188013,
   "status": "passed"
 });
 formatter.match({
@@ -26736,7 +26736,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 298580,
+  "duration": 77444,
   "status": "passed"
 });
 formatter.match({
@@ -26749,7 +26749,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1703308,
+  "duration": 107302,
   "status": "passed"
 });
 formatter.match({
@@ -26762,7 +26762,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36767399,
+  "duration": 1999950081,
   "status": "passed"
 });
 formatter.match({
@@ -26775,7 +26775,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 892009,
+  "duration": 58783,
   "status": "passed"
 });
 formatter.match({
@@ -26788,14 +26788,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 130629,
+  "duration": 89107,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.registration_has_not_started()"
 });
 formatter.result({
-  "duration": 43854,
+  "duration": 29858,
   "status": "passed"
 });
 formatter.scenario({
@@ -26920,7 +26920,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1542821,
+  "duration": 4502037,
   "status": "passed"
 });
 formatter.match({
@@ -26933,7 +26933,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37114499,
+  "duration": 2000292983,
   "status": "passed"
 });
 formatter.match({
@@ -26946,7 +26946,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 30791,
+  "duration": 44787,
   "status": "passed"
 });
 formatter.match({
@@ -26959,7 +26959,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 25193,
+  "duration": 41054,
   "status": "passed"
 });
 formatter.match({
@@ -26972,7 +26972,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 14929,
+  "duration": 27525,
   "status": "passed"
 });
 formatter.match({
@@ -26993,7 +26993,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1035701,
+  "duration": 118966,
   "status": "passed"
 });
 formatter.match({
@@ -27006,7 +27006,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 25192,
+  "duration": 23327,
   "status": "passed"
 });
 formatter.match({
@@ -27047,14 +27047,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1509698,
+  "duration": 226735,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 14462,
+  "duration": 12130,
   "status": "passed"
 });
 formatter.match({
@@ -27067,7 +27067,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 25193,
   "status": "passed"
 });
 formatter.match({
@@ -27084,7 +27084,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 480995,
+  "duration": 94240,
   "status": "passed"
 });
 formatter.match({
@@ -27097,7 +27097,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 354098,
+  "duration": 43854,
   "status": "passed"
 });
 formatter.match({
@@ -27110,7 +27110,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2007954,
+  "duration": 79777,
   "status": "passed"
 });
 formatter.match({
@@ -27123,7 +27123,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 42124587,
+  "duration": 1999447626,
   "status": "passed"
 });
 formatter.match({
@@ -27136,7 +27136,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 449737,
+  "duration": 53184,
   "status": "passed"
 });
 formatter.match({
@@ -27149,14 +27149,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 72779,
+  "duration": 80243,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.registration_has_not_started()"
 });
 formatter.result({
-  "duration": 39189,
+  "duration": 25192,
   "status": "passed"
 });
 formatter.uri("test/cucumber/hierachicalusecaces-studenttakecourse.feature");
@@ -27481,7 +27481,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 808967,
+  "duration": 2044811,
   "status": "passed"
 });
 formatter.match({
@@ -27494,7 +27494,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39152777,
+  "duration": 2000229068,
   "status": "passed"
 });
 formatter.match({
@@ -27507,7 +27507,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 48519,
+  "duration": 81177,
   "status": "passed"
 });
 formatter.match({
@@ -27520,7 +27520,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 38722,
+  "duration": 53185,
   "status": "passed"
 });
 formatter.match({
@@ -27533,7 +27533,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 33123,
+  "duration": 44787,
   "status": "passed"
 });
 formatter.match({
@@ -27554,7 +27554,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1355276,
+  "duration": 155355,
   "status": "passed"
 });
 formatter.match({
@@ -27567,7 +27567,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 35456,
+  "duration": 32191,
   "status": "passed"
 });
 formatter.match({
@@ -27608,14 +27608,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1101483,
+  "duration": 232334,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 14929,
+  "duration": 36856,
   "status": "passed"
 });
 formatter.match({
@@ -27628,7 +27628,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27992,
+  "duration": 39189,
   "status": "passed"
 });
 formatter.match({
@@ -27645,7 +27645,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 490792,
+  "duration": 118032,
   "status": "passed"
 });
 formatter.match({
@@ -27658,7 +27658,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 438073,
+  "duration": 47120,
   "status": "passed"
 });
 formatter.match({
@@ -27671,7 +27671,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2485217,
+  "duration": 87708,
   "status": "passed"
 });
 formatter.match({
@@ -27684,7 +27684,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 397950058,
+  "duration": 19999413102,
   "status": "passed"
 });
 formatter.match({
@@ -27697,7 +27697,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 662476,
+  "duration": 29858,
   "status": "passed"
 });
 formatter.match({
@@ -27710,14 +27710,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 8611250,
+  "duration": 58783,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.student_starts_to_take_course()"
 });
 formatter.result({
-  "duration": 58316,
+  "duration": 38722,
   "status": "passed"
 });
 formatter.match({
@@ -27734,7 +27734,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_assginments_for_course(int,int)"
 });
 formatter.result({
-  "duration": 1773289,
+  "duration": 95173,
   "status": "passed"
 });
 formatter.match({
@@ -27751,7 +27751,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_midterms_for_course(int,int)"
 });
 formatter.result({
-  "duration": 726857,
+  "duration": 36856,
   "status": "passed"
 });
 formatter.match({
@@ -27768,7 +27768,7 @@ formatter.match({
   "location": "StepDefinitions.student_writes_final_for_course(int,int)"
 });
 formatter.result({
-  "duration": 763247,
+  "duration": 68580,
   "status": "passed"
 });
 formatter.match({
@@ -27785,7 +27785,7 @@ formatter.match({
   "location": "StepDefinitions.student_obtains_mark_for_course(int,int)"
 });
 formatter.result({
-  "duration": 5387980,
+  "duration": 2522540,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -28102,7 +28102,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 458601,
+  "duration": 3066050,
   "status": "passed"
 });
 formatter.match({
@@ -28115,7 +28115,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39760669,
+  "duration": 2000417547,
   "status": "passed"
 });
 formatter.match({
@@ -28128,7 +28128,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 24260,
+  "duration": 36856,
   "status": "passed"
 });
 formatter.match({
@@ -28141,7 +28141,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 34990,
   "status": "passed"
 });
 formatter.match({
@@ -28154,7 +28154,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 16328,
+  "duration": 31258,
   "status": "passed"
 });
 formatter.match({
@@ -28175,7 +28175,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1291361,
+  "duration": 110568,
   "status": "passed"
 });
 formatter.match({
@@ -28188,7 +28188,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 24726,
+  "duration": 22860,
   "status": "passed"
 });
 formatter.match({
@@ -28229,14 +28229,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1265235,
+  "duration": 144159,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 16795,
+  "duration": 8398,
   "status": "passed"
 });
 formatter.match({
@@ -28249,7 +28249,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 35923,
+  "duration": 25659,
   "status": "passed"
 });
 formatter.match({
@@ -28266,7 +28266,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 489393,
+  "duration": 68581,
   "status": "passed"
 });
 formatter.match({
@@ -28279,7 +28279,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 422678,
+  "duration": 26592,
   "status": "passed"
 });
 formatter.match({
@@ -28292,7 +28292,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2231423,
+  "duration": 83509,
   "status": "passed"
 });
 formatter.match({
@@ -28305,7 +28305,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 398032168,
+  "duration": 19999924888,
   "status": "passed"
 });
 formatter.match({
@@ -28318,7 +28318,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 1498502,
+  "duration": 95172,
   "status": "passed"
 });
 formatter.match({
@@ -28331,14 +28331,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2313067,
+  "duration": 253327,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.student_starts_to_take_course()"
 });
 formatter.result({
-  "duration": 15862,
+  "duration": 64382,
   "status": "passed"
 });
 formatter.match({
@@ -28355,7 +28355,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_midterms_for_course(int,int)"
 });
 formatter.result({
-  "duration": 565904,
+  "duration": 185680,
   "status": "passed"
 });
 formatter.match({
@@ -28372,7 +28372,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_assginments_for_course(int,int)"
 });
 formatter.result({
-  "duration": 523449,
+  "duration": 175416,
   "status": "passed"
 });
 formatter.match({
@@ -28389,7 +28389,7 @@ formatter.match({
   "location": "StepDefinitions.student_writes_final_for_course(int,int)"
 });
 formatter.result({
-  "duration": 529981,
+  "duration": 132495,
   "status": "passed"
 });
 formatter.match({
@@ -28406,7 +28406,7 @@ formatter.match({
   "location": "StepDefinitions.student_obtains_mark_for_course(int,int)"
 });
 formatter.result({
-  "duration": 888277,
+  "duration": 128296,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -28737,7 +28737,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1541889,
+  "duration": 3512056,
   "status": "passed"
 });
 formatter.match({
@@ -28750,7 +28750,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38934440,
+  "duration": 1999962677,
   "status": "passed"
 });
 formatter.match({
@@ -28763,7 +28763,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 124564,
+  "duration": 64848,
   "status": "passed"
 });
 formatter.match({
@@ -28776,7 +28776,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 91441,
+  "duration": 68114,
   "status": "passed"
 });
 formatter.match({
@@ -28789,7 +28789,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 92373,
+  "duration": 43388,
   "status": "passed"
 });
 formatter.match({
@@ -28810,7 +28810,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 760914,
+  "duration": 134828,
   "status": "passed"
 });
 formatter.match({
@@ -28823,7 +28823,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 36389,
+  "duration": 31257,
   "status": "passed"
 });
 formatter.match({
@@ -28864,14 +28864,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2513208,
+  "duration": 401684,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 13996,
+  "duration": 20994,
   "status": "passed"
 });
 formatter.match({
@@ -28884,7 +28884,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 91440,
+  "duration": 50385,
   "status": "passed"
 });
 formatter.match({
@@ -28901,7 +28901,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 605559,
+  "duration": 165152,
   "status": "passed"
 });
 formatter.match({
@@ -28914,7 +28914,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 3334772,
+  "duration": 75112,
   "status": "passed"
 });
 formatter.match({
@@ -28927,7 +28927,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 3614691,
+  "duration": 139493,
   "status": "passed"
 });
 formatter.match({
@@ -28940,7 +28940,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 398979227,
+  "duration": 20000324240,
   "status": "passed"
 });
 formatter.match({
@@ -28953,7 +28953,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 429676,
+  "duration": 524382,
   "status": "passed"
 });
 formatter.match({
@@ -28966,14 +28966,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 10205857,
+  "duration": 160021,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.student_starts_to_take_course()"
 });
 formatter.result({
-  "duration": 41521,
+  "duration": 33124,
   "status": "passed"
 });
 formatter.match({
@@ -28990,7 +28990,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_assginments_for_course(int,int)"
 });
 formatter.result({
-  "duration": 698399,
+  "duration": 125031,
   "status": "passed"
 });
 formatter.match({
@@ -29007,7 +29007,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_midterms_for_course(int,int)"
 });
 formatter.result({
-  "duration": 652679,
+  "duration": 108235,
   "status": "passed"
 });
 formatter.match({
@@ -29024,7 +29024,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_project_for_course(int,int)"
 });
 formatter.result({
-  "duration": 564504,
+  "duration": 382556,
   "status": "passed"
 });
 formatter.match({
@@ -29041,7 +29041,7 @@ formatter.match({
   "location": "StepDefinitions.student_writes_final_for_course(int,int)"
 });
 formatter.result({
-  "duration": 383489,
+  "duration": 156288,
   "status": "passed"
 });
 formatter.match({
@@ -29058,7 +29058,7 @@ formatter.match({
   "location": "StepDefinitions.student_obtains_mark_for_course(int,int)"
 });
 formatter.result({
-  "duration": 471197,
+  "duration": 126897,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -29389,7 +29389,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 2298138,
+  "duration": 2046211,
   "status": "passed"
 });
 formatter.match({
@@ -29402,7 +29402,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38059692,
+  "duration": 2000420812,
   "status": "passed"
 });
 formatter.match({
@@ -29415,7 +29415,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 160021,
+  "duration": 42921,
   "status": "passed"
 });
 formatter.match({
@@ -29428,7 +29428,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 191278,
+  "duration": 18661,
   "status": "passed"
 });
 formatter.match({
@@ -29441,7 +29441,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 73712,
+  "duration": 11664,
   "status": "passed"
 });
 formatter.match({
@@ -29462,7 +29462,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1099149,
+  "duration": 57384,
   "status": "passed"
 });
 formatter.match({
@@ -29475,7 +29475,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 10264,
   "status": "passed"
 });
 formatter.match({
@@ -29516,14 +29516,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 818763,
+  "duration": 108236,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 11663,
+  "duration": 13063,
   "status": "passed"
 });
 formatter.match({
@@ -29536,7 +29536,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 19128,
+  "duration": 20527,
   "status": "passed"
 });
 formatter.match({
@@ -29553,7 +29553,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 340568,
+  "duration": 58783,
   "status": "passed"
 });
 formatter.match({
@@ -29566,7 +29566,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 345234,
+  "duration": 34523,
   "status": "passed"
 });
 formatter.match({
@@ -29579,7 +29579,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1887122,
+  "duration": 62982,
   "status": "passed"
 });
 formatter.match({
@@ -29592,7 +29592,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 396877501,
+  "duration": 20000195944,
   "status": "passed"
 });
 formatter.match({
@@ -29605,7 +29605,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 1258703,
+  "duration": 57850,
   "status": "passed"
 });
 formatter.match({
@@ -29618,14 +29618,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2049009,
+  "duration": 149290,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.student_starts_to_take_course()"
 });
 formatter.result({
-  "duration": 14929,
+  "duration": 27526,
   "status": "passed"
 });
 formatter.match({
@@ -29642,7 +29642,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_assginments_for_course(int,int)"
 });
 formatter.result({
-  "duration": 373692,
+  "duration": 106836,
   "status": "passed"
 });
 formatter.match({
@@ -29659,7 +29659,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_project_for_course(int,int)"
 });
 formatter.result({
-  "duration": 347100,
+  "duration": 76512,
   "status": "passed"
 });
 formatter.match({
@@ -29676,7 +29676,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_midterms_for_course(int,int)"
 });
 formatter.result({
-  "duration": 333570,
+  "duration": 73245,
   "status": "passed"
 });
 formatter.match({
@@ -29693,7 +29693,7 @@ formatter.match({
   "location": "StepDefinitions.student_writes_final_for_course(int,int)"
 });
 formatter.result({
-  "duration": 352232,
+  "duration": 69513,
   "status": "passed"
 });
 formatter.match({
@@ -29710,7 +29710,7 @@ formatter.match({
   "location": "StepDefinitions.student_obtains_mark_for_course(int,int)"
 });
 formatter.result({
-  "duration": 352232,
+  "duration": 77445,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -30041,7 +30041,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 716127,
+  "duration": 2997937,
   "status": "passed"
 });
 formatter.match({
@@ -30054,7 +30054,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 42414770,
+  "duration": 2000432942,
   "status": "passed"
 });
 formatter.match({
@@ -30067,7 +30067,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 50852,
+  "duration": 41054,
   "status": "passed"
 });
 formatter.match({
@@ -30080,7 +30080,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 32657,
+  "duration": 42921,
   "status": "passed"
 });
 formatter.match({
@@ -30093,7 +30093,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 20527,
+  "duration": 20994,
   "status": "passed"
 });
 formatter.match({
@@ -30114,7 +30114,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1244242,
+  "duration": 116167,
   "status": "passed"
 });
 formatter.match({
@@ -30127,7 +30127,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 38722,
+  "duration": 21460,
   "status": "passed"
 });
 formatter.match({
@@ -30168,14 +30168,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1331483,
+  "duration": 204807,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 10731,
+  "duration": 13063,
   "status": "passed"
 });
 formatter.match({
@@ -30188,7 +30188,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 32657,
+  "duration": 22393,
   "status": "passed"
 });
 formatter.match({
@@ -30205,7 +30205,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 615356,
+  "duration": 96105,
   "status": "passed"
 });
 formatter.match({
@@ -30218,7 +30218,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 529514,
+  "duration": 44787,
   "status": "passed"
 });
 formatter.match({
@@ -30231,7 +30231,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2398908,
+  "duration": 82576,
   "status": "passed"
 });
 formatter.match({
@@ -30244,7 +30244,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 396433829,
+  "duration": 19999187301,
   "status": "passed"
 });
 formatter.match({
@@ -30257,7 +30257,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 397952,
+  "duration": 59716,
   "status": "passed"
 });
 formatter.match({
@@ -30270,14 +30270,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 3189213,
+  "duration": 613956,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.student_starts_to_take_course()"
 });
 formatter.result({
-  "duration": 15862,
+  "duration": 57384,
   "status": "passed"
 });
 formatter.match({
@@ -30294,7 +30294,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_midterms_for_course(int,int)"
 });
 formatter.result({
-  "duration": 480995,
+  "duration": 164219,
   "status": "passed"
 });
 formatter.match({
@@ -30311,7 +30311,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_assginments_for_course(int,int)"
 });
 formatter.result({
-  "duration": 426876,
+  "duration": 94240,
   "status": "passed"
 });
 formatter.match({
@@ -30328,7 +30328,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_project_for_course(int,int)"
 });
 formatter.result({
-  "duration": 351298,
+  "duration": 83509,
   "status": "passed"
 });
 formatter.match({
@@ -30345,7 +30345,7 @@ formatter.match({
   "location": "StepDefinitions.student_writes_final_for_course(int,int)"
 });
 formatter.result({
-  "duration": 328439,
+  "duration": 70913,
   "status": "passed"
 });
 formatter.match({
@@ -30362,8 +30362,9 @@ formatter.match({
   "location": "StepDefinitions.student_obtains_mark_for_course(int,int)"
 });
 formatter.result({
-  "duration": 341035,
-  "status": "passed"
+  "duration": 5804595,
+  "error_message": "java.lang.AssertionError: \nExpected: not \u003c0\u003e\n     but: was \u003c0\u003e\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\r\n\tat test.cucumber.StepDefinitions.student_obtains_mark_for_course(StepDefinitions.java:335)\r\n\tat ✽.Then student 101075433 obtains mark for course 115205(test/cucumber/hierachicalusecaces-studenttakecourse.feature:135)\r\n",
+  "status": "failed"
 });
 formatter.scenarioOutline({
   "line": 141,
@@ -30693,7 +30694,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 549108,
+  "duration": 824362,
   "status": "passed"
 });
 formatter.match({
@@ -30706,7 +30707,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36411435,
+  "duration": 2000311177,
   "status": "passed"
 });
 formatter.match({
@@ -30719,7 +30720,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 103103,
   "status": "passed"
 });
 formatter.match({
@@ -30732,7 +30733,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 20527,
+  "duration": 42454,
   "status": "passed"
 });
 formatter.match({
@@ -30745,7 +30746,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 8397,
+  "duration": 29858,
   "status": "passed"
 });
 formatter.match({
@@ -30766,7 +30767,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 636817,
+  "duration": 122231,
   "status": "passed"
 });
 formatter.match({
@@ -30779,7 +30780,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 15396,
+  "duration": 32190,
   "status": "passed"
 });
 formatter.match({
@@ -30820,14 +30821,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 574768,
+  "duration": 231400,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 5132,
+  "duration": 13996,
   "status": "passed"
 });
 formatter.match({
@@ -30840,7 +30841,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13529,
+  "duration": 37789,
   "status": "passed"
 });
 formatter.match({
@@ -30857,7 +30858,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 278520,
+  "duration": 103104,
   "status": "passed"
 });
 formatter.match({
@@ -30870,7 +30871,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 231866,
+  "duration": 53651,
   "status": "passed"
 });
 formatter.match({
@@ -30883,7 +30884,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1169596,
+  "duration": 86309,
   "status": "passed"
 });
 formatter.match({
@@ -30896,7 +30897,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 398655921,
+  "duration": 20000338236,
   "status": "passed"
 });
 formatter.match({
@@ -30909,7 +30910,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 443205,
+  "duration": 77911,
   "status": "passed"
 });
 formatter.match({
@@ -30922,14 +30923,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2256616,
+  "duration": 145559,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.student_starts_to_take_course()"
 });
 formatter.result({
-  "duration": 12596,
+  "duration": 26126,
   "status": "passed"
 });
 formatter.match({
@@ -30946,7 +30947,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_midterms_for_course(int,int)"
 });
 formatter.result({
-  "duration": 477728,
+  "duration": 107769,
   "status": "passed"
 });
 formatter.match({
@@ -30963,7 +30964,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_project_for_course(int,int)"
 });
 formatter.result({
-  "duration": 471664,
+  "duration": 86775,
   "status": "passed"
 });
 formatter.match({
@@ -30980,7 +30981,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_assginments_for_course(int,int)"
 });
 formatter.result({
-  "duration": 404483,
+  "duration": 76045,
   "status": "passed"
 });
 formatter.match({
@@ -30997,7 +30998,7 @@ formatter.match({
   "location": "StepDefinitions.student_writes_final_for_course(int,int)"
 });
 formatter.result({
-  "duration": 677872,
+  "duration": 111967,
   "status": "passed"
 });
 formatter.match({
@@ -31014,7 +31015,7 @@ formatter.match({
   "location": "StepDefinitions.student_obtains_mark_for_course(int,int)"
 });
 formatter.result({
-  "duration": 436208,
+  "duration": 83043,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -31345,7 +31346,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 583632,
+  "duration": 3285321,
   "status": "passed"
 });
 formatter.match({
@@ -31358,7 +31359,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36641435,
+  "duration": 2000142292,
   "status": "passed"
 });
 formatter.match({
@@ -31371,7 +31372,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 21460,
+  "duration": 40589,
   "status": "passed"
 });
 formatter.match({
@@ -31384,7 +31385,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 16329,
+  "duration": 39655,
   "status": "passed"
 });
 formatter.match({
@@ -31397,7 +31398,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 7931,
+  "duration": 30324,
   "status": "passed"
 });
 formatter.match({
@@ -31418,7 +31419,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 675538,
+  "duration": 118033,
   "status": "passed"
 });
 formatter.match({
@@ -31431,7 +31432,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 24260,
+  "duration": 20994,
   "status": "passed"
 });
 formatter.match({
@@ -31472,14 +31473,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 920468,
+  "duration": 244463,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 11196,
+  "duration": 14462,
   "status": "passed"
 });
 formatter.match({
@@ -31492,7 +31493,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 37790,
   "status": "passed"
 });
 formatter.match({
@@ -31509,7 +31510,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 453935,
+  "duration": 111501,
   "status": "passed"
 });
 formatter.match({
@@ -31522,7 +31523,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 364829,
+  "duration": 46187,
   "status": "passed"
 });
 formatter.match({
@@ -31535,7 +31536,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1911848,
+  "duration": 92840,
   "status": "passed"
 });
 formatter.match({
@@ -31548,7 +31549,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 400102637,
+  "duration": 19999596916,
   "status": "passed"
 });
 formatter.match({
@@ -31561,7 +31562,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 327506,
+  "duration": 38723,
   "status": "passed"
 });
 formatter.match({
@@ -31574,7 +31575,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 1955236,
+  "duration": 149290,
   "status": "passed"
 });
 formatter.match({
@@ -31598,7 +31599,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_project_for_course(int,int)"
 });
 formatter.result({
-  "duration": 472131,
+  "duration": 70447,
   "status": "passed"
 });
 formatter.match({
@@ -31615,7 +31616,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_assginments_for_course(int,int)"
 });
 formatter.result({
-  "duration": 454402,
+  "duration": 49452,
   "status": "passed"
 });
 formatter.match({
@@ -31632,7 +31633,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_midterms_for_course(int,int)"
 });
 formatter.result({
-  "duration": 428277,
+  "duration": 40588,
   "status": "passed"
 });
 formatter.match({
@@ -31649,7 +31650,7 @@ formatter.match({
   "location": "StepDefinitions.student_writes_final_for_course(int,int)"
 });
 formatter.result({
-  "duration": 598094,
+  "duration": 35457,
   "status": "passed"
 });
 formatter.match({
@@ -31666,7 +31667,7 @@ formatter.match({
   "location": "StepDefinitions.student_obtains_mark_for_course(int,int)"
 });
 formatter.result({
-  "duration": 663409,
+  "duration": 33124,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -31997,7 +31998,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 401685,
+  "duration": 1529760,
   "status": "passed"
 });
 formatter.match({
@@ -32010,7 +32011,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36229487,
+  "duration": 2000501055,
   "status": "passed"
 });
 formatter.match({
@@ -32023,7 +32024,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 25659,
+  "duration": 40588,
   "status": "passed"
 });
 formatter.match({
@@ -32036,7 +32037,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 17729,
+  "duration": 36856,
   "status": "passed"
 });
 formatter.match({
@@ -32049,7 +32050,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 9330,
+  "duration": 22860,
   "status": "passed"
 });
 formatter.match({
@@ -32070,7 +32071,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 681604,
+  "duration": 172151,
   "status": "passed"
 });
 formatter.match({
@@ -32083,7 +32084,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 19595,
+  "duration": 25659,
   "status": "passed"
 });
 formatter.match({
@@ -32124,14 +32125,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 668075,
+  "duration": 394220,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 7465,
+  "duration": 22860,
   "status": "passed"
 });
 formatter.match({
@@ -32144,7 +32145,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 17728,
+  "duration": 49919,
   "status": "passed"
 });
 formatter.match({
@@ -32161,7 +32162,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 289717,
+  "duration": 165619,
   "status": "passed"
 });
 formatter.match({
@@ -32174,7 +32175,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 224402,
+  "duration": 70913,
   "status": "passed"
 });
 formatter.match({
@@ -32187,7 +32188,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1225113,
+  "duration": 148824,
   "status": "passed"
 });
 formatter.match({
@@ -32200,7 +32201,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 397994379,
+  "duration": 20000161887,
   "status": "passed"
 });
 formatter.match({
@@ -32213,7 +32214,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 320041,
+  "duration": 61115,
   "status": "passed"
 });
 formatter.match({
@@ -32226,14 +32227,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 1858664,
+  "duration": 160954,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.student_starts_to_take_course()"
 });
 formatter.result({
-  "duration": 35457,
+  "duration": 36389,
   "status": "passed"
 });
 formatter.match({
@@ -32250,7 +32251,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_project_for_course(int,int)"
 });
 formatter.result({
-  "duration": 448337,
+  "duration": 120832,
   "status": "passed"
 });
 formatter.match({
@@ -32267,7 +32268,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_midterms_for_course(int,int)"
 });
 formatter.result({
-  "duration": 343834,
+  "duration": 83975,
   "status": "passed"
 });
 formatter.match({
@@ -32284,7 +32285,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_assginments_for_course(int,int)"
 });
 formatter.result({
-  "duration": 327039,
+  "duration": 81177,
   "status": "passed"
 });
 formatter.match({
@@ -32301,7 +32302,7 @@ formatter.match({
   "location": "StepDefinitions.student_writes_final_for_course(int,int)"
 });
 formatter.result({
-  "duration": 327505,
+  "duration": 73246,
   "status": "passed"
 });
 formatter.match({
@@ -32318,7 +32319,7 @@ formatter.match({
   "location": "StepDefinitions.student_obtains_mark_for_course(int,int)"
 });
 formatter.result({
-  "duration": 328439,
+  "duration": 74179,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -32635,7 +32636,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 585032,
+  "duration": 2508544,
   "status": "passed"
 });
 formatter.match({
@@ -32648,7 +32649,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 41776088,
+  "duration": 2000763247,
   "status": "passed"
 });
 formatter.match({
@@ -32661,7 +32662,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 23793,
+  "duration": 32657,
   "status": "passed"
 });
 formatter.match({
@@ -32674,7 +32675,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 18194,
+  "duration": 28925,
   "status": "passed"
 });
 formatter.match({
@@ -32687,7 +32688,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13063,
+  "duration": 14462,
   "status": "passed"
 });
 formatter.match({
@@ -32708,7 +32709,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 637750,
+  "duration": 71379,
   "status": "passed"
 });
 formatter.match({
@@ -32721,7 +32722,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13529,
+  "duration": 10730,
   "status": "passed"
 });
 formatter.match({
@@ -32762,14 +32763,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 622354,
+  "duration": 224868,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 6531,
+  "duration": 10730,
   "status": "passed"
 });
 formatter.match({
@@ -32782,7 +32783,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 16329,
+  "duration": 23327,
   "status": "passed"
 });
 formatter.match({
@@ -32799,7 +32800,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 246796,
+  "duration": 65781,
   "status": "passed"
 });
 formatter.match({
@@ -32812,7 +32813,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 185214,
+  "duration": 20527,
   "status": "passed"
 });
 formatter.match({
@@ -32825,7 +32826,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1247507,
+  "duration": 90507,
   "status": "passed"
 });
 formatter.match({
@@ -32838,7 +32839,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 398377868,
+  "duration": 20000632151,
   "status": "passed"
 });
 formatter.match({
@@ -32851,7 +32852,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 321440,
+  "duration": 41522,
   "status": "passed"
 });
 formatter.match({
@@ -32864,14 +32865,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2068603,
+  "duration": 111968,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.student_starts_to_take_course()"
 });
 formatter.result({
-  "duration": 13996,
+  "duration": 17261,
   "status": "passed"
 });
 formatter.match({
@@ -32888,7 +32889,7 @@ formatter.match({
   "location": "StepDefinitions.student_writes_final_for_course(int,int)"
 });
 formatter.result({
-  "duration": 384889,
+  "duration": 68114,
   "status": "passed"
 });
 formatter.match({
@@ -32905,7 +32906,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_assginments_for_course(int,int)"
 });
 formatter.result({
-  "duration": 516918,
+  "duration": 46653,
   "status": "passed"
 });
 formatter.match({
@@ -32922,7 +32923,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_midterms_for_course(int,int)"
 });
 formatter.result({
-  "duration": 375558,
+  "duration": 40589,
   "status": "passed"
 });
 formatter.match({
@@ -32939,7 +32940,7 @@ formatter.match({
   "location": "StepDefinitions.student_cannot_obtain_mark_for_course(int,int)"
 });
 formatter.result({
-  "duration": 474463,
+  "duration": 78377,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -33270,7 +33271,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 515051,
+  "duration": 2197834,
   "status": "passed"
 });
 formatter.match({
@@ -33283,7 +33284,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36936750,
+  "duration": 1999424299,
   "status": "passed"
 });
 formatter.match({
@@ -33296,7 +33297,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 35457,
+  "duration": 35456,
   "status": "passed"
 });
 formatter.match({
@@ -33309,7 +33310,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 30325,
+  "duration": 37323,
   "status": "passed"
 });
 formatter.match({
@@ -33322,7 +33323,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 20528,
+  "duration": 23327,
   "status": "passed"
 });
 formatter.match({
@@ -33343,7 +33344,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1008642,
+  "duration": 110101,
   "status": "passed"
 });
 formatter.match({
@@ -33356,7 +33357,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 25193,
+  "duration": 24726,
   "status": "passed"
 });
 formatter.match({
@@ -33397,7 +33398,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1045032,
+  "duration": 203874,
   "status": "passed"
 });
 formatter.match({
@@ -33417,7 +33418,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 20528,
+  "duration": 24727,
   "status": "passed"
 });
 formatter.match({
@@ -33434,7 +33435,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 431542,
+  "duration": 91907,
   "status": "passed"
 });
 formatter.match({
@@ -33447,7 +33448,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 273854,
+  "duration": 39188,
   "status": "passed"
 });
 formatter.match({
@@ -33460,7 +33461,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1246574,
+  "duration": 72779,
   "status": "passed"
 });
 formatter.match({
@@ -33473,7 +33474,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 399965477,
+  "duration": 20000694200,
   "status": "passed"
 });
 formatter.match({
@@ -33486,7 +33487,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 311644,
+  "duration": 66247,
   "status": "passed"
 });
 formatter.match({
@@ -33499,14 +33500,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 4116214,
+  "duration": 195477,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.student_starts_to_take_course()"
 });
 formatter.result({
-  "duration": 17728,
+  "duration": 38256,
   "status": "passed"
 });
 formatter.match({
@@ -33523,7 +33524,7 @@ formatter.match({
   "location": "StepDefinitions.student_writes_final_for_course(int,int)"
 });
 formatter.result({
-  "duration": 866350,
+  "duration": 121765,
   "status": "passed"
 });
 formatter.match({
@@ -33540,7 +33541,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_assginments_for_course(int,int)"
 });
 formatter.result({
-  "duration": 851422,
+  "duration": 99371,
   "status": "passed"
 });
 formatter.match({
@@ -33557,7 +33558,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_midterms_for_course(int,int)"
 });
 formatter.result({
-  "duration": 708662,
+  "duration": 87241,
   "status": "passed"
 });
 formatter.match({
@@ -33574,7 +33575,7 @@ formatter.match({
   "location": "StepDefinitions.student_does_project_for_course(int,int)"
 });
 formatter.result({
-  "duration": 1070691,
+  "duration": 60649,
   "status": "passed"
 });
 formatter.match({
@@ -33591,7 +33592,7 @@ formatter.match({
   "location": "StepDefinitions.student_cannot_obtain_mark_for_course(int,int)"
 });
 formatter.result({
-  "duration": 726857,
+  "duration": 73245,
   "status": "passed"
 });
 formatter.uri("test/cucumber/hierachicalusecaces-systemofferinformation.feature");
@@ -33871,7 +33872,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 377424,
+  "duration": 4865466,
   "status": "passed"
 });
 formatter.match({
@@ -33884,7 +33885,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39102392,
+  "duration": 1999902029,
   "status": "passed"
 });
 formatter.match({
@@ -33897,7 +33898,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 32190,
+  "duration": 41988,
   "status": "passed"
 });
 formatter.match({
@@ -33910,7 +33911,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 28925,
+  "duration": 36389,
   "status": "passed"
 });
 formatter.match({
@@ -33923,7 +33924,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 12596,
+  "duration": 20994,
   "status": "passed"
 });
 formatter.match({
@@ -33964,7 +33965,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1326818,
+  "duration": 231400,
   "status": "passed"
 });
 formatter.match({
@@ -33977,7 +33978,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 28458,
+  "duration": 21460,
   "status": "passed"
 });
 formatter.match({
@@ -34018,7 +34019,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1780753,
+  "duration": 207607,
   "status": "passed"
 });
 formatter.match({
@@ -34031,7 +34032,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 28925,
+  "duration": 24260,
   "status": "passed"
 });
 formatter.match({
@@ -34072,7 +34073,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1024039,
+  "duration": 177749,
   "status": "passed"
 });
 formatter.match({
@@ -34085,7 +34086,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 24727,
+  "duration": 20061,
   "status": "passed"
 });
 formatter.match({
@@ -34126,7 +34127,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1127142,
+  "duration": 176349,
   "status": "passed"
 });
 formatter.match({
@@ -34139,14 +34140,14 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 125497,
+  "duration": 305579,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_current_courses_in_the_system_is_shown()"
 });
 formatter.result({
-  "duration": 64848,
+  "duration": 131096,
   "status": "passed"
 });
 formatter.scenario({
@@ -34271,7 +34272,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 589697,
+  "duration": 2002824,
   "status": "passed"
 });
 formatter.match({
@@ -34284,7 +34285,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39322129,
+  "duration": 1999618376,
   "status": "passed"
 });
 formatter.match({
@@ -34297,7 +34298,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 30791,
+  "duration": 21927,
   "status": "passed"
 });
 formatter.match({
@@ -34310,7 +34311,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 26126,
+  "duration": 16329,
   "status": "passed"
 });
 formatter.match({
@@ -34323,7 +34324,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 21460,
+  "duration": 7931,
   "status": "passed"
 });
 formatter.match({
@@ -34364,7 +34365,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1552153,
+  "duration": 326573,
   "status": "passed"
 });
 formatter.match({
@@ -34377,7 +34378,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 33124,
+  "duration": 22860,
   "status": "passed"
 });
 formatter.match({
@@ -34418,7 +34419,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1110346,
+  "duration": 157221,
   "status": "passed"
 });
 formatter.match({
@@ -34431,7 +34432,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 21927,
+  "duration": 22860,
   "status": "passed"
 });
 formatter.match({
@@ -34472,7 +34473,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 730590,
+  "duration": 150690,
   "status": "passed"
 });
 formatter.match({
@@ -34485,7 +34486,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 23793,
+  "duration": 21927,
   "status": "passed"
 });
 formatter.match({
@@ -34526,7 +34527,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 3145827,
+  "duration": 231867,
   "status": "passed"
 });
 formatter.match({
@@ -34539,14 +34540,14 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 33590,
+  "duration": 36856,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_current_courses_in_the_system_is_shown()"
 });
 formatter.result({
-  "duration": 32657,
+  "duration": 41988,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -34752,7 +34753,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 493591,
+  "duration": 2124122,
   "status": "passed"
 });
 formatter.match({
@@ -34765,7 +34766,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 37489590,
+  "duration": 2000548176,
   "status": "passed"
 });
 formatter.match({
@@ -34778,7 +34779,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 41988,
+  "duration": 26126,
   "status": "passed"
 });
 formatter.match({
@@ -34791,7 +34792,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 35456,
+  "duration": 32191,
   "status": "passed"
 });
 formatter.match({
@@ -34804,7 +34805,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 18195,
+  "duration": 15862,
   "status": "passed"
 });
 formatter.match({
@@ -34825,7 +34826,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 949393,
+  "duration": 81176,
   "status": "passed"
 });
 formatter.match({
@@ -34838,7 +34839,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 21927,
+  "duration": 14462,
   "status": "passed"
 });
 formatter.match({
@@ -34859,7 +34860,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 930731,
+  "duration": 65781,
   "status": "passed"
 });
 formatter.match({
@@ -34872,7 +34873,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 21460,
+  "duration": 14463,
   "status": "passed"
 });
 formatter.match({
@@ -34893,7 +34894,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 900407,
+  "duration": 72312,
   "status": "passed"
 });
 formatter.match({
@@ -34906,14 +34907,14 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 295315,
+  "duration": 160020,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_current_students_in_the_system_is_shown()"
 });
 formatter.result({
-  "duration": 66248,
+  "duration": 73245,
   "status": "passed"
 });
 formatter.scenario({
@@ -35003,7 +35004,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 708662,
+  "duration": 1321686,
   "status": "passed"
 });
 formatter.match({
@@ -35016,7 +35017,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36392773,
+  "duration": 1999636104,
   "status": "passed"
 });
 formatter.match({
@@ -35029,7 +35030,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 24259,
+  "duration": 42921,
   "status": "passed"
 });
 formatter.match({
@@ -35042,7 +35043,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 16795,
+  "duration": 89107,
   "status": "passed"
 });
 formatter.match({
@@ -35055,7 +35056,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 8397,
+  "duration": 44787,
   "status": "passed"
 });
 formatter.match({
@@ -35076,7 +35077,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 686269,
+  "duration": 164219,
   "status": "passed"
 });
 formatter.match({
@@ -35089,7 +35090,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 18195,
+  "duration": 33124,
   "status": "passed"
 });
 formatter.match({
@@ -35110,7 +35111,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 573368,
+  "duration": 112434,
   "status": "passed"
 });
 formatter.match({
@@ -35123,7 +35124,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 18662,
+  "duration": 26126,
   "status": "passed"
 });
 formatter.match({
@@ -35144,7 +35145,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 600427,
+  "duration": 117566,
   "status": "passed"
 });
 formatter.match({
@@ -35157,14 +35158,14 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 29858,
+  "duration": 55984,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_current_students_in_the_system_is_shown()"
 });
 formatter.result({
-  "duration": 36389,
+  "duration": 76978,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -35600,7 +35601,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 551907,
+  "duration": 1934710,
   "status": "passed"
 });
 formatter.match({
@@ -35613,7 +35614,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39602048,
+  "duration": 1999756003,
   "status": "passed"
 });
 formatter.match({
@@ -35626,7 +35627,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 21460,
+  "duration": 42454,
   "status": "passed"
 });
 formatter.match({
@@ -35639,7 +35640,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 20528,
+  "duration": 36856,
   "status": "passed"
 });
 formatter.match({
@@ -35652,7 +35653,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13529,
+  "duration": 20061,
   "status": "passed"
 });
 formatter.match({
@@ -35693,7 +35694,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 699332,
+  "duration": 209939,
   "status": "passed"
 });
 formatter.match({
@@ -35706,7 +35707,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 26592,
+  "duration": 21927,
   "status": "passed"
 });
 formatter.match({
@@ -35747,7 +35748,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 665275,
+  "duration": 194544,
   "status": "passed"
 });
 formatter.match({
@@ -35760,7 +35761,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 20527,
+  "duration": 21927,
   "status": "passed"
 });
 formatter.match({
@@ -35801,7 +35802,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 932131,
+  "duration": 161420,
   "status": "passed"
 });
 formatter.match({
@@ -35814,7 +35815,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 22394,
+  "duration": 21927,
   "status": "passed"
 });
 formatter.match({
@@ -35855,7 +35856,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 707263,
+  "duration": 348966,
   "status": "passed"
 });
 formatter.match({
@@ -35868,7 +35869,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 18195,
+  "duration": 32191,
   "status": "passed"
 });
 formatter.match({
@@ -35889,14 +35890,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 635883,
+  "duration": 117567,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 7931,
+  "duration": 14462,
   "status": "passed"
 });
 formatter.match({
@@ -35909,7 +35910,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27992,
+  "duration": 77911,
   "status": "passed"
 });
 formatter.match({
@@ -35926,7 +35927,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 347100,
+  "duration": 137161,
   "status": "passed"
 });
 formatter.match({
@@ -35939,7 +35940,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 278520,
+  "duration": 49919,
   "status": "passed"
 });
 formatter.match({
@@ -35952,7 +35953,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1181260,
+  "duration": 127830,
   "status": "passed"
 });
 formatter.match({
@@ -35965,7 +35966,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 243063,
+  "duration": 84909,
   "status": "passed"
 });
 formatter.match({
@@ -35978,7 +35979,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1282964,
+  "duration": 140426,
   "status": "passed"
 });
 formatter.match({
@@ -35991,7 +35992,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 388155,
+  "duration": 75112,
   "status": "passed"
 });
 formatter.match({
@@ -36004,7 +36005,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1350145,
+  "duration": 130629,
   "status": "passed"
 });
 formatter.match({
@@ -36017,7 +36018,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 264991,
+  "duration": 63915,
   "status": "passed"
 });
 formatter.match({
@@ -36030,7 +36031,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1345478,
+  "duration": 172151,
   "status": "passed"
 });
 formatter.match({
@@ -36043,7 +36044,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 346633,
+  "duration": 61115,
   "status": "passed"
 });
 formatter.match({
@@ -36060,7 +36061,7 @@ formatter.match({
   "location": "StepDefinitions.the_selected_courses_of_student_isaac_is_shown(int,String)"
 });
 formatter.result({
-  "duration": 300447,
+  "duration": 245863,
   "status": "passed"
 });
 formatter.scenario({
@@ -36275,7 +36276,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 501522,
+  "duration": 3289053,
   "status": "passed"
 });
 formatter.match({
@@ -36288,7 +36289,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38564947,
+  "duration": 1999943083,
   "status": "passed"
 });
 formatter.match({
@@ -36301,7 +36302,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 21927,
+  "duration": 38722,
   "status": "passed"
 });
 formatter.match({
@@ -36314,7 +36315,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 17728,
+  "duration": 36390,
   "status": "passed"
 });
 formatter.match({
@@ -36327,7 +36328,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 7931,
+  "duration": 18661,
   "status": "passed"
 });
 formatter.match({
@@ -36368,7 +36369,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 814565,
+  "duration": 198277,
   "status": "passed"
 });
 formatter.match({
@@ -36381,7 +36382,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 24260,
+  "duration": 18662,
   "status": "passed"
 });
 formatter.match({
@@ -36422,7 +36423,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 2203898,
+  "duration": 161887,
   "status": "passed"
 });
 formatter.match({
@@ -36435,7 +36436,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 32657,
+  "duration": 27991,
   "status": "passed"
 });
 formatter.match({
@@ -36476,7 +36477,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1200854,
+  "duration": 188946,
   "status": "passed"
 });
 formatter.match({
@@ -36489,7 +36490,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 29392,
+  "duration": 18661,
   "status": "passed"
 });
 formatter.match({
@@ -36530,7 +36531,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1414992,
+  "duration": 193611,
   "status": "passed"
 });
 formatter.match({
@@ -36543,7 +36544,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 28458,
+  "duration": 28459,
   "status": "passed"
 });
 formatter.match({
@@ -36564,14 +36565,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1498501,
+  "duration": 108702,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 15862,
+  "duration": 14929,
   "status": "passed"
 });
 formatter.match({
@@ -36584,7 +36585,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 26126,
+  "duration": 25193,
   "status": "passed"
 });
 formatter.match({
@@ -36601,7 +36602,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 549108,
+  "duration": 94706,
   "status": "passed"
 });
 formatter.match({
@@ -36614,7 +36615,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 501989,
+  "duration": 55983,
   "status": "passed"
 });
 formatter.match({
@@ -36627,7 +36628,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1733633,
+  "duration": 121298,
   "status": "passed"
 });
 formatter.match({
@@ -36640,7 +36641,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 281786,
+  "duration": 50385,
   "status": "passed"
 });
 formatter.match({
@@ -36653,7 +36654,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1225114,
+  "duration": 119899,
   "status": "passed"
 });
 formatter.match({
@@ -36666,7 +36667,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 2061605,
+  "duration": 107769,
   "status": "passed"
 });
 formatter.match({
@@ -36679,7 +36680,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2365318,
+  "duration": 99838,
   "status": "passed"
 });
 formatter.match({
@@ -36692,7 +36693,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 452070,
+  "duration": 49453,
   "status": "passed"
 });
 formatter.match({
@@ -36705,7 +36706,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2404506,
+  "duration": 85842,
   "status": "passed"
 });
 formatter.match({
@@ -36718,7 +36719,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 452069,
+  "duration": 43388,
   "status": "passed"
 });
 formatter.match({
@@ -36735,7 +36736,7 @@ formatter.match({
   "location": "StepDefinitions.the_selected_courses_of_student_isaac_is_shown(int,String)"
 });
 formatter.result({
-  "duration": 496390,
+  "duration": 118033,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -37273,7 +37274,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 1259636,
+  "duration": 2953616,
   "status": "passed"
 });
 formatter.match({
@@ -37286,7 +37287,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 38616265,
+  "duration": 2000235599,
   "status": "passed"
 });
 formatter.match({
@@ -37299,7 +37300,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 24726,
+  "duration": 47586,
   "status": "passed"
 });
 formatter.match({
@@ -37312,7 +37313,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 32657,
+  "duration": 57384,
   "status": "passed"
 });
 formatter.match({
@@ -37325,7 +37326,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 17728,
+  "duration": 31725,
   "status": "passed"
 });
 formatter.match({
@@ -37366,7 +37367,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1054829,
+  "duration": 212739,
   "status": "passed"
 });
 formatter.match({
@@ -37379,7 +37380,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27992,
+  "duration": 24259,
   "status": "passed"
 });
 formatter.match({
@@ -37420,7 +37421,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1046432,
+  "duration": 190811,
   "status": "passed"
 });
 formatter.match({
@@ -37433,7 +37434,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 22394,
   "status": "passed"
 });
 formatter.match({
@@ -37474,7 +37475,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1110347,
+  "duration": 179149,
   "status": "passed"
 });
 formatter.match({
@@ -37487,7 +37488,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 42921,
+  "duration": 30791,
   "status": "passed"
 });
 formatter.match({
@@ -37528,7 +37529,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1135540,
+  "duration": 283652,
   "status": "passed"
 });
 formatter.match({
@@ -37541,7 +37542,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 28459,
+  "duration": 34057,
   "status": "passed"
 });
 formatter.match({
@@ -37562,14 +37563,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 978785,
+  "duration": 141359,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 22394,
+  "duration": 14462,
   "status": "passed"
 });
 formatter.match({
@@ -37599,7 +37600,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 542111,
+  "duration": 194544,
   "status": "passed"
 });
 formatter.match({
@@ -37612,7 +37613,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 464666,
+  "duration": 118033,
   "status": "passed"
 });
 formatter.match({
@@ -37625,7 +37626,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2589253,
+  "duration": 162820,
   "status": "passed"
 });
 formatter.match({
@@ -37638,7 +37639,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 429676,
+  "duration": 107303,
   "status": "passed"
 });
 formatter.match({
@@ -37651,7 +37652,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2047143,
+  "duration": 123631,
   "status": "passed"
 });
 formatter.match({
@@ -37664,7 +37665,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 389555,
+  "duration": 83509,
   "status": "passed"
 });
 formatter.match({
@@ -37677,7 +37678,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1936109,
+  "duration": 109635,
   "status": "passed"
 });
 formatter.match({
@@ -37690,7 +37691,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 410081,
+  "duration": 53185,
   "status": "passed"
 });
 formatter.match({
@@ -37703,7 +37704,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2169375,
+  "duration": 104037,
   "status": "passed"
 });
 formatter.match({
@@ -37716,7 +37717,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 396891497,
+  "duration": 20000591096,
   "status": "passed"
 });
 formatter.match({
@@ -37729,7 +37730,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 380224,
+  "duration": 75578,
   "status": "passed"
 });
 formatter.match({
@@ -37742,7 +37743,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2098462,
+  "duration": 157222,
   "status": "passed"
 });
 formatter.match({
@@ -37755,7 +37756,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 253793,
+  "duration": 49452,
   "status": "passed"
 });
 formatter.match({
@@ -37768,7 +37769,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2189902,
+  "duration": 102638,
   "status": "passed"
 });
 formatter.match({
@@ -37781,7 +37782,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 251927,
+  "duration": 34523,
   "status": "passed"
 });
 formatter.match({
@@ -37794,7 +37795,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 3343636,
+  "duration": 119433,
   "status": "passed"
 });
 formatter.match({
@@ -37807,7 +37808,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 329371,
+  "duration": 46654,
   "status": "passed"
 });
 formatter.match({
@@ -37820,7 +37821,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 3030593,
+  "duration": 135761,
   "status": "passed"
 });
 formatter.match({
@@ -37833,7 +37834,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 335437,
+  "duration": 69047,
   "status": "passed"
 });
 formatter.match({
@@ -37850,7 +37851,7 @@ formatter.match({
   "location": "StepDefinitions.the_registered_courses_of_student_isaac_is_shown(int,String)"
 });
 formatter.result({
-  "duration": 380224,
+  "duration": 109636,
   "status": "passed"
 });
 formatter.scenario({
@@ -38122,7 +38123,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 478196,
+  "duration": 1358543,
   "status": "passed"
 });
 formatter.match({
@@ -38135,7 +38136,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36298068,
+  "duration": 1999858641,
   "status": "passed"
 });
 formatter.match({
@@ -38148,7 +38149,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 22394,
+  "duration": 48986,
   "status": "passed"
 });
 formatter.match({
@@ -38161,7 +38162,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 24727,
+  "duration": 39655,
   "status": "passed"
 });
 formatter.match({
@@ -38174,7 +38175,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 14929,
+  "duration": 20061,
   "status": "passed"
 });
 formatter.match({
@@ -38215,7 +38216,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1682315,
+  "duration": 196410,
   "status": "passed"
 });
 formatter.match({
@@ -38228,7 +38229,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 22394,
+  "duration": 36390,
   "status": "passed"
 });
 formatter.match({
@@ -38269,7 +38270,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1057629,
+  "duration": 235599,
   "status": "passed"
 });
 formatter.match({
@@ -38282,7 +38283,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 25193,
+  "duration": 22394,
   "status": "passed"
 });
 formatter.match({
@@ -38323,7 +38324,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1107081,
+  "duration": 169352,
   "status": "passed"
 });
 formatter.match({
@@ -38336,7 +38337,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 23327,
+  "duration": 18195,
   "status": "passed"
 });
 formatter.match({
@@ -38377,7 +38378,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 911604,
+  "duration": 171684,
   "status": "passed"
 });
 formatter.match({
@@ -38390,7 +38391,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 24726,
+  "duration": 18662,
   "status": "passed"
 });
 formatter.match({
@@ -38411,14 +38412,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 634484,
+  "duration": 121765,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 9797,
+  "duration": 17728,
   "status": "passed"
 });
 formatter.match({
@@ -38431,7 +38432,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 17262,
+  "duration": 33590,
   "status": "passed"
 });
 formatter.match({
@@ -38448,7 +38449,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 318641,
+  "duration": 115233,
   "status": "passed"
 });
 formatter.match({
@@ -38461,7 +38462,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 266389,
+  "duration": 56917,
   "status": "passed"
 });
 formatter.match({
@@ -38474,7 +38475,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1368339,
+  "duration": 85842,
   "status": "passed"
 });
 formatter.match({
@@ -38487,7 +38488,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 260791,
+  "duration": 40589,
   "status": "passed"
 });
 formatter.match({
@@ -38500,7 +38501,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1329617,
+  "duration": 69980,
   "status": "passed"
 });
 formatter.match({
@@ -38513,7 +38514,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 255193,
+  "duration": 36857,
   "status": "passed"
 });
 formatter.match({
@@ -38526,7 +38527,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 3010532,
+  "duration": 66248,
   "status": "passed"
 });
 formatter.match({
@@ -38539,7 +38540,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 283652,
+  "duration": 32657,
   "status": "passed"
 });
 formatter.match({
@@ -38552,7 +38553,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1744830,
+  "duration": 76978,
   "status": "passed"
 });
 formatter.match({
@@ -38565,7 +38566,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 398134804,
+  "duration": 20000424545,
   "status": "passed"
 });
 formatter.match({
@@ -38578,7 +38579,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 350365,
+  "duration": 128297,
   "status": "passed"
 });
 formatter.match({
@@ -38591,7 +38592,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 1983228,
+  "duration": 225801,
   "status": "passed"
 });
 formatter.match({
@@ -38604,7 +38605,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 230000,
+  "duration": 47120,
   "status": "passed"
 });
 formatter.match({
@@ -38617,7 +38618,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2067671,
+  "duration": 155355,
   "status": "passed"
 });
 formatter.match({
@@ -38630,7 +38631,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 239798,
+  "duration": 57850,
   "status": "passed"
 });
 formatter.match({
@@ -38643,7 +38644,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2307002,
+  "duration": 139026,
   "status": "passed"
 });
 formatter.match({
@@ -38656,7 +38657,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 206674,
+  "duration": 62049,
   "status": "passed"
 });
 formatter.match({
@@ -38669,7 +38670,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 1740632,
+  "duration": 229533,
   "status": "passed"
 });
 formatter.match({
@@ -38682,7 +38683,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 216004,
+  "duration": 56917,
   "status": "passed"
 });
 formatter.match({
@@ -38699,7 +38700,7 @@ formatter.match({
   "location": "StepDefinitions.the_registered_courses_of_student_isaac_is_shown(int,String)"
 });
 formatter.result({
-  "duration": 337303,
+  "duration": 106836,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -39597,7 +39598,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 355964,
+  "duration": 2929357,
   "status": "passed"
 });
 formatter.match({
@@ -39610,7 +39611,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 36094660,
+  "duration": 1999176570,
   "status": "passed"
 });
 formatter.match({
@@ -39623,7 +39624,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 28458,
+  "duration": 44321,
   "status": "passed"
 });
 formatter.match({
@@ -39636,7 +39637,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 18661,
+  "duration": 46653,
   "status": "passed"
 });
 formatter.match({
@@ -39649,7 +39650,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 20527,
+  "duration": 27992,
   "status": "passed"
 });
 formatter.match({
@@ -39690,7 +39691,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 912070,
+  "duration": 248662,
   "status": "passed"
 });
 formatter.match({
@@ -39703,7 +39704,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 16328,
+  "duration": 24260,
   "status": "passed"
 });
 formatter.match({
@@ -39744,7 +39745,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 585498,
+  "duration": 339169,
   "status": "passed"
 });
 formatter.match({
@@ -39757,7 +39758,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 17729,
+  "duration": 35457,
   "status": "passed"
 });
 formatter.match({
@@ -39798,7 +39799,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1232578,
+  "duration": 296248,
   "status": "passed"
 });
 formatter.match({
@@ -39811,7 +39812,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 37789,
+  "duration": 41055,
   "status": "passed"
 });
 formatter.match({
@@ -39852,7 +39853,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1086087,
+  "duration": 318642,
   "status": "passed"
 });
 formatter.match({
@@ -39865,7 +39866,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 72779,
+  "duration": 35457,
   "status": "passed"
 });
 formatter.match({
@@ -39886,7 +39887,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 683470,
+  "duration": 134828,
   "status": "passed"
 });
 formatter.match({
@@ -39899,7 +39900,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 16795,
+  "duration": 27526,
   "status": "passed"
 });
 formatter.match({
@@ -39920,7 +39921,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 578033,
+  "duration": 115700,
   "status": "passed"
 });
 formatter.match({
@@ -39933,7 +39934,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 16329,
+  "duration": 27526,
   "status": "passed"
 });
 formatter.match({
@@ -39954,14 +39955,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 593895,
+  "duration": 112901,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 8864,
+  "duration": 15396,
   "status": "passed"
 });
 formatter.match({
@@ -39974,7 +39975,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 20060,
+  "duration": 30791,
   "status": "passed"
 });
 formatter.match({
@@ -39991,7 +39992,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 366228,
+  "duration": 115233,
   "status": "passed"
 });
 formatter.match({
@@ -40004,7 +40005,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 236532,
+  "duration": 70446,
   "status": "passed"
 });
 formatter.match({
@@ -40017,7 +40018,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1111280,
+  "duration": 113834,
   "status": "passed"
 });
 formatter.match({
@@ -40030,7 +40031,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 204808,
+  "duration": 52718,
   "status": "passed"
 });
 formatter.match({
@@ -40043,14 +40044,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1070691,
+  "duration": 89574,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 6998,
+  "duration": 12130,
   "status": "passed"
 });
 formatter.match({
@@ -40063,7 +40064,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 15396,
+  "duration": 34523,
   "status": "passed"
 });
 formatter.match({
@@ -40080,7 +40081,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 286917,
+  "duration": 102637,
   "status": "passed"
 });
 formatter.match({
@@ -40093,7 +40094,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 250994,
+  "duration": 48053,
   "status": "passed"
 });
 formatter.match({
@@ -40106,7 +40107,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1141604,
+  "duration": 139493,
   "status": "passed"
 });
 formatter.match({
@@ -40119,7 +40120,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 226268,
+  "duration": 69513,
   "status": "passed"
 });
 formatter.match({
@@ -40132,205 +40133,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1213450,
+  "duration": 94239,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 7931,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "student",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 18662,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "101075404",
-      "offset": 25
-    },
-    {
-      "val": "john",
-      "offset": 39
-    }
-  ],
-  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
-});
-formatter.result({
-  "duration": 275254,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "select course",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 219736,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115205",
-      "offset": 30
-    }
-  ],
-  "location": "StepDefinitions.the_student_selects_course_by(int)"
-});
-formatter.result({
-  "duration": 1308622,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "select course",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 269189,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115004",
-      "offset": 30
-    }
-  ],
-  "location": "StepDefinitions.the_student_selects_course_by(int)"
-});
-formatter.result({
-  "duration": 2231423,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinitions.log_out()"
-});
-formatter.result({
-  "duration": 11197,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "20",
-      "offset": 9
-    }
-  ],
-  "location": "StepDefinitions.wait_for_days(int)"
-});
-formatter.result({
-  "duration": 396553261,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "student",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 21927,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "101075403",
-      "offset": 25
-    },
-    {
-      "val": "mike",
-      "offset": 39
-    }
-  ],
-  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
-});
-formatter.result({
-  "duration": 342901,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "register for course",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 222536,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115007",
-      "offset": 36
-    }
-  ],
-  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
-});
-formatter.result({
-  "duration": 1974364,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "register for course",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 232333,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115205",
-      "offset": 36
-    }
-  ],
-  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
-});
-formatter.result({
-  "duration": 1980895,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinitions.log_out()"
-});
-formatter.result({
-  "duration": 8864,
+  "duration": 13996,
   "status": "passed"
 });
 formatter.match({
@@ -40349,77 +40159,90 @@ formatter.result({
 formatter.match({
   "arguments": [
     {
-      "val": "101075433",
+      "val": "101075404",
       "offset": 25
     },
     {
-      "val": "isaac",
+      "val": "john",
       "offset": 39
     }
   ],
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 362962,
+  "duration": 101238,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "register for course",
+      "val": "select course",
       "offset": 16
     }
   ],
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 250061,
+  "duration": 45254,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
+});
+formatter.result({
+  "duration": 80244,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "select course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 41521,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "115004",
-      "offset": 36
+      "offset": 30
     }
   ],
-  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+  "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1931443,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "register for course",
-      "offset": 16
-    }
-  ],
-  "location": "StepDefinitions.the_user_inputs(String)"
-});
-formatter.result({
-  "duration": 216471,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "115201",
-      "offset": 36
-    }
-  ],
-  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
-});
-formatter.result({
-  "duration": 2662965,
+  "duration": 81643,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 8864,
+  "duration": 13996,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "20",
+      "offset": 9
+    }
+  ],
+  "location": "StepDefinitions.wait_for_days(int)"
+});
+formatter.result({
+  "duration": 20000333105,
   "status": "passed"
 });
 formatter.match({
@@ -40432,7 +40255,185 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 18194,
+  "duration": 58317,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075403",
+      "offset": 25
+    },
+    {
+      "val": "mike",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 173084,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 45720,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115007",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 231866,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 56917,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115205",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 138560,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 12596,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 29391,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "101075433",
+      "offset": 25
+    },
+    {
+      "val": "isaac",
+      "offset": 39
+    }
+  ],
+  "location": "StepDefinitions.the_student_logs_in_with(int,String)"
+});
+formatter.result({
+  "duration": 110102,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 45253,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115004",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 176816,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "register for course",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 39655,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "115201",
+      "offset": 36
+    }
+  ],
+  "location": "StepDefinitions.the_student_registers_for_course_by(int)"
+});
+formatter.result({
+  "duration": 138093,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.log_out()"
+});
+formatter.result({
+  "duration": 14463,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "student",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.the_user_inputs(String)"
+});
+formatter.result({
+  "duration": 36390,
   "status": "passed"
 });
 formatter.match({
@@ -40449,7 +40450,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 320508,
+  "duration": 162820,
   "status": "passed"
 });
 formatter.match({
@@ -40462,7 +40463,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 267790,
+  "duration": 53651,
   "status": "passed"
 });
 formatter.match({
@@ -40475,7 +40476,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2072336,
+  "duration": 153489,
   "status": "passed"
 });
 formatter.match({
@@ -40488,7 +40489,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 221603,
+  "duration": 35923,
   "status": "passed"
 });
 formatter.match({
@@ -40501,14 +40502,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2286474,
+  "duration": 119898,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 7465,
+  "duration": 12129,
   "status": "passed"
 });
 formatter.match({
@@ -40521,7 +40522,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 1999112189,
+  "duration": 100000046187,
   "status": "passed"
 });
 formatter.match({
@@ -40534,7 +40535,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 41055,
+  "duration": 54584,
   "status": "passed"
 });
 formatter.match({
@@ -40547,7 +40548,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 34990,
+  "duration": 46653,
   "status": "passed"
 });
 formatter.match({
@@ -40560,14 +40561,14 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 357363,
+  "duration": 446938,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_dean_s_list_is_generated()"
 });
 formatter.result({
-  "duration": 102637,
+  "duration": 110102,
   "status": "passed"
 });
 formatter.scenario({
@@ -41032,7 +41033,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 982050,
+  "duration": 2737145,
   "status": "passed"
 });
 formatter.match({
@@ -41045,7 +41046,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 39653367,
+  "duration": 2000578034,
   "status": "passed"
 });
 formatter.match({
@@ -41058,7 +41059,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 43854,
+  "duration": 57384,
   "status": "passed"
 });
 formatter.match({
@@ -41071,7 +41072,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 83043,
+  "duration": 62981,
   "status": "passed"
 });
 formatter.match({
@@ -41084,7 +41085,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 100305,
+  "duration": 50852,
   "status": "passed"
 });
 formatter.match({
@@ -41125,7 +41126,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 3049254,
+  "duration": 348500,
   "status": "passed"
 });
 formatter.match({
@@ -41138,7 +41139,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 55050,
+  "duration": 41988,
   "status": "passed"
 });
 formatter.match({
@@ -41179,7 +41180,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1840003,
+  "duration": 331238,
   "status": "passed"
 });
 formatter.match({
@@ -41192,7 +41193,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 48519,
+  "duration": 62049,
   "status": "passed"
 });
 formatter.match({
@@ -41233,7 +41234,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 3161222,
+  "duration": 342901,
   "status": "passed"
 });
 formatter.match({
@@ -41246,7 +41247,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 124097,
+  "duration": 48519,
   "status": "passed"
 });
 formatter.match({
@@ -41287,7 +41288,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 3309579,
+  "duration": 352232,
   "status": "passed"
 });
 formatter.match({
@@ -41300,7 +41301,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 98438,
+  "duration": 48519,
   "status": "passed"
 });
 formatter.match({
@@ -41321,7 +41322,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 2235622,
+  "duration": 176816,
   "status": "passed"
 });
 formatter.match({
@@ -41334,7 +41335,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 120365,
+  "duration": 40588,
   "status": "passed"
 });
 formatter.match({
@@ -41355,7 +41356,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1696311,
+  "duration": 155822,
   "status": "passed"
 });
 formatter.match({
@@ -41368,7 +41369,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 67181,
+  "duration": 51319,
   "status": "passed"
 });
 formatter.match({
@@ -41389,14 +41390,14 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1383268,
+  "duration": 171217,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 20061,
+  "duration": 20527,
   "status": "passed"
 });
 formatter.match({
@@ -41409,7 +41410,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 55984,
+  "duration": 47587,
   "status": "passed"
 });
 formatter.match({
@@ -41426,7 +41427,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 963855,
+  "duration": 172151,
   "status": "passed"
 });
 formatter.match({
@@ -41439,7 +41440,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 595295,
+  "duration": 78844,
   "status": "passed"
 });
 formatter.match({
@@ -41452,7 +41453,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2747408,
+  "duration": 154422,
   "status": "passed"
 });
 formatter.match({
@@ -41465,7 +41466,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 1070691,
+  "duration": 78378,
   "status": "passed"
 });
 formatter.match({
@@ -41478,14 +41479,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 2516475,
+  "duration": 162820,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 15862,
+  "duration": 14929,
   "status": "passed"
 });
 formatter.match({
@@ -41498,7 +41499,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27525,
+  "duration": 37323,
   "status": "passed"
 });
 formatter.match({
@@ -41515,7 +41516,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 472598,
+  "duration": 116633,
   "status": "passed"
 });
 formatter.match({
@@ -41528,7 +41529,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 373693,
+  "duration": 39655,
   "status": "passed"
 });
 formatter.match({
@@ -41541,7 +41542,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 3150958,
+  "duration": 64848,
   "status": "passed"
 });
 formatter.match({
@@ -41554,7 +41555,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 446471,
+  "duration": 39189,
   "status": "passed"
 });
 formatter.match({
@@ -41567,14 +41568,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 3940797,
+  "duration": 63915,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 18661,
+  "duration": 9331,
   "status": "passed"
 });
 formatter.match({
@@ -41587,7 +41588,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 42921,
+  "duration": 20061,
   "status": "passed"
 });
 formatter.match({
@@ -41604,7 +41605,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 483794,
+  "duration": 159554,
   "status": "passed"
 });
 formatter.match({
@@ -41617,7 +41618,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 378825,
+  "duration": 53651,
   "status": "passed"
 });
 formatter.match({
@@ -41630,7 +41631,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1929577,
+  "duration": 83510,
   "status": "passed"
 });
 formatter.match({
@@ -41643,7 +41644,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 361562,
+  "duration": 42921,
   "status": "passed"
 });
 formatter.match({
@@ -41656,14 +41657,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1931910,
+  "duration": 98904,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 11196,
+  "duration": 10731,
   "status": "passed"
 });
 formatter.match({
@@ -41676,7 +41677,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 396166039,
+  "duration": 19999844178,
   "status": "passed"
 });
 formatter.match({
@@ -41689,7 +41690,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 40588,
+  "duration": 34990,
   "status": "passed"
 });
 formatter.match({
@@ -41706,7 +41707,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 758581,
+  "duration": 102638,
   "status": "passed"
 });
 formatter.match({
@@ -41719,7 +41720,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 624686,
+  "duration": 31258,
   "status": "passed"
 });
 formatter.match({
@@ -41732,7 +41733,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 6754453,
+  "duration": 106836,
   "status": "passed"
 });
 formatter.match({
@@ -41745,7 +41746,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 852354,
+  "duration": 24726,
   "status": "passed"
 });
 formatter.match({
@@ -41758,7 +41759,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 5304471,
+  "duration": 97971,
   "status": "passed"
 });
 formatter.match({
@@ -41778,7 +41779,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 22860,
+  "duration": 20060,
   "status": "passed"
 });
 formatter.match({
@@ -41795,7 +41796,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 374625,
+  "duration": 91440,
   "status": "passed"
 });
 formatter.match({
@@ -41808,7 +41809,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 319108,
+  "duration": 27525,
   "status": "passed"
 });
 formatter.match({
@@ -41821,7 +41822,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2865907,
+  "duration": 90974,
   "status": "passed"
 });
 formatter.match({
@@ -41834,7 +41835,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 298580,
+  "duration": 23326,
   "status": "passed"
 });
 formatter.match({
@@ -41847,14 +41848,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 3199011,
+  "duration": 112434,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 33590,
+  "duration": 10730,
   "status": "passed"
 });
 formatter.match({
@@ -41867,7 +41868,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 26125,
+  "duration": 22860,
   "status": "passed"
 });
 formatter.match({
@@ -41884,7 +41885,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 408682,
+  "duration": 93773,
   "status": "passed"
 });
 formatter.match({
@@ -41897,7 +41898,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 293449,
+  "duration": 35457,
   "status": "passed"
 });
 formatter.match({
@@ -41910,7 +41911,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 4510433,
+  "duration": 99371,
   "status": "passed"
 });
 formatter.match({
@@ -41923,7 +41924,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 302313,
+  "duration": 24727,
   "status": "passed"
 });
 formatter.match({
@@ -41936,14 +41937,14 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 3317510,
+  "duration": 144625,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 10264,
+  "duration": 12130,
   "status": "passed"
 });
 formatter.match({
@@ -41956,7 +41957,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 1996961010,
+  "duration": 100000251461,
   "status": "passed"
 });
 formatter.match({
@@ -41969,7 +41970,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 53651,
+  "duration": 44320,
   "status": "passed"
 });
 formatter.match({
@@ -41982,7 +41983,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 41988,
+  "duration": 39655,
   "status": "passed"
 });
 formatter.match({
@@ -41995,14 +41996,14 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 108236,
+  "duration": 114767,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_dean_s_list_is_generated()"
 });
 formatter.result({
-  "duration": 96573,
+  "duration": 93773,
   "status": "passed"
 });
 formatter.uri("test/cucumber/usecasedependencies.feature");
@@ -43239,7 +43240,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 995113,
+  "duration": 2336394,
   "status": "passed"
 });
 formatter.match({
@@ -43252,7 +43253,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 40465133,
+  "duration": 2000252860,
   "status": "passed"
 });
 formatter.match({
@@ -43265,7 +43266,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 27059,
+  "duration": 40588,
   "status": "passed"
 });
 formatter.match({
@@ -43278,7 +43279,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 25193,
+  "duration": 38722,
   "status": "passed"
 });
 formatter.match({
@@ -43291,7 +43292,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 15395,
+  "duration": 21461,
   "status": "passed"
 });
 formatter.match({
@@ -43332,7 +43333,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1255905,
+  "duration": 203875,
   "status": "passed"
 });
 formatter.match({
@@ -43345,7 +43346,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 42921,
+  "duration": 34524,
   "status": "passed"
 });
 formatter.match({
@@ -43358,7 +43359,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 30324,
+  "duration": 19128,
   "status": "passed"
 });
 formatter.match({
@@ -43399,7 +43400,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1508299,
+  "duration": 162820,
   "status": "passed"
 });
 formatter.match({
@@ -43412,7 +43413,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 35923,
+  "duration": 28925,
   "status": "passed"
 });
 formatter.match({
@@ -43425,7 +43426,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 21461,
+  "duration": 19128,
   "status": "passed"
 });
 formatter.match({
@@ -43466,7 +43467,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1322152,
+  "duration": 160954,
   "status": "passed"
 });
 formatter.match({
@@ -43492,7 +43493,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 16329,
+  "duration": 19595,
   "status": "passed"
 });
 formatter.match({
@@ -43533,7 +43534,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 1197588,
+  "duration": 191279,
   "status": "passed"
 });
 formatter.match({
@@ -43546,7 +43547,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 35923,
+  "duration": 62982,
   "status": "passed"
 });
 formatter.match({
@@ -43559,7 +43560,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 16795,
+  "duration": 37789,
   "status": "passed"
 });
 formatter.match({
@@ -43580,7 +43581,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 938663,
+  "duration": 135295,
   "status": "passed"
 });
 formatter.match({
@@ -43593,7 +43594,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 31258,
+  "duration": 44321,
   "status": "passed"
 });
 formatter.match({
@@ -43606,7 +43607,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 18662,
+  "duration": 26593,
   "status": "passed"
 });
 formatter.match({
@@ -43627,7 +43628,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1060428,
+  "duration": 109168,
   "status": "passed"
 });
 formatter.match({
@@ -43640,7 +43641,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 31257,
+  "duration": 34990,
   "status": "passed"
 });
 formatter.match({
@@ -43653,7 +43654,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 22393,
+  "duration": 23327,
   "status": "passed"
 });
 formatter.match({
@@ -43674,7 +43675,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 1211584,
+  "duration": 190812,
   "status": "passed"
 });
 formatter.match({
@@ -43687,7 +43688,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 54584,
+  "duration": 43388,
   "status": "passed"
 });
 formatter.match({
@@ -43700,7 +43701,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 34524,
+  "duration": 44320,
   "status": "passed"
 });
 formatter.match({
@@ -43713,7 +43714,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
 });
 formatter.result({
-  "duration": 8071940,
+  "duration": 312110,
   "status": "passed"
 });
 formatter.match({
@@ -43726,7 +43727,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 34523,
+  "duration": 43387,
   "status": "passed"
 });
 formatter.match({
@@ -43739,7 +43740,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 20994,
+  "duration": 38256,
   "status": "passed"
 });
 formatter.match({
@@ -43752,7 +43753,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
 });
 formatter.result({
-  "duration": 2946617,
+  "duration": 289250,
   "status": "passed"
 });
 formatter.match({
@@ -43765,14 +43766,14 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 40122,
+  "duration": 41521,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 6065,
+  "duration": 15862,
   "status": "passed"
 });
 formatter.match({
@@ -43785,7 +43786,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13996,
+  "duration": 33590,
   "status": "passed"
 });
 formatter.match({
@@ -43802,7 +43803,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 323307,
+  "duration": 110101,
   "status": "passed"
 });
 formatter.match({
@@ -43815,7 +43816,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 259392,
+  "duration": 56917,
   "status": "passed"
 });
 formatter.match({
@@ -43828,7 +43829,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1177527,
+  "duration": 133428,
   "status": "passed"
 });
 formatter.match({
@@ -43841,7 +43842,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 31724,
+  "duration": 76511,
   "status": "passed"
 });
 formatter.match({
@@ -43854,7 +43855,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 295782,
+  "duration": 79310,
   "status": "passed"
 });
 formatter.match({
@@ -43867,7 +43868,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1240042,
+  "duration": 144625,
   "status": "passed"
 });
 formatter.match({
@@ -43880,14 +43881,14 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 27992,
+  "duration": 73712,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 8398,
+  "duration": 26126,
   "status": "passed"
 });
 formatter.match({
@@ -43900,7 +43901,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13063,
+  "duration": 49919,
   "status": "passed"
 });
 formatter.match({
@@ -43917,7 +43918,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 327039,
+  "duration": 170751,
   "status": "passed"
 });
 formatter.match({
@@ -43930,7 +43931,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 305579,
+  "duration": 78844,
   "status": "passed"
 });
 formatter.match({
@@ -43943,7 +43944,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1487771,
+  "duration": 145092,
   "status": "passed"
 });
 formatter.match({
@@ -43956,14 +43957,14 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 32657,
+  "duration": 67181,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 7464,
+  "duration": 22860,
   "status": "passed"
 });
 formatter.match({
@@ -43976,7 +43977,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 397170949,
+  "duration": 20000067647,
   "status": "passed"
 });
 formatter.match({
@@ -43989,7 +43990,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 21460,
+  "duration": 44787,
   "status": "passed"
 });
 formatter.match({
@@ -44006,7 +44007,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 328439,
+  "duration": 127830,
   "status": "passed"
 });
 formatter.match({
@@ -44019,7 +44020,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 277587,
+  "duration": 46653,
   "status": "passed"
 });
 formatter.match({
@@ -44032,7 +44033,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1285763,
+  "duration": 80710,
   "status": "passed"
 });
 formatter.match({
@@ -44045,7 +44046,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 24260,
+  "duration": 37323,
   "status": "passed"
 });
 formatter.match({
@@ -44058,7 +44059,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 233266,
+  "duration": 32191,
   "status": "passed"
 });
 formatter.match({
@@ -44071,7 +44072,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2270612,
+  "duration": 183814,
   "status": "passed"
 });
 formatter.match({
@@ -44084,7 +44085,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 29858,
+  "duration": 43854,
   "status": "passed"
 });
 formatter.match({
@@ -44097,7 +44098,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 213672,
+  "duration": 42454,
   "status": "passed"
 });
 formatter.match({
@@ -44110,7 +44111,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 1932376,
+  "duration": 113834,
   "status": "passed"
 });
 formatter.match({
@@ -44123,7 +44124,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 24259,
+  "duration": 34990,
   "status": "passed"
 });
 formatter.match({
@@ -44136,7 +44137,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 210873,
+  "duration": 32657,
   "status": "passed"
 });
 formatter.match({
@@ -44149,7 +44150,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 1820875,
+  "duration": 110568,
   "status": "passed"
 });
 formatter.match({
@@ -44162,14 +44163,14 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 34990,
+  "duration": 33591,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 6998,
+  "duration": 10263,
   "status": "passed"
 });
 formatter.match({
@@ -44182,7 +44183,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13063,
+  "duration": 20527,
   "status": "passed"
 });
 formatter.match({
@@ -44199,7 +44200,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 318175,
+  "duration": 91907,
   "status": "passed"
 });
 formatter.match({
@@ -44212,7 +44213,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 194078,
+  "duration": 42455,
   "status": "passed"
 });
 formatter.match({
@@ -44225,7 +44226,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1127142,
+  "duration": 88175,
   "status": "passed"
 });
 formatter.match({
@@ -44238,7 +44239,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 47587,
+  "duration": 30324,
   "status": "passed"
 });
 formatter.match({
@@ -44251,7 +44252,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 458135,
+  "duration": 42921,
   "status": "passed"
 });
 formatter.match({
@@ -44264,7 +44265,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1377203,
+  "duration": 94239,
   "status": "passed"
 });
 formatter.match({
@@ -44277,7 +44278,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 50852,
+  "duration": 59250,
   "status": "passed"
 });
 formatter.match({
@@ -44290,7 +44291,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 240264,
+  "duration": 31724,
   "status": "passed"
 });
 formatter.match({
@@ -44303,7 +44304,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 3333839,
+  "duration": 110568,
   "status": "passed"
 });
 formatter.match({
@@ -44329,7 +44330,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 199676,
+  "duration": 27058,
   "status": "passed"
 });
 formatter.match({
@@ -44342,7 +44343,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 1981362,
+  "duration": 100305,
   "status": "passed"
 });
 formatter.match({
@@ -44355,7 +44356,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 29858,
+  "duration": 29392,
   "status": "passed"
 });
 formatter.match({
@@ -44368,7 +44369,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 265924,
+  "duration": 29391,
   "status": "passed"
 });
 formatter.match({
@@ -44381,7 +44382,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 1856798,
+  "duration": 111501,
   "status": "passed"
 });
 formatter.match({
@@ -44394,7 +44395,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 22394,
+  "duration": 29858,
   "status": "passed"
 });
 formatter.match({
@@ -44407,7 +44408,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 245396,
+  "duration": 71379,
   "status": "passed"
 });
 formatter.match({
@@ -44420,7 +44421,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 1150935,
+  "duration": 96572,
   "status": "passed"
 });
 formatter.match({
@@ -44433,14 +44434,14 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 28458,
+  "duration": 31258,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 6065,
+  "duration": 11196,
   "status": "passed"
 });
 formatter.match({
@@ -44453,7 +44454,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 297105402,
+  "duration": 14999902962,
   "status": "passed"
 });
 formatter.match({
@@ -44466,7 +44467,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 23327,
+  "duration": 40588,
   "status": "passed"
 });
 formatter.match({
@@ -44483,7 +44484,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 364829,
+  "duration": 114301,
   "status": "passed"
 });
 formatter.match({
@@ -44496,7 +44497,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 232799,
+  "duration": 30791,
   "status": "passed"
 });
 formatter.match({
@@ -44509,7 +44510,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 1181726,
+  "duration": 111968,
   "status": "passed"
 });
 formatter.match({
@@ -44522,14 +44523,14 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 24259,
+  "duration": 34990,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 5132,
+  "duration": 11663,
   "status": "passed"
 });
 formatter.match({
@@ -44542,7 +44543,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 9797,
+  "duration": 20061,
   "status": "passed"
 });
 formatter.match({
@@ -44555,7 +44556,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 13530,
+  "duration": 26593,
   "status": "passed"
 });
 formatter.match({
@@ -44568,7 +44569,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 85842,
+  "duration": 310711,
   "status": "passed"
 });
 formatter.match({
@@ -44581,7 +44582,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 2062072,
+  "duration": 468398,
   "status": "passed"
 });
 formatter.match({
@@ -44594,7 +44595,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 31724,
+  "duration": 66714,
   "status": "passed"
 });
 formatter.match({
@@ -44607,7 +44608,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 1997672004,
+  "duration": 100000186147,
   "status": "passed"
 });
 formatter.match({
@@ -44620,14 +44621,14 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 94240,
+  "duration": 210873,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_dean_s_list_is_generated()"
 });
 formatter.result({
-  "duration": 55518,
+  "duration": 70913,
   "status": "passed"
 });
 formatter.scenario({
@@ -45263,7 +45264,7 @@ formatter.match({
   "location": "StepDefinitions.the_university_is_initialized()"
 });
 formatter.result({
-  "duration": 863551,
+  "duration": 3328242,
   "status": "passed"
 });
 formatter.match({
@@ -45276,7 +45277,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 40275254,
+  "duration": 2000551908,
   "status": "passed"
 });
 formatter.match({
@@ -45289,7 +45290,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 23793,
+  "duration": 22394,
   "status": "passed"
 });
 formatter.match({
@@ -45302,7 +45303,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 21461,
+  "duration": 23793,
   "status": "passed"
 });
 formatter.match({
@@ -45315,7 +45316,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 8398,
+  "duration": 13996,
   "status": "passed"
 });
 formatter.match({
@@ -45356,7 +45357,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 840225,
+  "duration": 113834,
   "status": "passed"
 });
 formatter.match({
@@ -45369,7 +45370,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 19594,
+  "duration": 14463,
   "status": "passed"
 });
 formatter.match({
@@ -45382,7 +45383,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 10730,
+  "duration": 8398,
   "status": "passed"
 });
 formatter.match({
@@ -45423,7 +45424,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 803369,
+  "duration": 71846,
   "status": "passed"
 });
 formatter.match({
@@ -45436,7 +45437,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 31724,
+  "duration": 12597,
   "status": "passed"
 });
 formatter.match({
@@ -45449,7 +45450,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 16795,
+  "duration": 8398,
   "status": "passed"
 });
 formatter.match({
@@ -45490,7 +45491,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 881746,
+  "duration": 70446,
   "status": "passed"
 });
 formatter.match({
@@ -45503,7 +45504,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 24726,
+  "duration": 11663,
   "status": "passed"
 });
 formatter.match({
@@ -45516,7 +45517,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 29392,
+  "duration": 6531,
   "status": "passed"
 });
 formatter.match({
@@ -45557,7 +45558,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_course_by(String,int,int,String,int,int,String,String)"
 });
 formatter.result({
-  "duration": 723592,
+  "duration": 76511,
   "status": "passed"
 });
 formatter.match({
@@ -45570,7 +45571,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 26125,
+  "duration": 11663,
   "status": "passed"
 });
 formatter.match({
@@ -45583,7 +45584,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13530,
+  "duration": 7465,
   "status": "passed"
 });
 formatter.match({
@@ -45604,7 +45605,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 789372,
+  "duration": 35923,
   "status": "passed"
 });
 formatter.match({
@@ -45617,7 +45618,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 26126,
+  "duration": 11197,
   "status": "passed"
 });
 formatter.match({
@@ -45630,7 +45631,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 12130,
+  "duration": 6531,
   "status": "passed"
 });
 formatter.match({
@@ -45651,7 +45652,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 661543,
+  "duration": 38255,
   "status": "passed"
 });
 formatter.match({
@@ -45664,7 +45665,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 19127,
+  "duration": 12129,
   "status": "passed"
 });
 formatter.match({
@@ -45677,7 +45678,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 8397,
+  "duration": 6998,
   "status": "passed"
 });
 formatter.match({
@@ -45698,7 +45699,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_creates_student_by(int,String,String)"
 });
 formatter.result({
-  "duration": 597628,
+  "duration": 34523,
   "status": "passed"
 });
 formatter.match({
@@ -45711,7 +45712,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 33590,
+  "duration": 10730,
   "status": "passed"
 });
 formatter.match({
@@ -45724,7 +45725,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 15395,
+  "duration": 13063,
   "status": "passed"
 });
 formatter.match({
@@ -45737,7 +45738,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_course_by(int)"
 });
 formatter.result({
-  "duration": 3561973,
+  "duration": 49919,
   "status": "passed"
 });
 formatter.match({
@@ -45750,7 +45751,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 25193,
+  "duration": 12130,
   "status": "passed"
 });
 formatter.match({
@@ -45763,7 +45764,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 13063,
+  "duration": 10731,
   "status": "passed"
 });
 formatter.match({
@@ -45776,7 +45777,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_deletes_student_by(int)"
 });
 formatter.result({
-  "duration": 2642904,
+  "duration": 43387,
   "status": "passed"
 });
 formatter.match({
@@ -45789,14 +45790,14 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 23793,
+  "duration": 13062,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 4665,
+  "duration": 5599,
   "status": "passed"
 });
 formatter.match({
@@ -45809,7 +45810,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 9330,
+  "duration": 8864,
   "status": "passed"
 });
 formatter.match({
@@ -45826,7 +45827,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 272455,
+  "duration": 39655,
   "status": "passed"
 });
 formatter.match({
@@ -45839,7 +45840,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 236065,
+  "duration": 18195,
   "status": "passed"
 });
 formatter.match({
@@ -45852,7 +45853,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1219982,
+  "duration": 30325,
   "status": "passed"
 });
 formatter.match({
@@ -45865,7 +45866,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 32657,
+  "duration": 11196,
   "status": "passed"
 });
 formatter.match({
@@ -45878,7 +45879,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 269656,
+  "duration": 32191,
   "status": "passed"
 });
 formatter.match({
@@ -45891,7 +45892,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1095884,
+  "duration": 35456,
   "status": "passed"
 });
 formatter.match({
@@ -45904,14 +45905,14 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 23794,
+  "duration": 42921,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 6065,
+  "duration": 11664,
   "status": "passed"
 });
 formatter.match({
@@ -45924,7 +45925,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 14929,
+  "duration": 29391,
   "status": "passed"
 });
 formatter.match({
@@ -45941,7 +45942,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 290650,
+  "duration": 90041,
   "status": "passed"
 });
 formatter.match({
@@ -45954,7 +45955,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 209473,
+  "duration": 40589,
   "status": "passed"
 });
 formatter.match({
@@ -45967,7 +45968,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1108014,
+  "duration": 72779,
   "status": "passed"
 });
 formatter.match({
@@ -45980,14 +45981,14 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 29391,
+  "duration": 33124,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 5132,
+  "duration": 11664,
   "status": "passed"
 });
 formatter.match({
@@ -46000,7 +46001,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 397073444,
+  "duration": 19999650568,
   "status": "passed"
 });
 formatter.match({
@@ -46013,7 +46014,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 21461,
+  "duration": 37789,
   "status": "passed"
 });
 formatter.match({
@@ -46030,7 +46031,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 327972,
+  "duration": 103104,
   "status": "passed"
 });
 formatter.match({
@@ -46043,7 +46044,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 272922,
+  "duration": 34057,
   "status": "passed"
 });
 formatter.match({
@@ -46056,7 +46057,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1080955,
+  "duration": 73712,
   "status": "passed"
 });
 formatter.match({
@@ -46069,7 +46070,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 25193,
+  "duration": 27525,
   "status": "passed"
 });
 formatter.match({
@@ -46082,7 +46083,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 223935,
+  "duration": 26125,
   "status": "passed"
 });
 formatter.match({
@@ -46095,7 +46096,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 3537713,
+  "duration": 93773,
   "status": "passed"
 });
 formatter.match({
@@ -46108,7 +46109,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 25659,
+  "duration": 23326,
   "status": "passed"
 });
 formatter.match({
@@ -46121,7 +46122,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 231866,
+  "duration": 22393,
   "status": "passed"
 });
 formatter.match({
@@ -46134,7 +46135,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 1977164,
+  "duration": 90507,
   "status": "passed"
 });
 formatter.match({
@@ -46147,7 +46148,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 38722,
+  "duration": 25660,
   "status": "passed"
 });
 formatter.match({
@@ -46160,7 +46161,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 271522,
+  "duration": 24726,
   "status": "passed"
 });
 formatter.match({
@@ -46173,7 +46174,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 2190368,
+  "duration": 94240,
   "status": "passed"
 });
 formatter.match({
@@ -46186,14 +46187,14 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 23793,
+  "duration": 26126,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 4666,
+  "duration": 8864,
   "status": "passed"
 });
 formatter.match({
@@ -46206,7 +46207,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 9797,
+  "duration": 18661,
   "status": "passed"
 });
 formatter.match({
@@ -46223,7 +46224,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 314443,
+  "duration": 105903,
   "status": "passed"
 });
 formatter.match({
@@ -46236,7 +46237,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 278053,
+  "duration": 38256,
   "status": "passed"
 });
 formatter.match({
@@ -46249,7 +46250,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1206919,
+  "duration": 68114,
   "status": "passed"
 });
 formatter.match({
@@ -46275,7 +46276,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 267790,
+  "duration": 27525,
   "status": "passed"
 });
 formatter.match({
@@ -46288,7 +46289,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_selects_course_by(int)"
 });
 formatter.result({
-  "duration": 1052497,
+  "duration": 77445,
   "status": "passed"
 });
 formatter.match({
@@ -46301,7 +46302,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 24726,
+  "duration": 36856,
   "status": "passed"
 });
 formatter.match({
@@ -46314,7 +46315,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 228600,
+  "duration": 27992,
   "status": "passed"
 });
 formatter.match({
@@ -46327,7 +46328,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 3239133,
+  "duration": 110101,
   "status": "passed"
 });
 formatter.match({
@@ -46340,7 +46341,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 26592,
+  "duration": 23793,
   "status": "passed"
 });
 formatter.match({
@@ -46353,7 +46354,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 206207,
+  "duration": 22394,
   "status": "passed"
 });
 formatter.match({
@@ -46366,7 +46367,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_registers_for_course_by(int)"
 });
 formatter.result({
-  "duration": 2125054,
+  "duration": 84443,
   "status": "passed"
 });
 formatter.match({
@@ -46379,7 +46380,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 30791,
+  "duration": 24726,
   "status": "passed"
 });
 formatter.match({
@@ -46392,7 +46393,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 253794,
+  "duration": 23327,
   "status": "passed"
 });
 formatter.match({
@@ -46405,7 +46406,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_deregisters_course_by(int)"
 });
 formatter.result({
-  "duration": 2424567,
+  "duration": 89574,
   "status": "passed"
 });
 formatter.match({
@@ -46418,7 +46419,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 38255,
+  "duration": 23793,
   "status": "passed"
 });
 formatter.match({
@@ -46431,7 +46432,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 257059,
+  "duration": 21927,
   "status": "passed"
 });
 formatter.match({
@@ -46444,7 +46445,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 1340347,
+  "duration": 98438,
   "status": "passed"
 });
 formatter.match({
@@ -46457,14 +46458,14 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 29391,
+  "duration": 34990,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 6998,
+  "duration": 13529,
   "status": "passed"
 });
 formatter.match({
@@ -46477,7 +46478,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 299299968,
+  "duration": 14999808721,
   "status": "passed"
 });
 formatter.match({
@@ -46490,7 +46491,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 26125,
+  "duration": 46653,
   "status": "passed"
 });
 formatter.match({
@@ -46507,7 +46508,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_logs_in_with(int,String)"
 });
 formatter.result({
-  "duration": 327039,
+  "duration": 118965,
   "status": "passed"
 });
 formatter.match({
@@ -46520,7 +46521,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 250528,
+  "duration": 48519,
   "status": "passed"
 });
 formatter.match({
@@ -46533,7 +46534,7 @@ formatter.match({
   "location": "StepDefinitions.the_student_drops_course_by(int)"
 });
 formatter.result({
-  "duration": 1383734,
+  "duration": 189879,
   "status": "passed"
 });
 formatter.match({
@@ -46546,14 +46547,14 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 37323,
+  "duration": 76977,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.log_out()"
 });
 formatter.result({
-  "duration": 6065,
+  "duration": 26593,
   "status": "passed"
 });
 formatter.match({
@@ -46566,7 +46567,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 12596,
+  "duration": 48519,
   "status": "passed"
 });
 formatter.match({
@@ -46579,7 +46580,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_logs_in_with_password(String)"
 });
 formatter.result({
-  "duration": 16795,
+  "duration": 57384,
   "status": "passed"
 });
 formatter.match({
@@ -46592,7 +46593,7 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 20061,
+  "duration": 59716,
   "status": "passed"
 });
 formatter.match({
@@ -46605,7 +46606,7 @@ formatter.match({
   "location": "StepDefinitions.the_clerk_cancels_course_by(int)"
 });
 formatter.result({
-  "duration": 2090997,
+  "duration": 162819,
   "status": "passed"
 });
 formatter.match({
@@ -46618,7 +46619,7 @@ formatter.match({
   "location": "StepDefinitions.success(String)"
 });
 formatter.result({
-  "duration": 33124,
+  "duration": 79777,
   "status": "passed"
 });
 formatter.match({
@@ -46631,7 +46632,7 @@ formatter.match({
   "location": "StepDefinitions.wait_for_days(int)"
 });
 formatter.result({
-  "duration": 2000444605,
+  "duration": 100000766046,
   "status": "passed"
 });
 formatter.match({
@@ -46644,14 +46645,14 @@ formatter.match({
   "location": "StepDefinitions.the_user_inputs(String)"
 });
 formatter.result({
-  "duration": 93773,
+  "duration": 202009,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.the_dean_s_list_is_generated()"
 });
 formatter.result({
-  "duration": 55051,
+  "duration": 62049,
   "status": "passed"
 });
 });

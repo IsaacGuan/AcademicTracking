@@ -1,21 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="27" passed="27">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5195" started-at="2017-12-03T23:03:30Z" finished-at="2017-12-03T23:03:35Z">
+  <suite name="Default suite" duration-ms="277863" started-at="2017-12-04T17:33:12Z" finished-at="2017-12-04T17:37:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5195" started-at="2017-12-03T23:03:30Z" finished-at="2017-12-03T23:03:35Z">
-      <class name="test.selenium.ClerkCreateStudent">
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:test.selenium.ClerkCreateStudent@5bcab519]" name="BeforeTest" is-config="true" duration-ms="3579" started-at="2017-12-03T18:03:30Z" finished-at="2017-12-03T18:03:34Z">
+    <test name="Default test" duration-ms="277863" started-at="2017-12-04T17:33:12Z" finished-at="2017-12-04T17:37:50Z">
+      <class name="test.selenium.UseCaseDependencies">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="BeforeTest" is-config="true" duration-ms="3474" started-at="2017-12-04T12:33:12Z" finished-at="2017-12-04T12:33:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="Test()[pri:0, instance:test.selenium.ClerkCreateStudent@5bcab519]" name="Test" duration-ms="1584" started-at="2017-12-03T18:03:34Z" finished-at="2017-12-03T18:03:35Z">
+        <test-method status="PASS" signature="ClerkLogin()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="ClerkLogin" duration-ms="536" started-at="2017-12-04T12:33:16Z" finished-at="2017-12-04T12:33:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test -->
-      </class> <!-- test.selenium.ClerkCreateStudent -->
+        </test-method> <!-- ClerkLogin -->
+        <test-method status="PASS" signature="ClerkCreateNewCourse()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="ClerkCreateNewCourse" duration-ms="1745" started-at="2017-12-04T12:33:16Z" depends-on-methods="test.selenium.UseCaseDependencies.ClerkLogin" finished-at="2017-12-04T12:33:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClerkCreateNewCourse -->
+        <test-method status="PASS" signature="ClerkCreateNewStudent()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="ClerkCreateNewStudent" duration-ms="1184" started-at="2017-12-04T12:33:18Z" depends-on-methods="test.selenium.UseCaseDependencies.ClerkCreateNewCourse" finished-at="2017-12-04T12:33:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClerkCreateNewStudent -->
+        <test-method status="PASS" signature="ClerkDeleteNewCourse()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="ClerkDeleteNewCourse" duration-ms="1223" started-at="2017-12-04T12:33:19Z" depends-on-methods="test.selenium.UseCaseDependencies.ClerkCreateNewStudent" finished-at="2017-12-04T12:33:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClerkDeleteNewCourse -->
+        <test-method status="PASS" signature="ClerkDeleteNewStudent()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="ClerkDeleteNewStudent" duration-ms="1107" started-at="2017-12-04T12:33:20Z" depends-on-methods="test.selenium.UseCaseDependencies.ClerkDeleteNewCourse" finished-at="2017-12-04T12:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClerkDeleteNewStudent -->
+        <test-method status="PASS" signature="ClerkLogout()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="ClerkLogout" duration-ms="472" started-at="2017-12-04T12:33:21Z" depends-on-methods="test.selenium.UseCaseDependencies.ClerkDeleteNewStudent" finished-at="2017-12-04T12:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClerkLogout -->
+        <test-method status="PASS" signature="StudentALogin()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="StudentALogin" duration-ms="519" started-at="2017-12-04T12:33:22Z" depends-on-methods="test.selenium.UseCaseDependencies.ClerkLogout" finished-at="2017-12-04T12:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentALogin -->
+        <test-method status="PASS" signature="StudentASelectCourses()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="StudentASelectCourses" duration-ms="2099" started-at="2017-12-04T12:33:22Z" depends-on-methods="test.selenium.UseCaseDependencies.StudentALogin" finished-at="2017-12-04T12:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentASelectCourses -->
+        <test-method status="PASS" signature="StudentALogout()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="StudentALogout" duration-ms="428" started-at="2017-12-04T12:33:25Z" depends-on-methods="test.selenium.UseCaseDependencies.StudentASelectCourses" finished-at="2017-12-04T12:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentALogout -->
+        <test-method status="PASS" signature="StudentBLogin()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="StudentBLogin" duration-ms="500" started-at="2017-12-04T12:33:25Z" depends-on-methods="test.selenium.UseCaseDependencies.StudentALogout" finished-at="2017-12-04T12:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentBLogin -->
+        <test-method status="PASS" signature="StudentBSelectCourses()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="StudentBSelectCourses" duration-ms="2013" started-at="2017-12-04T12:33:25Z" depends-on-methods="test.selenium.UseCaseDependencies.StudentBLogin" finished-at="2017-12-04T12:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentBSelectCourses -->
+        <test-method status="PASS" signature="StudentBLogout()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="StudentBLogout" duration-ms="388" started-at="2017-12-04T12:33:28Z" depends-on-methods="test.selenium.UseCaseDependencies.StudentBSelectCourses" finished-at="2017-12-04T12:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentBLogout -->
+        <test-method status="PASS" signature="WaitTilRegistrationStarts()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="WaitTilRegistrationStarts" duration-ms="20007" started-at="2017-12-04T12:33:28Z" depends-on-methods="test.selenium.UseCaseDependencies.StudentBLogout" finished-at="2017-12-04T12:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WaitTilRegistrationStarts -->
+        <test-method status="PASS" signature="StudentALoginAgain()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="StudentALoginAgain" duration-ms="769" started-at="2017-12-04T12:33:48Z" depends-on-methods="test.selenium.UseCaseDependencies.WaitTilRegistrationStarts" finished-at="2017-12-04T12:33:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentALoginAgain -->
+        <test-method status="PASS" signature="StudentARegisterforCourses()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="StudentARegisterforCourses" duration-ms="2170" started-at="2017-12-04T12:33:49Z" depends-on-methods="test.selenium.UseCaseDependencies.StudentALoginAgain" finished-at="2017-12-04T12:33:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentARegisterforCourses -->
+        <test-method status="PASS" signature="StudentADeregisterforCourseB()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="StudentADeregisterforCourseB" duration-ms="675" started-at="2017-12-04T12:33:51Z" depends-on-methods="test.selenium.UseCaseDependencies.StudentARegisterforCourses" finished-at="2017-12-04T12:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentADeregisterforCourseB -->
+        <test-method status="PASS" signature="StudentADropCourseE()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="StudentADropCourseE" duration-ms="736" started-at="2017-12-04T12:33:52Z" depends-on-methods="test.selenium.UseCaseDependencies.StudentADeregisterforCourseB" finished-at="2017-12-04T12:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentADropCourseE -->
+        <test-method status="PASS" signature="StudentALogoutAgain()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="StudentALogoutAgain" duration-ms="428" started-at="2017-12-04T12:33:52Z" depends-on-methods="test.selenium.UseCaseDependencies.StudentADeregisterforCourseB" finished-at="2017-12-04T12:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentALogoutAgain -->
+        <test-method status="PASS" signature="StudentBLoginAgain()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="StudentBLoginAgain" duration-ms="516" started-at="2017-12-04T12:33:53Z" depends-on-methods="test.selenium.UseCaseDependencies.StudentALogoutAgain" finished-at="2017-12-04T12:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentBLoginAgain -->
+        <test-method status="PASS" signature="StudentBRegisterforCourses()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="StudentBRegisterforCourses" duration-ms="2176" started-at="2017-12-04T12:33:53Z" depends-on-methods="test.selenium.UseCaseDependencies.StudentBLoginAgain" finished-at="2017-12-04T12:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentBRegisterforCourses -->
+        <test-method status="PASS" signature="WaitTilRegistrationEnds()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="WaitTilRegistrationEnds" duration-ms="20008" started-at="2017-12-04T12:33:55Z" depends-on-methods="test.selenium.UseCaseDependencies.StudentBRegisterforCourses" finished-at="2017-12-04T12:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WaitTilRegistrationEnds -->
+        <test-method status="PASS" signature="StudentBDropCourses()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="StudentBDropCourses" duration-ms="1599" started-at="2017-12-04T12:34:15Z" depends-on-methods="test.selenium.UseCaseDependencies.WaitTilRegistrationEnds" finished-at="2017-12-04T12:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentBDropCourses -->
+        <test-method status="PASS" signature="StudentBLogoutAgain()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="StudentBLogoutAgain" duration-ms="428" started-at="2017-12-04T12:34:17Z" depends-on-methods="test.selenium.UseCaseDependencies.StudentBDropCourses" finished-at="2017-12-04T12:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentBLogoutAgain -->
+        <test-method status="PASS" signature="ClerkLoginAgain()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="ClerkLoginAgain" duration-ms="506" started-at="2017-12-04T12:34:17Z" depends-on-methods="test.selenium.UseCaseDependencies.StudentBLogoutAgain" finished-at="2017-12-04T12:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClerkLoginAgain -->
+        <test-method status="PASS" signature="ClerkCancelCourseD()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="ClerkCancelCourseD" duration-ms="1389" started-at="2017-12-04T12:34:18Z" depends-on-methods="test.selenium.UseCaseDependencies.ClerkLoginAgain" finished-at="2017-12-04T12:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClerkCancelCourseD -->
+        <test-method status="PASS" signature="WaitTilTermEnds()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="WaitTilTermEnds" duration-ms="200002" started-at="2017-12-04T12:34:19Z" depends-on-methods="test.selenium.UseCaseDependencies.ClerkCancelCourseD" finished-at="2017-12-04T12:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WaitTilTermEnds -->
+        <test-method status="PASS" signature="ClerkViewDeansList()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="ClerkViewDeansList" duration-ms="10655" started-at="2017-12-04T12:37:39Z" depends-on-methods="test.selenium.UseCaseDependencies.WaitTilTermEnds" finished-at="2017-12-04T12:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClerkViewDeansList -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:test.selenium.UseCaseDependencies@5f2108b5]" name="AfterTest" is-config="true" duration-ms="0" started-at="2017-12-04T12:37:50Z" finished-at="2017-12-04T12:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- test.selenium.UseCaseDependencies -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

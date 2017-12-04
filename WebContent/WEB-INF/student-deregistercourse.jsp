@@ -20,7 +20,7 @@
 <!-- BEGIN HEAD -->
 <head>
 	<meta charset="utf-8" />
-	<title>Academic Tracking System | Select Course </title>
+	<title>Academic Tracking System | Deregister Course </title>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 	<meta content="" name="description" />
 	<meta content="" name="author" />
@@ -62,13 +62,13 @@
 				<ul class="nav pull-right">
 					<!-- BEGIN USER LOGIN DROPDOWN -->
 					<li class="dropdown user">
-						<a href="#" name="studentmenu" id="studentmenu" class="dropdown-toggle" data-toggle="dropdown">
+						<a href="#" id="studentmenu" class="dropdown-toggle" data-toggle="dropdown">
 							<span class="username"><%out.print(currentStudent.StudentNumber()); %> <%out.print(currentStudent.Name()); %></span>
 							<i class="icon-angle-down"></i>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a name="home" id="home" href="StudentHome"><i class="icon-user"></i> Home</a></li>
-							<li><a name="logout" id="logout" href="Logout"><i class="icon-key"></i> Log Out</a></li>
+							<li><a id="home" href="StudentHome"><i class="icon-user"></i> Home</a></li>
+							<li><a id="logout" href="Logout"><i class="icon-key"></i> Log Out</a></li>
 						</ul>
 					</li>
 					<!-- END USER LOGIN DROPDOWN -->
@@ -102,25 +102,25 @@
 					<!-- END RESPONSIVE QUICK SEARCH FORM -->
 				</li>
 				<li class="">
-					<a href="StudentHome" id="studenthome">
+					<a id="studenthome" href="StudentHome">
 					    <i class="icon-home"></i>
 						<span class="title">Home</span>
 					</a>
 				</li>
 				<li class="">
-					<a href="SelectCourse" id="selectcourse">
+					<a id="selectcourse" href="SelectCourse">
 					    <i class="icon-calendar"></i>
 						<span class="title">Select Course</span>
 					</a>
 				</li>
 				<li class="">
-					<a href="RegisterForCourse" id= "registercourse">
+					<a id="registerforcourse" href="RegisterForCourse">
 					    <i class="icon-table"></i>
 						<span class="title">Register for Course</span>
 					</a>
 				</li>
 				<li class="">
-					<a href="DropCourse" id= "dropcourse">
+					<a id="dropcourse" href="DropCourse">
 					    <i class="icon-coffee"></i>
 						<span class="title">Drop Course</span>
 					</a>

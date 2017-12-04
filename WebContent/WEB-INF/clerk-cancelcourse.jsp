@@ -54,7 +54,7 @@
 							<i class="icon-angle-down"></i>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a  id="home" href="ClerkHome"><i class="icon-user"></i> Home</a></li>
+							<li><a id="home" href="ClerkHome"><i class="icon-user"></i> Home</a></li>
 							<li><a id="logout" href="Logout"><i class="icon-key"></i> Log Out</a></li>
 						</ul>
 					</li>
@@ -89,7 +89,7 @@
 					<!-- END RESPONSIVE QUICK SEARCH FORM -->
 				</li>
 				<li class="">
-					<a  id="clerkhome" href="ClerkHome">
+					<a id="clerkhome" href="ClerkHome">
 					    <i class="icon-home"></i>
 						<span class="title">Home</span>
 						<span class="selected"></span>
@@ -101,7 +101,7 @@
 						<span class="title">Student</span>
 						<span class="arrow "></span>
 					</a>
-					<ul class="sub-menu">
+					<ul id="sub-student" class="sub-menu">
 						<li >
 							<a id= "createstudent" href="CreateStudent">
 							Create Student</a>
@@ -113,19 +113,19 @@
 					</ul>
 				</li>
 				<li class="active ">
-					<a id= "course" href="">
+					<a id="course" href="">
 						<i class="icon-table"></i>
 						<span class="title">Course</span>
 						<span class="arrow open"></span>
 						<span class="selected"></span>
 					</a>
-					<ul class="sub-menu">
+					<ul id="sub-course" class="sub-menu">
 						<li >
-							<a id= "createcourse" href="CreateCourse">
+							<a id="createcourse" href="CreateCourse">
 							Create Course</a>
 						</li>
 						<li >
-							<a id= "deletecourse" href="DeleteCourse">
+							<a id="deletecourse" href="DeleteCourse">
 							Delete Course</a>
 						</li>
 						<li class="active" id= "cancelcourse">
@@ -135,7 +135,7 @@
 					</ul>
 				</li>
 				<li class="">
-					<a href="DeansList" id="deanlist">
+					<a id="deanslist" href="DeansList">
 					    <i class="icon-th"></i>
 						<span class="title">Dean's List</span>
 					</a>
@@ -158,7 +158,7 @@
 						<ul class="breadcrumb">
 						    <li>
 						        <i class="icon-home"></i>
-								<a id="home" href="ClerkHome">Home</a>
+								<a href="ClerkHome">Home</a>
 								<i class="icon-angle-right"></i>
 							</li>
 							<li>
@@ -201,6 +201,7 @@
 												<th>Number Of Assignments</th>
 												<th>Has a Final</th>
 												<th>Has a Project</th>
+												<th>Is Cancelled</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -218,6 +219,7 @@
 													<td>${course.getNumberOfAssignments()}</td>
 													<td>${course.isHasAFinal()}</td>
 													<td>${course.HasProject()}</td>
+													<td>${course.isCancelled()}</td>
 												</tr>
 											</c:forEach>
 										</tbody>

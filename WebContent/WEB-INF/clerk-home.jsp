@@ -46,13 +46,13 @@
 				<ul class="nav pull-right">
 					<!-- BEGIN USER LOGIN DROPDOWN -->
 					<li class="dropdown user">
-						<a id="coursemenu" href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<a id="clerkmenu" href="#" class="dropdown-toggle" data-toggle="dropdown">
 							<span class="username"><%out.print("Clerk"); %></span>
 							<i class="icon-angle-down"></i>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a href="ClerkHome" id="home"><i class="icon-user"></i> Home</a></li>
-							<li><a href="Logout" id="logout"><i class="icon-key"></i> Log Out</a></li>
+							<li><a id="home" href="ClerkHome"><i class="icon-user"></i> Home</a></li>
+							<li><a id="logout" href="Logout"><i class="icon-key"></i> Log Out</a></li>
 						</ul>
 					</li>
 					<!-- END USER LOGIN DROPDOWN -->
@@ -98,13 +98,13 @@
 						<span class="title">Student</span>
 						<span class="arrow "></span>
 					</a>
-					<ul class="sub-menu">
+					<ul id="sub-student" class="sub-menu">
 						<li >
 							<a id="createstudent" href="CreateStudent">
 							Create Student</a>
 						</li>
 						<li >
-							<a id ="deletestudent" href="DeleteStudent">
+							<a id="deletestudent" href="DeleteStudent">
 							Delete Student</a>
 						</li>
 					</ul>
@@ -115,7 +115,7 @@
 						<span class="title">Course</span>
 						<span class="arrow "></span>
 					</a>
-					<ul class="sub-menu">
+					<ul id="sub-course" class="sub-menu">
 						<li >
 							<a id="createcourse" href="CreateCourse">
 							Create Course</a>
@@ -131,7 +131,7 @@
 					</ul>
 				</li>
 				<li class="">
-					<a id="deanlist" href="DeansList">
+					<a id="deanslist" href="DeansList">
 					    <i class="icon-th"></i>
 						<span class="title">Dean's List</span>
 					</a>

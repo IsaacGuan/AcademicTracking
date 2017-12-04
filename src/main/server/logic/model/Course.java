@@ -32,6 +32,8 @@ public class Course implements CourseInt {
 	int weightOfFinal;
 	
 	Map<Student, Integer> enrollStudent;
+	
+	boolean isCancelled;
 
 	public Course(String title, int myCode, int capsize) {
 		super();
@@ -47,6 +49,7 @@ public class Course implements CourseInt {
 		this.hasAFinal = true;
 		this.weightOfFinal = 100;
 		this.enrollStudent = new HashMap<Student, Integer>();
+		this.isCancelled = false;
 		GenerateWeights();
 		//logger.info(String.format("Course Operation: Initialize course; title: %s, myCode: %d", this.title, this.myCode));
 	}
@@ -67,6 +70,7 @@ public class Course implements CourseInt {
 		this.hasAFinal = hasAFinal;
 		this.weightOfFinal = 0;
 		this.enrollStudent = new HashMap<Student, Integer>();
+		this.isCancelled = false;
 		GenerateWeights();
 		//logger.info(String.format("Course Operation: Initialize course; title: %s, myCode: %d", this.title, this.myCode));
 	}
@@ -165,6 +169,14 @@ public class Course implements CourseInt {
 
 	public void setEnrollStudent(Map<Student, Integer> enrollStudent) {
 		this.enrollStudent = enrollStudent;
+	}
+	
+	public boolean isCancelled() {
+		return isCancelled;
+	}
+
+	public void setCancelled(boolean isCancelled) {
+		this.isCancelled = isCancelled;
 	}
 
 	public String toString(){
