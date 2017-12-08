@@ -249,7 +249,7 @@ public class UseCaseDependencies {
 		alert.accept();
 	}
 	
-	@Test (dependsOnMethods={"StudentADeregisterforCourseB"})
+	@Test (dependsOnMethods={"StudentADropCourseE"})
 	public void StudentALogoutAgain() {
 		driver.findElement(By.id("studentmenu")).click();
 		driver.findElement(By.id("logout")).click();

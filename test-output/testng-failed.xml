@@ -30,6 +30,7 @@
           <include name="StudentBLoginAgain"/>
           <include name="StudentBLogoutAgain"/>
           <include name="StudentASelectCourses"/>
+          <include name="StudentADropCourseE"/>
           <include name="StudentALogoutAgain"/>
           <include name="StudentBDropCourses"/>
           <include name="ClerkDeleteNewCourse"/>
