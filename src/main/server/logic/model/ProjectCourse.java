@@ -97,5 +97,21 @@ public class ProjectCourse extends Course implements ProjectCourseInt {
 			setWeightOfProject(wp);
 		}
 	}
+	
+	public int StudentDoProject(Student student) {
+		double mark;
+		double weight;
+		Random random = new Random();
+		weight = this.getWeightOfProject();
+		if (weight > 0) {
+			weight = weight / 100;
+			mark = this.getEnrollStudent().get(student) + weight
+					* (random.nextInt(25) + 75);
+			this.getEnrollStudent().put(student, (int) mark);
+			return (int) mark;
+		} else {
+			return 0;
+		}
+	}
 
 }

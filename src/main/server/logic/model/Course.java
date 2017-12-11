@@ -340,5 +340,59 @@ public class Course implements CourseInt {
 			setWeightOfFinal(wf);
 		}
 	}
+	
+	public int StudentDoAssignments(Student student) {
+		double mark;
+		double weight;
+		Random random = new Random();
+		weight = 0;
+		for (int i = 0; i < this.getWeightOfAssignments().size(); i++) {
+			weight = weight + this.getWeightOfAssignments().get(i);
+		}
+		if (weight > 0) {
+			weight = weight / 100;
+			mark = this.getEnrollStudent().get(student) + weight
+					* (random.nextInt(25) + 75);
+			this.getEnrollStudent().put(student, (int) mark);
+			return (int) mark;
+		} else {
+			return 0;
+		}
+	}
+
+	public int StudentDoMidterms(Student student) {
+		double mark;
+		double weight;
+		Random random = new Random();
+		weight = 0;
+		for (int i = 0; i < this.getWeightOfMidterms().size(); i++) {
+			weight = weight + this.getWeightOfMidterms().get(i);
+		}
+		if (weight > 0) {
+			weight = weight / 100;
+			mark = this.getEnrollStudent().get(student) + weight
+					* (random.nextInt(25) + 75);
+			this.getEnrollStudent().put(student, (int) mark);
+			return (int) mark;
+		} else {
+			return 0;
+		}
+	}
+
+	public int StudentDoFinal(Student student) {
+		double mark;
+		double weight;
+		Random random = new Random();
+		weight = this.getWeightOfFinal();
+		if (weight > 0) {
+			weight = weight / 100;
+			mark = this.getEnrollStudent().get(student) + weight
+					* (random.nextInt(25) + 75);
+			this.getEnrollStudent().put(student, (int) mark);
+			return (int) mark;
+		} else {
+			return 0;
+		}
+	}
 
 }
