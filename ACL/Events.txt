@@ -1,0 +1,48 @@
+//time events
+TermStarted(tUniversity university);
+RegistrationStarted(tUniversity university);
+RegistrationEnded(tUniversity university);
+TermEnded(tUniversity university);
+
+//create course
+CreateCourseRequested(tCourse course);
+CreateCourseCompleted(tCourse course);
+
+//create student
+CreateStudentRequested(tStudent student);
+CreateStudentCompleted(tStudent student);
+
+//delete course
+DeleteCourseRequested(tCourse course);
+DeleteCourseCompleted(tCourse course);
+
+//delete student
+DeleteStudentRequested(tStudent student);
+DeleteStudentCompleted(tStudent student);
+
+//cancel course
+CancelCourseRequested(tCourse course);
+CancelCourseCompleted(tCourse course);
+
+//select course
+SelectCourseRequested(tStudent student, tCourse course);
+SelectCourseCompleted(tStudent student, tCourse course);
+
+//register for course
+RegisterCourseRequested(tStudent student, tCourse course);
+RegisterCourseCompleted(tStudent student, tCourse course);
+
+//drop course
+DropCourseRequested(tStudent student, tCourse course);
+DropCourseCompleted(tStudent student, tCourse course);
+
+//deregister from course
+DeregisterCourseRequested(tStudent student, tCourse course);
+DeregisterCourseCompleted(tStudent student, tCourse course);
+
+//taking course events
+AssignmentsDone(tStudent student, tCourse course);
+MidtermsDone(tStudent student, tCourse course);
+FinalDone(tStudent student, tCourse course);
+ProjectDone(tStudent student, tCourse course);
+MarkObtained(tStudent student, tCourse course);

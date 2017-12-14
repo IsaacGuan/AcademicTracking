@@ -227,7 +227,7 @@ Namespace AcademicTrackingContracts.Contracts {
             Scalar Boolean result;
             Trigger(observe(RegistrationStarted(context)));
             Trigger(observe(SelectCourseCompleted(student, course)));
-            Trigger(observe(CourseRegisterRequested(student, course)));
+            Trigger(observe(RegisterCourseRequested(student, course)));
             choice (Courses().Contains(course) && Students().Contains(student)) true {
                 choice (RegistrationStarted() && !RegistrationEnded()) true {
                     choice (student.bindpoint.IsFullTime()) true {
@@ -273,7 +273,7 @@ Namespace AcademicTrackingContracts.Contracts {
             Scalar Boolean result;
             Trigger(observe(RegistrationStarted(context)));
             Trigger(observe(RegisterCourseCompleted(student, course)));
-            Trigger(observe(CourseDeregisterRequested(student, course)));
+            Trigger(observe(DeregisterCourseRequested(student, course)));
             choice (Courses().Contains(course) && Students().Contains(student)) {
                 choice (RegistrationStarted() && !RegistrationEnded()) true {
                     result = DegisterStudentFromCourse(student, course);
