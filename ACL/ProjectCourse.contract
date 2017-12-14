@@ -1,0 +1,43 @@
+Import main.server.logic.model
+
+Namespace AcademicTrackingContracts.Contracts {
+    Contract ProjectCourse extends Course {
+	    Parameters {
+	        Scalar Boolean InstanceBind HasProject = { default true, false };
+	    }
+
+	    Observability Integer WeightOfProject();
+
+	    Responsibiliy StudentDoProject(tStudent student) {
+            Pre(Students().Contains(student) == true);
+            Execute();
+            Post(MarkForStudent(student)*WeightOfProject()/100 == 0);
+        }
+
+        Scenario StudentTakeProjectCourse {
+            Scalar tStudent student;
+            Scalar Integer mark;
+            Trigger(observe(RegisterCourseCompleted(student, context)));
+            choice (Students().Contains(student)) true {
+                StudentDoAssignments(student);
+                Trigger(observe(AssignmentsDone(student, context)));
+                StudentDoMidterms(student);
+                Trigger(observe(MidtermsDone(student, context)));
+                StudentDoProject(student);
+                Trigger(observe(ProjectDone(student, context)));
+                mark = MarkForStudent(student);
+                choice (mark > 0) true {
+                    StudentDoFinal(student);
+                    Trigger(observe(FinalDone(student, context)));
+                    Terminate(fire(MarkObtained(student, context)))
+                } alternative (false) {
+                    Belief reportMarkNotObtained("Student cannot obtain mark for final");
+                    Terminate();
+                }
+            } alternative (false) {
+                Belief reportStudentNotRegistered("Student not registered for this course");
+                Terminate();
+            }
+        }
+	}
+}

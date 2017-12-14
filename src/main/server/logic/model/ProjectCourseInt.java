@@ -4,4 +4,6 @@ public interface ProjectCourseInt {
 
 	int WeightOfProject();
 	
+	int StudentDoProject(Student student);
+	
 }

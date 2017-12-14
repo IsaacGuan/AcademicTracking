@@ -1,0 +1,296 @@
+Import main.server.logic.model
+
+Namespace AcademicTrackingContracts.Contracts {
+    MainContract University {
+        Parameters {
+            [1-100] Scalar Integer InstanceBind UniversityCourses;
+            Scalar Integer MaxCoursesForFTStudents = 4;
+            Scalar Integer MaxCoursesForPTStudents = 2;
+            Scalar Integer PassRate = 70;
+        }
+
+        Observability List tCourse Courses();
+        Observability List tStudent Students();
+
+        Observability Course GetCourse(Integer courseCode);
+        Observability Student GetStudent(Integer studentNumber);
+        
+        Observability Boolean CheckCourse(Integer courseCode);
+        Observability Boolean CheckStudent(Integer studentNumber);
+
+        Observability Boolean TermStarted();
+        Observability Boolean RegisterStarted();
+        Observability Boolean RegisterEnded();
+        Observability Boolean TermEnded();
+
+        Responsibility new() {
+            Post(Courses().Size() == 0);
+            Post(Students().Size() == 0);
+        }
+
+        Responsibility finalize() {
+            Pre(Courses().Size() == 0);
+            Pre(Students().Size() == 0);
+        } 
+
+        Responsibility Boolean CreateCourse(String title, Integer courseCode,
+            Integer capSize, Boolean enforcePrereqs,
+            Integer numberOfMidterms, Integer numberOfAssignments,
+            Boolean hasAFinal, Boolean isProjectCourse) {
+            once Scalar Integer oldSize;
+            oldSize = PreSet(Courses().Size());
+            Execute();
+            Post(value == true);
+            Post(Courses().Size() == oldSize + 1); 
+        }
+
+        Responsibility Boolean CreateStudent(Integer studentNumber, String studentName, Boolean isfulltime) {
+            once Scalar Integer oldSize;
+            oldSize = PreSet(Students().Size());
+            Execute();
+            Post(value == true);
+            Post(Students().Size() == oldSize + 1); 
+        }
+
+        Responsibility Boolean RegisterStudentForCourse(tStudent student, tCourse course) {
+            value = student.bindpoint.RegisterCourse(course) && course.bindpoint.AddStudent(student);
+            Post(value == true);
+        }
+
+        Responsibility Boolean DeRegisterStudentFromCourse(tStudent student, tCourse course) {
+            value = student.bindpoint.DeregisterCourse(course) && course.bindpoint.RemoveStudent(course);
+            Post(value == true);
+        }
+
+        Responsibility Boolean CancelCourse(tCourse course) {
+            value = true;
+            each (course.bindpoint.Students()) {
+                value = value && course.bindpoint.Remove(iterator);
+                value = value && iterator.bindpoint.DeRegisterCourse(course);
+            }
+            course.bindpoint.Parameters.isCancelled = value;
+            Post(value == true);
+        }
+
+        Responsibility Boolean DestroyCourse(tCourse course) {
+            once Scalar Integer oldSize;
+            oldSize = PreSet(Courses().Size());
+            Pre(Courses().Size() > 0);
+            Pre(Courses().Contains(course) == true);
+            Execute();
+            Post(value == true);
+            Post(Courses().Size() == oldSize - 1);
+            Post(Courses().Contains(course) == false);
+        }
+
+        Responsibility Boolean DestroyStudent(tStudent student) {
+            once Scalar Integer oldSize;
+            oldSize = PreSet(Students().Size());
+            Pre(Students().Size() > 0);
+            Pre(Students().Contains(student) == true);
+            Execute();
+            Post(value == true);
+            Post(Students().Size() == oldSize - 1);
+            Post(Students().Contains(student) == false);
+        }
+
+        Scenario CreateCourse {
+            Scalar String title;
+            Scalar Integer courseCode, capSize, numberOfMidterms, numberOfAssignments;
+            Scalar Boolean enforcePrereqs, hasAFinal, isProjectCourse, result;
+            Trigger(observe(TermStarted(context)));
+            Trigger(observe(CourseCreateRequested(courseCode)));
+            choice (CheckCourse(courseCode)) false {
+                choice (TermStarted() && !RegistrationStarted()) true {
+                    result = CreateCourse(title, courseCode, capSize, numberOfMidterms, numberOfAssignments, hasAFinal, isProjectCourse);
+                    choice (result) true {
+                        Terminate(fire(CourseCreateCompleted(courseCode)));
+                    } alternative (false) {
+                        Belief reportCreateCourseFailed("Course cannot be created");
+                        Terminate();
+                    }
+                } alternative (false) {
+                    Belief reportCreateCourseFailed("Term not started or registration started");
+                    Terminate();
+                }
+            } alternative (true) {
+                Belief reportCreateCourseFailed("Course already exists");
+                Terminate();
+            }
+        }
+
+        Scenario CreateStudent {
+            Scalar Integer studentNumber;
+            Scalar String studentName;
+            Scalar Boolean isFullTime, result;
+            Trigger(observe(TermStarted(context)));
+            Trigger(observe(StudentCreateRequested(studentNumber)));
+            choice (CheckStudent(studentNumber)) false {
+                choice (TermStarted() && !RegistrationStarted()) true {
+                    result = CreateStudent(studentNumber, studentName, isFullTime);
+                    choice (result) true {
+                        Terminate(fire(StudentCreateCompleted(studentNumber)));
+                    } alternative (false) {
+                        Belief reportCreateStudentFailed("Student cannot be created");
+                        Terminate();
+                    }
+                } alternative (false) {
+                    Belief reportCreateStudentFailed("Term not started or registration started");
+                    Terminate();
+                }
+            } alternative (true) {
+                Belief reportCreateStudentFailed("Student already exists");
+                Terminate();
+            }
+        }
+
+        Scenario DeleteCourse {
+            Scalar tCourse course;
+            Scalar Boolean result;
+            Trigger(observe(TermStarted(context)));
+            Trigger(observe(DeleteCourseRequested(course)));
+            choice (Courses().Contains(course)) true {
+                choice (TermStarted() && !RegistrationStarted()) true {
+                    result = DestroyCourse(course);
+                    choice (result) true {
+                        Terminate(fire(DeleteCourseCompleted(course)));
+                    } alternative (false) {
+                        Belief reportDeleteCourseFailed("Course cannot be deleted");
+                        Terminate();
+                    }
+                } alternative (false) {
+                    Belief reportDeleteCourseFailed("Term not started or registration started");
+                    Terminate();
+                }
+            } alternative (false) {
+                Belief reportDeleteCourseFailed("Course does not exist");
+                Terminate();
+            }
+        }
+
+        Scenario DeleteStudent {
+            Scalar tStudent student;
+            Scalar Boolean result;
+            Trigger(observe(TermStarted(context)));
+            Trigger(observe(DeleteStudentRequested(student)));
+            choice (Students().Contains(student)) true {
+                choice (TermStarted() && !RegistrationStarted()) true {
+                    result = DestroyStudent(student);
+                    choice (result) true {
+                        Terminate(fire(DeleteStudentCompleted(student)));
+                    } alternative (false) {
+                        Belief reportDeleteStudentFailed("Student cannot be deleted");
+                        Terminate();
+                    }
+                } alternative (false) {
+                    Belief reportDeleteStudentFailed("Term not started or registration started");
+                    Terminate();
+                }
+            } alternative (false) {
+                Belief reportDeleteStudentFailed("Student does not exist");
+                Terminate();
+            }
+        }
+
+        Scenario CancelCourse {
+            Scalar tCourse course;
+            Scalar Boolean result;
+            Trigger(observe(RegistrationEnds(context)));
+            Trigger(observe(CancelCourseRequested(course)));
+            choice (Course().Contains(course)) true {
+                choice (RegistrationEnds() && !TermEnded()) true{
+                    choice (course.bindpoint.isCancelled) false {
+                        result = CancelCourse(course);
+                        choice (result) true {
+                            Terminate(fire(CancelCourseCompleted(course)));
+                        } alternative (false) {
+                            Belief reportCancelCourseFailed("Course cannot be cancelled");
+                            Terminate();
+                        }
+                    } alternative (true) {
+                        Belief reportCancelCourseFailed("Course cannot be cancelled");
+                        Terminate();
+                    }
+                } alternative (false) {
+                    Belief reportCancelCourseFailed("Registration not ended or term ended");
+                    Terminate();
+                }
+            } alternative (false) {
+                Belief reportCancelCourseFailed("Course does not exist");
+                Terminate();
+            }
+        }
+
+        Scenario RegisterCourse {
+            Scalar tCourse course;
+            Scalar tStudent student;
+            Scalar Boolean result;
+            Trigger(observe(RegistrationStarted(context)));
+            Trigger(observe(SelectCourseCompleted(student, course)));
+            Trigger(observe(CourseRegisterRequested(student, course)));
+            choice (Courses().Contains(course) && Students().Contains(student)) true {
+                choice (RegistrationStarted() && !RegistrationEnded()) true {
+                    choice (student.bindpoint.IsFullTime()) true {
+                        choice (student.bindpoint.CurrentCourses()<university.Parameters.MaxCoursesForFTStudents) true {
+                            result = RegisterStudentForCourse(student, course);
+                            choice (result) true {
+                                Terminate(fire(RegisterCourseCompleted(student, course)));
+                            } alternative (false) {
+                                Belief reportRegisterFailed("Student cannot register course");
+                                Terminate();
+                            }
+                        } alternative (false) {
+                            Belief reportRegisterFailed("Student cannot register course");
+                            Terminate();
+                        }
+                    } alternative (false) {
+                        choice (student.bindpoint.CurrentCourses()<university.Parameters.MaxCoursesForPTStudents) true {
+                            result = RegisterStudentForCourse(student, course);
+                            choice (result) true {
+                                Terminate(fire(RegisterCourseCompleted(student, course)));
+                            } alternative (false) {
+                                Belief reportRegisterFailed("Student cannot register course");
+                                Terminate();
+                            }
+                        } alternative (false) {
+                            Belief reportRegisterFailed("Student cannot register course");
+                            Terminate();
+                        }
+                    }
+                } alternative (false) {
+                    Belief reportRegisterFailed("Registration not started or ended");
+                    Terminate();
+                }
+            } alternative (false) {
+                Belief reportRegisterFailed("Invalid student or course");
+                Terminate();
+            }
+        }
+
+        Scenario DeregisterCourse {
+            Scalar tCourse course;
+            Scalar tStudent student;
+            Scalar Boolean result;
+            Trigger(observe(RegistrationStarted(context)));
+            Trigger(observe(RegisterCourseCompleted(student, course)));
+            Trigger(observe(CourseDeregisterRequested(student, course)));
+            choice (Courses().Contains(course) && Students().Contains(student)) {
+                choice (RegistrationStarted() && !RegistrationEnded()) true {
+                    result = DegisterStudentFromCourse(student, course);
+                    choice (result) true {
+                        Terminate(fire(DeregisterCourseCompleted(student, course)));
+                    } alternative (false) {
+                        Belief reportDeregisterFailed("Student cannot deregister course");
+                            Terminate();
+                    }
+                } alternative (false) {
+                    Belief reportDeregisterFailed("Registration not started or ended");
+                    Terminate();
+                }
+            } alternative (false) {
+                Belief reportDeregisterFailed("Invalid student or course");
+                Terminate();
+            }
+        }
+    }
+}

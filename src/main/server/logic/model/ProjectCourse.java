@@ -98,6 +98,7 @@ public class ProjectCourse extends Course implements ProjectCourseInt {
 		}
 	}
 	
+	@Override
 	public int StudentDoProject(Student student) {
 		double mark;
 		double weight;

@@ -1,0 +1,105 @@
+Import main.server.logic.model
+
+Namespace AcademicTrackingContracts.Contracts {
+    Contract Student {
+        Observability Integer StudentNumber();
+        Observability String Name();
+        Observability Boolean IsFullTime();
+
+        Observability List tCourse CompletedCourse();
+        Observability List tCourse CurrentCourse();
+        Observability List tCourse SelectedCourse();
+
+        Observability Boolean IsCreated() {
+            StudentNumber() > 0;
+        }
+
+        Responsibility Boolean SelectCourse(tCourse course) {
+            Pre(SelectedCourse().Contains(course) == false);
+            Pre(CurrentCourse().Contains(course) == false);
+            Pre(CompletedCourse().Contains(course) == false);
+            Execute();
+            Post(value == true);
+            Post(SelectedCourse().Contains(course) == true);
+            Post(CurrentCourse().Contains(course) == false);
+            Post(CompletedCourse().Contains(course) == false);
+        }
+
+        Responsibility Boolean RegisterCourse(tCourse course) {
+            Pre(SelectedCourse().Contains(course) == true);
+            Pre(CurrentCourse().Contains(course) == false);
+            Pre(CompletedCourse().Contains(course) == false);
+            Execute();
+            Post(value == true);
+            Post(SelectedCourse().Contains(course) == false);
+            Post(CurrentCourse().Contains(course) == true);
+            Post(CompletedCourse().Contains(course) == false);
+        }
+
+        Responsibility Boolean DropCourse(tCourse course) {
+            Pre(SelectedCourse().Contains(course) == true);
+            Pre(CurrentCourse().Contains(course) == false);
+            Pre(CompletedCourse().Contains(course) == false);
+            Execute();
+            Post(value == true);
+            Post(SelectedCourse().Contains(course) == false);
+            Post(CurrentCourse().Contains(course) == false);
+            Post(CompletedCourse().Contains(course) == false);
+        }
+
+        Responsibility Boolean DeRegisterCourse(tCourse course) {
+            Pre(SelectedCourse().Contains(course) == false);
+            Pre(CurrentCourse().Contains(course) == true);
+            Pre(CompletedCourse().Contains(course) == false);
+            Execute();
+            Post(value == true);
+            Post(SelectedCourse().Contains(course) == false);
+            Post(CurrentCourse().Contains(course) == false);
+            Post(CompletedCourse().Contains(course) == false);
+        }
+
+        Scenario SelectCourse {
+            Scalar tCourse course;
+            Scalar Boolean result;
+            Contract University university = instance;
+            Trigger(observe(TermStarted(university)));
+            Trigger(observe(SelectCourseRequested(context, course));
+            choice (university.Courses().Contains(course) && Iscreated()) true{
+                choice (university.RegistrationEnded()) false {
+                    result = SelectCourse(course);
+                    choice (result) true {
+                        Terminate(fire(CourseSelectCompleted(context, course)));
+                    } alternative (false) {
+                        Belief reportCourseNotSelected("Student cannot select this course");
+                        Terminate();
+                    }
+                } alternative (true) {
+                    Belief reportCourseNotSelected("Student cannot select this course");
+                    Terminate();
+                }
+            }
+        }
+
+        Scenario DropCourse {
+            Scalar tCourse course;
+            Scalar Boolean result;
+            Contract University university = instance;
+            Trigger(observe(RegistrationEnded(university)));
+            Trigger(observe(DropCourseRequested(context, course));
+            choice (university.Courses().Contains(course) && Iscreated()) true {
+                choice (university.RegistrationEnded()) true {
+                    result = DropCourse(course);
+                    choice (result) true {
+                        Terminate(fire(DropCourseCompleted(context, course)));
+                    } alternative (false) {
+                        Belief reportCourseNotDropped("Student cannot drop this course");
+                        Terminate();
+                    }
+                } alternative (false) {
+                    Belief reportCourseNotDropped("Student cannot drop this course");
+                    Terminate();
+                }
+            }
+        }
+    }
+}

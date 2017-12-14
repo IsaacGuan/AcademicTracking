@@ -1,0 +1,122 @@
+Import main.server.logic.model
+
+Namespace AcademicTrackingContracts.Contracts {
+    Contract Course {
+        Parameters {
+            Scalar Boolean InstanceBind EnforcePreRequisites = { true, default false };
+            [0-2] Scalar Integer InstanceBind NumMidterms = 1;
+            [0-5] Scalar Integer InstanceBind NumAssignments = 1;
+            [0-25] Scalar integer InstanceBind CapSize = 1;
+            Scalar Boolean InstanceBind HasFinal = { default true, false };
+            Scalar Boolean InstanceBind isCancelled = { true, default false};
+        } 
+
+        Observability String Title();
+        Observability Integer Code();
+        Observability List tStudent Students();
+        Observability List Integer PreRequisites();
+        Observability Integer WeightOfAssignment(Integer assignmentNum);
+        Observability Integer WeightOfMidterm(Integer midtermNum);
+        Observability Integer WeightOfFinal();
+        Observability Integer MarkForStudent(tStudent student);
+
+        Observability Boolean IsCreated() {
+            Code() > 0;
+        }
+
+        Observability Boolean IsFull() {
+            Students().Length() >= Parameters.CapSize;
+        }
+
+        Invariant IsFullCheck {
+            Students().Length() <= Parameters.CapSize;
+        }
+
+        Responsibility new() {
+            Post(Title() not= null);
+            Post(Code() not= 0);
+            Post(Students().Size() == 0);
+        }
+
+        Responsibility finalize() {
+            Pre(Students().Size() == 0);
+        }
+
+        Responsibility Boolean AddStudent(tStudent student) {
+            Pre(Students().Contains(student) == false);
+            Execute();
+            Post(value == true);
+            Post(Students().Contains(student) == true);
+        }
+
+        Responsibility Boolean RemoveStudent(tStudent student) {
+            Pre(Students().Contains(student) == true);
+            Execute();
+            Post(value == true);
+            Post(Students().Contains(student) == false);
+        }
+
+        Responsibility StudentDoAssignments(tStudent student) {
+            Pre(Students().Contains(student) == true);
+            Execute();
+            Loop (1 to Parameters.NumAssignments) {
+                weightTotalAssignments = weightTotalAssignments + WeightOfAssignment(counter);
+            }
+            choice (weightTotalAssignments > 0) true {
+                Post(MarkForStudent(student)*weightTotalAssignments/100 > 0);
+            }
+            choice (weightTotalAssignments == 0) true {
+                Post(MarkForStudent(student)*weightTotalAssignments/100 == 0);
+            }
+        }
+
+        Responsibiliy StudentDoMidterms(tStudent student) {
+            Pre(Students().Contains(student) == true);
+            Execute();
+            Loop(1 to Parameters.NumMidterms) {
+                weightTotalMidterms = weightTotalMidterms + WeightOfMidterm(counter);
+            }
+            choice (weightTotalMidterms > 0) true {
+                Post(MarkForStudent(student)*weightTotalMidterms/100 > 0);
+            }
+            choice (weightTotalMidterms == 0) true {
+                Post(MarkForStudent(student)*weightTotalMidterms/100 == 0);
+            }
+        }
+
+        Responsibiliy StudentDoFinal(tStudent student) {
+            Pre(Students().Contains(student) == true);
+            Execute();
+            choice (WeightOfFinal() > 0) true {
+                Post(MarkForStudent(student)*WeightOfFinal()/100 > 0);
+            }
+            choice (WeightOfFinal() == 0) true {
+                Post(MarkForStudent(student)*WeightOfFinal()/100 == 0);
+            }
+        }
+
+        Scenario StudentTakeCourse {
+            Scalar tStudent student;
+            Scalar Integer mark;
+            Trigger(observe(RegisterCourseCompleted(student, context)));
+            choice (Students().Contains(student)) true {
+                StudentDoAssignments(student);
+                Trigger(observe(AssignmentsDone(student, context)));
+                StudentDoMidterms(student);
+                Trigger(observe(MidtermsDone(student, context)));
+                mark = MarkForStudent(student);
+                choice (mark > 0) true {
+                    StudentDoFinal(student);
+                    Trigger(observe(FinalDone(student, context)));
+                    Terminate(fire(MarkObtained(student, context)))
+                } alternative (false) {
+                    Belief reportMarkNotObtained("Student cannot obtain mark");
+                    Terminate();
+                }
+            } alternative (false) {
+                Belief reportStudentNotRegistered("Student not registered for this course");
+                Terminate();
+            }
+        }
+    }
+}

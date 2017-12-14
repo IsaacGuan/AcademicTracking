@@ -21,4 +21,8 @@ public interface CourseInt {
 	boolean AddStudent(Student student);
 	boolean RemoveStudent(Student student);
 	
+	int StudentDoAssignments(Student student);
+	int StudentDoMidterms(Student student);
+	int StudentDoFinal(Student student);
+	
 }

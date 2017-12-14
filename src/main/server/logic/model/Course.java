@@ -341,6 +341,7 @@ public class Course implements CourseInt {
 		}
 	}
 	
+	@Override
 	public int StudentDoAssignments(Student student) {
 		double mark;
 		double weight;
@@ -360,6 +361,7 @@ public class Course implements CourseInt {
 		}
 	}
 
+	@Override
 	public int StudentDoMidterms(Student student) {
 		double mark;
 		double weight;
@@ -379,6 +381,7 @@ public class Course implements CourseInt {
 		}
 	}
 
+	@Override
 	public int StudentDoFinal(Student student) {
 		double mark;
 		double weight;
