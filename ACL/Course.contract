@@ -118,5 +118,11 @@ Namespace AcademicTrackingContracts.Contracts {
                 Terminate();
             }
         }
+
+        Exports {
+            Type tStudent conforms Student {
+                University::tStudent;
+            }
+        }
     }
 }

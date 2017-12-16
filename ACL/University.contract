@@ -292,5 +292,15 @@ Namespace AcademicTrackingContracts.Contracts {
                 Terminate();
             }
         }
+
+        Exports {
+            Type tCourse conforms Course {
+                Student::tCourse;
+            }
+            Type tStudent conforms Student {
+                Course::tStudent;
+                ProjectCourse::tStudent;
+            }
+        }
     }
 }

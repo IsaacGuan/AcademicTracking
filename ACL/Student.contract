@@ -101,5 +101,11 @@ Namespace AcademicTrackingContracts.Contracts {
                 }
             }
         }
+
+        Exports {
+            Type tCourse conforms Course {
+                University::tCourse;
+            }
+        }
     }
 }
