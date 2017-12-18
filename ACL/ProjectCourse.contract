@@ -2,13 +2,13 @@ Import main.server.logic.model
 
 Namespace AcademicTrackingContracts.Contracts {
     Contract ProjectCourse extends Course {
-	    Parameters {
-	        Scalar Boolean InstanceBind HasProject = { default true, false };
-	    }
+        Parameters {
+            Scalar Boolean InstanceBind HasProject = { default true, false };
+        }
 
-	    Observability Integer WeightOfProject();
+        Observability Integer WeightOfProject();
 
-	    Responsibiliy StudentDoProject(tStudent student) {
+        Responsibility StudentDoProject(tStudent student) {
             Pre(Students().Contains(student) == true);
             Execute();
             Post(MarkForStudent(student)*WeightOfProject()/100 == 0);

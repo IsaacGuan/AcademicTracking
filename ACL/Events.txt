@@ -5,12 +5,12 @@ RegistrationEnded(tUniversity university);
 TermEnded(tUniversity university);
 
 //create course
-CreateCourseRequested(tCourse course);
-CreateCourseCompleted(tCourse course);
+CreateCourseRequested(Integer courseCode);
+CreateCourseCompleted(Integer courseCode);
 
 //create student
-CreateStudentRequested(tStudent student);
-CreateStudentCompleted(tStudent student);
+CreateStudentRequested(Integer studentNumber);
+CreateStudentCompleted(Integer studentNumber);
 
 //delete course
 DeleteCourseRequested(tCourse course);

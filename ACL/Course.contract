@@ -6,7 +6,7 @@ Namespace AcademicTrackingContracts.Contracts {
             Scalar Boolean InstanceBind EnforcePreRequisites = { true, default false };
             [0-2] Scalar Integer InstanceBind NumMidterms = 1;
             [0-5] Scalar Integer InstanceBind NumAssignments = 1;
-            [0-25] Scalar integer InstanceBind CapSize = 1;
+            [0-25] Scalar Integer InstanceBind CapSize = 1;
             Scalar Boolean InstanceBind HasFinal = { default true, false };
             Scalar Boolean InstanceBind isCancelled = { true, default false};
         } 
@@ -70,7 +70,7 @@ Namespace AcademicTrackingContracts.Contracts {
             }
         }
 
-        Responsibiliy StudentDoMidterms(tStudent student) {
+        Responsibility StudentDoMidterms(tStudent student) {
             Pre(Students().Contains(student) == true);
             Execute();
             Loop(1 to Parameters.NumMidterms) {
@@ -84,7 +84,7 @@ Namespace AcademicTrackingContracts.Contracts {
             }
         }
 
-        Responsibiliy StudentDoFinal(tStudent student) {
+        Responsibility StudentDoFinal(tStudent student) {
             Pre(Students().Contains(student) == true);
             Execute();
             choice (WeightOfFinal() > 0) true {

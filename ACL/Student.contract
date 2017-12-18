@@ -68,15 +68,18 @@ Namespace AcademicTrackingContracts.Contracts {
                 choice (university.RegistrationEnded()) false {
                     result = SelectCourse(course);
                     choice (result) true {
-                        Terminate(fire(CourseSelectCompleted(context, course)));
+                        Terminate(fire(SelectCourseCompleted(context, course)));
                     } alternative (false) {
                         Belief reportCourseNotSelected("Student cannot select this course");
                         Terminate();
                     }
                 } alternative (true) {
-                    Belief reportCourseNotSelected("Student cannot select this course");
+                    Belief reportCourseNotSelected("Registration ended ");
                     Terminate();
                 }
+            } alternative (false) {
+                Belief reportRegisterFailed("Invalid student or course");
+                Terminate();
             }
         }
 
@@ -96,9 +99,12 @@ Namespace AcademicTrackingContracts.Contracts {
                         Terminate();
                     }
                 } alternative (false) {
-                    Belief reportCourseNotDropped("Student cannot drop this course");
+                    Belief reportCourseNotDropped("Registration not ended");
                     Terminate();
                 }
+            } alternative (false) {
+                Belief reportRegisterFailed("Invalid student or course");
+                Terminate();
             }
         }
 

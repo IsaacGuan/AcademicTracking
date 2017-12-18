@@ -12,8 +12,8 @@ Namespace AcademicTrackingContracts.Contracts {
         Observability List tCourse Courses();
         Observability List tStudent Students();
 
-        Observability Course GetCourse(Integer courseCode);
-        Observability Student GetStudent(Integer studentNumber);
+        Observability tCourse GetCourse(Integer courseCode);
+        Observability tStudent GetStudent(Integer studentNumber);
         
         Observability Boolean CheckCourse(Integer courseCode);
         Observability Boolean CheckStudent(Integer studentNumber);
@@ -281,7 +281,7 @@ Namespace AcademicTrackingContracts.Contracts {
                         Terminate(fire(DeregisterCourseCompleted(student, course)));
                     } alternative (false) {
                         Belief reportDeregisterFailed("Student cannot deregister course");
-                            Terminate();
+                        Terminate();
                     }
                 } alternative (false) {
                     Belief reportDeregisterFailed("Registration not started or ended");
